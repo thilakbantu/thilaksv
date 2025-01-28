@@ -15627,9 +15627,1802 @@
     ],
     "hint": "`pop()` removes the last element from an array and returns that element.",
     "answerDescription": "`pop()` is a method that removes the last element from an array and returns that element."
+  },{
+    "id": "mean_1351",
+    "question": "What does the `JSON.parse()` method do in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "Converts a JavaScript object to a JSON string", "isCorrect": false },
+      { "id": "option_2", "text": "Parses a JSON string and returns a JavaScript object", "isCorrect": true },
+      { "id": "option_3", "text": "Converts an array to a JSON string", "isCorrect": false },
+      { "id": "option_4", "text": "Parses a JavaScript object and returns a JSON string", "isCorrect": false }
+    ],
+    "hint": "`JSON.parse()` converts a JSON string into a JavaScript object.",
+    "answerDescription": "`JSON.parse()` is used to parse a JSON string and convert it into a JavaScript object."
+  },
+  {
+    "id": "mean_1352",
+    "question": "Which of the following will cause a TypeError in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "Assigning a value to a variable", "isCorrect": false },
+      { "id": "option_2", "text": "Reassigning a value to a constant variable", "isCorrect": false },
+      { "id": "option_3", "text": "Declaring a variable without a value", "isCorrect": false },
+      { "id": "option_4", "text": "Calling a non-function value", "isCorrect": true }
+    ],
+    "hint": "A TypeError occurs when a value is not of the expected type. Calling a non-function value as a function triggers this error.",
+    "answerDescription": "Calling a non-function value as a function will result in a TypeError in JavaScript."
+  },
+  {
+    "id": "mean_1353",
+    "question": "Which of the following is a method used to join two or more arrays in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "concat()", "isCorrect": true },
+      { "id": "option_2", "text": "append()", "isCorrect": false },
+      { "id": "option_3", "text": "combine()", "isCorrect": false },
+      { "id": "option_4", "text": "join()", "isCorrect": false }
+    ],
+    "hint": "`concat()` is used to merge two or more arrays into a new array.",
+    "answerDescription": "`concat()` method is used to join two or more arrays in JavaScript and returns a new array."
+  },
+  {
+    "id": "mean_1354",
+    "question": "What is the result of the expression `typeof null` in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "object", "isCorrect": true },
+      { "id": "option_2", "text": "null", "isCorrect": false },
+      { "id": "option_3", "text": "undefined", "isCorrect": false },
+      { "id": "option_4", "text": "object-type", "isCorrect": false }
+    ],
+    "hint": "`typeof null` in JavaScript returns `object`, even though `null` is a special value.",
+    "answerDescription": "In JavaScript, `typeof null` returns `object` due to a historical bug in JavaScript."
+  },
+  {
+    "id": "mean_1355",
+    "question": "Which of the following is used to define a constant variable in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "let", "isCorrect": false },
+      { "id": "option_2", "text": "const", "isCorrect": true },
+      { "id": "option_3", "text": "var", "isCorrect": false },
+      { "id": "option_4", "text": "constant", "isCorrect": false }
+    ],
+    "hint": "`const` is used to define a variable whose value cannot be reassigned after declaration.",
+    "answerDescription": "`const` is the keyword used to define constants in JavaScript, and their values cannot be changed after assignment."
+  },
+  {
+    "id": "mean_1356",
+    "question": "How do you declare a function in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "function myFunction() {}", "isCorrect": true },
+      { "id": "option_2", "text": "myFunction() => {}", "isCorrect": false },
+      { "id": "option_3", "text": "def myFunction() {}", "isCorrect": false },
+      { "id": "option_4", "text": "function: myFunction {}", "isCorrect": false }
+    ],
+    "hint": "The `function` keyword is used to declare a function in JavaScript, followed by the function name and body.",
+    "answerDescription": "The correct way to declare a function in JavaScript is using the `function` keyword, followed by the function name and body."
+  },
+  {
+    "id": "mean_1357",
+    "question": "What is the result of the expression `2 + '2'` in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "'22'", "isCorrect": true },
+      { "id": "option_2", "text": "4", "isCorrect": false },
+      { "id": "option_3", "text": "undefined", "isCorrect": false },
+      { "id": "option_4", "text": "NaN", "isCorrect": false }
+    ],
+    "hint": "When a number is added to a string, the number is coerced to a string, and concatenation occurs.",
+    "answerDescription": "In JavaScript, `2 + '2'` results in the string `'22'`, because the number `2` is coerced into a string."
+  },
+  {
+    "id": "mean_1358",
+    "question": "Which of the following is used to stop a loop in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "stop", "isCorrect": false },
+      { "id": "option_2", "text": "halt", "isCorrect": false },
+      { "id": "option_3", "text": "break", "isCorrect": true },
+      { "id": "option_4", "text": "exit", "isCorrect": false }
+    ],
+    "hint": "`break` is used to exit a loop prematurely in JavaScript.",
+    "answerDescription": "`break` is used to terminate the execution of a loop, `switch`, or `case` statement in JavaScript."
+  },
+  {
+    "id": "mean_1359",
+    "question": "What does `NaN` stand for in JavaScript?",
+    "options": [
+      { "id": "option_1", "text":  "Not a Node", "isCorrect": false },
+      { "id": "option_2", "text": "Number and Null", "isCorrect": false },
+      { "id": "option_3", "text": "New Array Notation", "isCorrect": false },
+      { "id": "option_4", "text":"Not a Number", "isCorrect": true }
+    ],
+    "hint": "`NaN` is a special value in JavaScript that stands for Not a Number",
+    "answerDescription": "`NaN` stands for ,'Not a Number', and is returned when an operation that should result in a number fails to do so."
+  },{
+    "id": "mean_1360",
+    "question": "Which of the following methods is used to find the index of an element in an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "indexOf()", "isCorrect": true },
+      { "id": "option_2", "text": "findIndex()", "isCorrect": false },
+      { "id": "option_3", "text": "getIndex()", "isCorrect": false },
+      { "id": "option_4", "text": "index()", "isCorrect": false }
+    ],
+    "hint": "`indexOf()` returns the first index at which a given element can be found in an array.",
+    "answerDescription": "`indexOf()` method returns the first index of the provided element, or `-1` if the element is not found."
+  },
+  {
+    "id": "mean_1361",
+    "question": "What is the result of the expression `false + 1` in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "1", "isCorrect": true },
+      { "id": "option_2", "text": "false", "isCorrect": false },
+      { "id": "option_3", "text": "NaN", "isCorrect": false },
+      { "id": "option_4", "text": "undefined", "isCorrect": false }
+    ],
+    "hint": "When you add a boolean to a number, JavaScript coerces the boolean to a number, where `false` becomes `0`.",
+    "answerDescription": "`false + 1` results in `1`, because `false` is coerced to `0` before the addition."
+  },
+  {
+    "id": "mean_1362",
+    "question": "Which method is used to remove the last element from an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "pop()", "isCorrect": true },
+      { "id": "option_2", "text": "shift()", "isCorrect": false },
+      { "id": "option_3", "text": "delete()", "isCorrect": false },
+      { "id": "option_4", "text": "remove()", "isCorrect": false }
+    ],
+    "hint": "`pop()` removes the last element from an array and returns that element.",
+    "answerDescription": "`pop()` removes the last element from an array and reduces the length of the array by one."
+  },
+  {
+    "id": "mean_1363",
+    "question": "Which of the following is used to create a new array from an existing array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "map()", "isCorrect": true },
+      { "id": "option_2", "text": "reduce()", "isCorrect": false },
+      { "id": "option_3", "text": "filter()", "isCorrect": false },
+      { "id": "option_4", "text": "sort()", "isCorrect": false }
+    ],
+    "hint": "`map()` creates a new array populated with the results of calling a provided function on every element in the calling array.",
+    "answerDescription": "`map()` is used to create a new array from an existing array by applying a function to each element."
+  },
+  {
+    "id": "mean_1364",
+    "question": "Which method is used to remove the first element from an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "shift()", "isCorrect": true },
+      { "id": "option_2", "text": "pop()", "isCorrect": false },
+      { "id": "option_3", "text": "delete()", "isCorrect": false },
+      { "id": "option_4", "text": "unshift()", "isCorrect": false }
+    ],
+    "hint": "`shift()` removes the first element from an array and returns that element.",
+    "answerDescription": "`shift()` removes the first element from an array, altering the original array by shifting all remaining elements."
+  },
+  {
+    "id": "mean_1365",
+    "question": "What is the result of the expression `[] + []` in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "''", "isCorrect": true },
+      { "id": "option_2", "text": "[]", "isCorrect": false },
+      { "id": "option_3", "text": "null", "isCorrect": false },
+      { "id": "option_4", "text": "undefined", "isCorrect": false }
+    ],
+    "hint": "When two empty arrays are added, they are coerced into strings, resulting in an empty string.",
+    "answerDescription": "`[] + []` results in an empty string (`''`) because both arrays are coerced into strings before being added."
+  },
+  {
+    "id": "mean_1366",
+    "question": "Which method is used to convert a string into an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "split()", "isCorrect": true },
+      { "id": "option_2", "text": "toArray()", "isCorrect": false },
+      { "id": "option_3", "text": "join()", "isCorrect": false },
+      { "id": "option_4", "text": "arrayify()", "isCorrect": false }
+    ],
+    "hint": "`split()` is used to split a string into an array of substrings.",
+    "answerDescription": "`split()` is used to divide a string into an array based on a specified separator."
+  },
+  {
+    "id": "mean_1367",
+    "question": "Which of the following is used to check if a number is finite in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "isFinite()", "isCorrect": true },
+      { "id": "option_2", "text": "isNaN()", "isCorrect": false },
+      { "id": "option_3", "text": "Number.isInteger()", "isCorrect": false },
+      { "id": "option_4", "text": "isNumber()", "isCorrect": false }
+    ],
+    "hint": "`isFinite()` is used to determine if a value is a finite number.",
+    "answerDescription": "`isFinite()` checks whether a given value is a finite number, returning `true` if it is, and `false` otherwise."
+  },
+  {
+    "id": "mean_1368",
+    "question": "What is the result of the expression `2 == '2'` in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "true", "isCorrect": true },
+      { "id": "option_2", "text": "false", "isCorrect": false },
+      { "id": "option_3", "text": "NaN", "isCorrect": false },
+      { "id": "option_4", "text": "undefined", "isCorrect": false }
+    ],
+    "hint": "The `==` operator performs type coercion, converting the string `'2'` to a number before comparison.",
+    "answerDescription": "`2 == '2'` results in `true` because JavaScript coerces the string `'2'` into a number before performing the comparison."
+  },
+  {
+    "id": "mean_1369",
+    "question": "Which method is used to round a number to the nearest integer in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "Math.round()", "isCorrect": true },
+      { "id": "option_2", "text": "Math.ceil()", "isCorrect": false },
+      { "id": "option_3", "text": "Math.floor()", "isCorrect": false },
+      { "id": "option_4", "text": "Math.trunc()", "isCorrect": false }
+    ],
+    "hint": "`Math.round()` rounds a number to the nearest integer, rounding up for values 0.5 or greater.",
+    "answerDescription": "`Math.round()` rounds a number to the nearest integer, based on its decimal value."
+  },{
+    "id": "mean_1370",
+    "question": "Which method is used to find the length of an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "length()", "isCorrect": false },
+      { "id": "option_2", "text": "size()", "isCorrect": false },
+      { "id": "option_3", "text": "length", "isCorrect": true },
+      { "id": "option_4", "text": "getSize()", "isCorrect": false }
+    ],
+    "hint": "The `length` property is used to find the number of elements in an array.",
+    "answerDescription": "`length` property returns the number of elements in an array."
+  },
+  {
+    "id": "mean_1371",
+    "question": "Which of the following is the correct syntax to create a new Date object in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "new Date()", "isCorrect": true },
+      { "id": "option_2", "text": "new Date[]", "isCorrect": false },
+      { "id": "option_3", "text": "Date.new()", "isCorrect": false },
+      { "id": "option_4", "text": "new Date({})", "isCorrect": false }
+    ],
+    "hint": "`new Date()` creates a new Date object with the current date and time.",
+    "answerDescription": "`new Date()` creates a Date object that represents the current date and time in JavaScript."
+  },
+  {
+    "id": "mean_1372",
+    "question": "Which method is used to remove whitespace from both ends of a string in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "trim()", "isCorrect": true },
+      { "id": "option_2", "text": "strip()", "isCorrect": false },
+      { "id": "option_3", "text": "trimWhitespace()", "isCorrect": false },
+      { "id": "option_4", "text": "removeSpace()", "isCorrect": false }
+    ],
+    "hint": "`trim()` removes leading and trailing whitespace from a string.",
+    "answerDescription": "`trim()` removes whitespace from both ends of a string and returns a new string."
+  },
+  {
+    "id": "mean_1373",
+    "question": "Which operator is used for strict equality comparison in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "===", "isCorrect": true },
+      { "id": "option_2", "text": "==", "isCorrect": false },
+      { "id": "option_3", "text": "!==", "isCorrect": false },
+      { "id": "option_4", "text": "=", "isCorrect": false }
+    ],
+    "hint": "`===` checks both value and type for equality.",
+    "answerDescription": "The `===` operator checks for strict equality, meaning it compares both the value and type of the operands."
+  },
+  {
+    "id": "mean_1374",
+    "question": "Which of the following is used to define a block of code that will execute after a certain delay in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "setTimeout()", "isCorrect": true },
+      { "id": "option_2", "text": "setInterval()", "isCorrect": false },
+      { "id": "option_3", "text": "delay()", "isCorrect": false },
+      { "id": "option_4", "text": "timeOut()", "isCorrect": false }
+    ],
+    "hint": "`setTimeout()` is used to execute a function after a specified delay in milliseconds.",
+    "answerDescription": "`setTimeout()` is used to delay the execution of a function for a specified number of milliseconds."
+  },
+  {
+    "id": "mean_1375",
+    "question": "What is the result of the expression `typeof NaN` in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "number", "isCorrect": true },
+      { "id": "option_2", "text": "NaN", "isCorrect": false },
+      { "id": "option_3", "text": "undefined", "isCorrect": false },
+      { "id": "option_4", "text": "object", "isCorrect": false }
+    ],
+    "hint": "`NaN` is a special value representing ,'Not a Number', but its type is considered 'number'",
+    "answerDescription": "In JavaScript, `typeof NaN` returns `number` because `NaN` is of type `number`."
+  },
+  {
+    "id": "mean_1376",
+    "question": "What will be the value of the variable `x` after the following code is executed?\n`let x = 2; x += 3;`",
+    "options": [
+      { "id": "option_1", "text": "5", "isCorrect": true },
+      { "id": "option_2", "text": "6", "isCorrect": false },
+      { "id": "option_3", "text": "23", "isCorrect": false },
+      { "id": "option_4", "text": "undefined", "isCorrect": false }
+    ],
+    "hint": "The `+=` operator adds the right operand to the left operand and assigns the result to the left operand.",
+    "answerDescription": "`x += 3` adds `3` to the value of `x` (which is initially `2`), resulting in `5`."
+  },
+  {
+    "id": "mean_1377",
+    "question": "Which method is used to check if a string contains a specified substring in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "includes()", "isCorrect": true },
+      { "id": "option_2", "text": "contains()", "isCorrect": false },
+      { "id": "option_3", "text": "hasSubstring()", "isCorrect": false },
+      { "id": "option_4", "text": "find()", "isCorrect": false }
+    ],
+    "hint": "`includes()` checks if a string contains a specified substring and returns `true` or `false`.",
+    "answerDescription": "`includes()` method determines whether a string contains the specified substring."
+  },
+  {
+    "id": "mean_1378",
+    "question": "Which of the following is used to create a copy of an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "slice()", "isCorrect": true },
+      { "id": "option_2", "text": "copy()", "isCorrect": false },
+      { "id": "option_3", "text": "clone()", "isCorrect": false },
+      { "id": "option_4", "text": "duplicate()", "isCorrect": false }
+    ],
+    "hint": "`slice()` returns a shallow copy of a portion of an array.",
+    "answerDescription": "`slice()` is used to create a new array by copying a portion of the original array."
+  },
+  {
+    "id": "mean_1379",
+    "question": "Which of the following statements creates a new object in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "let obj = {}", "isCorrect": true },
+      { "id": "option_2", "text": "let obj = []", "isCorrect": false },
+      { "id": "option_3", "text": "let obj = null", "isCorrect": false },
+      { "id": "option_4", "text": "let obj = ''", "isCorrect": false }
+    ],
+    "hint": "To create an object, use `{}` syntax in JavaScript.",
+    "answerDescription": "The statement `let obj = {}` creates a new empty object in JavaScript."
+  },
+  {
+    "id": "mean_1380",
+    "question": "Which method is used to remove the last element from an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "pop()", "isCorrect": true },
+      { "id": "option_2", "text": "shift()", "isCorrect": false },
+      { "id": "option_3", "text": "delete()", "isCorrect": false },
+      { "id": "option_4", "text": "splice()", "isCorrect": false }
+    ],
+    "hint": "`pop()` removes the last element from an array and returns that element.",
+    "answerDescription": "`pop()` is used to remove the last element of an array and return it in JavaScript."
+  },
+  {
+    "id": "mean_1381",
+    "question": "What does the `typeof` operator return when used on an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "object", "isCorrect": true },
+      { "id": "option_2", "text": "array", "isCorrect": false },
+      { "id": "option_3", "text": "array-object", "isCorrect": false },
+      { "id": "option_4", "text": "undefined", "isCorrect": false }
+    ],
+    "hint": "`typeof` returns `object` for arrays because arrays are considered a type of object in JavaScript.",
+    "answerDescription": "In JavaScript, `typeof` returns `object` when used on arrays."
+  },
+  {
+    "id": "mean_1382",
+    "question": "Which of the following methods can be used to add an element at the end of an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "push()", "isCorrect": true },
+      { "id": "option_2", "text": "unshift()", "isCorrect": false },
+      { "id": "option_3", "text": "append()", "isCorrect": false },
+      { "id": "option_4", "text": "insert()", "isCorrect": false }
+    ],
+    "hint": "`push()` is used to add one or more elements to the end of an array.",
+    "answerDescription": "`push()` adds new elements to the end of an array and returns the new array length."
+  },
+  {
+    "id": "mean_1383",
+    "question": "How do you check if a variable is an instance of a specific class in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "instanceof", "isCorrect": true },
+      { "id": "option_2", "text": "typeof", "isCorrect": false },
+      { "id": "option_3", "text": "isInstanceOf", "isCorrect": false },
+      { "id": "option_4", "text": "hasInstance", "isCorrect": false }
+    ],
+    "hint": "`instanceof` is used to check if an object is an instance of a specified class or constructor function.",
+    "answerDescription": "`instanceof` checks if an object is an instance of a specific class or constructor function in JavaScript."
+  },
+  {
+    "id": "mean_1384",
+    "question": "Which method is used to find the index of an element in an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "indexOf()", "isCorrect": true },
+      { "id": "option_2", "text": "findIndex()", "isCorrect": false },
+      { "id": "option_3", "text": "getIndex()", "isCorrect": false },
+      { "id": "option_4", "text": "positionOf()", "isCorrect": false }
+    ],
+    "hint": "`indexOf()` returns the index of the first occurrence of an element in an array.",
+    "answerDescription": "`indexOf()` is used to return the index of the first occurrence of an element in an array."
+  },
+  {
+    "id": "mean_1385",
+    "question": "Which method is used to remove the first element from an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "shift()", "isCorrect": true },
+      { "id": "option_2", "text": "pop()", "isCorrect": false },
+      { "id": "option_3", "text": "unshift()", "isCorrect": false },
+      { "id": "option_4", "text": "delete()", "isCorrect": false }
+    ],
+    "hint": "`shift()` removes the first element from an array and returns it.",
+    "answerDescription": "`shift()` is used to remove the first element of an array and return it in JavaScript."
+  },
+  {
+    "id": "mean_1386",
+    "question": "Which of the following statements is used to create a new object in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "let obj = {}", "isCorrect": true },
+      { "id": "option_2", "text": "let obj = []", "isCorrect": false },
+      { "id": "option_3", "text": "let obj = null", "isCorrect": false },
+      { "id": "option_4", "text": "let obj = ''", "isCorrect": false }
+    ],
+    "hint": "Use `{}` to create a new object in JavaScript.",
+    "answerDescription": "`let obj = {}` creates an empty object in JavaScript."
+  },
+  {
+    "id": "mean_1387",
+    "question": "Which of the following will give the current date and time in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "new Date()", "isCorrect": true },
+      { "id": "option_2", "text": "new DateTime()", "isCorrect": false },
+      { "id": "option_3", "text": "currentDate()", "isCorrect": false },
+      { "id": "option_4", "text": "Date.now()", "isCorrect": false }
+    ],
+    "hint": "`new Date()` will return a Date object representing the current date and time.",
+    "answerDescription": "`new Date()` returns the current date and time as a Date object."
+  },
+  {
+    "id": "mean_1388",
+    "question": "Which method is used to sort the elements of an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "sort()", "isCorrect": true },
+      { "id": "option_2", "text": "order()", "isCorrect": false },
+      { "id": "option_3", "text": "arrange()", "isCorrect": false },
+      { "id": "option_4", "text": "sequence()", "isCorrect": false }
+    ],
+    "hint": "`sort()` is used to sort the elements of an array in JavaScript.",
+    "answerDescription": "`sort()` arranges the elements of an array in place, in ascending or lexicographical order."
+  },
+  {
+    "id": "mean_1389",
+    "question": "What is the result of the expression `'5' - 3` in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "2", "isCorrect": true },
+      { "id": "option_2", "text": "53", "isCorrect": false },
+      { "id": "option_3", "text": "NaN", "isCorrect": false },
+      { "id": "option_4", "text": "'53'", "isCorrect": false }
+    ],
+    "hint": "JavaScript attempts to convert the string `'5'` to a number before performing the subtraction.",
+    "answerDescription": "In JavaScript, the expression `'5' - 3` results in `2` because JavaScript performs type coercion to treat the string as a number."
+  }, {
+    "id": "mean_1390",
+    "question": "What is the correct syntax for creating a new object in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "let obj = {}", "isCorrect": true },
+      { "id": "option_2", "text": "let obj = []", "isCorrect": false },
+      { "id": "option_3", "text": "let obj = ''", "isCorrect": false },
+      { "id": "option_4", "text": "let obj = null", "isCorrect": false }
+    ],
+    "hint": "Use curly braces `{}` to define an object in JavaScript.",
+    "answerDescription": "The correct syntax for creating a new object is `let obj = {}`."
+  },
+  {
+    "id": "mean_1391",
+    "question": "Which method is used to add an element to the end of an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "push()", "isCorrect": true },
+      { "id": "option_2", "text": "unshift()", "isCorrect": false },
+      { "id": "option_3", "text": "concat()", "isCorrect": false },
+      { "id": "option_4", "text": "insert()", "isCorrect": false }
+    ],
+    "hint": "`push()` adds an element to the end of an array.",
+    "answerDescription": "`push()` adds new elements to the end of an array and returns the new length of the array."
+  },
+  {
+    "id": "mean_1392",
+    "question": "What will `typeof NaN` return in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "number", "isCorrect": true },
+      { "id": "option_2", "text": "undefined", "isCorrect": false },
+      { "id": "option_3", "text": "NaN", "isCorrect": false },
+      { "id": "option_4", "text": "object", "isCorrect": false }
+    ],
+    "hint": "`typeof` returns `number` for `NaN` in JavaScript.",
+    "answerDescription": "`typeof NaN` returns `number` because `NaN` is of the type `number` in JavaScript."
+  },
+  {
+    "id": "mean_1393",
+    "question": "Which method is used to remove an element from the end of an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "pop()", "isCorrect": true },
+      { "id": "option_2", "text": "shift()", "isCorrect": false },
+      { "id": "option_3", "text": "unshift()", "isCorrect": false },
+      { "id": "option_4", "text": "delete()", "isCorrect": false }
+    ],
+    "hint": "`pop()` removes the last element from an array.",
+    "answerDescription": "`pop()` removes the last element of an array and returns that element."
+  },
+  {
+    "id": "mean_1394",
+    "question": "How do you declare a function in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "function myFunction() {}", "isCorrect": true },
+      { "id": "option_2", "text": "function: myFunction {}", "isCorrect": false },
+      { "id": "option_3", "text": "def myFunction() {}", "isCorrect": false },
+      { "id": "option_4", "text": "myFunction() => {}", "isCorrect": false }
+    ],
+    "hint": "The `function` keyword is used to define a function in JavaScript.",
+    "answerDescription": "The correct way to declare a function is `function myFunction() {}`."
+  },
+  {
+    "id": "mean_1395",
+    "question": "Which of the following is used to define a constant in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "let", "isCorrect": false },
+      { "id": "option_2", "text": "const", "isCorrect": true },
+      { "id": "option_3", "text": "var", "isCorrect": false },
+      { "id": "option_4", "text": "constant", "isCorrect": false }
+    ],
+    "hint": "`const` is used to define a variable whose value cannot be reassigned.",
+    "answerDescription": "`const` is used to define a constant variable in JavaScript."
+  },
+  {
+    "id": "mean_1396",
+    "question": "What is the result of the expression `'5' + 3` in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "'53'", "isCorrect": true },
+      { "id": "option_2", "text": "53", "isCorrect": false },
+      { "id": "option_3", "text": "NaN", "isCorrect": false },
+      { "id": "option_4", "text": "undefined", "isCorrect": false }
+    ],
+    "hint": "When adding a number to a string, JavaScript converts the number to a string and performs concatenation.",
+    "answerDescription": "'5' + 3 results in the string '53' because JavaScript coerces the number to a string."
+  },
+  {
+    "id": "mean_1397",
+    "question": "What is the purpose of the `filter()` method in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "It returns a new array with all elements that pass a test", "isCorrect": true },
+      { "id": "option_2", "text": "It sorts the array elements", "isCorrect": false },
+      { "id": "option_3", "text": "It adds a new element to the array", "isCorrect": false },
+      { "id": "option_4", "text": "It removes all duplicate elements from the array", "isCorrect": false }
+    ],
+    "hint": "`filter()` returns a new array with all elements that pass the test implemented by the provided function.",
+    "answerDescription": "`filter()` is used to create a new array with elements that pass a given test."
+  },
+  {
+    "id": "mean_1398",
+    "question": "Which of the following will cause a `ReferenceError` in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "Accessing an undeclared variable", "isCorrect": true },
+      { "id": "option_2", "text": "Reassigning a constant", "isCorrect": false },
+      { "id": "option_3", "text": "Accessing a variable with `let` outside its block", "isCorrect": false },
+      { "id": "option_4", "text": "Using a variable before declaring it", "isCorrect": false }
+    ],
+    "hint": "A `ReferenceError` occurs when you try to access a variable that has not been declared.",
+    "answerDescription": "A `ReferenceError` occurs when accessing a variable that has not been declared."
+  },
+  {
+    "id": "mean_1399",
+    "question": "Which method is used to join two or more arrays in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "concat()", "isCorrect": true },
+      { "id": "option_2", "text": "combine()", "isCorrect": false },
+      { "id": "option_3", "text": "append()", "isCorrect": false },
+      { "id": "option_4", "text": "join()", "isCorrect": false }
+    ],
+    "hint": "`concat()` is used to join two or more arrays into a new array.",
+    "answerDescription": "`concat()` is used to merge multiple arrays into a new array."
+  },{
+    "id": "mean_1400",
+    "question": "What does the `typeof` operator do in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "Checks the type of an object", "isCorrect": true },
+      { "id": "option_2", "text": "Returns the value of a variable", "isCorrect": false },
+      { "id": "option_3", "text": "Assigns a type to a variable", "isCorrect": false },
+      { "id": "option_4", "text": "Converts a value to a type", "isCorrect": false }
+    ],
+    "hint": "`typeof` is used to check the type of a variable or expression in JavaScript.",
+    "answerDescription": "`typeof` is an operator used to return the type of a given value in JavaScript."
+  },
+  {
+    "id": "mean_1401",
+    "question": "Which of the following is not a valid loop in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "for", "isCorrect": false },
+      { "id": "option_2", "text": "while", "isCorrect": false },
+      { "id": "option_3", "text": "do...while", "isCorrect": false },
+      { "id": "option_4", "text": "foreach", "isCorrect": true }
+    ],
+    "hint": "The correct loop is `forEach`, but in JavaScript, it's a method, not a loop construct.",
+    "answerDescription": "`forEach` is a method used to loop through arrays, but it's not considered a valid loop construct like `for`, `while`, and `do...while`."
+  },
+  {
+    "id": "mean_1402",
+    "question": "Which of the following is the correct way to create an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "let arr = []", "isCorrect": true },
+      { "id": "option_2", "text": "let arr = {}", "isCorrect": false },
+      { "id": "option_3", "text": "let arr = new Array()", "isCorrect": true },
+      { "id": "option_4", "text": "let arr = Array[]", "isCorrect": false }
+    ],
+    "hint": "You can create an array using square brackets `[]` or the `new Array()` constructor.",
+    "answerDescription": "Both `let arr = []` and `let arr = new Array()` are correct ways to create arrays in JavaScript."
+  },
+  {
+    "id": "mean_1403",
+    "question": "How do you check if an object is empty in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "Object.isEmpty()", "isCorrect": false },
+      { "id": "option_2", "text": "Object.keys(obj).length === 0", "isCorrect": true },
+      { "id": "option_3", "text": "Object.empty(obj)", "isCorrect": false },
+      { "id": "option_4", "text": "obj.isEmpty()", "isCorrect": false }
+    ],
+    "hint": "`Object.keys(obj)` returns an array of the object's own enumerable properties.",
+    "answerDescription": "You can check if an object is empty by using `Object.keys(obj).length === 0`."
+  },
+  {
+    "id": "mean_1404",
+    "question": "Which JavaScript method is used to find the index of the first occurrence of a value in an array?",
+    "options": [
+      { "id": "option_1", "text": "indexOf()", "isCorrect": true },
+      { "id": "option_2", "text": "findIndex()", "isCorrect": false },
+      { "id": "option_3", "text": "searchIndex()", "isCorrect": false },
+      { "id": "option_4", "text": "getIndex()", "isCorrect": false }
+    ],
+    "hint": "`indexOf()` returns the first index at which a given element can be found in an array.",
+    "answerDescription": "`indexOf()` is used to return the index of the first occurrence of a specified element in an array."
+  },
+  {
+    "id": "mean_1405",
+    "question": "Which of the following is not a valid data type in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "String", "isCorrect": false },
+      { "id": "option_2", "text": "Number", "isCorrect": false },
+      { "id": "option_3", "text": "Object", "isCorrect": false },
+      { "id": "option_4", "text": "Float", "isCorrect": true }
+    ],
+    "hint": "JavaScript has a `Number` type for both integers and floating point numbers, not `Float` as a distinct type.",
+    "answerDescription": "`Float` is not a valid data type in JavaScript; instead, JavaScript uses `Number` to represent all numerical values."
+  },
+  {
+    "id": "mean_1406",
+    "question": "Which method is used to remove the first element from an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "shift()", "isCorrect": true },
+      { "id": "option_2", "text": "pop()", "isCorrect": false },
+      { "id": "option_3", "text": "unshift()", "isCorrect": false },
+      { "id": "option_4", "text": "delete()", "isCorrect": false }
+    ],
+    "hint": "`shift()` removes the first element from an array and returns that element.",
+    "answerDescription": "`shift()` is used to remove the first element from an array in JavaScript."
+  },
+  {
+    "id": "mean_1407",
+    "question": "What does the `===` operator do in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "Compares values and types", "isCorrect": true },
+      { "id": "option_2", "text": "Compares values only", "isCorrect": false },
+      { "id": "option_3", "text": "Assigns a value", "isCorrect": false },
+      { "id": "option_4", "text": "Compares references only", "isCorrect": false }
+    ],
+    "hint": "`===` is known as the strict equality operator and compares both value and type.",
+    "answerDescription": "`===` compares both the value and the type of two operands, ensuring both are equal."
+  },
+  {
+    "id": "mean_1408",
+    "question": "Which method is used to check if a string contains a specific substring in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "includes()", "isCorrect": true },
+      { "id": "option_2", "text": "contains()", "isCorrect": false },
+      { "id": "option_3", "text": "indexOf()", "isCorrect": false },
+      { "id": "option_4", "text": "hasSubstring()", "isCorrect": false }
+    ],
+    "hint": "`includes()` checks whether a string contains a specified substring.",
+    "answerDescription": "`includes()` is used to determine if a string contains a specified substring."
+  },
+  {
+    "id": "mean_1409",
+    "question": "What will `null == undefined` evaluate to in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "true", "isCorrect": true },
+      { "id": "option_2", "text": "false", "isCorrect": false },
+      { "id": "option_3", "text": "NaN", "isCorrect": false },
+      { "id": "option_4", "text": "undefined", "isCorrect": false }
+    ],
+    "hint": "`null` and `undefined` are considered equal in non-strict equality comparisons.",
+    "answerDescription": "`null == undefined` evaluates to `true` because they are loosely equal in JavaScript."
+  }, {
+    "id": "mean_1410",
+    "question": "Which of the following is used to add an element at the end of an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "push()", "isCorrect": true },
+      { "id": "option_2", "text": "shift()", "isCorrect": false },
+      { "id": "option_3", "text": "unshift()", "isCorrect": false },
+      { "id": "option_4", "text": "pop()", "isCorrect": false }
+    ],
+    "hint": "`push()` is used to add one or more elements to the end of an array.",
+    "answerDescription": "`push()` is the correct method to add elements to the end of an array in JavaScript."
+  },
+  {
+    "id": "mean_1411",
+    "question": "Which operator is used for strict equality comparison in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "==", "isCorrect": false },
+      { "id": "option_2", "text": "=", "isCorrect": false },
+      { "id": "option_3", "text": "===", "isCorrect": true },
+      { "id": "option_4", "text": "!==", "isCorrect": false }
+    ],
+    "hint": "`===` checks both the type and value of two operands.",
+    "answerDescription": "`===` is the strict equality operator that compares both value and type."
+  },
+  {
+    "id": "mean_1412",
+    "question": "What will the following code output: `console.log(2 + '2')`?",
+    "options": [
+      { "id": "option_1", "text": "'22'", "isCorrect": true },
+      { "id": "option_2", "text": "4", "isCorrect": false },
+      { "id": "option_3", "text": "NaN", "isCorrect": false },
+      { "id": "option_4", "text": "undefined", "isCorrect": false }
+    ],
+    "hint": "When a number is added to a string, JavaScript performs type coercion and concatenates them.",
+    "answerDescription": "In JavaScript, `2 + '2'` results in the string `'22'` due to type coercion."
+  },
+  {
+    "id": "mean_1413",
+    "question": "Which method is used to remove the last element from an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "shift()", "isCorrect": false },
+      { "id": "option_2", "text": "pop()", "isCorrect": true },
+      { "id": "option_3", "text": "unshift()", "isCorrect": false },
+      { "id": "option_4", "text": "delete()", "isCorrect": false }
+    ],
+    "hint": "`pop()` removes the last element of an array and returns that element.",
+    "answerDescription": "`pop()` removes and returns the last element from an array in JavaScript."
+  },
+  {
+    "id": "mean_1414",
+    "question": "What does the `isNaN()` function do in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "Checks if a value is a valid number", "isCorrect": true },
+      { "id": "option_2", "text": "Checks if a value is a string", "isCorrect": false },
+      { "id": "option_3", "text": "Checks if a value is NaN", "isCorrect": false },
+      { "id": "option_4", "text": "Converts a value to a number", "isCorrect": false }
+    ],
+    "hint": "`isNaN()` checks if a value is `NaN` (Not-a-Number).",
+    "answerDescription": "`isNaN()` is used to check if a value is `NaN`, meaning it cannot be converted to a valid number."
+  },
+  {
+    "id": "mean_1415",
+    "question": "Which method is used to find the largest number in an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "max()", "isCorrect": false },
+      { "id": "option_2", "text": "Math.max()", "isCorrect": true },
+      { "id": "option_3", "text": "Math.largest()", "isCorrect": false },
+      { "id": "option_4", "text": "maxValue()", "isCorrect": false }
+    ],
+    "hint": "`Math.max()` returns the largest of zero or more numbers provided as arguments.",
+    "answerDescription": "`Math.max()` is used to find the largest number in a set of values in JavaScript."
+  },
+  {
+    "id": "mean_1416",
+    "question": "What is the purpose of the `finally` block in a `try...catch` statement?",
+    "options": [
+      { "id": "option_1", "text": "To catch errors in the code", "isCorrect": false },
+      { "id": "option_2", "text": "To handle errors", "isCorrect": false },
+      { "id": "option_3", "text": "To execute code regardless of whether there was an error or not", "isCorrect": true },
+      { "id": "option_4", "text": "To log errors", "isCorrect": false }
+    ],
+    "hint": "`finally` block will execute code after the `try` and `catch` blocks, whether an error occurred or not.",
+    "answerDescription": "`finally` is used to execute code that should run regardless of whether an error was caught or not."
+  },
+  {
+    "id": "mean_1417",
+    "question": "How can you prevent an event from bubbling up in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "event.stopPropagation()", "isCorrect": true },
+      { "id": "option_2", "text": "event.preventDefault()", "isCorrect": false },
+      { "id": "option_3", "text": "event.bubbleStop()", "isCorrect": false },
+      { "id": "option_4", "text": "event.cancel()", "isCorrect": false }
+    ],
+    "hint": "`stopPropagation()` prevents an event from bubbling up the DOM hierarchy.",
+    "answerDescription": "`event.stopPropagation()` is used to stop the event from propagating up the DOM tree."
+  },
+  {
+    "id": "mean_1418",
+    "question": "What will the following code output: `console.log(!!'false')`?",
+    "options": [
+      { "id": "option_1", "text": "false", "isCorrect": false },
+      { "id": "option_2", "text": "true", "isCorrect": true },
+      { "id": "option_3", "text": "NaN", "isCorrect": false },
+      { "id": "option_4", "text": "undefined", "isCorrect": false }
+    ],
+    "hint": "`!!` is a common way to convert a value to a boolean in JavaScript.",
+    "answerDescription": "`!!'false'` converts the string `'false'` to `true` because non-empty strings are truthy in JavaScript."
+  },
+  {
+    "id": "mean_1419",
+    "question": "Which of the following is used to define a block of code that should execute repeatedly?",
+    "options": [
+      { "id": "option_1", "text": "for", "isCorrect": true },
+      { "id": "option_2", "text": "if", "isCorrect": false },
+      { "id": "option_3", "text": "while", "isCorrect": false },
+      { "id": "option_4", "text": "function", "isCorrect": false }
+    ],
+    "hint": "`for` and `while` loops are used to execute a block of code repeatedly.",
+    "answerDescription": "`for` is used to define a loop that runs a block of code a specified number of times."
+  },{
+    "id": "mean_1420",
+    "question": "Which method is used to remove the first element from an array in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "pop()", "isCorrect": false },
+      { "id": "option_2", "text": "shift()", "isCorrect": true },
+      { "id": "option_3", "text": "unshift()", "isCorrect": false },
+      { "id": "option_4", "text": "push()", "isCorrect": false }
+    ],
+    "hint": "`shift()` removes the first element of an array and returns it.",
+    "answerDescription": "`shift()` is the method used to remove the first element from an array in JavaScript."
+  },
+  {
+    "id": "mean_1421",
+    "question": "Which of the following is a falsy value in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "0", "isCorrect": true },
+      { "id": "option_2", "text": "1", "isCorrect": false },
+      { "id": "option_3", "text": "'false'", "isCorrect": false },
+      { "id": "option_4", "text": "'0'", "isCorrect": false }
+    ],
+    "hint": "Falsy values in JavaScript include `false`, `0`, `NaN`, `undefined`, `null`, and an empty string.",
+    "answerDescription": "`0` is a falsy value in JavaScript, meaning it evaluates to `false` in conditional statements."
+  },
+  {
+    "id": "mean_1422",
+    "question": "What does `Array.prototype.slice()` do in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "Removes elements from an array", "isCorrect": false },
+      { "id": "option_2", "text": "Reverses the elements of an array", "isCorrect": false },
+      { "id": "option_3", "text": "Returns a shallow copy of a portion of an array", "isCorrect": true },
+      { "id": "option_4", "text": "Merges two arrays", "isCorrect": false }
+    ],
+    "hint": "`slice()` returns a new array containing a shallow copy of a portion of an original array.",
+    "answerDescription": "`slice()` extracts a section of an array and returns a new array, without modifying the original array."
+  },
+  {
+    "id": "mean_1423",
+    "question": "Which of the following is the correct way to declare a variable in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "var myVar", "isCorrect": false },
+      { "id": "option_2", "text": "let myVar;", "isCorrect": true },
+      { "id": "option_3", "text": "variable myVar", "isCorrect": false },
+      { "id": "option_4", "text": "const myVar", "isCorrect": false }
+    ],
+    "hint": "`let` is used to declare a variable in JavaScript, with block scope.",
+    "answerDescription": "`let` is the proper way to declare a block-scoped variable in JavaScript."
+  },
+  {
+    "id": "mean_1424",
+    "question": "What is the result of `false + 1` in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "false", "isCorrect": false },
+      { "id": "option_2", "text": "1", "isCorrect": false },
+      { "id": "option_3", "text": "NaN", "isCorrect": false },
+      { "id": "option_4", "text": "1", "isCorrect": true }
+    ],
+    "hint": "When `false` is added to a number, JavaScript coerces `false` to `0`.",
+    "answerDescription": "`false` is coerced to `0`, so the result is `1`."
+  },
+  {
+    "id": "mean_1425",
+    "question": "Which of the following methods is used to convert a string to a number in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "toString()", "isCorrect": false },
+      { "id": "option_2", "text": "parseInt()", "isCorrect": true },
+      { "id": "option_3", "text": "convertToNumber()", "isCorrect": false },
+      { "id": "option_4", "text": "parseFloat()", "isCorrect": false }
+    ],
+    "hint": "`parseInt()` and `parseFloat()` can be used to convert a string into a number.",
+    "answerDescription": "`parseInt()` is used to parse a string and convert it into an integer in JavaScript."
+  },
+  {
+    "id": "mean_1426",
+    "question": "What does `JSON.stringify()` do in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "Converts a JSON object into a string", "isCorrect": false },
+      { "id": "option_2", "text": "Converts a JavaScript object into a JSON string", "isCorrect": true },
+      { "id": "option_3", "text": "Parses a JSON string into a JavaScript object", "isCorrect": false },
+      { "id": "option_4", "text": "Converts a string to a JSON object", "isCorrect": false }
+    ],
+    "hint": "`JSON.stringify()` is used to convert a JavaScript object into a JSON-formatted string.",
+    "answerDescription": "`JSON.stringify()` converts a JavaScript object into a JSON string that can be stored or transmitted."
+  },
+  {
+    "id": "mean_1427",
+    "question": "Which of the following is the correct way to declare a constant in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "let myConst", "isCorrect": false },
+      { "id": "option_2", "text": "var myConst", "isCorrect": false },
+      { "id": "option_3", "text": "const myConst", "isCorrect": true },
+      { "id": "option_4", "text": "constant myConst", "isCorrect": false }
+    ],
+    "hint": "`const` is used to declare constants whose values cannot be changed once assigned.",
+    "answerDescription": "`const` is the correct keyword to declare a constant in JavaScript."
+  },
+  {
+    "id": "mean_1428",
+    "question": "Which method is used to join two or more arrays in JavaScript?",
+    "options": [
+      { "id": "option_1", "text": "combine()", "isCorrect": false },
+      { "id": "option_2", "text": "concat()", "isCorrect": true },
+      { "id": "option_3", "text": "merge()", "isCorrect": false },
+      { "id": "option_4", "text": "join()", "isCorrect": false }
+    ],
+    "hint": "`concat()` is used to merge two or more arrays into a new array.",
+    "answerDescription": "`concat()` joins two or more arrays together and returns a new array."
+  },
+  {
+    "id": "mean_1429",
+    "question": "What is the purpose of the `continue` statement in a loop?",
+    "options": [
+      { "id": "option_1", "text": "Exits the loop completely", "isCorrect": false },
+      { "id": "option_2", "text": "Skips to the next iteration of the loop", "isCorrect": true },
+      { "id": "option_3", "text": "Pauses the loop", "isCorrect": false },
+      { "id": "option_4", "text": "Starts the loop over again", "isCorrect": false }
+    ],
+    "hint": "`continue` is used to skip the current iteration of the loop and proceed to the next one.",
+    "answerDescription": "`continue` skips the rest of the code in the current iteration and moves to the next iteration of the loop."
   },
 
-
+  {
+    "id": "mean_1430",
+    "question": "What is the purpose of the `setTimeout` function in JavaScript?",
+    "options": [
+      { "id": "option_1", "text":  "It stops the execution of a function", "isCorrect": false },
+      { "id": "option_2", "text": "It immediately executes a function", "isCorrect": false },
+      { "id": "option_3", "text":"It sets a timer to delay the execution of a function", "isCorrect": true },
+      { "id": "option_4", "text": "It loops through a function continuously", "isCorrect": false }
+    ],
+    "hint": "`setTimeout` allows you to delay the execution of a function for a specified number of milliseconds.",
+    "answerDescription": "`setTimeout` is used to delay the execution of a function or a piece of code after a specified number of milliseconds."
+  },
+  
+    {
+      "id": "mean_1431",
+      "question": "What is the difference between `null` and `undefined` in JavaScript?",
+      "options": [
+        { "id": "option_1", "text": "`undefined` is an object, while `null` is a type", "isCorrect": false },
+        { "id": "option_2", "text": "Both `null` and `undefined` are the same", "isCorrect": false },
+        { "id": "option_3", "text": "`null` is an object, while `undefined` is a type", "isCorrect": true },
+        { "id": "option_4", "text": "`null` is a string, and `undefined` is a number", "isCorrect": false }
+      ],
+      "hint": "`null` is explicitly assigned to indicate no value, whereas `undefined` is used by JavaScript to indicate that a variable has not been assigned a value.",
+      "answerDescription": "`null` is an object that represents the intentional absence of any object value, while `undefined` means a variable has been declared but has not been assigned a value."
+    },
+    {
+      "id": "mean_1432",
+      "question": "Which method in JavaScript is used to add a new element at the end of an array?",
+      "options": [
+        { "id": "option_1", "text": "push()", "isCorrect": true },
+        { "id": "option_2", "text": "unshift()", "isCorrect": false },
+        { "id": "option_3", "text": "pop()", "isCorrect": false },
+        { "id": "option_4", "text": "splice()", "isCorrect": false }
+      ],
+      "hint": "The `push()` method adds one or more elements to the end of an array and returns the new length of the array.",
+      "answerDescription": "The `push()` method adds one or more elements to the end of an array, modifying the original array."
+    },
+    {
+      "id": "mean_1433",
+      "question": "What is the purpose of the `localStorage` object in JavaScript?",
+      "options": [
+        { "id": "option_1", "text": "It stores data that is available only during the session", "isCorrect": false },
+        { "id": "option_2", "text": "It stores data persistently in the browser even after the window is closed", "isCorrect": true },
+        { "id": "option_3", "text": "It stores data on the server", "isCorrect": false },
+        { "id": "option_4", "text": "It stores data only temporarily in the local environment", "isCorrect": false }
+      ],
+      "hint": "`localStorage` allows you to store key-value pairs in the browser that persist even when the browser is closed and reopened.",
+      "answerDescription": "`localStorage` stores data in the web browser with no expiration time, meaning it persists even after the page is refreshed or the browser is closed."
+    },{
+        "id": "mean_1434",
+        "question": "Which of the following methods is used to remove the last element from an array in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "shift()", "isCorrect": false },
+          { "id": "option_2", "text": "pop()", "isCorrect": true },
+          { "id": "option_3", "text": "push()", "isCorrect": false },
+          { "id": "option_4", "text": "unshift()", "isCorrect": false }
+        ],
+        "hint": "`pop()` removes the last element from an array and returns that element.",
+        "answerDescription": "`pop()` removes and returns the last element from an array, modifying the original array."
+      },
+      {
+        "id": "mean_1435",
+        "question": "What does the `Array.isArray()` method do in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "Checks if a variable is an array", "isCorrect": true },
+          { "id": "option_2", "text": "Converts an array to an object", "isCorrect": false },
+          { "id": "option_3", "text": "Checks if a variable is an object", "isCorrect": false },
+          { "id": "option_4", "text": "Returns the length of an array", "isCorrect": false }
+        ],
+        "hint": "`Array.isArray()` is used to check if a given variable is an array or not.",
+        "answerDescription": "`Array.isArray()` returns `true` if the value is an array, otherwise `false`."
+      },
+      {
+        "id": "mean_1436",
+        "question": "How do you declare a constant variable in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "const", "isCorrect": true },
+          { "id": "option_2", "text": "let", "isCorrect": false },
+          { "id": "option_3", "text": "var", "isCorrect": false },
+          { "id": "option_4", "text": "constant", "isCorrect": false }
+        ],
+        "hint": "`const` is used to declare variables that cannot be reassigned.",
+        "answerDescription": "`const` declares a variable that cannot be reassigned after its initial assignment."
+      },
+      {
+        "id": "mean_1437",
+        "question": "Which of the following is NOT a valid way to create a function in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "function myFunction() {}", "isCorrect": false },
+          { "id": "option_2", "text": "let myFunction = function() {}", "isCorrect": false },
+          { "id": "option_3", "text": "myFunction() => {}", "isCorrect": true },
+          { "id": "option_4", "text": "const myFunction = () => {}", "isCorrect": false }
+        ],
+        "hint": "Arrow functions are declared using `() => {}` syntax.",
+        "answerDescription": "The correct syntax for an arrow function is `() => {}`. The other options are valid function declaration styles."
+      },
+      {
+        "id": "mean_1438",
+        "question": "Which operator is used to compare both value and type in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "==", "isCorrect": false },
+          { "id": "option_2", "text": "===", "isCorrect": true },
+          { "id": "option_3", "text": ">", "isCorrect": false },
+          { "id": "option_4", "text": "!==", "isCorrect": false }
+        ],
+        "hint": "`===` checks both the value and the type of the variables being compared.",
+        "answerDescription": "`===` is the strict equality operator, which compares both the value and the type."
+      },
+      {
+        "id": "mean_1439",
+        "question": "Which method is used to parse a JSON string into a JavaScript object?",
+        "options": [
+          { "id": "option_1", "text": "JSON.stringify()", "isCorrect": false },
+          { "id": "option_2", "text": "JSON.parse()", "isCorrect": true },
+          { "id": "option_3", "text": "parseJSON()", "isCorrect": false },
+          { "id": "option_4", "text": "stringifyJSON()", "isCorrect": false }
+        ],
+        "hint": "`JSON.parse()` is used to convert a JSON string into an object.",
+        "answerDescription": "`JSON.parse()` takes a JSON string and converts it into a corresponding JavaScript object."
+      },
+      {
+        "id": "mean_1440",
+        "question": "Which statement is used to stop a loop in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "stop", "isCorrect": false },
+          { "id": "option_2", "text": "exit", "isCorrect": false },
+          { "id": "option_3", "text": "break", "isCorrect": true },
+          { "id": "option_4", "text": "end", "isCorrect": false }
+        ],
+        "hint": "`break` is used to terminate the loop entirely and stop further iterations.",
+        "answerDescription": "`break` exits the loop immediately, skipping any remaining iterations."
+      },
+      {
+        "id": "mean_1441",
+        "question": "What does the `typeof` operator do in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "Checks if a variable is an array", "isCorrect": false },
+          { "id": "option_2", "text": "Returns the type of a variable", "isCorrect": true },
+          { "id": "option_3", "text": "Returns the value of a variable", "isCorrect": false },
+          { "id": "option_4", "text": "Converts a variable to a string", "isCorrect": false }
+        ],
+        "hint": "`typeof` is used to get the type of a variable.",
+        "answerDescription": "`typeof` returns a string indicating the type of the unevaluated operand (e.g., 'string', 'number')."
+      },
+      {
+        "id": "mean_1442",
+        "question": "Which of the following is NOT a valid JavaScript data type?",
+        "options": [
+          { "id": "option_1", "text": "boolean", "isCorrect": false },
+          { "id": "option_2", "text": "string", "isCorrect": false },
+          { "id": "option_3", "text": "int", "isCorrect": true },
+          { "id": "option_4", "text": "object", "isCorrect": false }
+        ],
+        "hint": "In JavaScript, there is no `int` data type. Numbers are represented by the `number` type.",
+        "answerDescription": "`int` is not a valid data type in JavaScript. The correct data type is `number`."
+      },
+      {
+        "id": "mean_1443",
+        "question": "What does the `bind()` method do in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "It binds an object to a function", "isCorrect": true },
+          { "id": "option_2", "text": "It executes a function immediately", "isCorrect": false },
+          { "id": "option_3", "text": "It checks if a function is bound to an object", "isCorrect": false },
+          { "id": "option_4", "text": "It creates a new function with a fixed context", "isCorrect": false }
+        ],
+        "hint": "`bind()` returns a new function that, when invoked, has its `this` value set to the provided value.",
+        "answerDescription": "`bind()` creates a new function that, when called, has its `this` keyword set to a specific value."
+      },
+    
+      {
+        "id": "mean_1444",
+        "question": "What does the `reduce()` method do in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "It filters the elements of the array", "isCorrect": false },
+          { "id": "option_2", "text": "It removes elements from the array", "isCorrect": false },
+          { "id": "option_3", "text": "It adds an element to the array", "isCorrect": false },
+          { "id": "option_1", "text": "It reduces the array size to 1 value", "isCorrect": true }
+        ],
+        "hint": "`reduce()` is used to apply a function to each element of the array, resulting in a single output value.",
+        "answerDescription": "`reduce()` applies a function to each element in the array (from left to right) and accumulates the result into a single value."
+      },
+      {
+        "id": "mean_1445",
+        "question": "Which of the following statements is used to define a class in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "function MyClass() {}", "isCorrect": false },
+          { "id": "option_1", "text": "class MyClass {}", "isCorrect": true },
+          { "id": "option_4", "text": "object MyClass {}", "isCorrect": false },
+          { "id": "option_2", "text": "define MyClass {}", "isCorrect": false }
+        ],
+        "hint": "Classes are defined using the `class` keyword in JavaScript.",
+        "answerDescription": "To define a class, you use the `class` keyword followed by the class name and a set of curly braces."
+      },
+      {
+        "id": "mean_1446",
+        "question": "How can you prevent a function from being called multiple times in a short period in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "By using `setInterval()`", "isCorrect": false },
+          { "id": "option_1", "text": "By using `debounce()`", "isCorrect": true },
+          { "id": "option_4", "text": "By using `async/await`", "isCorrect": false },
+          { "id": "option_2", "text": "By using `setTimeout()`", "isCorrect": false }
+        ],
+        "hint": "Debouncing is a technique used to ensure that a function is not called multiple times within a short time frame.",
+        "answerDescription": "`debounce()` ensures that a function is only invoked once, even if it is triggered many times in quick succession."
+      },
+      {
+        "id": "mean_1447",
+        "question": "Which of the following is the correct way to access a property of an object in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "object{property}", "isCorrect": false },
+          { "id": "option_1", "text": "object.property", "isCorrect": true },
+          { "id": "option_2", "text": "object['property']", "isCorrect": false },
+          { "id": "option_3", "text": "object->property", "isCorrect": false }
+        ],
+        "hint": "There are two ways to access properties: dot notation and bracket notation.",
+        "answerDescription": "Both dot notation (`object.property`) and bracket notation (`object['property']`) are valid ways to access object properties in JavaScript."
+      },
+      {
+        "id": "mean_1448",
+        "question": "Which of the following is used to handle asynchronous operations in JavaScript?",
+        "options": [
+          { "id": "option_2", "text": "for loops", "isCorrect": false },
+          { "id": "option_4", "text": "switch statements", "isCorrect": false },
+          { "id": "option_3", "text": "synchronous functions", "isCorrect": false },
+          { "id": "option_1", "text": "callbacks", "isCorrect": true }
+        ],
+        "hint": "Callbacks are functions that are passed into other functions and are invoked once the operation completes.",
+        "answerDescription": "Callbacks are commonly used to handle asynchronous code, ensuring that actions occur only after an asynchronous task completes."
+      },
+      {
+        "id": "mean_1449",
+        "question": "What is the result of the expression `5 + '5'` in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "undefined", "isCorrect": false },
+          { "id": "option_3", "text": "Error", "isCorrect": false },
+          { "id": "option_2", "text": "10", "isCorrect": false },
+          { "id": "option_1", "text": "55", "isCorrect": true }
+        ],
+        "hint": "In JavaScript, when you add a number to a string, the result will be a string concatenation.",
+        "answerDescription": "`5 + '5'` results in the string `'55'` due to implicit type conversion in JavaScript."
+      },
+      {
+        "id": "mean_1450",
+        "question": "Which method would you use to remove the first element from an array in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "unshift()", "isCorrect": false },
+          { "id": "option_4", "text": "splice()", "isCorrect": false },
+          { "id": "option_1", "text": "shift()", "isCorrect": true },
+          { "id": "option_2", "text": "pop()", "isCorrect": false }
+        ],
+        "hint": "`shift()` removes the first element from an array and returns that element.",
+        "answerDescription": "`shift()` removes the first element from an array, modifying the original array."
+      },
+      {
+        "id": "mean_1451",
+        "question": "What is the purpose of `async` and `await` in JavaScript?",
+        "options": [
+          { "id": "option_2", "text": "To create an infinite loop", "isCorrect": false },
+          { "id": "option_3", "text": "To delay the execution of a function", "isCorrect": false },
+          { "id": "option_4", "text": "To convert promises into callbacks", "isCorrect": false },
+          { "id": "option_1", "text": "To handle asynchronous operations in a cleaner and more readable way", "isCorrect": true }
+        ],
+        "hint": "`async` functions allow the use of `await` for handling promises in a synchronous-like manner.",
+        "answerDescription": "`async/await` allows you to work with asynchronous code in a more synchronous-looking way, improving readability and maintainability."
+      },
+      {
+        "id": "mean_1452",
+        "question": "What is the correct way to declare an arrow function in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "function => (param) { }", "isCorrect": false },
+          { "id": "option_4", "text": "=> function(param) { }", "isCorrect": false },
+          { "id": "option_1", "text": "(param) => { }", "isCorrect": true },
+          { "id": "option_2", "text": "function(param) => { }", "isCorrect": false }
+        ],
+        "hint": "Arrow functions are written using the `() => {}` syntax.",
+        "answerDescription": "Arrow functions are defined using the syntax `(param) => {}` which makes function declarations more concise."
+      },
+      {
+        "id": "mean_1453",
+        "question": "Which of the following is a falsy value in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "[]", "isCorrect": false },
+          { "id": "option_3", "text": "{}", "isCorrect": false },
+          { "id": "option_2", "text": "true", "isCorrect": false },
+          { "id": "option_1", "text": "0", "isCorrect": true }
+        ],
+        "hint": "Falsy values in JavaScript include `0`, `null`, `undefined`, `false`, `NaN`, and an empty string.",
+        "answerDescription": "`0` is a falsy value in JavaScript, meaning it evaluates to `false` in a boolean context."
+      },
+      {
+        "id": "mean_1454",
+        "question": "Which method is used to add an element to the end of an array in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "push()", "isCorrect": true },
+          { "id": "option_2", "text": "pop()", "isCorrect": false },
+          { "id": "option_3", "text": "shift()", "isCorrect": false },
+          { "id": "option_4", "text": "unshift()", "isCorrect": false }
+        ],
+        "hint": "`push()` adds one or more elements to the end of an array.",
+        "answerDescription": "`push()` adds elements to the end of an array and returns the new length of the array."
+      },
+      {
+        "id": "mean_1455",
+        "question": "What is the default value of a variable declared with `var` in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "undefined", "isCorrect": true },
+          { "id": "option_2", "text": "null", "isCorrect": false },
+          { "id": "option_1", "text": "0", "isCorrect": false },
+          { "id": "option_4", "text": "false", "isCorrect": false }
+        ],
+        "hint": "When a variable is declared with `var` and no value is assigned, it defaults to `undefined`.",
+        "answerDescription": "A `var` declared without an initial value is automatically assigned `undefined`."
+      },
+      {
+        "id": "mean_1456",
+        "question": "Which of the following will convert a string to a number in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "parseInt()", "isCorrect": true },
+          { "id": "option_1", "text": "toString()", "isCorrect": false },
+          { "id": "option_3", "text": "split()", "isCorrect": false },
+          { "id": "option_2", "text": "charAt()", "isCorrect": false }
+        ],
+        "hint": "`parseInt()` is used to convert strings to integers.",
+        "answerDescription": "`parseInt()` parses a string and converts it to an integer number."
+      },
+      {
+        "id": "mean_1457",
+        "question": "What does the `typeof` operator do in JavaScript?",
+        "options": [
+          { "id": "option_2", "text": "Checks the data type of a variable", "isCorrect": true },
+          { "id": "option_4", "text": "Compares two variables", "isCorrect": false },
+          { "id": "option_1", "text": "Assigns a type to a variable", "isCorrect": false },
+          { "id": "option_3", "text": "Converts a variable's type", "isCorrect": false }
+        ],
+        "hint": "`typeof` returns a string indicating the type of a given variable.",
+        "answerDescription": "`typeof` is used to check the type of a variable, such as whether it is a string, number, etc."
+      },
+      {
+        "id": "mean_1458",
+        "question": "What is the output of the following code: `console.log([] == false)`?",
+        "options": [
+          { "id": "option_1", "text": "false", "isCorrect": false },
+          { "id": "option_4", "text": "true", "isCorrect": true },
+          { "id": "option_3", "text": "undefined", "isCorrect": false },
+          { "id": "option_2", "text": "Error", "isCorrect": false }
+        ],
+        "hint": "In JavaScript, `[]` is coerced to `false` during comparison.",
+        "answerDescription": "When comparing an empty array `[]` to `false`, JavaScript converts the array to a falsy value, resulting in `true`."
+      },
+      {
+        "id": "mean_1459",
+        "question": "Which function is used to parse JSON data into a JavaScript object?",
+        "options": [
+          { "id": "option_3", "text": "JSON.parse()", "isCorrect": true },
+          { "id": "option_2", "text": "JSON.stringify()", "isCorrect": false },
+          { "id": "option_1", "text": "JSON.objectify()", "isCorrect": false },
+          { "id": "option_4", "text": "JSON.toObject()", "isCorrect": false }
+        ],
+        "hint": "`JSON.parse()` is used to convert a JSON string into a JavaScript object.",
+        "answerDescription": "`JSON.parse()` takes a JSON string and converts it into a JavaScript object."
+      },
+      {
+        "id": "mean_1460",
+        "question": "What is the result of the expression `false == '0'` in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "true", "isCorrect": true },
+          { "id": "option_1", "text": "false", "isCorrect": false },
+          { "id": "option_2", "text": "undefined", "isCorrect": false },
+          { "id": "option_3", "text": "NaN", "isCorrect": false }
+        ],
+        "hint": "JavaScript uses type coercion during equality comparisons.",
+        "answerDescription": "JavaScript performs type coercion, converting the string `'0'` to a number, resulting in `false == 0` which evaluates to `true`."
+      },
+      {
+        "id": "mean_1461",
+        "question": "What will the following code return: `[].length`?",
+        "options": [
+          { "id": "option_1", "text": "0", "isCorrect": true },
+          { "id": "option_3", "text": "undefined", "isCorrect": false },
+          { "id": "option_2", "text": "null", "isCorrect": false },
+          { "id": "option_4", "text": "false", "isCorrect": false }
+        ],
+        "hint": "The `length` property gives the number of elements in an array.",
+        "answerDescription": "An empty array has no elements, so `[].length` returns `0`."
+      },
+      {
+        "id": "mean_1462",
+        "question": "Which of the following is used to stop the propagation of an event in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "stopPropagation()", "isCorrect": true },
+          { "id": "option_1", "text": "preventDefault()", "isCorrect": false },
+          { "id": "option_2", "text": "haltEvent()", "isCorrect": false },
+          { "id": "option_3", "text": "cancelEvent()", "isCorrect": false }
+        ],
+        "hint": "`stopPropagation()` prevents the event from bubbling up the DOM tree.",
+        "answerDescription": "`stopPropagation()` stops the event from propagating (bubbling) up to the parent elements."
+      },
+      {
+        "id": "mean_1463",
+        "question": "Which operator is used to check equality without type coercion in JavaScript?",
+        "options": [
+          { "id": "option_2", "text": "===", "isCorrect": true },
+          { "id": "option_1", "text": "==", "isCorrect": false },
+          { "id": "option_4", "text": "!==", "isCorrect": false },
+          { "id": "option_3", "text": ">", "isCorrect": false }
+        ],
+        "hint": "`===` compares both value and type, without type coercion.",
+        "answerDescription": "`===` is the strict equality operator, comparing both value and type without performing type coercion."
+      },
+      {
+        "id": "mean_1464",
+        "question": "What does the `filter()` method do in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "It creates a new array with elements that pass the test", "isCorrect": true },
+          { "id": "option_2", "text": "It adds an element to the array", "isCorrect": false },
+          { "id": "option_1", "text": "It removes an element from the array", "isCorrect": false },
+          { "id": "option_4", "text": "It sorts the elements of the array", "isCorrect": false }
+        ],
+        "hint": "`filter()` creates a new array with all elements that pass the test implemented by the provided function.",
+        "answerDescription": "`filter()` returns a new array containing all elements from the original array that satisfy the condition in the provided function."
+      },
+      {
+        "id": "mean_1465",
+        "question": "Which of the following is the correct syntax to define a function in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "function myFunction() {}", "isCorrect": true },
+          { "id": "option_1", "text": "myFunction = function() {}", "isCorrect": false },
+          { "id": "option_2", "text": "def myFunction() {}", "isCorrect": false },
+          { "id": "option_4", "text": "func myFunction() {}", "isCorrect": false }
+        ],
+        "hint": "The standard way to define a function is using the `function` keyword followed by the function name and parentheses.",
+        "answerDescription": "The correct syntax to define a function in JavaScript is `function myFunction() {}`."
+      },
+      {
+        "id": "mean_1466",
+        "question": "What does the `concat()` method do in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "It merges two or more arrays into one", "isCorrect": true },
+          { "id": "option_1", "text": "It adds a new element at the beginning of the array", "isCorrect": false },
+          { "id": "option_2", "text": "It removes the last element from the array", "isCorrect": false },
+          { "id": "option_3", "text": "It returns the length of the array", "isCorrect": false }
+        ],
+        "hint": "`concat()` combines two or more arrays into a single array without modifying the original arrays.",
+        "answerDescription": "`concat()` returns a new array that contains the elements from the original array and the added arrays."
+      },
+      {
+        "id": "mean_1467",
+        "question": "How do you write an infinite loop in JavaScript?",
+        "options": [
+          { "id": "option_2", "text": "while(true) {}", "isCorrect": true },
+          { "id": "option_3", "text": "for(;;) {}", "isCorrect": false },
+          { "id": "option_1", "text": "loop() {}", "isCorrect": false },
+          { "id": "option_4", "text": "do{}while(true)", "isCorrect": false }
+        ],
+        "hint": "An infinite loop is a loop that never ends, which can be created using `while(true)` or `for(;;)`.",
+        "answerDescription": "The syntax `while(true) {}` creates an infinite loop that runs continuously."
+      },
+      {
+        "id": "mean_1468",
+        "question": "Which of the following will not work as a valid JavaScript variable name?",
+        "options": [
+          { "id": "option_1", "text": "1stVariable", "isCorrect": true },
+          { "id": "option_3", "text": "_myVar", "isCorrect": false },
+          { "id": "option_2", "text": "$myVar", "isCorrect": false },
+          { "id": "option_4", "text": "myVar1", "isCorrect": false }
+        ],
+        "hint": "Variable names in JavaScript cannot begin with a number.",
+        "answerDescription": "In JavaScript, variable names cannot start with a number, so `1stVariable` is not a valid name."
+      },
+      {
+        "id": "mean_1469",
+        "question": "Which JavaScript function is used to parse a JSON string into a JavaScript object?",
+        "options": [
+          { "id": "option_2", "text": "JSON.parse()", "isCorrect": true },
+          { "id": "option_3", "text": "JSON.stringify()", "isCorrect": false },
+          { "id": "option_1", "text": "JSON.objectify()", "isCorrect": false },
+          { "id": "option_4", "text": "JSON.parseObject()", "isCorrect": false }
+        ],
+        "hint": "`JSON.parse()` is used to parse a JSON string into an object.",
+        "answerDescription": "`JSON.parse()` converts a JSON string into a corresponding JavaScript object."
+      },
+      {
+        "id": "mean_1470",
+        "question": "What does the `setTimeout()` function do in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "Executes a function after a specified number of milliseconds", "isCorrect": true },
+          { "id": "option_1", "text": "Executes a function immediately", "isCorrect": false },
+          { "id": "option_3", "text": "Repeats a function at a set interval", "isCorrect": false },
+          { "id": "option_2", "text": "Stops the execution of the code", "isCorrect": false }
+        ],
+        "hint": "`setTimeout()` executes a function after a certain delay specified in milliseconds.",
+        "answerDescription": "`setTimeout()` allows you to schedule the execution of a function after a specified delay."
+      },
+      {
+        "id": "mean_1471",
+        "question": "What is the correct way to create a new object in JavaScript?",
+        "options": [
+          { "id": "option_2", "text": "var obj = {};", "isCorrect": true },
+          { "id": "option_4", "text": "var obj = Object();", "isCorrect": false },
+          { "id": "option_1", "text": "var obj = [];", "isCorrect": false },
+          { "id": "option_3", "text": "var obj = createObject();", "isCorrect": false }
+        ],
+        "hint": "Objects can be created using object literals or by calling the `Object()` constructor.",
+        "answerDescription": "The syntax `var obj = {};` creates a new object using an object literal."
+      },
+      {
+        "id": "mean_1472",
+        "question": "How do you check if a variable is an array in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "Array.isArray(variable)", "isCorrect": true },
+          { "id": "option_2", "text": "typeof variable === 'array'", "isCorrect": false },
+          { "id": "option_3", "text": "variable instanceof Array", "isCorrect": false },
+          { "id": "option_1", "text": "variable.isArray()", "isCorrect": false }
+        ],
+        "hint": "`Array.isArray()` is the standard method to check if a variable is an array.",
+        "answerDescription": "`Array.isArray(variable)` is the correct method to check if a variable is an array in JavaScript."
+      },
+      {
+        "id": "mean_1473",
+        "question": "What does the `splice()` method do in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "It adds or removes elements from an array", "isCorrect": true },
+          { "id": "option_2", "text": "It sorts an array", "isCorrect": false },
+          { "id": "option_3", "text": "It combines arrays", "isCorrect": false },
+          { "id": "option_4", "text": "It reverses the order of an array", "isCorrect": false }
+        ],
+        "hint": "`splice()` allows you to add or remove elements from an array at a specific index.",
+        "answerDescription": "`splice()` can be used to add or remove elements from an array, modifying the original array."
+      }, {
+        "id": "mean_1474",
+        "question": "Which of the following is used to check if a condition is true or false in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "if statement", "isCorrect": false },
+          { "id": "option_3", "text": "boolean expression", "isCorrect": false },
+          { "id": "option_4", "text": "conditional operator", "isCorrect": true },
+          { "id": "option_2", "text": "for loop", "isCorrect": false }
+        ],
+        "hint": "You can use the `if` statement or conditional operators to evaluate conditions in JavaScript.",
+        "answerDescription": "The conditional operator (`condition ? value1 : value2`) allows checking conditions in a more concise form."
+      },
+      {
+        "id": "mean_1475",
+        "question": "What will be the output of `console.log(typeof null)` in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "object", "isCorrect": true },
+          { "id": "option_2", "text": "null", "isCorrect": false },
+          { "id": "option_1", "text": "undefined", "isCorrect": false },
+          { "id": "option_3", "text": "boolean", "isCorrect": false }
+        ],
+        "hint": "In JavaScript, `null` is considered an object due to a historical bug.",
+        "answerDescription": "The expression `typeof null` returns `object` because of a bug in JavaScript's `typeof` operator."
+      },
+      {
+        "id": "mean_1476",
+        "question": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "let variable;", "isCorrect": false },
+          { "id": "option_3", "text": "var variable;", "isCorrect": false },
+          { "id": "option_4", "text": "constant variable;", "isCorrect": true },
+          { "id": "option_2", "text": "const variable;", "isCorrect": false }
+        ],
+        "hint": "Variables are declared using `let`, `const`, and `var`, but `constant` is not a valid keyword.",
+        "answerDescription": "`constant` is not a valid keyword for declaring variables in JavaScript. `const` is the correct one."
+      },
+      {
+        "id": "mean_1477",
+        "question": "Which of the following methods would you use to find the length of an array in JavaScript?",
+        "options": [
+          { "id": "option_2", "text": "array.size", "isCorrect": false },
+          { "id": "option_1", "text": "array.length", "isCorrect": true },
+          { "id": "option_3", "text": "array.count", "isCorrect": false },
+          { "id": "option_4", "text": "array.getLength()", "isCorrect": false }
+        ],
+        "hint": "Arrays in JavaScript have a built-in `length` property to determine their size.",
+        "answerDescription": "`array.length` returns the number of elements in an array."
+      },
+      {
+        "id": "mean_1478",
+        "question": "What does the `map()` function do in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "It creates a new array by applying a function to each element", "isCorrect": true },
+          { "id": "option_2", "text": "It sorts the elements of an array", "isCorrect": false },
+          { "id": "option_4", "text": "It filters out elements of an array", "isCorrect": false },
+          { "id": "option_3", "text": "It merges two arrays into one", "isCorrect": false }
+        ],
+        "hint": "`map()` creates a new array by applying a function to each element of the original array.",
+        "answerDescription": "`map()` returns a new array with the results of calling a function for each array element."
+      },
+      {
+        "id": "mean_1479",
+        "question": "Which method is used to find the index of an element in an array in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "array.getIndex()", "isCorrect": false },
+          { "id": "option_2", "text": "array.indexOf()", "isCorrect": true },
+          { "id": "option_1", "text": "array.findIndex()", "isCorrect": false },
+          { "id": "option_4", "text": "array.locate()", "isCorrect": false }
+        ],
+        "hint": "`indexOf()` is the method used to find the index of the first occurrence of an element in an array.",
+        "answerDescription": "`indexOf()` returns the index of the first occurrence of an element in an array, or `-1` if it's not found."
+      },
+      {
+        "id": "mean_1480",
+        "question": "What is the result of the expression `2 == '2'` in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "true", "isCorrect": true },
+          { "id": "option_4", "text": "false", "isCorrect": false },
+          { "id": "option_2", "text": "NaN", "isCorrect": false },
+          { "id": "option_3", "text": "undefined", "isCorrect": false }
+        ],
+        "hint": "In JavaScript, `==` compares values with type coercion.",
+        "answerDescription": "`2 == '2'` returns `true` because JavaScript coerces the string `'2'` to a number before comparison."
+      },
+      {
+        "id": "mean_1481",
+        "question": "What does the `typeof` operator do in JavaScript?",
+        "options": [
+          { "id": "option_2", "text": "It checks if a value is null", "isCorrect": false },
+          { "id": "option_3", "text": "It returns the type of a value", "isCorrect": true },
+          { "id": "option_1", "text": "It casts a value to a specific type", "isCorrect": false },
+          { "id": "option_4", "text": "It checks if a value is undefined", "isCorrect": false }
+        ],
+        "hint": "`typeof` is used to return the type of a variable or expression in JavaScript.",
+        "answerDescription": "`typeof` returns a string that represents the type of a given operand, such as `number`, `string`, etc."
+      },
+      {
+        "id": "mean_1482",
+        "question": "What is the purpose of the `continue` statement in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "It stops the current function execution", "isCorrect": false },
+          { "id": "option_4", "text": "It skips the current iteration of a loop and moves to the next iteration", "isCorrect": true },
+          { "id": "option_2", "text": "It exits the loop immediately", "isCorrect": false },
+          { "id": "option_1", "text": "It pauses the loop for a specific time", "isCorrect": false }
+        ],
+        "hint": "`continue` skips the rest of the current iteration in a loop and moves to the next iteration.",
+        "answerDescription": "The `continue` statement causes the loop to skip the current iteration and proceed to the next iteration."
+      },
+      {
+        "id": "mean_1483",
+        "question": "Which operator is used for strict equality comparison in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "=== (strict equality)", "isCorrect": true },
+          { "id": "option_1", "text": "== (loose equality)", "isCorrect": false },
+          { "id": "option_2", "text": "<=>", "isCorrect": false },
+          { "id": "option_3", "text": "!== (strict inequality)", "isCorrect": false }
+        ],
+        "hint": "`===` is used for strict equality comparison, meaning both value and type must be the same.",
+        "answerDescription": "`===` compares both value and type, ensuring they are exactly the same."
+      },        
+      {
+        "id": "mean_1484",
+        "question": "Which of the following methods is used to add one or more elements to the end of an array in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "push()", "isCorrect": true },
+          { "id": "option_4", "text": "shift()", "isCorrect": false },
+          { "id": "option_2", "text": "pop()", "isCorrect": false },
+          { "id": "option_3", "text": "unshift()", "isCorrect": false }
+        ],
+        "hint": "`push()` adds one or more elements to the end of an array.",
+        "answerDescription": "`push()` is used to add one or more elements to the end of an array, modifying the original array."
+      },
+      {
+        "id": "mean_1485",
+        "question": "Which of the following statements is used to define a function in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "function myFunction() {}", "isCorrect": true },
+          { "id": "option_1", "text": "def myFunction() {}", "isCorrect": false },
+          { "id": "option_2", "text": "func myFunction() {}", "isCorrect": false },
+          { "id": "option_4", "text": "function: myFunction() {}", "isCorrect": false }
+        ],
+        "hint": "In JavaScript, functions are defined using the `function` keyword.",
+        "answerDescription": "A function is defined using the `function` keyword followed by the function name and parentheses."
+      },
+      {
+        "id": "mean_1486",
+        "question": "Which of the following is the correct way to create an object in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "var obj = {};", "isCorrect": true },
+          { "id": "option_3", "text": "var obj = [];", "isCorrect": false },
+          { "id": "option_2", "text": "var obj = ();", "isCorrect": false },
+          { "id": "option_4", "text": "var obj = null;", "isCorrect": false }
+        ],
+        "hint": "Objects are created using curly braces `{}` in JavaScript.",
+        "answerDescription": "You can create an object in JavaScript using `{}` with key-value pairs inside."
+      },
+      {
+        "id": "mean_1487",
+        "question": "Which of the following is a truthy value in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "1", "isCorrect": true },
+          { "id": "option_2", "text": "0", "isCorrect": false },
+          { "id": "option_1", "text": "'' (empty string)", "isCorrect": false },
+          { "id": "option_4", "text": "null", "isCorrect": false }
+        ],
+        "hint": "Truth values in JavaScript include non-zero numbers, non-empty strings, and other values that are not falsy.",
+        "answerDescription": "In JavaScript, `1` is a truthy value, meaning it evaluates to `true` in a boolean context."
+      },
+      {
+        "id": "mean_1488",
+        "question": "What will be the result of the following expression: `3 + 2 + '7'`?",
+        "options": [
+          { "id": "option_2", "text": "'57'", "isCorrect": true },
+          { "id": "option_4", "text": "12", "isCorrect": false },
+          { "id": "option_1", "text": "57", "isCorrect": false },
+          { "id": "option_3", "text": "NaN", "isCorrect": false }
+        ],
+        "hint": "In JavaScript, when you add a number and a string, the number is coerced into a string, and they are concatenated.",
+        "answerDescription": "`3 + 2 + '7'` results in the string `'57'` because JavaScript coerces the numbers into a string and concatenates them."
+      },
+      {
+        "id": "mean_1489",
+        "question": "Which method would you use to remove the last element from an array in JavaScript?",
+        "options": [
+          { "id": "option_2", "text": "pop()", "isCorrect": true },
+          { "id": "option_3", "text": "shift()", "isCorrect": false },
+          { "id": "option_1", "text": "unshift()", "isCorrect": false },
+          { "id": "option_4", "text": "splice()", "isCorrect": false }
+        ],
+        "hint": "`pop()` removes the last element of an array.",
+        "answerDescription": "`pop()` removes and returns the last element of an array, modifying the original array."
+      },
+      {
+        "id": "mean_1490",
+        "question": "How can you define a constant variable in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "const variableName;", "isCorrect": true },
+          { "id": "option_2", "text": "let variableName;", "isCorrect": false },
+          { "id": "option_1", "text": "var variableName;", "isCorrect": false },
+          { "id": "option_4", "text": "constant variableName;", "isCorrect": false }
+        ],
+        "hint": "In JavaScript, constants are defined using the `const` keyword.",
+        "answerDescription": "`const` is used to declare variables whose values cannot be reassigned after initialization."
+      },
+      {
+        "id": "mean_1491",
+        "question": "Which of the following methods can be used to convert a string to a number in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "Number()", "isCorrect": true },
+          { "id": "option_2", "text": "parseInt()", "isCorrect": false },
+          { "id": "option_1", "text": "toNumber()", "isCorrect": false },
+          { "id": "option_3", "text": "convertTo()", "isCorrect": false }
+        ],
+        "hint": "`Number()` and `parseInt()` can be used to convert a string to a number in JavaScript.",
+        "answerDescription": "`Number()` converts a string to a number, or `NaN` if the conversion fails."
+      },
+      {
+        "id": "mean_1492",
+        "question": "What is the default value of `this` in a regular function in JavaScript?",
+        "options": [
+         { "id": "option_1", "text": "undefined", "isCorrect": false },
+          { "id": "option_2", "text": "global object (window in browsers)", "isCorrect": true },
+          { "id": "option_3", "text": "null", "isCorrect": false },
+          { "id": "option_4", "text": "the object calling the function", "isCorrect": false }
+        ],
+        "hint": "In a regular function, `this` refers to the global object (such as `window` in browsers) when not explicitly set.",
+        "answerDescription": "In non-strict mode, the default value of `this` inside a function is the global object, typically `window` in browsers."
+      },
+      {
+        "id": "mean_1493",
+        "question": "Which of the following operators is used to check for both value and type equality in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "===" , "isCorrect": true },
+          { "id": "option_2", "text": "==" , "isCorrect": false },
+          { "id": "option_3", "text": "!==" , "isCorrect": false },
+          { "id": "option_4", "text": "<=>" , "isCorrect": false }
+        ],
+        "hint": "`===` checks both value and type equality without type coercion.",
+        "answerDescription": "`===` is the strict equality operator, which checks both value and type equality in JavaScript."
+      },    
+      {
+        "id": "mean_1494",
+        "question": "Which of the following is used to create a new array by transforming the elements of an existing array in JavaScript?",
+        "options": [
+          { "id": "option_3", "text": "map()", "isCorrect": true },
+          { "id": "option_2", "text": "reduce()", "isCorrect": false },
+          { "id": "option_1", "text": "filter()", "isCorrect": false },
+          { "id": "option_4", "text": "forEach()", "isCorrect": false }
+        ],
+        "hint": "`map()` creates a new array populated with the results of calling a provided function on every element in the array.",
+        "answerDescription": "`map()` creates a new array with the results of applying a function to each element of the original array."
+      },
+      {
+        "id": "mean_1495",
+        "question": "What is the purpose of `localStorage` in JavaScript?",
+        "options": [
+          { "id": "option_2", "text": "To store data persistently on the client-side", "isCorrect": true },
+          { "id": "option_3", "text": "To store data temporarily in memory", "isCorrect": false },
+          { "id": "option_1", "text": "To store cookies on the server-side", "isCorrect": false },
+          { "id": "option_4", "text": "To store data in an external database", "isCorrect": false }
+        ],
+        "hint": "`localStorage` is a web storage API that allows you to store data persistently in the browser.",
+        "answerDescription": "`localStorage` allows you to store key-value pairs in a web browser with no expiration time."
+      },
+      {
+        "id": "mean_1496",
+        "question": "Which of the following methods is used to parse a JSON string into a JavaScript object?",
+        "options": [
+          { "id": "option_3", "text": "JSON.parse()", "isCorrect": true },
+          { "id": "option_2", "text": "JSON.stringify()", "isCorrect": false },
+          { "id": "option_1", "text": "JSON.object()", "isCorrect": false },
+          { "id": "option_4", "text": "parseJSON()", "isCorrect": false }
+        ],
+        "hint": "`JSON.parse()` is used to convert a JSON string into a JavaScript object.",
+        "answerDescription": "`JSON.parse()` is used to parse a JSON string and convert it into a JavaScript object."
+      },
+      {
+        "id": "mean_1497",
+        "question": "Which of the following is the correct way to handle errors in JavaScript using try-catch?",
+        "options": [
+          { "id": "option_4", "text": "try { } catch (error) { }", "isCorrect": true },
+          { "id": "option_1", "text": "try { } catch error { }", "isCorrect": false },
+          { "id": "option_3", "text": "catch { } try { }", "isCorrect": false },
+          { "id": "option_2", "text": "catch (error) { } try { }", "isCorrect": false }
+        ],
+        "hint": "The correct syntax for error handling in JavaScript uses `try { } catch (error) { }`.",
+        "answerDescription": "In JavaScript, the correct syntax to handle errors is `try { } catch (error) { }`."
+      },
+      {
+        "id": "mean_1498",
+        "question": "Which of the following is the correct syntax to import a module in JavaScript?",
+        "options": [
+          { "id": "option_2", "text": "import moduleName from 'module';", "isCorrect": true },
+          { "id": "option_3", "text": "import 'module' from moduleName;", "isCorrect": false },
+          { "id": "option_4", "text": "require('module');", "isCorrect": false },
+          { "id": "option_1", "text": "import module from 'module';", "isCorrect": false }
+        ],
+        "hint": "The `import` statement is used to bring in modules in JavaScript.",
+        "answerDescription": "The correct syntax to import a module in JavaScript is `import moduleName from 'module';`."
+      },
+      {
+        "id": "mean_1499",
+        "question": "What does the `filter()` method do in JavaScript?",
+        "options": [
+          { "id": "option_1", "text": "Creates a new array with elements that pass a test", "isCorrect": true },
+          { "id": "option_3", "text": "Modifies the original array", "isCorrect": false },
+          { "id": "option_2", "text": "Executes a function for each element", "isCorrect": false },
+          { "id": "option_4", "text": "Adds new elements to the array", "isCorrect": false }
+        ],
+        "hint": "`filter()` is used to create a new array with elements that satisfy a given condition.",
+        "answerDescription": "`filter()` creates a new array containing only the elements that pass the test defined by the provided function."
+      },
+      {
+        "id": "mean_1500",
+        "question": "Which of the following is the correct way to call a function immediately after its definition in JavaScript?",
+        "options": [
+          { "id": "option_4", "text": "(function() { })();", "isCorrect": true },
+          { "id": "option_1", "text": "function() { }();", "isCorrect": false },
+          { "id": "option_2", "text": "(function() { })", "isCorrect": false },
+          { "id": "option_3", "text": "function() { }", "isCorrect": false }
+        ],
+        "hint": "An immediately invoked function expression (IIFE) is executed right after its definition.",
+        "answerDescription": "An IIFE (Immediately Invoked Function Expression) is called by appending `()` to the function definition, like `(function() { })();`."
+      }
+    
 
   ]
   
