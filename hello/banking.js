@@ -18762,8 +18762,8 @@
     "question": "What is the maximum limit for a single transaction on the UPI (Unified Payments Interface) platform?",
     "options": [
       { "id": "option_1", "text": "₹1,00,000", "isCorrect": false },
-      { "id": "option_2", "text": "₹2,00,000", "isCorrect": true },
-      { "id": "option_3", "text": "₹50,000", "isCorrect": false },
+      { "id": "option_2", "text": "₹50,000", "isCorrect": false },
+      { "id": "option_3", "text":"₹2,00,000", "isCorrect": true },
       { "id": "option_4", "text": "₹5,00,000", "isCorrect": false }
     ],
     "hint": "This limit is set to ensure secure transactions and prevent misuse of the platform.",
@@ -18858,9 +18858,9 @@
     "question": "What is the maximum number of beneficiaries allowed under the Pradhan Mantri Jan Dhan Yojana (PMJDY) for a single bank branch?",
     "options": [
       { "id": "option_1", "text": "1 lakh", "isCorrect": false },
-      { "id": "option_2", "text": "2 lakh", "isCorrect": true },
+      { "id": "option_2", "text":"5 lakh", "isCorrect": false },
       { "id": "option_3", "text": "50,000", "isCorrect": false },
-      { "id": "option_4", "text": "5 lakh", "isCorrect": false }
+      { "id": "option_4", "text": "2 lakh", "isCorrect": true }
     ],
     "hint": "This scheme focuses on ensuring access to financial services for unbanked individuals.",
     "answerDescription": "Under the Pradhan Mantri Jan Dhan Yojana, a single bank branch can have up to 2 lakh beneficiaries."
@@ -18870,8 +18870,8 @@
     "question": "Which financial instrument is commonly used by RBI to control inflation by limiting the money supply in the economy?",
     "options": [
       { "id": "option_1", "text": "Repo Rate", "isCorrect": false },
-      { "id": "option_2", "text": "Cash Reserve Ratio (CRR)", "isCorrect": true },
-      { "id": "option_3", "text": "Open Market Operations (OMO)", "isCorrect": false },
+      { "id": "option_2", "text": "Open Market Operations (OMO)", "isCorrect": false },
+      { "id": "option_3", "text":"Cash Reserve Ratio (CRR)", "isCorrect": true},
       { "id": "option_4", "text": "Bank Rate", "isCorrect": false }
     ],
     "hint": "This tool requires banks to keep a certain percentage of their total deposits in reserve with the RBI.",
@@ -18882,9 +18882,9 @@
     "question": "Which Indian bank was the first to launch a mobile wallet service for its customers?",
     "options": [
       { "id": "option_1", "text": "HDFC Bank", "isCorrect": false },
-      { "id": "option_2", "text": "ICICI Bank", "isCorrect": true },
+      { "id": "option_2",  "text": "State Bank of India", "isCorrect": false },
       { "id": "option_3", "text": "Axis Bank", "isCorrect": false },
-      { "id": "option_4", "text": "State Bank of India", "isCorrect": false }
+      { "id": "option_4","text": "ICICI Bank", "isCorrect": true }
     ],
     "hint": "This bank introduced a mobile wallet to provide seamless payments and financial services to users.",
     "answerDescription": "ICICI Bank was the first Indian bank to launch a mobile wallet service, aimed at providing easier payments through mobile phones."
@@ -18906,8 +18906,8 @@
     "question": "Which of the following is a type of insurance that provides coverage for an individual's life?",
     "options": [
       { "id": "option_1", "text": "Health Insurance", "isCorrect": false },
-      { "id": "option_2", "text": "Life Insurance", "isCorrect": true },
-      { "id": "option_3", "text": "Car Insurance", "isCorrect": false },
+      { "id": "option_2", "text":"Car Insurance", "isCorrect": false },
+      { "id": "option_3", "text":  "Life Insurance", "isCorrect": true},
       { "id": "option_4", "text": "Home Insurance", "isCorrect": false }
     ],
     "hint": "This type of insurance provides financial protection to the family of the policyholder in case of death.",
@@ -18941,10 +18941,10 @@
     "id": "banking_1573",
     "question": "What is the full form of 'NPA' in the banking sector?",
     "options": [
-      { "id": "option_1", "text": "Non-Performing Asset", "isCorrect": true },
+      { "id": "option_1", "text":"Non-Participating Asset", "isCorrect": false },
       { "id": "option_2", "text": "National Payment Agency", "isCorrect": false },
       { "id": "option_3", "text": "Non-Profitable Account", "isCorrect": false },
-      { "id": "option_4", "text": "Non-Participating Asset", "isCorrect": false }
+      { "id": "option_4", "text": "Non-Performing Asset", "isCorrect": true}
     ],
     "hint": "This term refers to loans that are in default or close to being in default.",
     "answerDescription": "NPA stands for Non-Performing Asset, which refers to loans that are no longer generating income for the bank due to default."
@@ -18977,9 +18977,9 @@
     "id": "banking_1576",
     "question": "What is the full form of 'BSE' in the context of the Indian stock market?",
     "options": [
-      { "id": "option_1", "text": "Bombay Stock Exchange", "isCorrect": true },
+      { "id": "option_1", "text":  "Bangalore Stock Exchange", "isCorrect": false },
       { "id": "option_2", "text": "Banking Securities Exchange", "isCorrect": false },
-      { "id": "option_3", "text": "Bangalore Stock Exchange", "isCorrect": false },
+      { "id": "option_3", "text":"Bombay Stock Exchange", "isCorrect": true },
       { "id": "option_4", "text": "Bharat Stock Exchange", "isCorrect": false }
     ],
     "hint": "This exchange is located in Mumbai and is one of the oldest stock exchanges in India.",
@@ -19097,9 +19097,9 @@
     "id": "banking_1586",
     "question": "What is the full form of 'PMAY' in the context of India's housing scheme?",
     "options": [
-      { "id": "option_1", "text": "Pradhan Mantri Awas Yojana", "isCorrect": true },
+      { "id": "option_1", "text": "Pragati Mantri Awas Yojana", "isCorrect": false },
       { "id": "option_2", "text": "Pradhan Mantri Aaswad Yojana", "isCorrect": false },
-      { "id": "option_3", "text": "Pragati Mantri Awas Yojana", "isCorrect": false },
+      { "id": "option_3", "text":"Pradhan Mantri Awas Yojana", "isCorrect": true },
       { "id": "option_4", "text": "Pradhan Mantri Awash Yojana", "isCorrect": false }
     ],
     "hint": "This government scheme is aimed at providing affordable housing to the urban and rural poor.",
@@ -19181,9 +19181,9 @@
     "id": "banking_1593",
     "question": "Which government body is responsible for the development and regulation of the capital markets in India?",
     "options": [
-      { "id": "option_1", "text": "SEBI", "isCorrect": true },
+      { "id": "option_1", "text": "IRDAI", "isCorrect": false },
       { "id": "option_2", "text": "RBI", "isCorrect": false },
-      { "id": "option_3", "text": "IRDAI", "isCorrect": false },
+      { "id": "option_3", "text": "SEBI", "isCorrect": true },
       { "id": "option_4", "text": "NABARD", "isCorrect": false }
     ],
     "hint": "This body works to protect investor interests and develop the capital market by regulating securities markets.",
@@ -19205,9 +19205,9 @@
     "id": "banking_1595",
     "question": "Which of the following is a public sector bank that merged with Punjab National Bank (PNB) in 2020?",
     "options": [
-      { "id": "option_1", "text": "Oriental Bank of Commerce", "isCorrect": true },
+      { "id": "option_1", "text": "Canara Bank", "isCorrect": false },
       { "id": "option_2", "text": "Bank of Baroda", "isCorrect": false },
-      { "id": "option_3", "text": "Canara Bank", "isCorrect": false },
+      { "id": "option_3", "text":"Oriental Bank of Commerce", "isCorrect": true},
       { "id": "option_4", "text": "Union Bank of India", "isCorrect": false }
     ],
     "hint": "This merger was part of the Indian government's effort to consolidate the banking sector.",
@@ -19241,8 +19241,8 @@
     "id": "banking_1598",
     "question": "Which of the following is the central bank of India?",
     "options": [
-      { "id": "option_1", "text": "Reserve Bank of India", "isCorrect": true },
-      { "id": "option_2", "text": "State Bank of India", "isCorrect": false },
+      { "id": "option_1", "text":"State Bank of India", "isCorrect": false   },
+      { "id": "option_2", "text": "Reserve Bank of India", "isCorrect": true},
       { "id": "option_3", "text": "Punjab National Bank", "isCorrect": false },
       { "id": "option_4", "text": "ICICI Bank", "isCorrect": false }
     ],
