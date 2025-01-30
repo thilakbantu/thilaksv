@@ -19253,9 +19253,9 @@
     "id": "banking_1599",
     "question": "Which of the following is a non-banking financial company (NBFC) in India?",
     "options": [
-      { "id": "option_1", "text": "HDFC Ltd.", "isCorrect": true },
+      { "id": "option_1",  "text": "Axis Bank", "isCorrect": false },
       { "id": "option_2", "text": "ICICI Bank", "isCorrect": false },
-      { "id": "option_3", "text": "Axis Bank", "isCorrect": false },
+      { "id": "option_3","text": "HDFC Ltd.", "isCorrect": true },
       { "id": "option_4", "text": "State Bank of India", "isCorrect": false }
     ],
     "hint": "This company primarily focuses on offering loans and financial services but does not hold a banking license.",
