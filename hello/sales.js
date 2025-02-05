@@ -1859,15 +1859,15 @@
       },
       {
         "id": "sales_156",
-        "question": "What is a sales pipeline?",
+        "question": "Why is follow-up important in the sales process?",
         "options": [
-          { "id": "option_1", "text": "A visual representation of the sales process, from lead generation to closing a sale.", "isCorrect": true },
-          { "id": "option_2", "text": "A tool used to track customer satisfaction and feedback after the sale.", "isCorrect": false },
-          { "id": "option_3", "text": "A process for organizing customer contact details and outreach schedules.", "isCorrect": false },
-          { "id": "option_4", "text": "A method for reviewing and analyzing sales performance after a transaction is completed.", "isCorrect": false }
+          { "id": "option_1", "text": "It helps in maintaining contact even when the client has already decided to purchase.", "isCorrect": false },
+          { "id": "option_2", "text": "It helps build relationships, answer any questions, and move the deal forward.", "isCorrect": true },
+          { "id": "option_3", "text": "It is a way to remind the client that the salesperson is still available to sell.", "isCorrect": false },
+          { "id": "option_4", "text": "It should be done as soon as possible to close the deal immediately.", "isCorrect": false }
         ],
-        "hint": "The sales pipeline is crucial for forecasting future sales and managing leads.",
-        "answerDescription": "A sales pipeline is a visual tool used to track and manage the progression of sales opportunities through different stages, from prospecting to closing."
+        "hint": "A good follow-up strategy helps nurture leads and maintains engagement to close sales.",
+        "answerDescription": "Follow-up is vital for building relationships, addressing client questions, and helping guide them through the buying decision process."
       },
       {
         "id": "sales_157",
@@ -2972,14 +2972,18 @@
         "hint": "Addressing concerns and building confidence help persuade hesitant buyers.",
         "answerDescription": "A hesitant buyer needs reassurance, relevant information, and confidence in their purchase decision."
       },
-     
-     
-    
-      
-    
-    
-      
-       
+      {
+        "id": "sales_250",
+        "question": "What is the purpose of a 'sales demo'?",
+        "options": [
+          { "id": "option_1", "text": "To show off all the features of the product without connecting to customer needs.", "isCorrect": false },
+          { "id": "option_2", "text": "To demonstrate how the product solves a prospect's specific problems or needs.", "isCorrect": true },
+          { "id": "option_3", "text": "To provide a detailed breakdown of the product's technical specifications.", "isCorrect": false },
+          { "id": "option_4", "text": "To try to sell the product in the first minute of the demonstration.", "isCorrect": false }
+        ],
+        "hint": "A demo should focus on how the product benefits the customer, not just its features.",
+        "answerDescription": "The purpose of a sales demo is to show the prospect how the product or service can specifically meet their needs or solve a problem."
+      },       
 
      
 
