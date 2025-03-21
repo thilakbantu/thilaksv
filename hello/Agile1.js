@@ -26670,7 +26670,127 @@
     "hint": "A Product Owner must navigate between business needs and development realities.",
     "answerDescription": "Ensuring stakeholder expectations are met while keeping the team’s workload manageable is a major Product Owner responsibility."
   }, 
-   {
+  {
+    "id": "agile_2243",
+    "question": "What is the main focus of a Product Owner in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Managing the development team's work assignments", "isCorrect": false },
+      { "id": "option_2", "text": "Defining the software architecture", "isCorrect": false },
+      { "id": "option_3", "text": "Writing detailed technical specifications", "isCorrect": false },
+      { "id": "option_4", "text": "Maximizing the value of the product by prioritizing the backlog", "isCorrect": true }
+    ],
+    "hint": "The Product Owner ensures the team builds the most valuable features first.",
+    "answerDescription": "The Product Owner focuses on maximizing business value by managing and prioritizing the product backlog effectively."
+  },
+  {
+    "id": "agile_2244",
+    "question": "How does a Product Owner ensure the team delivers high-value work?",
+    "options": [
+      { "id": "option_1", "text": "By assigning tasks to developers", "isCorrect": false },
+      { "id": "option_2", "text": "By frequently changing the sprint goal", "isCorrect": false },
+      { "id": "option_3", "text": "By making ad-hoc changes to the backlog mid-sprint", "isCorrect": false },
+      { "id": "option_4", "text": "By prioritizing features based on business value and customer needs", "isCorrect": true }
+    ],
+    "hint": "The backlog is key to delivering value in Agile.",
+    "answerDescription": "A well-prioritized backlog ensures the team focuses on the highest-impact features first."
+  },
+  {
+    "id": "agile_2245",
+    "question": "What is the best way for a Product Owner to gather customer feedback?",
+    "options": [
+      { "id": "option_1", "text": "By relying only on internal team discussions", "isCorrect": false },
+      { "id": "option_2", "text": "By implementing all stakeholder requests immediately", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding direct interaction with customers", "isCorrect": false },
+      { "id": "option_4", "text": "By conducting user research, surveys, and stakeholder meetings", "isCorrect": true }
+    ],
+    "hint": "Direct interaction with customers helps refine product direction.",
+    "answerDescription": "Customer feedback through surveys, research, and meetings allows the Product Owner to make informed product decisions."
+  },
+  {
+    "id": "agile_2246",
+    "question": "What should a Product Owner do if a stakeholder requests an urgent change during a sprint?",
+    "options": [
+      { "id": "option_1", "text": "Immediately add it to the sprint backlog", "isCorrect": false },
+      { "id": "option_2", "text": "Ignore the request completely", "isCorrect": false },
+      { "id": "option_3", "text": "Instruct the team to pause current work and switch priorities", "isCorrect": false },
+      { "id": "option_4", "text": "Discuss with the team and stakeholders to evaluate the impact", "isCorrect": true }
+    ],
+    "hint": "The Product Owner should balance flexibility with sprint commitments.",
+    "answerDescription": "Urgent changes should be evaluated collaboratively to minimize disruption and maintain sprint focus."
+  },
+  {
+    "id": "agile_2247",
+    "question": "What is the key benefit of a well-maintained product backlog?",
+    "options": [
+      { "id": "option_1", "text": "It allows the Product Owner to control the team’s workflow", "isCorrect": false },
+      { "id": "option_2", "text": "It guarantees that all stakeholder demands are met immediately", "isCorrect": false },
+      { "id": "option_3", "text": "It eliminates the need for refinement meetings", "isCorrect": false },
+      { "id": "option_4", "text": "It ensures the team works on high-priority, valuable features", "isCorrect": true }
+    ],
+    "hint": "A backlog guides the team’s work based on business priorities.",
+    "answerDescription": "A well-maintained backlog keeps the team focused on delivering the most valuable features first."
+  },
+  {
+    "id": "agile_2248",
+    "question": "Why should a Product Owner avoid adding excessive detail to backlog items?",
+    "options": [
+      { "id": "option_1", "text": "To prevent the team from working efficiently", "isCorrect": false },
+      { "id": "option_2", "text": "Because Agile does not require backlog items", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure the team has to guess the requirements", "isCorrect": false },
+      { "id": "option_4", "text": "To allow flexibility and collaboration in refining work items", "isCorrect": true }
+    ],
+    "hint": "Agile encourages adaptive planning rather than rigid specifications.",
+    "answerDescription": "Backlog items should provide enough clarity without limiting the team's ability to adapt and refine them."
+  },
+  {
+    "id": "agile_2249",
+    "question": "What is a key aspect of backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "Finalizing all backlog items before the project starts", "isCorrect": false },
+      { "id": "option_2", "text": "Letting developers set all priorities", "isCorrect": false },
+      { "id": "option_3", "text": "Constantly changing priorities every sprint", "isCorrect": false },
+      { "id": "option_4", "text": "Collaborating with the team to ensure items are clear and ready for development", "isCorrect": true }
+    ],
+    "hint": "Refinement helps keep backlog items actionable and clear.",
+    "answerDescription": "Regular refinement ensures that backlog items are well-defined, estimated, and prioritized appropriately."
+  },
+  {
+    "id": "agile_2250",
+    "question": "Why is transparency important for a Product Owner?",
+    "options": [
+      { "id": "option_1", "text": "To keep the team focused on technical execution", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid sharing priorities with stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "To create uncertainty about the product roadmap", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure all stakeholders and teams are aligned on priorities and progress", "isCorrect": true }
+    ],
+    "hint": "Transparency builds trust and alignment in Agile.",
+    "answerDescription": "By maintaining transparency, the Product Owner fosters collaboration and ensures teams and stakeholders are aligned."
+  },
+  {
+    "id": "agile_2251",
+    "question": "What is the role of the Product Owner in Sprint Planning?",
+    "options": [
+      { "id": "option_1", "text": "Assigning tasks to team members", "isCorrect": false },
+      { "id": "option_2", "text": "Dictating how developers should implement features", "isCorrect": false },
+      { "id": "option_3", "text": "Defining the team’s working process", "isCorrect": false },
+      { "id": "option_4", "text": "Clarifying backlog priorities and ensuring alignment with sprint goals", "isCorrect": true }
+    ],
+    "hint": "Sprint Planning ensures the team works on the most valuable features.",
+    "answerDescription": "The Product Owner ensures backlog priorities are clear, but the team decides how to execute the work."
+  },
+  {
+    "id": "agile_2252",
+    "question": "What should a Product Owner do if a backlog item is not well understood by the team?",
+    "options": [
+      { "id": "option_1", "text": "Force the team to implement it as is", "isCorrect": false },
+      { "id": "option_2", "text": "Remove it from the backlog", "isCorrect": false },
+      { "id": "option_3", "text": "Wait until the Sprint Review to explain it", "isCorrect": false },
+      { "id": "option_4", "text": "Refine and clarify the item with the team before implementation", "isCorrect": true }
+    ],
+    "hint": "Unclear backlog items can lead to misunderstandings.",
+    "answerDescription": "The Product Owner should ensure that backlog items are well-defined and understood before they are worked on."
+  },
+{
     "id": "agile_2253",
     "question": "What is the primary way a Product Owner communicates product goals to the team?",
     "options": [
