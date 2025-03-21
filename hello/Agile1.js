@@ -25485,17 +25485,17 @@
   },
   {
     "id": "agile_2144",
-    "question": "Why is stakeholder collaboration important for a Product Owner?",
+    "question": "How can a Product Owner foster collaboration between developers and stakeholders?",
     "options": [
-      { "id": "option_1", "text": "To ensure the product vision aligns with business needs", "isCorrect": true },
-      { "id": "option_2", "text": "To avoid team autonomy", "isCorrect": false },
-      { "id": "option_3", "text": "To micromanage development tasks", "isCorrect": false },
-      { "id": "option_4", "text": "To increase documentation requirements", "isCorrect": false }
+      { "id": "option_1", "text": "By facilitating regular communication and feedback sessions", "isCorrect": true },
+      { "id": "option_2", "text": "By keeping stakeholders and developers separate", "isCorrect": false },
+      { "id": "option_3", "text": "By restricting stakeholder involvement until project completion", "isCorrect": false },
+      { "id": "option_4", "text": "By making all decisions without input from the team", "isCorrect": false }
     ],
-    "hint": "Stakeholder involvement helps define and refine product goals.",
-    "answerDescription": "Collaborating with stakeholders ensures the product meets business needs and maximizes value delivery."
+    "hint": "Agile thrives on collaboration and transparency.",
+    "answerDescription": "The Product Owner fosters collaboration by maintaining open communication between developers and stakeholders."
   },
-  {
+   {
     "id": "agile_2145",
     "question": "Which event allows the Product Owner to review and adjust priorities?",
     "options": [
@@ -26310,18 +26310,17 @@
     "hint": "Collaboration is key in Agile decision-making.",
     "answerDescription": "A Product Owner should involve the team in discussions to balance business needs with ongoing work."
   },
-
   {
     "id": "agile_2213",
-    "question": "What is a key responsibility of a Product Owner in Agile?",
+    "question": "How does a Product Owner measure the success of an Agile product?",
     "options": [
-      { "id": "option_1", "text": "Managing the development team’s tasks", "isCorrect": false },
-      { "id": "option_2", "text": "Prioritizing and maintaining the product backlog", "isCorrect": true },
-      { "id": "option_3", "text": "Writing code for critical features", "isCorrect": false },
-      { "id": "option_4", "text": "Handling technical debt resolution", "isCorrect": false }
+      { "id": "option_1", "text": "By counting the number of features released", "isCorrect": false },
+      { "id": "option_2", "text": "By tracking the time taken to complete sprints", "isCorrect": false },
+      { "id": "option_3", "text": "By ensuring all initial requirements are implemented", "isCorrect": false },
+      { "id": "option_4", "text": "By evaluating customer satisfaction and business impact", "isCorrect": true }
     ],
-    "hint": "The Product Owner ensures the backlog reflects business goals.",
-    "answerDescription": "The Product Owner is responsible for keeping the product backlog organized and prioritized."
+    "hint": "Product success is about outcomes, not just output.",
+    "answerDescription": "Customer satisfaction and business value are key indicators of a successful Agile product."
   },
   {
     "id": "agile_2214",
@@ -26552,15 +26551,15 @@
   },
   {
     "id": "agile_2233",
-    "question": "What is the primary responsibility of a Product Owner in an Agile team?",
+    "question": "How does a Product Owner contribute to Agile success?",
     "options": [
-      { "id": "option_1", "text": "Managing technical debt", "isCorrect": false },
-      { "id": "option_2", "text": "Ensuring sprint velocity is maintained", "isCorrect": false },
-      { "id": "option_3", "text": "Writing unit tests", "isCorrect": false },
-      { "id": "option_4", "text": "Maximizing the value of the product", "isCorrect": true }
+      { "id": "option_1", "text": "Ensuring that backlog items align with business goals", "isCorrect": true },
+      { "id": "option_2", "text": "Controlling the development team's daily work", "isCorrect": false },
+      { "id": "option_3", "text": "Handling the technical design of features", "isCorrect": false },
+      { "id": "option_4", "text": "Writing detailed code specifications", "isCorrect": false }
     ],
-    "hint": "A Product Owner focuses on delivering business value through the product backlog.",
-    "answerDescription": "The Product Owner ensures that the team is working on the most valuable items to maximize product success."
+    "hint": "Agile focuses on delivering business value through prioritization.",
+    "answerDescription": "A Product Owner aligns backlog priorities with strategic business objectives to drive Agile success."
   },
   {
     "id": "agile_2234",
@@ -26648,15 +26647,15 @@
   },
   {
     "id": "agile_2241",
-    "question": "How should a Product Owner handle conflicting stakeholder requests?",
+    "question": "Why should a Product Owner avoid frequently changing backlog priorities mid-sprint?",
     "options": [
-      { "id": "option_1", "text": "Choose the request from the most senior stakeholder", "isCorrect": false },
-      { "id": "option_2", "text": "Implement all requests without analysis", "isCorrect": false },
-      { "id": "option_3", "text": "Ignore the conflicting requests", "isCorrect": false },
-      { "id": "option_4", "text": "Analyze business impact and prioritize accordingly", "isCorrect": true }
+      { "id": "option_1", "text": "To maintain sprint focus and team efficiency", "isCorrect": true },
+      { "id": "option_2", "text": "To prevent developers from making decisions", "isCorrect": false },
+      { "id": "option_3", "text": "Because Agile does not allow backlog changes", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure all stakeholders get their requests fulfilled immediately", "isCorrect": false }
     ],
-    "hint": "Prioritization should be based on business value, not hierarchy.",
-    "answerDescription": "A Product Owner must evaluate requests based on their impact on business goals and the product vision."
+    "hint": "A stable sprint backlog helps maintain team efficiency.",
+    "answerDescription": "Changing priorities mid-sprint disrupts focus and efficiency, so the Product Owner should avoid unnecessary alterations."
   },
   {
     "id": "agile_2242",
@@ -26756,15 +26755,15 @@
   },
   {
     "id": "agile_2250",
-    "question": "Why is transparency important for a Product Owner?",
+    "question": "Why should a Product Owner regularly communicate with stakeholders?",
     "options": [
-      { "id": "option_1", "text": "To keep the team focused on technical execution", "isCorrect": false },
-      { "id": "option_2", "text": "To avoid sharing priorities with stakeholders", "isCorrect": false },
-      { "id": "option_3", "text": "To create uncertainty about the product roadmap", "isCorrect": false },
-      { "id": "option_4", "text": "To ensure all stakeholders and teams are aligned on priorities and progress", "isCorrect": true }
+      { "id": "option_1", "text": "To ensure product decisions align with business needs", "isCorrect": true },
+      { "id": "option_2", "text": "To give daily instructions to the development team", "isCorrect": false },
+      { "id": "option_3", "text": "To eliminate the need for backlog refinement", "isCorrect": false },
+      { "id": "option_4", "text": "To micromanage the Scrum Master", "isCorrect": false }
     ],
-    "hint": "Transparency builds trust and alignment in Agile.",
-    "answerDescription": "By maintaining transparency, the Product Owner fosters collaboration and ensures teams and stakeholders are aligned."
+    "hint": "Stakeholder collaboration is essential for Agile product development.",
+    "answerDescription": "The Product Owner gathers stakeholder input to ensure the product remains aligned with business objectives."
   },
   {
     "id": "agile_2251",
@@ -26910,10 +26909,800 @@
     "hint": "Sustainable work leads to consistent delivery and high-quality products.",
     "answerDescription": "A balanced workload helps teams maintain efficiency, morale, and high-quality output over time."
   },
-
-
-
-
+  {
+    "id": "agile_2263",
+    "question": "Which of the following is a key characteristic of an effective Product Owner?",
+    "options": [
+      { "id": "option_1", "text": "Only focusing on customer requests", "isCorrect": false },
+      { "id": "option_2", "text": "Balancing stakeholder needs with business goals", "isCorrect": true },
+      { "id": "option_3", "text": "Micromanaging the development team", "isCorrect": false },
+      { "id": "option_4", "text": "Avoiding direct involvement in backlog refinement", "isCorrect": false }
+    ],
+    "hint": "A Product Owner must align business value with stakeholder expectations.",
+    "answerDescription": "An effective Product Owner ensures that backlog prioritization aligns with business objectives and stakeholder needs."
+  },
+  {
+    "id": "agile_2264",
+    "question": "What is the main reason a Product Owner should avoid overloading a sprint backlog?",
+    "options": [
+      { "id": "option_1", "text": "To reduce the number of backlog items", "isCorrect": false },
+      { "id": "option_2", "text": "To allow the team to complete work within the sprint timeframe", "isCorrect": true },
+      { "id": "option_3", "text": "To prevent stakeholders from making additional requests", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure all features are completed in one iteration", "isCorrect": false }
+    ],
+    "hint": "A sprint backlog should contain only work that can be completed within the sprint.",
+    "answerDescription": "Keeping the backlog manageable ensures the team can deliver quality work without exceeding their capacity."
+  },
+  {
+    "id": "agile_2265",
+    "question": "What should a Product Owner do if a backlog item is too large for a single sprint?",
+    "options": [
+      { "id": "option_1", "text": "Break it down into smaller, manageable user stories", "isCorrect": true },
+      { "id": "option_2", "text": "Extend the sprint duration to accommodate it", "isCorrect": false },
+      { "id": "option_3", "text": "Ask the team to complete it as quickly as possible", "isCorrect": false },
+      { "id": "option_4", "text": "Remove it from the backlog entirely", "isCorrect": false }
+    ],
+    "hint": "Large backlog items should be divided for better agility.",
+    "answerDescription": "The Product Owner ensures that work items are refined into smaller, achievable tasks to fit within sprint timelines."
+  },
+  {
+    "id": "agile_2266",
+    "question": "Why is it important for a Product Owner to define clear acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "To restrict how developers implement a feature", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure that the team understands when a story is complete", "isCorrect": true },
+      { "id": "option_3", "text": "To micromanage the development process", "isCorrect": false },
+      { "id": "option_4", "text": "To reduce the need for stakeholder involvement", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria help determine when a feature meets expectations.",
+    "answerDescription": "Well-defined acceptance criteria ensure alignment between stakeholders, developers, and business goals."
+  },
+  {
+    "id": "agile_2267",
+    "question": "What should a Product Owner do when a stakeholder requests an urgent feature mid-sprint?",
+    "options": [
+      { "id": "option_1", "text": "Immediately add it to the sprint backlog", "isCorrect": false },
+      { "id": "option_2", "text": "Assess its priority and schedule it in the next sprint if necessary", "isCorrect": true },
+      { "id": "option_3", "text": "Ignore the request to maintain focus", "isCorrect": false },
+      { "id": "option_4", "text": "Replace an existing sprint item with the new feature", "isCorrect": false }
+    ],
+    "hint": "Sprints should remain stable to maintain team productivity.",
+    "answerDescription": "New urgent requests should be evaluated and, if valid, prioritized in the product backlog for a future sprint."
+  },
+  {
+    "id": "agile_2268",
+    "question": "What is a good practice for a Product Owner to ensure that user stories are properly refined?",
+    "options": [
+      { "id": "option_1", "text": "Writing all backlog items alone", "isCorrect": false },
+      { "id": "option_2", "text": "Collaborating with the development team during backlog refinement", "isCorrect": true },
+      { "id": "option_3", "text": "Defining only high-level goals without details", "isCorrect": false },
+      { "id": "option_4", "text": "Finalizing backlog items without any feedback", "isCorrect": false }
+    ],
+    "hint": "Refinement is a collaborative effort between the Product Owner and the team.",
+    "answerDescription": "Working with the development team ensures backlog items are well-defined, achievable, and aligned with sprint goals."
+  },
+  {
+    "id": "agile_2269",
+    "question": "How does a Product Owner contribute to Agile’s focus on delivering value?",
+    "options": [
+      { "id": "option_1", "text": "By tracking team velocity", "isCorrect": false },
+      { "id": "option_2", "text": "By prioritizing features that provide the highest business value", "isCorrect": true },
+      { "id": "option_3", "text": "By dictating the technical architecture", "isCorrect": false },
+      { "id": "option_4", "text": "By ensuring all backlog items are equal in priority", "isCorrect": false }
+    ],
+    "hint": "Agile aims to deliver value by prioritizing important features.",
+    "answerDescription": "The Product Owner focuses on prioritizing backlog items that bring the most business value to the organization."
+  },
+  {
+    "id": "agile_2270",
+    "question": "Why is stakeholder involvement important for a Product Owner?",
+    "options": [
+      { "id": "option_1", "text": "To get approvals before every backlog change", "isCorrect": false },
+      { "id": "option_2", "text": "To align product development with business needs", "isCorrect": true },
+      { "id": "option_3", "text": "To allow stakeholders to directly assign tasks to developers", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid making independent product decisions", "isCorrect": false }
+    ],
+    "hint": "Stakeholder feedback ensures the product meets business goals.",
+    "answerDescription": "Engaging stakeholders helps the Product Owner make informed backlog decisions aligned with business strategy."
+  },
+  {
+    "id": "agile_2271",
+    "question": "What should a Product Owner do if a backlog item is too complex to estimate?",
+    "options": [
+      { "id": "option_1", "text": "Keep it in the backlog and revisit it later", "isCorrect": false },
+      { "id": "option_2", "text": "Break it down into smaller, more manageable pieces", "isCorrect": true },
+      { "id": "option_3", "text": "Force the team to estimate it immediately", "isCorrect": false },
+      { "id": "option_4", "text": "Remove it from the backlog", "isCorrect": false }
+    ],
+    "hint": "Large or complex items should be refined for better estimation.",
+    "answerDescription": "Decomposing backlog items into smaller stories makes them easier to estimate and implement."
+  },
+  {
+    "id": "agile_2272",
+    "question": "How does a Product Owner help ensure sprint success?",
+    "options": [
+      { "id": "option_1", "text": "By setting strict deadlines for the team", "isCorrect": false },
+      { "id": "option_2", "text": "By ensuring backlog items are well-defined and prioritized", "isCorrect": true },
+      { "id": "option_3", "text": "By finalizing sprint tasks without team input", "isCorrect": false },
+      { "id": "option_4", "text": "By adjusting sprint priorities mid-sprint", "isCorrect": false }
+    ],
+    "hint": "Clear backlog items help teams execute sprints smoothly.",
+    "answerDescription": "A well-structured backlog ensures teams work on high-value, well-defined tasks, leading to successful sprints."
+  },
+  {
+    "id": "agile_2273",
+    "question": "How does a Product Owner support continuous improvement in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By incorporating feedback from retrospectives into backlog refinement", "isCorrect": true },
+      { "id": "option_2", "text": "By enforcing strict adherence to a fixed product plan", "isCorrect": false },
+      { "id": "option_3", "text": "By limiting team involvement in decision-making", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding discussions on process improvements", "isCorrect": false }
+    ],
+    "hint": "Agile embraces continuous improvement through feedback.",
+    "answerDescription": "The Product Owner ensures that lessons from retrospectives inform backlog improvements and future development priorities."
+  },
+  {
+    "id": "agile_2274",
+    "question": "Why is it important for a Product Owner to maintain a well-prioritized backlog?",
+    "options": [
+      { "id": "option_1", "text": "To reduce the workload of the Scrum Master", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure developers work on features they prefer", "isCorrect": false },
+      { "id": "option_3", "text": "To align development efforts with business goals", "isCorrect": true },
+      { "id": "option_4", "text": "To avoid changes in sprint planning", "isCorrect": false }
+    ],
+    "hint": "A prioritized backlog helps deliver the most valuable features first.",
+    "answerDescription": "The Product Owner aligns the backlog with business goals to maximize value delivery."
+  },
+  {
+    "id": "agile_2275",
+    "question": "How can a Product Owner ensure that development efforts meet customer needs?",
+    "options": [
+      { "id": "option_1", "text": "By dictating technical solutions to the team", "isCorrect": false },
+      { "id": "option_2", "text": "By reducing the number of backlog items", "isCorrect": false },
+      { "id": "option_3", "text": "By regularly gathering and incorporating customer feedback", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding interactions with stakeholders", "isCorrect": false }
+    ],
+    "hint": "Customer feedback helps refine product direction.",
+    "answerDescription": "Continuous feedback ensures that development aligns with user expectations and business needs."
+  },
+  {
+    "id": "agile_2276",
+    "question": "Which of the following is NOT a key responsibility of a Product Owner?",
+    "options": [
+      { "id": "option_1", "text": "Prioritizing the product backlog", "isCorrect": false },
+      { "id": "option_2", "text": "Defining product goals and vision", "isCorrect": false },
+      { "id": "option_3", "text": "Managing the development team's daily work", "isCorrect": true },
+      { "id": "option_4", "text": "Engaging with stakeholders", "isCorrect": false }
+    ],
+    "hint": "The Product Owner does not micromanage the development team.",
+    "answerDescription": "A Product Owner focuses on product direction, while the development team self-organizes its work."
+  },
+  {
+    "id": "agile_2277",
+    "question": "What should a Product Owner do if there is a conflict between stakeholders regarding feature priorities?",
+    "options": [
+      { "id": "option_1", "text": "Implement all requested features immediately", "isCorrect": false },
+      { "id": "option_2", "text": "Ignore the conflict and continue as planned", "isCorrect": false },
+      { "id": "option_3", "text": "Evaluate business value and make a data-driven decision", "isCorrect": true },
+      { "id": "option_4", "text": "Allow stakeholders to decide among themselves", "isCorrect": false }
+    ],
+    "hint": "A Product Owner should rely on objective business value rather than stakeholder influence.",
+    "answerDescription": "The Product Owner prioritizes based on value, ensuring decisions are guided by business impact rather than personal opinions."
+  },
+  {
+    "id": "agile_2278",
+    "question": "What is a key challenge a Product Owner faces in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "Making sure developers estimate stories correctly", "isCorrect": false },
+      { "id": "option_2", "text": "Ensuring that only new features are added", "isCorrect": false },
+      { "id": "option_3", "text": "Balancing short-term needs with long-term goals", "isCorrect": true },
+      { "id": "option_4", "text": "Controlling how developers implement features", "isCorrect": false }
+    ],
+    "hint": "A Product Owner must focus on both immediate requirements and the product vision.",
+    "answerDescription": "Refining the backlog involves balancing immediate priorities with the long-term product strategy."
+  },
+  {
+    "id": "agile_2279",
+    "question": "Why should a Product Owner be involved in Sprint Reviews?",
+    "options": [
+      { "id": "option_1", "text": "To evaluate developer performance", "isCorrect": false },
+      { "id": "option_2", "text": "To finalize product design decisions", "isCorrect": false },
+      { "id": "option_3", "text": "To gather feedback and validate product direction", "isCorrect": true },
+      { "id": "option_4", "text": "To assign new tasks for the next sprint", "isCorrect": false }
+    ],
+    "hint": "Sprint Reviews provide insights into product progress and stakeholder expectations.",
+    "answerDescription": "The Product Owner uses Sprint Reviews to collect feedback, ensuring the product meets business and customer needs."
+  },
+  {
+    "id": "agile_2280",
+    "question": "How does a Product Owner contribute to Agile’s iterative approach?",
+    "options": [
+      { "id": "option_1", "text": "By delivering the entire product at once", "isCorrect": false },
+      { "id": "option_2", "text": "By ensuring that development follows a strict linear process", "isCorrect": false },
+      { "id": "option_3", "text": "By continuously refining and reprioritizing the backlog", "isCorrect": true },
+      { "id": "option_4", "text": "By focusing only on long-term planning", "isCorrect": false }
+    ],
+    "hint": "Agile encourages flexibility through backlog adjustments.",
+    "answerDescription": "The Product Owner refines the backlog based on feedback and business needs, ensuring adaptability in development."
+  },
+  {
+    "id": "agile_2281",
+    "question": "What is a key difference between a Product Owner and a Scrum Master?",
+    "options": [
+      { "id": "option_1", "text": "The Product Owner handles team dynamics", "isCorrect": false },
+      { "id": "option_2", "text": "The Scrum Master prioritizes the backlog", "isCorrect": false },
+      { "id": "option_3", "text": "The Product Owner focuses on value delivery, while the Scrum Master ensures process efficiency", "isCorrect": true },
+      { "id": "option_4", "text": "The Scrum Master decides on product features", "isCorrect": false }
+    ],
+    "hint": "The Product Owner is responsible for value, while the Scrum Master ensures Agile practices are followed.",
+    "answerDescription": "A Product Owner maximizes product value, while a Scrum Master facilitates team processes and removes impediments."
+  },
+  {
+    "id": "agile_2282",
+    "question": "How does a Product Owner ensure a feature is valuable before development starts?",
+    "options": [
+      { "id": "option_1", "text": "By requiring the team to build a prototype first", "isCorrect": false },
+      { "id": "option_2", "text": "By requesting approval from all stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "By conducting market research and defining clear acceptance criteria", "isCorrect": true },
+      { "id": "option_4", "text": "By asking developers to determine the feature’s importance", "isCorrect": false }
+    ],
+    "hint": "A Product Owner must ensure that features align with business and customer needs.",
+    "answerDescription": "Market research and acceptance criteria help validate a feature's value before development begins."
+  },
+  {
+    "id": "agile_2283",
+    "question": "What is the primary focus of a Product Owner in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Ensuring team members complete their tasks on time", "isCorrect": false },
+      { "id": "option_2", "text": "Monitoring daily development progress", "isCorrect": false },
+      { "id": "option_3", "text": "Maximizing product value through backlog management", "isCorrect": true },
+      { "id": "option_4", "text": "Handling technical implementation details", "isCorrect": false }
+    ],
+    "hint": "The Product Owner is responsible for prioritizing and managing the backlog.",
+    "answerDescription": "The Product Owner ensures the backlog aligns with business goals to maximize product value."
+  },
+  {
+    "id": "agile_2284",
+    "question": "Which of the following is a key skill for an effective Product Owner?",
+    "options": [
+      { "id": "option_1", "text": "Writing complex code", "isCorrect": false },
+      { "id": "option_2", "text": "Handling server maintenance", "isCorrect": false },
+      { "id": "option_3", "text": "Prioritizing features based on business value", "isCorrect": true },
+      { "id": "option_4", "text": "Managing daily standup meetings", "isCorrect": false }
+    ],
+    "hint": "A Product Owner is responsible for prioritization and value delivery.",
+    "answerDescription": "Prioritizing features ensures the most valuable work is completed first, maximizing business impact."
+  },
+  {
+    "id": "agile_2285",
+    "question": "What should a Product Owner do when multiple stakeholders have conflicting priorities?",
+    "options": [
+      { "id": "option_1", "text": "Evaluate priorities based on business value and impact", "isCorrect": true },
+      { "id": "option_2", "text": "Always prioritize the most senior stakeholder's request", "isCorrect": false },
+      { "id": "option_3", "text": "Implement all requests immediately", "isCorrect": false },
+      { "id": "option_4", "text": "Ignore stakeholder feedback and focus only on the development team", "isCorrect": false }
+    ],
+    "hint": "The backlog should reflect the highest business value.",
+    "answerDescription": "A Product Owner balances stakeholder needs by prioritizing features that deliver the most business value."
+  },
+  {
+    "id": "agile_2286",
+    "question": "What is one key responsibility of a Product Owner during a Sprint Review?",
+    "options": [
+      { "id": "option_1", "text": "Assigning new tasks to the team", "isCorrect": false },
+      { "id": "option_2", "text": "Finalizing sprint backlog for the next sprint", "isCorrect": false },
+      { "id": "option_3", "text": "Gathering stakeholder feedback to refine the product", "isCorrect": true },
+      { "id": "option_4", "text": "Approving code changes made by the developers", "isCorrect": false }
+    ],
+    "hint": "Sprint Reviews help validate product progress and direction.",
+    "answerDescription": "Stakeholder feedback is essential for refining the product and aligning with business needs."
+  },
+  {
+    "id": "agile_2287",
+    "question": "Why should a Product Owner avoid micromanaging the development team?",
+    "options": [
+      { "id": "option_1", "text": "Because it increases project costs", "isCorrect": false },
+      { "id": "option_2", "text": "Because Agile teams should self-organize", "isCorrect": true },
+      { "id": "option_3", "text": "Because the Scrum Master handles all technical decisions", "isCorrect": false },
+      { "id": "option_4", "text": "Because it slows down coding speed", "isCorrect": false }
+    ],
+    "hint": "Agile emphasizes self-organizing teams for better efficiency.",
+    "answerDescription": "Agile teams should manage their own work, while the Product Owner focuses on product vision and priorities."
+  },
+  {
+    "id": "agile_2288",
+    "question": "How does a well-maintained product backlog benefit an Agile team?",
+    "options": [
+      { "id": "option_1", "text": "It allows the team to complete tasks faster", "isCorrect": false },
+      { "id": "option_2", "text": "It eliminates the need for sprint planning", "isCorrect": false },
+      { "id": "option_3", "text": "It provides clarity on priorities and direction", "isCorrect": true },
+      { "id": "option_4", "text": "It reduces the need for stakeholder involvement", "isCorrect": false }
+    ],
+    "hint": "A clear backlog ensures teams focus on high-value work.",
+    "answerDescription": "A well-maintained backlog helps the team understand priorities and align with business objectives."
+  },
+  {
+    "id": "agile_2289",
+    "question": "What should a Product Owner do when a backlog item is no longer valuable?",
+    "options": [
+      { "id": "option_1", "text": "Move it to the bottom of the backlog", "isCorrect": false },
+      { "id": "option_2", "text": "Assign it to a future sprint", "isCorrect": false },
+      { "id": "option_3", "text": "Remove it from the backlog", "isCorrect": true },
+      { "id": "option_4", "text": "Keep it in case priorities change", "isCorrect": false }
+    ],
+    "hint": "A Product Owner must ensure that backlog items remain relevant.",
+    "answerDescription": "Removing outdated items keeps the backlog focused and aligned with business priorities."
+  },
+  {
+    "id": "agile_2290",
+    "question": "How can a Product Owner ensure the development team understands backlog items?",
+    "options": [
+      { "id": "option_1", "text": "By writing detailed technical specifications", "isCorrect": false },
+      { "id": "option_2", "text": "By assigning tasks directly to developers", "isCorrect": false },
+      { "id": "option_3", "text": "By clearly defining acceptance criteria", "isCorrect": true },
+      { "id": "option_4", "text": "By reviewing all code changes", "isCorrect": false }
+    ],
+    "hint": "Clear criteria help the team deliver expected outcomes.",
+    "answerDescription": "Acceptance criteria provide clear expectations for when a backlog item is considered complete."
+  },
+  {
+    "id": "agile_2291",
+    "question": "Why is customer feedback important for a Product Owner?",
+    "options": [
+      { "id": "option_1", "text": "To help the development team write better code", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid engaging with stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "To validate product direction and improve features", "isCorrect": true },
+      { "id": "option_4", "text": "To increase the sprint length", "isCorrect": false }
+    ],
+    "hint": "Customer insights drive product improvements.",
+    "answerDescription": "Regular feedback ensures the product meets user needs and remains relevant."
+  },
+  {
+    "id": "agile_2292",
+    "question": "How does a Product Owner contribute to Agile’s iterative development approach?",
+    "options": [
+      { "id": "option_1", "text": "By finalizing all requirements before development starts", "isCorrect": false },
+      { "id": "option_2", "text": "By ensuring developers complete tasks in order", "isCorrect": false },
+      { "id": "option_3", "text": "By continuously refining the backlog based on feedback", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding changes to planned sprints", "isCorrect": false }
+    ],
+    "hint": "Agile requires flexibility in response to feedback.",
+    "answerDescription": "A Product Owner refines the backlog to adapt to evolving business and customer needs."
+  },
+  {
+    "id": "agile_2293",
+    "question": "What should a Product Owner do when faced with changing market conditions?",
+    "options": [
+      { "id": "option_1", "text": "Ignore market trends to maintain backlog stability", "isCorrect": false },
+      { "id": "option_2", "text": "Stick to the original product roadmap at all costs", "isCorrect": false },
+      { "id": "option_3", "text": "Delay product updates until a future release", "isCorrect": false },
+      { "id": "option_4", "text": "Adapt the backlog and priorities based on new insights", "isCorrect": true }
+    ],
+    "hint": "Agile requires adaptability to external changes.",
+    "answerDescription": "A Product Owner must ensure the backlog reflects current market needs and opportunities."
+  },
+  {
+    "id": "agile_2294",
+    "question": "Why should a Product Owner focus on delivering value rather than completing features?",
+    "options": [
+      { "id": "option_1", "text": "Because features can be added at any time", "isCorrect": false },
+      { "id": "option_2", "text": "Because completing all features is unnecessary", "isCorrect": false },
+      { "id": "option_3", "text": "Because Agile discourages feature development", "isCorrect": false },
+      { "id": "option_4", "text": "Because value-driven development ensures business success", "isCorrect": true }
+    ],
+    "hint": "Agile focuses on delivering value to users and stakeholders.",
+    "answerDescription": "Prioritizing value ensures the team delivers meaningful improvements rather than just features."
+  },
+  {
+    "id": "agile_2295",
+    "question": "How should a Product Owner approach backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "By finalizing requirements only at the start of the project", "isCorrect": false },
+      { "id": "option_2", "text": "By limiting changes to prevent rework", "isCorrect": false },
+      { "id": "option_3", "text": "By delegating all backlog management to the Scrum Master", "isCorrect": false },
+      { "id": "option_4", "text": "By continuously updating and prioritizing backlog items", "isCorrect": true }
+    ],
+    "hint": "Agile requires an adaptable approach to backlog management.",
+    "answerDescription": "Refining the backlog regularly ensures the team works on the most valuable tasks."
+  },
+  {
+    "id": "agile_2296",
+    "question": "What is the main benefit of defining clear acceptance criteria for backlog items?",
+    "options": [
+      { "id": "option_1", "text": "To ensure the Scrum Master has full control over tasks", "isCorrect": false },
+      { "id": "option_2", "text": "To reduce the need for stakeholder involvement", "isCorrect": false },
+      { "id": "option_3", "text": "To prevent developers from contributing to product decisions", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure alignment on expectations and deliverables", "isCorrect": true }
+    ],
+    "hint": "Clear criteria help teams understand when work is complete.",
+    "answerDescription": "Defining acceptance criteria ensures backlog items meet quality and business requirements."
+  },
+  {
+    "id": "agile_2297",
+    "question": "How does a Product Owner ensure that a backlog is well-organized?",
+    "options": [
+      { "id": "option_1", "text": "By assigning tasks to developers directly", "isCorrect": false },
+      { "id": "option_2", "text": "By keeping all backlog items at the same priority level", "isCorrect": false },
+      { "id": "option_3", "text": "By adding every possible feature to the backlog", "isCorrect": false },
+      { "id": "option_4", "text": "By prioritizing backlog items based on business value", "isCorrect": true }
+    ],
+    "hint": "Backlog organization should focus on delivering the most value first.",
+    "answerDescription": "Prioritization helps the team focus on the most impactful work for the business."
+  },
+  {
+    "id": "agile_2298",
+    "question": "What role does a Product Owner play in Sprint Planning?",
+    "options": [
+      { "id": "option_1", "text": "Assigning tasks to individual developers", "isCorrect": false },
+      { "id": "option_2", "text": "Deciding the technical implementation details", "isCorrect": false },
+      { "id": "option_3", "text": "Ensuring that sprints include all backlog items", "isCorrect": false },
+      { "id": "option_4", "text": "Providing clarity on priorities and goals", "isCorrect": true }
+    ],
+    "hint": "Sprint Planning requires clear priorities to guide the team.",
+    "answerDescription": "By defining priorities, the Product Owner ensures the team focuses on high-value work."
+  },
+  {
+    "id": "agile_2299",
+    "question": "What is the primary responsibility of a development team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Defining project budget", "isCorrect": false },
+      { "id": "option_2", "text": "Creating marketing strategies", "isCorrect": false },
+      { "id": "option_3", "text": "Managing customer relations", "isCorrect": false },
+      { "id": "option_4", "text": "Delivering high-quality increments", "isCorrect": true }
+    ],
+    "hint": "Agile teams focus on delivering working software.",
+    "answerDescription": "A development team's key responsibility is to deliver high-quality product increments in each sprint."
+  },
+  {
+    "id": "agile_2300",
+    "question": "Which characteristic is essential for a successful development team?",
+    "options": [
+      { "id": "option_1", "text": "Working in silos", "isCorrect": false },
+      { "id": "option_2", "text": "Rigid hierarchy", "isCorrect": false },
+      { "id": "option_3", "text": "Individual accountability only", "isCorrect": false },
+      { "id": "option_4", "text": "Cross-functionality", "isCorrect": true }
+    ],
+    "hint": "Agile teams work best when they have diverse skills.",
+    "answerDescription": "A cross-functional team is necessary to handle various aspects of software development efficiently."
+  },
+  {
+    "id": "agile_2301",
+    "question": "How does a development team ensure continuous improvement?",
+    "options": [
+      { "id": "option_1", "text": "By avoiding change", "isCorrect": false },
+      { "id": "option_2", "text": "By following the same process indefinitely", "isCorrect": false },
+      { "id": "option_3", "text": "By resisting stakeholder input", "isCorrect": false },
+      { "id": "option_4", "text": "By implementing retrospective feedback", "isCorrect": true }
+    ],
+    "hint": "Learning from past work is key to improvement.",
+    "answerDescription": "Retrospectives help teams reflect and adapt for better performance in future sprints."
+  },
+  {
+    "id": "agile_2302",
+    "question": "What is the role of a development team in Scrum?",
+    "options": [
+      { "id": "option_1", "text": "Supervising the Product Owner", "isCorrect": false },
+      { "id": "option_2", "text": "Managing the company's finances", "isCorrect": false },
+      { "id": "option_3", "text": "Defining project vision", "isCorrect": false },
+      { "id": "option_4", "text": "Building and delivering the product increment", "isCorrect": true }
+    ],
+    "hint": "Scrum teams focus on delivering value.",
+    "answerDescription": "The development team is responsible for delivering working software at the end of each sprint."
+  },
+  {
+    "id": "agile_2303",
+    "question": "Which of the following improves a development team's efficiency?",
+    "options": [
+      { "id": "option_1", "text": "Limited collaboration", "isCorrect": false },
+      { "id": "option_2", "text": "Ignoring feedback", "isCorrect": false },
+      { "id": "option_3", "text": "A blame culture", "isCorrect": false },
+      { "id": "option_4", "text": "Clear communication and self-organization", "isCorrect": true }
+    ],
+    "hint": "Teams perform better with effective collaboration.",
+    "answerDescription": "Clear communication and self-organization foster collaboration and efficiency in Agile teams."
+  },
+  {
+    "id": "agile_2304",
+    "question": "Why is self-organization important for a development team?",
+    "options": [
+      { "id": "option_1", "text": "It removes the need for collaboration", "isCorrect": false },
+      { "id": "option_2", "text": "It eliminates the need for a Product Owner", "isCorrect": false },
+      { "id": "option_3", "text": "It allows external stakeholders to make all decisions", "isCorrect": false },
+      { "id": "option_4", "text": "It increases autonomy and accountability", "isCorrect": true }
+    ],
+    "hint": "Empowered teams make better decisions.",
+    "answerDescription": "Self-organized teams take ownership, adapt quickly, and deliver better outcomes."
+  },
+  {
+    "id": "agile_2305",
+    "question": "What is a key benefit of cross-functional development teams?",
+    "options": [
+      { "id": "option_1", "text": "Specialization in only one skill set", "isCorrect": false },
+      { "id": "option_2", "text": "Reduced collaboration", "isCorrect": false },
+      { "id": "option_3", "text": "Dependency on external teams for execution", "isCorrect": false },
+      { "id": "option_4", "text": "Faster decision-making and adaptability", "isCorrect": true }
+    ],
+    "hint": "Teams with diverse skills can work independently.",
+    "answerDescription": "Cross-functional teams improve agility by reducing dependencies and enabling quick decision-making."
+  },
+  {
+    "id": "agile_2306",
+    "question": "How does a development team contribute to product quality?",
+    "options": [
+      { "id": "option_1", "text": "By avoiding testing", "isCorrect": false },
+      { "id": "option_2", "text": "By writing extensive documentation instead of code", "isCorrect": false },
+      { "id": "option_3", "text": "By working on features without reviews", "isCorrect": false },
+      { "id": "option_4", "text": "By following best coding practices and continuous integration", "isCorrect": true }
+    ],
+    "hint": "Agile focuses on delivering high-quality software.",
+    "answerDescription": "A development team ensures quality by using best coding practices and continuous integration."
+  },
+  {
+    "id": "agile_2307",
+    "question": "What mindset should a development team adopt for successful Agile execution?",
+    "options": [
+      { "id": "option_1", "text": "Fixed mindset", "isCorrect": false },
+      { "id": "option_2", "text": "Avoiding change", "isCorrect": false },
+      { "id": "option_3", "text": "Resistance to collaboration", "isCorrect": false },
+      { "id": "option_4", "text": "Continuous learning and improvement", "isCorrect": true }
+    ],
+    "hint": "Agile is about adaptability.",
+    "answerDescription": "A growth mindset helps teams embrace feedback and improve continuously."
+  },
+  {
+    "id": "agile_2308",
+    "question": "Which practice supports strong collaboration within a development team?",
+    "options": [
+      { "id": "option_1", "text": "Working in isolation", "isCorrect": false },
+      { "id": "option_2", "text": "Avoiding feedback", "isCorrect": false },
+      { "id": "option_3", "text": "Ignoring stakeholder requirements", "isCorrect": false },
+      { "id": "option_4", "text": "Pair programming and shared ownership", "isCorrect": true }
+    ],
+    "hint": "Working together improves efficiency.",
+    "answerDescription": "Pair programming and shared ownership encourage knowledge sharing and teamwork."
+  },
+  
+  {
+    "id": "agile_2309",
+    "question": "What is the primary focus of a development team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Delivering a working product increment", "isCorrect": true },
+      { "id": "option_2", "text": "Documenting project risks", "isCorrect": false },
+      { "id": "option_3", "text": "Creating financial reports", "isCorrect": false },
+      { "id": "option_4", "text": "Supervising project stakeholders", "isCorrect": false }
+    ],
+    "hint": "Agile teams focus on delivering value in each iteration.",
+    "answerDescription": "A development team’s primary focus is to deliver working software that adds value to the product."
+  },
+  {
+    "id": "agile_2310",
+    "question": "Which principle ensures that an Agile development team stays productive?",
+    "options": [
+      { "id": "option_1", "text": "Self-organization", "isCorrect": true },
+      { "id": "option_2", "text": "Strict top-down management", "isCorrect": false },
+      { "id": "option_3", "text": "Minimizing team communication", "isCorrect": false },
+      { "id": "option_4", "text": "Avoiding process improvements", "isCorrect": false }
+    ],
+    "hint": "Agile teams function best when they have autonomy.",
+    "answerDescription": "Self-organized teams make decisions independently, leading to higher productivity and efficiency."
+  },
+  {
+    "id": "agile_2311",
+    "question": "How should a development team handle technical debt?",
+    "options": [
+      { "id": "option_1", "text": "Address it regularly to maintain code quality", "isCorrect": true },
+      { "id": "option_2", "text": "Ignore it to focus only on new features", "isCorrect": false },
+      { "id": "option_3", "text": "Shift responsibility to external testers", "isCorrect": false },
+      { "id": "option_4", "text": "Eliminate testing to speed up development", "isCorrect": false }
+    ],
+    "hint": "Neglecting technical debt can slow down future development.",
+    "answerDescription": "Regularly addressing technical debt ensures maintainability and long-term project success."
+  },
+  {
+    "id": "agile_2312",
+    "question": "What is an essential characteristic of a high-performing Agile development team?",
+    "options": [
+      { "id": "option_1", "text": "Cross-functionality", "isCorrect": true },
+      { "id": "option_2", "text": "Rigid specialization", "isCorrect": false },
+      { "id": "option_3", "text": "Avoiding collaboration", "isCorrect": false },
+      { "id": "option_4", "text": "Following strict roles without flexibility", "isCorrect": false }
+    ],
+    "hint": "Agile teams should have a mix of skills to handle tasks independently.",
+    "answerDescription": "Cross-functional teams have diverse skills, allowing them to complete work without external dependencies."
+  },
+  {
+    "id": "agile_2313",
+    "question": "Why is collaboration important within a development team?",
+    "options": [
+      { "id": "option_1", "text": "It improves problem-solving and innovation", "isCorrect": true },
+      { "id": "option_2", "text": "It reduces the need for communication", "isCorrect": false },
+      { "id": "option_3", "text": "It creates unnecessary complexity", "isCorrect": false },
+      { "id": "option_4", "text": "It allows teams to work in silos", "isCorrect": false }
+    ],
+    "hint": "Working together helps teams solve problems more efficiently.",
+    "answerDescription": "Collaboration allows development teams to solve problems faster and create better solutions."
+  },
+  {
+    "id": "agile_2314",
+    "question": "What approach should a development team take when facing unclear requirements?",
+    "options": [
+      { "id": "option_1", "text": "Seek clarification from the Product Owner", "isCorrect": true },
+      { "id": "option_2", "text": "Ignore the requirement and proceed", "isCorrect": false },
+      { "id": "option_3", "text": "Wait for stakeholders to provide all details", "isCorrect": false },
+      { "id": "option_4", "text": "Make assumptions without consulting anyone", "isCorrect": false }
+    ],
+    "hint": "Clear communication ensures correct implementation.",
+    "answerDescription": "Consulting the Product Owner helps clarify requirements and align development efforts."
+  },
+  {
+    "id": "agile_2315",
+    "question": "How does pair programming benefit a development team?",
+    "options": [
+      { "id": "option_1", "text": "It improves code quality and knowledge sharing", "isCorrect": true },
+      { "id": "option_2", "text": "It doubles development time", "isCorrect": false },
+      { "id": "option_3", "text": "It reduces collaboration between team members", "isCorrect": false },
+      { "id": "option_4", "text": "It increases the risk of errors", "isCorrect": false }
+    ],
+    "hint": "Working in pairs helps catch mistakes early.",
+    "answerDescription": "Pair programming enhances collaboration, leading to higher-quality code and better knowledge transfer."
+  },
+  {
+    "id": "agile_2316",
+    "question": "What is the main goal of a Sprint for a development team?",
+    "options": [
+      { "id": "option_1", "text": "Deliver a potentially shippable product increment", "isCorrect": true },
+      { "id": "option_2", "text": "Complete as many tasks as possible", "isCorrect": false },
+      { "id": "option_3", "text": "Ensure all team members work individually", "isCorrect": false },
+      { "id": "option_4", "text": "Create extensive project documentation", "isCorrect": false }
+    ],
+    "hint": "Sprints should produce usable software increments.",
+    "answerDescription": "Each sprint should result in a product increment that adds value and is potentially shippable."
+  },
+  {
+    "id": "agile_2317",
+    "question": "How can a development team ensure effective Sprint Planning?",
+    "options": [
+      { "id": "option_1", "text": "By breaking down tasks and defining a clear sprint goal", "isCorrect": true },
+      { "id": "option_2", "text": "By setting rigid deadlines without flexibility", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding input from stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "By estimating work without considering complexity", "isCorrect": false }
+    ],
+    "hint": "Clear sprint goals help teams stay focused.",
+    "answerDescription": "Defining a clear goal and breaking down work ensures that the sprint remains structured and achievable."
+  },
+  {
+    "id": "agile_2318",
+    "question": "What is a key responsibility of an Agile development team during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Collaborating to deliver a functional increment", "isCorrect": true },
+      { "id": "option_2", "text": "Waiting for management approval before making decisions", "isCorrect": false },
+      { "id": "option_3", "text": "Avoiding changes even if new information arises", "isCorrect": false },
+      { "id": "option_4", "text": "Relying on external teams to complete tasks", "isCorrect": false }
+    ],
+    "hint": "Agile teams should work together towards their sprint goal.",
+    "answerDescription": "A development team must collaborate effectively to complete the sprint and deliver working software."
+  },
+  {
+    "id": "agile_2319",
+    "question": "What is the most effective way for a development team to handle changing requirements?",
+    "options": [
+      { "id": "option_1", "text": "Ignore changes once development has started", "isCorrect": false },
+      { "id": "option_2", "text": "Embrace and incorporate changes iteratively", "isCorrect": true },
+      { "id": "option_3", "text": "Delay changes until the next release", "isCorrect": false },
+      { "id": "option_4", "text": "Rely solely on initial requirements without modification", "isCorrect": false }
+    ],
+    "hint": "Agile encourages adaptability to evolving needs.",
+    "answerDescription": "Agile teams embrace change by adjusting plans iteratively to meet evolving requirements."
+  },
+  {
+    "id": "agile_2320",
+    "question": "How should an Agile development team estimate work effectively?",
+    "options": [
+      { "id": "option_1", "text": "By assigning fixed hours to each task", "isCorrect": false },
+      { "id": "option_2", "text": "Using relative estimation techniques like story points", "isCorrect": true },
+      { "id": "option_3", "text": "By only estimating when stakeholders request it", "isCorrect": false },
+      { "id": "option_4", "text": "By having one person decide the estimates for the team", "isCorrect": false }
+    ],
+    "hint": "Agile teams often use story points to estimate work complexity.",
+    "answerDescription": "Relative estimation techniques such as story points help teams assess effort more effectively than fixed time estimates."
+  },
+  {
+    "id": "agile_2321",
+    "question": "What is the benefit of daily stand-up meetings for a development team?",
+    "options": [
+      { "id": "option_1", "text": "To track individual performance closely", "isCorrect": false },
+      { "id": "option_2", "text": "To promote alignment and quick issue resolution", "isCorrect": true },
+      { "id": "option_3", "text": "To replace other forms of team communication", "isCorrect": false },
+      { "id": "option_4", "text": "To document all progress in a detailed report", "isCorrect": false }
+    ],
+    "hint": "Daily stand-ups help teams stay aligned and address blockers.",
+    "answerDescription": "Stand-up meetings improve team alignment, transparency, and issue resolution efficiency."
+  },
+  {
+    "id": "agile_2322",
+    "question": "Why should a development team avoid overcommitting in a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "To reduce the need for testing", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure sustainable and high-quality delivery", "isCorrect": true },
+      { "id": "option_3", "text": "To avoid working collaboratively", "isCorrect": false },
+      { "id": "option_4", "text": "To keep the backlog unchanged", "isCorrect": false }
+    ],
+    "hint": "Sustainable work ensures consistent high-quality output.",
+    "answerDescription": "Avoiding overcommitment allows teams to maintain quality, avoid burnout, and meet realistic goals."
+  },
+  {
+    "id": "agile_2323",
+    "question": "How does continuous integration benefit a development team?",
+    "options": [
+      { "id": "option_1", "text": "By allowing delayed testing and deployment", "isCorrect": false },
+      { "id": "option_2", "text": "By identifying and fixing issues early in development", "isCorrect": true },
+      { "id": "option_3", "text": "By eliminating the need for code reviews", "isCorrect": false },
+      { "id": "option_4", "text": "By reducing the need for automation", "isCorrect": false }
+    ],
+    "hint": "Continuous integration helps catch issues early.",
+    "answerDescription": "Integrating code frequently allows teams to detect and resolve defects early, improving software quality."
+  },
+  {
+    "id": "agile_2324",
+    "question": "What should a development team do if a user story is too large for a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Postpone it to the next Sprint without changes", "isCorrect": false },
+      { "id": "option_2", "text": "Break it down into smaller, manageable tasks", "isCorrect": true },
+      { "id": "option_3", "text": "Ask stakeholders to remove the requirement", "isCorrect": false },
+      { "id": "option_4", "text": "Ignore it and focus on other stories", "isCorrect": false }
+    ],
+    "hint": "Smaller tasks make work more manageable.",
+    "answerDescription": "Breaking large stories into smaller ones ensures they fit within a Sprint and deliver incremental value."
+  },
+  {
+    "id": "agile_2325",
+    "question": "What is a key characteristic of an Agile development team?",
+    "options": [
+      { "id": "option_1", "text": "Strict adherence to a manager’s directives", "isCorrect": false },
+      { "id": "option_2", "text": "A focus on collaboration and adaptability", "isCorrect": true },
+      { "id": "option_3", "text": "Avoiding feedback from stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "Minimal communication between team members", "isCorrect": false }
+    ],
+    "hint": "Agile teams emphasize working together and adapting to change.",
+    "answerDescription": "Agile teams thrive on collaboration and adaptability, ensuring effective responses to change."
+  },
+  {
+    "id": "agile_2326",
+    "question": "How should a development team measure the success of a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "By counting the number of hours worked", "isCorrect": false },
+      { "id": "option_2", "text": "By delivering a working and valuable product increment", "isCorrect": true },
+      { "id": "option_3", "text": "By ensuring all documentation is completed", "isCorrect": false },
+      { "id": "option_4", "text": "By completing as many tasks as possible, regardless of quality", "isCorrect": false }
+    ],
+    "hint": "Agile focuses on delivering value in increments.",
+    "answerDescription": "The success of a Sprint is measured by delivering a working product increment that provides value."
+  },
+  {
+    "id": "agile_2327",
+    "question": "Why should an Agile development team conduct retrospectives after each Sprint?",
+    "options": [
+      { "id": "option_1", "text": "To review customer satisfaction surveys", "isCorrect": false },
+      { "id": "option_2", "text": "To identify areas for process improvement", "isCorrect": true },
+      { "id": "option_3", "text": "To eliminate the need for daily stand-ups", "isCorrect": false },
+      { "id": "option_4", "text": "To replace all other Scrum ceremonies", "isCorrect": false }
+    ],
+    "hint": "Continuous improvement is key in Agile.",
+    "answerDescription": "Sprint retrospectives help teams reflect on their process and make necessary improvements."
+  },
+  {
+    "id": "agile_2328",
+    "question": "How can an Agile development team ensure high-quality code?",
+    "options": [
+      { "id": "option_1", "text": "By skipping testing to save time", "isCorrect": false },
+      { "id": "option_2", "text": "By following coding standards and best practices", "isCorrect": true },
+      { "id": "option_3", "text": "By minimizing communication with testers", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding collaboration with other developers", "isCorrect": false }
+    ],
+    "hint": "Quality depends on strong coding practices.",
+    "answerDescription": "Using coding standards, testing, and best practices ensures maintainability and high-quality software."
+  },
+  
 
  
 ]
