@@ -27461,7 +27461,6 @@
     "hint": "Working together improves efficiency.",
     "answerDescription": "Pair programming and shared ownership encourage knowledge sharing and teamwork."
   },
-  
   {
     "id": "agile_2309",
     "question": "What is the primary focus of a development team in Agile?",
@@ -27702,7 +27701,8544 @@
     "hint": "Quality depends on strong coding practices.",
     "answerDescription": "Using coding standards, testing, and best practices ensures maintainability and high-quality software."
   },
+  {
+    "id": "agile_2329",
+    "question": "What is a primary responsibility of a development team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Ensuring the Product Owner writes all user stories", "isCorrect": false },
+      { "id": "option_2", "text": "Delegating work to external teams", "isCorrect": false },
+      { "id": "option_3", "text": "Delivering a working product increment", "isCorrect": true },
+      { "id": "option_4", "text": "Relying solely on management for decision-making", "isCorrect": false }
+    ],
+    "hint": "Agile teams focus on delivering incremental value.",
+    "answerDescription": "The development team is responsible for creating working product increments in each Sprint."
+  },
+  {
+    "id": "agile_2330",
+    "question": "What is the role of continuous integration in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To delay testing until the final stages of development", "isCorrect": false },
+      { "id": "option_2", "text": "To separate coding and testing into different teams", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure developers work on isolated branches for long periods", "isCorrect": false },
+      { "id": "option_4", "text": "To detect and fix integration issues early in development", "isCorrect": true }
+    ],
+    "hint": "Continuous integration reduces integration problems.",
+    "answerDescription": "By integrating code frequently, teams can catch issues early and maintain a stable product."
+  },
+  {
+    "id": "agile_2331",
+    "question": "What approach should a development team take when facing a complex problem?",
+    "options": [
+      { "id": "option_1", "text": "Wait for external consultants to provide a solution", "isCorrect": false },
+      { "id": "option_2", "text": "Ignore the problem and move to another task", "isCorrect": false },
+      { "id": "option_3", "text": "Collaborate and experiment with different solutions", "isCorrect": true },
+      { "id": "option_4", "text": "Assign the problem to a single team member", "isCorrect": false }
+    ],
+    "hint": "Agile encourages teamwork and iterative problem-solving.",
+    "answerDescription": "Working together and experimenting with potential solutions helps teams solve complex problems effectively."
+  },
+  {
+    "id": "agile_2332",
+    "question": "What is an important factor in maintaining team motivation in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Strictly enforcing deadlines without flexibility", "isCorrect": false },
+      { "id": "option_2", "text": "Keeping team members isolated in their tasks", "isCorrect": false },
+      { "id": "option_3", "text": "Encouraging autonomy and ownership of work", "isCorrect": true },
+      { "id": "option_4", "text": "Having management dictate every decision", "isCorrect": false }
+    ],
+    "hint": "Empowered teams tend to be more motivated.",
+    "answerDescription": "Giving teams ownership over their work fosters motivation, creativity, and accountability."
+  },
+  {
+    "id": "agile_2333",
+    "question": "What should a development team do if a backlog item lacks clarity?",
+    "options": [
+      { "id": "option_1", "text": "Make assumptions and start development", "isCorrect": false },
+      { "id": "option_2", "text": "Skip the item and work on something else", "isCorrect": false },
+      { "id": "option_3", "text": "Collaborate with the Product Owner to refine it", "isCorrect": true },
+      { "id": "option_4", "text": "Only work on items that are fully documented", "isCorrect": false }
+    ],
+    "hint": "Clear backlog items ensure better development outcomes.",
+    "answerDescription": "Clarifying backlog items with the Product Owner helps avoid misinterpretation and ensures smooth development."
+  },
+  {
+    "id": "agile_2334",
+    "question": "What is the primary purpose of Sprint Review?",
+    "options": [
+      { "id": "option_1", "text": "To finalize all pending documentation", "isCorrect": false },
+      { "id": "option_2", "text": "To critique individual developer performance", "isCorrect": false },
+      { "id": "option_3", "text": "To demonstrate the completed work and gather feedback", "isCorrect": true },
+      { "id": "option_4", "text": "To make last-minute changes before deployment", "isCorrect": false }
+    ],
+    "hint": "Sprint Reviews focus on showcasing completed work.",
+    "answerDescription": "The Sprint Review allows stakeholders to inspect the increment and provide valuable feedback."
+  },
+  {
+    "id": "agile_2335",
+    "question": "How can a development team improve cross-functionality?",
+    "options": [
+      { "id": "option_1", "text": "By ensuring each team member specializes in one skill only", "isCorrect": false },
+      { "id": "option_2", "text": "By working on tasks individually with minimal collaboration", "isCorrect": false },
+      { "id": "option_3", "text": "By learning multiple skills and collaborating across roles", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding knowledge-sharing sessions", "isCorrect": false }
+    ],
+    "hint": "Cross-functionality enables flexibility and collaboration.",
+    "answerDescription": "A team with diverse skills can adapt to different tasks, improving efficiency and collaboration."
+  },
+  {
+    "id": "agile_2336",
+    "question": "Why should development teams practice test-driven development (TDD)?",
+    "options": [
+      { "id": "option_1", "text": "To reduce the need for future testing", "isCorrect": false },
+      { "id": "option_2", "text": "To delay identifying issues until after release", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure code quality and prevent defects early", "isCorrect": true },
+      { "id": "option_4", "text": "To speed up development by skipping validation", "isCorrect": false }
+    ],
+    "hint": "TDD focuses on early issue detection.",
+    "answerDescription": "Writing tests before development helps prevent defects and ensures higher code quality."
+  },
+  {
+    "id": "agile_2337",
+    "question": "How should a development team handle external dependencies in a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Ignore dependencies and focus on internal work", "isCorrect": false },
+      { "id": "option_2", "text": "Wait until the dependency is resolved before planning", "isCorrect": false },
+      { "id": "option_3", "text": "Identify and mitigate risks related to dependencies early", "isCorrect": true },
+      { "id": "option_4", "text": "Avoid working on stories that have dependencies", "isCorrect": false }
+    ],
+    "hint": "Managing dependencies proactively ensures smooth progress.",
+    "answerDescription": "Identifying and planning for dependencies helps prevent bottlenecks and delays in Sprints."
+  },
+  {
+    "id": "agile_2338",
+    "question": "Why should a development team use a Definition of Done (DoD)?",
+    "options": [
+      { "id": "option_1", "text": "To set expectations for feature release dates", "isCorrect": false },
+      { "id": "option_2", "text": "To define high-level project goals", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure work meets quality standards before completion", "isCorrect": true },
+      { "id": "option_4", "text": "To track hours spent on tasks", "isCorrect": false }
+    ],
+    "hint": "DoD ensures consistency and quality in deliverables.",
+    "answerDescription": "A clear Definition of Done helps teams deliver high-quality, shippable increments consistently."
+  },  {
+    "id": "agile_2339",
+    "question": "What is the key benefit of a self-organizing development team?",
+    "options": [
+      { "id": "option_1", "text": "Increased reliance on external management", "isCorrect": false },
+      { "id": "option_2", "text": "Reduced need for team collaboration", "isCorrect": false },
+      { "id": "option_3", "text": "Strict adherence to traditional hierarchy", "isCorrect": false },
+      { "id": "option_4", "text": "Greater ownership and accountability", "isCorrect": true }
+    ],
+    "hint": "Self-organizing teams take responsibility for their work.",
+    "answerDescription": "A self-organizing team fosters accountability, collaboration, and efficient decision-making."
+  },
+  {
+    "id": "agile_2340",
+    "question": "How should a development team ensure continuous improvement?",
+    "options": [
+      { "id": "option_1", "text": "By repeating the same processes without change", "isCorrect": false },
+      { "id": "option_2", "text": "By relying only on management feedback", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding retrospectives to save time", "isCorrect": false },
+      { "id": "option_4", "text": "By regularly reflecting and adapting", "isCorrect": true }
+    ],
+    "hint": "Agile teams improve through iteration and reflection.",
+    "answerDescription": "Regular retrospectives and adapting based on insights lead to continuous team improvement."
+  },
+  {
+    "id": "agile_2341",
+    "question": "Why is limiting Work in Progress (WIP) important for a development team?",
+    "options": [
+      { "id": "option_1", "text": "To ensure every team member is always busy", "isCorrect": false },
+      { "id": "option_2", "text": "To increase multitasking across multiple tasks", "isCorrect": false },
+      { "id": "option_3", "text": "To maximize task switching", "isCorrect": false },
+      { "id": "option_4", "text": "To improve focus and efficiency", "isCorrect": true }
+    ],
+    "hint": "Too much WIP can reduce productivity and slow progress.",
+    "answerDescription": "Limiting WIP reduces context switching and helps teams focus on delivering value efficiently."
+  },
+  {
+    "id": "agile_2342",
+    "question": "What should a development team do if a Sprint goal becomes unachievable?",
+    "options": [
+      { "id": "option_1", "text": "Ignore the issue and continue as planned", "isCorrect": false },
+      { "id": "option_2", "text": "Blame external stakeholders for the problem", "isCorrect": false },
+      { "id": "option_3", "text": "Request a change in the Sprint backlog without discussion", "isCorrect": false },
+      { "id": "option_4", "text": "Collaborate with the Product Owner to adjust the goal", "isCorrect": true }
+    ],
+    "hint": "Agile teams adapt to changing circumstances.",
+    "answerDescription": "Adjusting the Sprint goal with the Product Owner ensures alignment with business priorities."
+  },
+  {
+    "id": "agile_2343",
+    "question": "Why should Agile Development Teams focus on delivering small increments?",
+    "options": [
+      { "id": "option_1", "text": "To delay customer feedback until the final release", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid making changes based on user needs", "isCorrect": false },
+      { "id": "option_3", "text": "To reduce the importance of testing", "isCorrect": false },
+      { "id": "option_4", "text": "To get early feedback and improve continuously", "isCorrect": true }
+    ],
+    "hint": "Frequent releases allow for quick adaptation.",
+    "answerDescription": "By delivering small increments, teams can adjust based on feedback and provide value sooner."
+  },
+  {
+    "id": "agile_2344",
+    "question": "What is a characteristic of a high-performing development team?",
+    "options": [
+      { "id": "option_1", "text": "A rigid hierarchy with minimal collaboration", "isCorrect": false },
+      { "id": "option_2", "text": "Team members working in complete isolation", "isCorrect": false },
+      { "id": "option_3", "text": "Avoiding feedback loops to maintain speed", "isCorrect": false },
+      { "id": "option_4", "text": "Continuous learning and adaptation", "isCorrect": true }
+    ],
+    "hint": "Agile teams thrive on learning and improving.",
+    "answerDescription": "A high-performing team embraces feedback, continuous learning, and iterative improvements."
+  },
+  {
+    "id": "agile_2345",
+    "question": "What is an important factor in fostering collaboration within a development team?",
+    "options": [
+      { "id": "option_1", "text": "Encouraging individual competition over teamwork", "isCorrect": false },
+      { "id": "option_2", "text": "Minimizing team interactions to avoid conflicts", "isCorrect": false },
+      { "id": "option_3", "text": "Only communicating through formal documentation", "isCorrect": false },
+      { "id": "option_4", "text": "Promoting open communication and trust", "isCorrect": true }
+    ],
+    "hint": "Trust and communication are key to teamwork.",
+    "answerDescription": "Encouraging open discussions and trust fosters effective collaboration in development teams."
+  },
+  {
+    "id": "agile_2346",
+    "question": "Why should a development team embrace feedback from stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To prove that the current process is flawless", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid making any changes to the product", "isCorrect": false },
+      { "id": "option_3", "text": "To reduce transparency in decision-making", "isCorrect": false },
+      { "id": "option_4", "text": "To refine and improve the product continuously", "isCorrect": true }
+    ],
+    "hint": "Stakeholder feedback helps align the product with user needs.",
+    "answerDescription": "Incorporating stakeholder feedback ensures continuous improvement and alignment with business goals."
+  },
+  {
+    "id": "agile_2347",
+    "question": "How should a development team handle unexpected changes during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Reject all changes to stay on track", "isCorrect": false },
+      { "id": "option_2", "text": "Only consider changes after the Sprint ends", "isCorrect": false },
+      { "id": "option_3", "text": "Pause all work until a new plan is created", "isCorrect": false },
+      { "id": "option_4", "text": "Assess the impact and collaborate with the Product Owner", "isCorrect": true }
+    ],
+    "hint": "Agile teams adapt to change while maintaining focus.",
+    "answerDescription": "Discussing changes with the Product Owner helps the team stay aligned with business priorities."
+  },
+  {
+    "id": "agile_2348",
+    "question": "What is an effective way for a development team to improve velocity?",
+    "options": [
+      { "id": "option_1", "text": "By skipping quality checks to deliver faster", "isCorrect": false },
+      { "id": "option_2", "text": "By overloading the team with excessive tasks", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding retrospective meetings", "isCorrect": false },
+      { "id": "option_4", "text": "By improving collaboration and efficiency", "isCorrect": true }
+    ],
+    "hint": "Velocity improves with efficiency and teamwork.",
+    "answerDescription": "Strong collaboration, process improvements, and efficient work practices help boost velocity."
+  },
+  {
+    "id": "agile_2349",
+    "question": "What is the primary responsibility of a Development Team in Scrum?",
+    "options": [
+      { "id": "option_1", "text": "Delivering a potentially shippable product increment", "isCorrect": true },
+      { "id": "option_2", "text": "Defining the company’s strategic vision", "isCorrect": false },
+      { "id": "option_3", "text": "Assigning tasks to team members individually", "isCorrect": false },
+      { "id": "option_4", "text": "Ensuring no changes are made to the backlog", "isCorrect": false }
+    ],
+    "hint": "The goal of each Sprint is to deliver value.",
+    "answerDescription": "A Development Team is responsible for delivering a high-quality product increment that meets the Definition of Done."
+  },
+  {
+    "id": "agile_2350",
+    "question": "Why is cross-functionality important in a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It allows the team to deliver features independently", "isCorrect": true },
+      { "id": "option_2", "text": "It ensures only specialists work on specific tasks", "isCorrect": false },
+      { "id": "option_3", "text": "It reduces the need for collaboration", "isCorrect": false },
+      { "id": "option_4", "text": "It limits the team's ability to adapt to change", "isCorrect": false }
+    ],
+    "hint": "Cross-functional teams can handle all aspects of development.",
+    "answerDescription": "Having a cross-functional team ensures that all necessary skills are available to deliver working software each Sprint."
+  },
+  {
+    "id": "agile_2351",
+    "question": "How does a Development Team achieve high quality in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "By adhering to the Definition of Done", "isCorrect": true },
+      { "id": "option_2", "text": "By delivering as quickly as possible without testing", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding automated testing and reviews", "isCorrect": false },
+      { "id": "option_4", "text": "By working in silos with limited communication", "isCorrect": false }
+    ],
+    "hint": "Quality is ensured by well-defined completion criteria.",
+    "answerDescription": "The Definition of Done ensures that the product increment meets the required quality standards."
+  },
+  {
+    "id": "agile_2352",
+    "question": "What should a Development Team do if they encounter a blocker during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Raise the issue in the Daily Scrum for resolution", "isCorrect": true },
+      { "id": "option_2", "text": "Ignore the issue and continue with other tasks", "isCorrect": false },
+      { "id": "option_3", "text": "Wait until the Sprint Review to discuss it", "isCorrect": false },
+      { "id": "option_4", "text": "Ask only the Scrum Master to solve the problem", "isCorrect": false }
+    ],
+    "hint": "Daily Scrums help identify and resolve blockers.",
+    "answerDescription": "Raising blockers in the Daily Scrum allows the team to collaborate on solutions quickly."
+  },
+  {
+    "id": "agile_2353",
+    "question": "Why is it important for a Development Team to be self-organizing?",
+    "options": [
+      { "id": "option_1", "text": "It enhances team ownership and decision-making", "isCorrect": true },
+      { "id": "option_2", "text": "It eliminates the need for a Product Owner", "isCorrect": false },
+      { "id": "option_3", "text": "It allows team members to work without any accountability", "isCorrect": false },
+      { "id": "option_4", "text": "It removes the necessity for a Scrum Master", "isCorrect": false }
+    ],
+    "hint": "Self-organizing teams take responsibility for their own processes.",
+    "answerDescription": "A self-organizing team makes decisions collectively, improving efficiency and accountability."
+  },
+  {
+    "id": "agile_2354",
+    "question": "What should the Development Team focus on during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Delivering the highest priority Sprint Goal", "isCorrect": true },
+      { "id": "option_2", "text": "Completing as many tasks as possible, regardless of priority", "isCorrect": false },
+      { "id": "option_3", "text": "Only working on tasks assigned by the Scrum Master", "isCorrect": false },
+      { "id": "option_4", "text": "Avoiding communication with stakeholders", "isCorrect": false }
+    ],
+    "hint": "Sprint Goals align development work with business value.",
+    "answerDescription": "Focusing on the Sprint Goal ensures the team delivers the most valuable work within the Sprint."
+  },
+  {
+    "id": "agile_2355",
+    "question": "How does the Development Team ensure transparency in their work?",
+    "options": [
+      { "id": "option_1", "text": "By maintaining an up-to-date Sprint Backlog", "isCorrect": true },
+      { "id": "option_2", "text": "By avoiding documentation to speed up development", "isCorrect": false },
+      { "id": "option_3", "text": "By keeping progress discussions private", "isCorrect": false },
+      { "id": "option_4", "text": "By relying only on the Scrum Master for updates", "isCorrect": false }
+    ],
+    "hint": "An updated Sprint Backlog makes progress visible to all.",
+    "answerDescription": "Keeping the Sprint Backlog updated helps the team and stakeholders track progress transparently."
+  },
+  {
+    "id": "agile_2356",
+    "question": "What is an advantage of small, stable development teams?",
+    "options": [
+      { "id": "option_1", "text": "They build strong collaboration and efficiency", "isCorrect": true },
+      { "id": "option_2", "text": "They reduce the need for communication", "isCorrect": false },
+      { "id": "option_3", "text": "They minimize learning opportunities", "isCorrect": false },
+      { "id": "option_4", "text": "They discourage knowledge sharing", "isCorrect": false }
+    ],
+    "hint": "Stable teams improve collaboration and productivity over time.",
+    "answerDescription": "Small, stable teams develop a strong working rhythm, leading to higher efficiency and better results."
+  },
+  {
+    "id": "agile_2357",
+    "question": "Why is it important for the Development Team to participate in Sprint Planning?",
+    "options": [
+      { "id": "option_1", "text": "To commit to and plan how to achieve the Sprint Goal", "isCorrect": true },
+      { "id": "option_2", "text": "To allow only the Scrum Master to make decisions", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure the Product Owner assigns tasks to them", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid making adjustments to the Sprint Backlog", "isCorrect": false }
+    ],
+    "hint": "Sprint Planning defines the team's commitment for the Sprint.",
+    "answerDescription": "By actively participating in Sprint Planning, the Development Team ensures clarity and alignment with Sprint Goals."
+  },
+  {
+    "id": "agile_2358",
+    "question": "What is the main advantage of collective code ownership in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It increases code quality and knowledge sharing", "isCorrect": true },
+      { "id": "option_2", "text": "It allows only senior developers to modify the code", "isCorrect": false },
+      { "id": "option_3", "text": "It prevents junior developers from learning", "isCorrect": false },
+      { "id": "option_4", "text": "It restricts code changes to a single team member", "isCorrect": false }
+    ],
+    "hint": "Agile teams promote shared responsibility for code.",
+    "answerDescription": "Collective code ownership ensures that all team members can contribute, leading to better quality and collaboration."
+  },
+  {
+    "id": "agile_2359",
+    "question": "What is the key characteristic of a self-organizing Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It requires constant supervision", "isCorrect": false },
+      { "id": "option_2", "text": "It decides how to accomplish the work", "isCorrect": true },
+      { "id": "option_3", "text": "It waits for instructions from the Product Owner", "isCorrect": false },
+      { "id": "option_4", "text": "It follows strict hierarchical structures", "isCorrect": false }
+    ],
+    "hint": "A self-organizing team determines the best way to deliver work.",
+    "answerDescription": "Self-organizing teams take ownership of their work, improving efficiency and agility."
+  },
+  {
+    "id": "agile_2360",
+    "question": "Why should the Development Team avoid multitasking?",
+    "options": [
+      { "id": "option_1", "text": "It allows the Scrum Master to assign more work", "isCorrect": false },
+      { "id": "option_2", "text": "It improves focus and productivity", "isCorrect": true },
+      { "id": "option_3", "text": "It increases workload for each team member", "isCorrect": false },
+      { "id": "option_4", "text": "It eliminates the need for prioritization", "isCorrect": false }
+    ],
+    "hint": "Multitasking reduces efficiency in Agile development.",
+    "answerDescription": "Avoiding multitasking helps the Development Team complete tasks faster with higher quality."
+  },
+  {
+    "id": "agile_2361",
+    "question": "What is the best way for a Development Team to handle technical debt?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it until later releases", "isCorrect": false },
+      { "id": "option_2", "text": "Address it regularly within each Sprint", "isCorrect": true },
+      { "id": "option_3", "text": "Rely only on external consultants to fix it", "isCorrect": false },
+      { "id": "option_4", "text": "Only fix technical debt when customers complain", "isCorrect": false }
+    ],
+    "hint": "Technical debt should be managed proactively.",
+    "answerDescription": "By addressing technical debt in each Sprint, teams maintain code quality and prevent long-term issues."
+  },
+  {
+    "id": "agile_2362",
+    "question": "How can a Development Team ensure continuous improvement?",
+    "options": [
+      { "id": "option_1", "text": "By following fixed processes without change", "isCorrect": false },
+      { "id": "option_2", "text": "By conducting Sprint Retrospectives", "isCorrect": true },
+      { "id": "option_3", "text": "By avoiding feedback from stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "By focusing only on coding without discussions", "isCorrect": false }
+    ],
+    "hint": "Regular reflection helps teams improve over time.",
+    "answerDescription": "Sprint Retrospectives allow the Development Team to inspect and adapt, fostering continuous improvement."
+  },
+  {
+    "id": "agile_2363",
+    "question": "What helps a Development Team work effectively in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Having separate teams for each task", "isCorrect": false },
+      { "id": "option_2", "text": "Clear goals and open communication", "isCorrect": true },
+      { "id": "option_3", "text": "Only working on individual tasks", "isCorrect": false },
+      { "id": "option_4", "text": "Following rigid, unchangeable plans", "isCorrect": false }
+    ],
+    "hint": "Alignment and collaboration improve Agile teams.",
+    "answerDescription": "Clear goals and communication ensure the Development Team delivers effectively in Agile environments."
+  },
+  {
+    "id": "agile_2364",
+    "question": "Why should a Development Team collaborate closely with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To avoid unexpected requirements", "isCorrect": false },
+      { "id": "option_2", "text": "To align development with business needs", "isCorrect": true },
+      { "id": "option_3", "text": "To ensure they receive detailed task assignments", "isCorrect": false },
+      { "id": "option_4", "text": "To minimize direct customer interactions", "isCorrect": false }
+    ],
+    "hint": "Stakeholder collaboration improves product value.",
+    "answerDescription": "Working closely with stakeholders helps the team build solutions that meet business and customer needs."
+  },
+  {
+    "id": "agile_2365",
+    "question": "What should a Development Team do if a Sprint Goal becomes obsolete?",
+    "options": [
+      { "id": "option_1", "text": "Ignore the change and complete the planned work", "isCorrect": false },
+      { "id": "option_2", "text": "Discuss with the Product Owner and adapt the Sprint", "isCorrect": true },
+      { "id": "option_3", "text": "Immediately end the Sprint and start a new one", "isCorrect": false },
+      { "id": "option_4", "text": "Continue the Sprint without informing stakeholders", "isCorrect": false }
+    ],
+    "hint": "Agile teams adapt to changes in requirements.",
+    "answerDescription": "If the Sprint Goal is no longer relevant, the Development Team and Product Owner should reassess and adapt."
+  },
+  {
+    "id": "agile_2366",
+    "question": "How can the Development Team improve collaboration?",
+    "options": [
+      { "id": "option_1", "text": "By working independently without communication", "isCorrect": false },
+      { "id": "option_2", "text": "By having regular discussions and knowledge sharing", "isCorrect": true },
+      { "id": "option_3", "text": "By avoiding code reviews and pair programming", "isCorrect": false },
+      { "id": "option_4", "text": "By relying only on written documentation", "isCorrect": false }
+    ],
+    "hint": "Frequent communication strengthens team collaboration.",
+    "answerDescription": "Regular discussions and knowledge sharing improve teamwork and alignment in Agile development."
+  },
+  {
+    "id": "agile_2367",
+    "question": "What should a Development Team do if a critical bug is found during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Delay fixing it until the next release", "isCorrect": false },
+      { "id": "option_2", "text": "Prioritize it based on its impact", "isCorrect": true },
+      { "id": "option_3", "text": "Ignore it if it does not affect all users", "isCorrect": false },
+      { "id": "option_4", "text": "Let only the Scrum Master decide on its priority", "isCorrect": false }
+    ],
+    "hint": "Bugs should be handled based on their urgency and impact.",
+    "answerDescription": "Prioritizing bugs based on impact ensures the most critical issues are addressed within the Sprint."
+  },
+  {
+    "id": "agile_2368",
+    "question": "How does Agile encourage high team motivation?",
+    "options": [
+      { "id": "option_1", "text": "By providing fixed roles and limited responsibilities", "isCorrect": false },
+      { "id": "option_2", "text": "By fostering autonomy, mastery, and purpose", "isCorrect": true },
+      { "id": "option_3", "text": "By requiring strict adherence to pre-defined processes", "isCorrect": false },
+      { "id": "option_4", "text": "By discouraging self-organization", "isCorrect": false }
+    ],
+    "hint": "Motivation thrives on autonomy and purpose.",
+    "answerDescription": "Agile teams stay motivated by having autonomy in decision-making and a clear sense of purpose."
+  },
+  {
+    "id": "agile_2369",
+    "question": "What is the primary responsibility of a Development Team in Scrum?",
+    "options": [
+      { "id": "option_1", "text": "Managing the product backlog", "isCorrect": false },
+      { "id": "option_2", "text": "Prioritizing Sprint goals", "isCorrect": false },
+      { "id": "option_3", "text": "Delivering a potentially shippable product increment", "isCorrect": true },
+      { "id": "option_4", "text": "Assigning tasks to individual members", "isCorrect": false }
+    ],
+    "hint": "The Development Team is responsible for creating working software.",
+    "answerDescription": "In Scrum, the Development Team is accountable for delivering a potentially shippable product increment at the end of each Sprint."
+  },
+  {
+    "id": "agile_2370",
+    "question": "How does a Development Team track its progress during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "By updating the Product Roadmap", "isCorrect": false },
+      { "id": "option_2", "text": "By holding retrospectives daily", "isCorrect": false },
+      { "id": "option_3", "text": "By using a Sprint Burndown Chart", "isCorrect": true },
+      { "id": "option_4", "text": "By having the Scrum Master track their tasks", "isCorrect": false }
+    ],
+    "hint": "A visual tool helps monitor remaining work during a Sprint.",
+    "answerDescription": "A Sprint Burndown Chart helps the Development Team see how much work remains and adjust their efforts accordingly."
+  },
+  {
+    "id": "agile_2371",
+    "question": "What should the Development Team do if they cannot complete all tasks in a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Extend the Sprint until everything is completed", "isCorrect": false },
+      { "id": "option_2", "text": "Ask the Product Owner to change the Sprint Goal", "isCorrect": false },
+      { "id": "option_3", "text": "Collaborate with the Product Owner to reprioritize work", "isCorrect": true },
+      { "id": "option_4", "text": "Drop the tasks without informing stakeholders", "isCorrect": false }
+    ],
+    "hint": "Agile teams must adapt and communicate when work cannot be finished.",
+    "answerDescription": "When a team cannot complete all tasks, they should work with the Product Owner to adjust priorities while maintaining transparency."
+  },
+  {
+    "id": "agile_2372",
+    "question": "Why cross-functionality is needed in a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It allows specialists to focus only on their expertise", "isCorrect": false },
+      { "id": "option_2", "text": "It enables team members to work independently", "isCorrect": false },
+      { "id": "option_3", "text": "It helps the team deliver a complete product increment", "isCorrect": true },
+      { "id": "option_4", "text": "It reduces the need for communication", "isCorrect": false }
+    ],
+    "hint": "A cross-functional team can handle all aspects of development.",
+    "answerDescription": "Cross-functionality ensures the team has all necessary skills to deliver a fully functional product increment without external dependencies."
+  },
+  {
+    "id": "agile_2373",
+    "question": "How should a Development Team respond to changing requirements?",
+    "options": [
+      { "id": "option_1", "text": "Ignore changes to maintain Sprint commitments", "isCorrect": false },
+      { "id": "option_2", "text": "Ask the Scrum Master to prevent changes", "isCorrect": false },
+      { "id": "option_3", "text": "Embrace change while maintaining focus on Sprint goals", "isCorrect": true },
+      { "id": "option_4", "text": "Restart the Sprint to accommodate new requirements", "isCorrect": false }
+    ],
+    "hint": "Agile is designed to be flexible and adaptive.",
+    "answerDescription": "While change is inevitable, the Development Team should balance flexibility with achieving the Sprint Goal."
+  },
+  {
+    "id": "agile_2374",
+    "question": "What is the purpose of a Sprint Retrospective for the Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To review completed backlog items", "isCorrect": false },
+      { "id": "option_2", "text": "To assess individual performance", "isCorrect": false },
+      { "id": "option_3", "text": "To reflect on and improve team processes", "isCorrect": true },
+      { "id": "option_4", "text": "To present work to stakeholders", "isCorrect": false }
+    ],
+    "hint": "Retrospectives focus on team growth and improvement.",
+    "answerDescription": "Sprint Retrospectives help teams continuously refine their collaboration and processes for better efficiency."
+  },
+  {
+    "id": "agile_2375",
+    "question": "How can a Development Team improve collaboration?",
+    "options": [
+      { "id": "option_1", "text": "By assigning work strictly based on job titles", "isCorrect": false },
+      { "id": "option_2", "text": "By reducing the number of meetings", "isCorrect": false },
+      { "id": "option_3", "text": "By fostering open communication and shared ownership", "isCorrect": true },
+      { "id": "option_4", "text": "By limiting discussions to formal reports", "isCorrect": false }
+    ],
+    "hint": "Effective collaboration depends on communication and teamwork.",
+    "answerDescription": "Open communication and shared ownership encourage a collaborative environment where all team members contribute to success."
+  },
+  {
+    "id": "agile_2376",
+    "question": "Why is it important for the Development Team to have a Definition of Done?",
+    "options": [
+      { "id": "option_1", "text": "To ensure work is completed to a consistent standard", "isCorrect": true },
+      { "id": "option_2", "text": "To track individual performance", "isCorrect": false },
+      { "id": "option_3", "text": "To allow unfinished work to be pushed to the next Sprint", "isCorrect": false },
+      { "id": "option_4", "text": "To enable the Scrum Master to evaluate progress", "isCorrect": false }
+    ],
+    "hint": "A shared understanding of completion ensures quality work.",
+    "answerDescription": "A Definition of Done ensures that all team members follow a consistent standard before considering work complete."
+  },
+  {
+    "id": "agile_2377",
+    "question": "What should a Development Team do if they identify a knowledge gap?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it and focus on immediate tasks", "isCorrect": false },
+      { "id": "option_2", "text": "Wait for management to assign training", "isCorrect": false },
+      { "id": "option_3", "text": "Take initiative to learn and share knowledge", "isCorrect": true },
+      { "id": "option_4", "text": "Rely on external consultants for all learning", "isCorrect": false }
+    ],
+    "hint": "Continuous learning is key to Agile success.",
+    "answerDescription": "Development Teams should actively seek knowledge and share learning to stay adaptable and effective."
+  },
+  {
+    "id": "agile_2378",
+    "question": "What is an important characteristic of an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Following strict hierarchical structures", "isCorrect": false },
+      { "id": "option_2", "text": "Working in silos to maximize efficiency", "isCorrect": false },
+      { "id": "option_3", "text": "Being self-organizing and cross-functional", "isCorrect": true },
+      { "id": "option_4", "text": "Relying on external teams for critical decisions", "isCorrect": false }
+    ],
+    "hint": "Agile teams manage their own work and are multidisciplinary.",
+    "answerDescription": "Agile Development Teams are self-organizing and cross-functional, ensuring they can complete work without external dependencies."
+  },
+  {
+    "id": "agile_2379",
+    "question": "What is the ideal size of a Scrum Development Team?",
+    "options": [
+      { "id": "option_1", "text": "More than 15 members", "isCorrect": false },
+      { "id": "option_2", "text": "Exactly 5 members", "isCorrect": false },
+      { "id": "option_3", "text": "Only 2 or 3 members", "isCorrect": false },
+      { "id": "option_4", "text": "Between 3 and 9 members", "isCorrect": true }
+    ],
+    "hint": "Scrum recommends a team size that balances agility and collaboration.",
+    "answerDescription": "A Scrum Development Team should ideally have between 3 and 9 members to remain effective and collaborative."
+  },
+  {
+    "id": "agile_2380",
+    "question": "How does a Development Team ensure transparency in their work?",
+    "options": [
+      { "id": "option_1", "text": "By keeping work progress private", "isCorrect": false },
+      { "id": "option_2", "text": "By relying solely on the Scrum Master for updates", "isCorrect": false },
+      { "id": "option_3", "text": "By only communicating at the end of the Sprint", "isCorrect": false },
+      { "id": "option_4", "text": "By using tools like task boards and daily stand-ups", "isCorrect": true }
+    ],
+    "hint": "Scrum encourages visibility of work progress.",
+    "answerDescription": "Development Teams ensure transparency by using task boards, daily stand-ups, and regular updates to share progress."
+  },
+  {
+    "id": "agile_2381",
+    "question": "What happens when a Development Team member faces a blocker?",
+    "options": [
+      { "id": "option_1", "text": "They wait until the Sprint Review to address it", "isCorrect": false },
+      { "id": "option_2", "text": "They complete other tasks and ignore the issue", "isCorrect": false },
+      { "id": "option_3", "text": "They escalate the issue directly to stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "They raise it in the Daily Scrum for resolution", "isCorrect": true }
+    ],
+    "hint": "Daily meetings help resolve impediments quickly.",
+    "answerDescription": "Team members should raise blockers in the Daily Scrum to seek support and ensure progress continues smoothly."
+  },
+  {
+    "id": "agile_2382",
+    "question": "How does a Development Team improve Sprint execution?",
+    "options": [
+      { "id": "option_1", "text": "By working in isolation to minimize distractions", "isCorrect": false },
+      { "id": "option_2", "text": "By only following predefined roles and responsibilities", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding communication with the Product Owner", "isCorrect": false },
+      { "id": "option_4", "text": "By collaborating, adapting, and continuously improving", "isCorrect": true }
+    ],
+    "hint": "Scrum promotes continuous improvement through collaboration.",
+    "answerDescription": "A Development Team should embrace adaptability, teamwork, and learning to enhance Sprint execution."
+  },
+  {
+    "id": "agile_2383",
+    "question": "What should a Development Team do when they finish all Sprint tasks early?",
+    "options": [
+      { "id": "option_1", "text": "End the Sprint immediately", "isCorrect": false },
+      { "id": "option_2", "text": "Wait for the next Sprint to begin", "isCorrect": false },
+      { "id": "option_3", "text": "Take on additional work without discussing it", "isCorrect": false },
+      { "id": "option_4", "text": "Collaborate with the Product Owner to pull in more backlog items", "isCorrect": true }
+    ],
+    "hint": "A flexible approach ensures maximum value delivery.",
+    "answerDescription": "If a Development Team completes work early, they should work with the Product Owner to pull additional valuable backlog items into the Sprint."
+  },
+  {
+    "id": "agile_2384",
+    "question": "Why is it important for Development Team members to be self-organizing?",
+    "options": [
+      { "id": "option_1", "text": "To avoid the need for a Scrum Master", "isCorrect": false },
+      { "id": "option_2", "text": "To eliminate the need for planning", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure tasks are assigned by management", "isCorrect": false },
+      { "id": "option_4", "text": "To take responsibility for planning and execution", "isCorrect": true }
+    ],
+    "hint": "Scrum teams are self-sufficient and accountable.",
+    "answerDescription": "Self-organizing teams take ownership of how they complete work, leading to better collaboration and efficiency."
+  },
+  {
+    "id": "agile_2385",
+    "question": "What is a key outcome of a Development Team’s Daily Scrum?",
+    "options": [
+      { "id": "option_1", "text": "A detailed performance review of team members", "isCorrect": false },
+      { "id": "option_2", "text": "Approval of work by the Scrum Master", "isCorrect": false },
+      { "id": "option_3", "text": "Finalization of all pending backlog items", "isCorrect": false },
+      { "id": "option_4", "text": "Identification of blockers and adjustments to work plans", "isCorrect": true }
+    ],
+    "hint": "Daily Scrums help ensure smooth progress.",
+    "answerDescription": "Daily Scrums allow the Development Team to identify impediments and adjust their approach to meet Sprint goals."
+  },
+  {
+    "id": "agile_2386",
+    "question": "Why is technical excellence important for a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To reduce interactions with stakeholders", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure they always deliver more features than expected", "isCorrect": false },
+      { "id": "option_3", "text": "To avoid the need for retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "To create high-quality, maintainable software", "isCorrect": true }
+    ],
+    "hint": "Sustainable development depends on quality.",
+    "answerDescription": "Focusing on technical excellence ensures the Development Team delivers high-quality, scalable, and maintainable software."
+  },
+  {
+    "id": "agile_2387",
+    "question": "How can a Development Team handle conflicting priorities within a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "By allowing each team member to choose their own priorities", "isCorrect": false },
+      { "id": "option_2", "text": "By escalating all conflicts to senior management", "isCorrect": false },
+      { "id": "option_3", "text": "By ignoring lower-priority tasks until the next Sprint", "isCorrect": false },
+      { "id": "option_4", "text": "By working with the Product Owner to realign priorities", "isCorrect": true }
+    ],
+    "hint": "Collaboration with the Product Owner helps resolve priority conflicts.",
+    "answerDescription": "The Development Team should work closely with the Product Owner to ensure alignment on priorities and deliver the most valuable work."
+  },
+  {
+    "id": "agile_2388",
+    "question": "What should a Development Team do if they disagree on a technical approach?",
+    "options": [
+      { "id": "option_1", "text": "Have the Scrum Master make the final decision", "isCorrect": false },
+      { "id": "option_2", "text": "Let the most senior developer decide", "isCorrect": false },
+      { "id": "option_3", "text": "Follow the approach used in previous projects", "isCorrect": false },
+      { "id": "option_4", "text": "Discuss options and reach a consensus as a team", "isCorrect": true }
+    ],
+    "hint": "Agile promotes collaborative decision-making.",
+    "answerDescription": "Development Teams should openly discuss technical decisions and reach a consensus to ensure the best approach is taken."
+  },
+  {
+    "id": "agile_2389",
+    "question": "What is a primary responsibility of a Scrum Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Delivering a potentially shippable product increment", "isCorrect": true },
+      { "id": "option_2", "text": "Defining business goals and customer requirements", "isCorrect": false },
+      { "id": "option_3", "text": "Ensuring management assigns individual tasks", "isCorrect": false },
+      { "id": "option_4", "text": "Finalizing budgets and marketing strategies", "isCorrect": false }
+    ],
+    "hint": "Scrum teams focus on delivering working software.",
+    "answerDescription": "The Development Team is responsible for delivering a usable product increment at the end of each Sprint."
+  },
+  {
+    "id": "agile_2390",
+    "question": "How does a Development Team handle work allocation?",
+    "options": [
+      { "id": "option_1", "text": "They self-organize to determine how work is done", "isCorrect": true },
+      { "id": "option_2", "text": "The Scrum Master assigns tasks to individuals", "isCorrect": false },
+      { "id": "option_3", "text": "The Product Owner divides work among team members", "isCorrect": false },
+      { "id": "option_4", "text": "Managers outside the team distribute tasks", "isCorrect": false }
+    ],
+    "hint": "Scrum teams are self-organizing.",
+    "answerDescription": "In Scrum, Development Teams decide how to divide and complete work without external interference."
+  },
+  {
+    "id": "agile_2391",
+    "question": "Why should a Development Team collaborate closely with the Product Owner?",
+    "options": [
+      { "id": "option_1", "text": "To ensure the most valuable features are built first", "isCorrect": true },
+      { "id": "option_2", "text": "To let the Product Owner assign daily tasks", "isCorrect": false },
+      { "id": "option_3", "text": "To get approval for every line of code", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid responsibility for backlog refinement", "isCorrect": false }
+    ],
+    "hint": "Aligning on priorities leads to better outcomes.",
+    "answerDescription": "Close collaboration with the Product Owner ensures the team focuses on the highest-value work."
+  },
+  {
+    "id": "agile_2392",
+    "question": "What should a Development Team do if they realize a backlog item is much larger than expected?",
+    "options": [
+      { "id": "option_1", "text": "Break it down into smaller, manageable tasks", "isCorrect": true },
+      { "id": "option_2", "text": "Remove it from the Sprint and delay progress", "isCorrect": false },
+      { "id": "option_3", "text": "Ask the Scrum Master to redefine the backlog", "isCorrect": false },
+      { "id": "option_4", "text": "Continue working without adjusting estimates", "isCorrect": false }
+    ],
+    "hint": "Large backlog items should be refined.",
+    "answerDescription": "Breaking down large backlog items helps maintain steady progress and ensures delivery within the Sprint."
+  },
+  {
+    "id": "agile_2393",
+    "question": "What mindset should a Development Team adopt to continuously improve?",
+    "options": [
+      { "id": "option_1", "text": "A culture of continuous learning and feedback", "isCorrect": true },
+      { "id": "option_2", "text": "A rigid process that never changes", "isCorrect": false },
+      { "id": "option_3", "text": "Focusing only on individual growth, not teamwork", "isCorrect": false },
+      { "id": "option_4", "text": "Avoiding retrospectives to save time", "isCorrect": false }
+    ],
+    "hint": "Agile encourages teams to evolve and adapt.",
+    "answerDescription": "By embracing continuous learning and feedback, Development Teams can refine their processes and improve over time."
+  },
+  {
+    "id": "agile_2394",
+    "question": "Why is cross-functionality important in a Development Team in agile?",
+    "options": [
+      { "id": "option_1", "text": "It allows the team to deliver a complete product increment", "isCorrect": true },
+      { "id": "option_2", "text": "It eliminates the need for specialized skills", "isCorrect": false },
+      { "id": "option_3", "text": "It ensures team members only focus on their expertise", "isCorrect": false },
+      { "id": "option_4", "text": "It means the team doesn't need to collaborate", "isCorrect": false }
+    ],
+    "hint": "Agile teams should be able to handle all necessary tasks.",
+    "answerDescription": "Cross-functional teams can complete an entire product increment without relying on external teams."
+  },
+  {
+    "id": "agile_2395",
+    "question": "What is one way a Development Team can improve code quality?",
+    "options": [
+      { "id": "option_1", "text": "By conducting peer reviews and pair programming", "isCorrect": true },
+      { "id": "option_2", "text": "By skipping code reviews to save time", "isCorrect": false },
+      { "id": "option_3", "text": "By allowing only senior developers to write code", "isCorrect": false },
+      { "id": "option_4", "text": "By postponing testing until after deployment", "isCorrect": false }
+    ],
+    "hint": "Collaborative practices improve quality.",
+    "answerDescription": "Peer reviews and pair programming help catch errors early and improve overall code quality."
+  },
+  {
+    "id": "agile_2396",
+    "question": "Why is psychological safety important for a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It encourages open communication and risk-taking", "isCorrect": true },
+      { "id": "option_2", "text": "It ensures only experienced developers speak up", "isCorrect": false },
+      { "id": "option_3", "text": "It helps teams avoid making mistakes", "isCorrect": false },
+      { "id": "option_4", "text": "It reduces the need for collaboration", "isCorrect": false }
+    ],
+    "hint": "Team members should feel comfortable sharing ideas.",
+    "answerDescription": "A psychologically safe environment allows Development Teams to openly discuss challenges and innovate without fear."
+  },
+  {
+    "id": "agile_2397",
+    "question": "How does automation benefit a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It reduces manual errors and improves efficiency", "isCorrect": true },
+      { "id": "option_2", "text": "It eliminates the need for human developers", "isCorrect": false },
+      { "id": "option_3", "text": "It makes testing unnecessary", "isCorrect": false },
+      { "id": "option_4", "text": "It increases project timelines", "isCorrect": false }
+    ],
+    "hint": "Automation helps speed up repetitive tasks.",
+    "answerDescription": "By automating tasks like testing and deployment, teams reduce errors and improve efficiency."
+  },
+  {
+    "id": "agile_2398",
+    "question": "What should a Development Team do if they consistently fail to complete Sprint goals?",
+    "options": [
+      { "id": "option_1", "text": "Analyze and adjust their Sprint planning process", "isCorrect": true },
+      { "id": "option_2", "text": "Blame external factors and continue as usual", "isCorrect": false },
+      { "id": "option_3", "text": "Increase the Sprint length to accommodate more work", "isCorrect": false },
+      { "id": "option_4", "text": "Avoid discussing it in retrospectives", "isCorrect": false }
+    ],
+    "hint": "Teams should adapt and refine their process.",
+    "answerDescription": "If a team struggles to meet goals, they should reassess and refine their Sprint planning process for better execution."
+  },
+  {
+    "id": "agile_2399",
+    "question": "What is the main benefit of a self-organizing Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It eliminates the need for a Scrum Master", "isCorrect": false },
+      { "id": "option_2", "text": "It enhances team accountability and efficiency", "isCorrect": true },
+      { "id": "option_3", "text": "It allows management to micromanage work", "isCorrect": false },
+      { "id": "option_4", "text": "It reduces the need for communication", "isCorrect": false }
+    ],
+    "hint": "Self-organizing teams take ownership of their work.",
+    "answerDescription": "A self-organizing Development Team takes responsibility for how work is completed, improving efficiency and accountability."
+  },
+  {
+    "id": "agile_2400",
+    "question": "How should a Development Team approach technical debt?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it and focus only on new features", "isCorrect": false },
+      { "id": "option_2", "text": "Address it incrementally to maintain quality", "isCorrect": true },
+      { "id": "option_3", "text": "Completely halt development until all debt is fixed", "isCorrect": false },
+      { "id": "option_4", "text": "Let management decide when to address it", "isCorrect": false }
+    ],
+    "hint": "Balancing new development and maintenance is key.",
+    "answerDescription": "Technical debt should be addressed gradually to ensure system maintainability without halting progress."
+  },
+  {
+    "id": "agile_2401",
+    "question": "Why is a cross-functional Development Team important in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It allows teams to work without collaboration", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures all necessary skills are available within the team", "isCorrect": true },
+      { "id": "option_3", "text": "It reduces the need for specialized roles", "isCorrect": false },
+      { "id": "option_4", "text": "It focuses only on speed, not quality", "isCorrect": false }
+    ],
+    "hint": "Cross-functional teams minimize external dependencies.",
+    "answerDescription": "A cross-functional team can independently complete backlog items, reducing bottlenecks and dependencies."
+  },
+  {
+    "id": "agile_2402",
+    "question": "What should a Development Team do if a Sprint goal becomes unachievable?",
+    "options": [
+      { "id": "option_1", "text": "Continue working without adjustments", "isCorrect": false },
+      { "id": "option_2", "text": "Discuss and adjust the plan with the Product Owner", "isCorrect": true },
+      { "id": "option_3", "text": "Abandon the Sprint and start a new one", "isCorrect": false },
+      { "id": "option_4", "text": "Let the Scrum Master handle it alone", "isCorrect": false }
+    ],
+    "hint": "Agility means adapting to change.",
+    "answerDescription": "If a Sprint goal is no longer realistic, the team should collaborate with the Product Owner to adjust priorities."
+  },
+  {
+    "id": "agile_2403",
+    "question": "How does pair programming benefit a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It slows down development", "isCorrect": false },
+      { "id": "option_2", "text": "It improves code quality and knowledge sharing", "isCorrect": true },
+      { "id": "option_3", "text": "It eliminates the need for testing", "isCorrect": false },
+      { "id": "option_4", "text": "It allows one developer to take full control", "isCorrect": false }
+    ],
+    "hint": "Collaboration leads to better results.",
+    "answerDescription": "Pair programming helps catch errors early and allows team members to share expertise, improving overall code quality."
+  },
+  {
+    "id": "agile_2404",
+    "question": "What is a key responsibility of a Development Team during Sprint Planning?",
+    "options": [
+      { "id": "option_1", "text": "Setting the overall company vision", "isCorrect": false },
+      { "id": "option_2", "text": "Determining how to complete selected backlog items", "isCorrect": true },
+      { "id": "option_3", "text": "Finalizing the product roadmap", "isCorrect": false },
+      { "id": "option_4", "text": "Assigning work based on seniority", "isCorrect": false }
+    ],
+    "hint": "The team decides how work will be done.",
+    "answerDescription": "In Sprint Planning, the Development Team determines the approach for completing backlog items."
+  },
+  {
+    "id": "agile_2405",
+    "question": "Why should a Development Team conduct regular retrospectives?",
+    "options": [
+      { "id": "option_1", "text": "To document mistakes for reporting", "isCorrect": false },
+      { "id": "option_2", "text": "To identify areas for improvement and enhance processes", "isCorrect": true },
+      { "id": "option_3", "text": "To assign blame for Sprint failures", "isCorrect": false },
+      { "id": "option_4", "text": "To reduce interactions with stakeholders", "isCorrect": false }
+    ],
+    "hint": "Continuous improvement is essential in Agile.",
+    "answerDescription": "Retrospectives help teams reflect on their work and improve efficiency in future Sprints."
+  },
+  {
+    "id": "agile_2406",
+    "question": "What should a Development Team do if they identify a critical issue mid-Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it until the next Sprint", "isCorrect": false },
+      { "id": "option_2", "text": "Collaborate to address it while balancing Sprint commitments", "isCorrect": true },
+      { "id": "option_3", "text": "Wait for the Scrum Master to decide", "isCorrect": false },
+      { "id": "option_4", "text": "Stop all other work to fix it immediately", "isCorrect": false }
+    ],
+    "hint": "Teams should adapt while maintaining progress.",
+    "answerDescription": "The team should manage urgent issues while ensuring they do not disrupt Sprint goals unnecessarily."
+  },
+  {
+    "id": "agile_2407",
+    "question": "How does test automation support a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "By replacing the need for manual testing completely", "isCorrect": false },
+      { "id": "option_2", "text": "By increasing efficiency and catching defects early", "isCorrect": true },
+      { "id": "option_3", "text": "By making the testing process unnecessary", "isCorrect": false },
+      { "id": "option_4", "text": "By reducing the need for team collaboration", "isCorrect": false }
+    ],
+    "hint": "Automation helps streamline quality assurance.",
+    "answerDescription": "Test automation speeds up testing and helps detect issues early, improving software quality."
+  },
+  {
+    "id": "agile_2408",
+    "question": "What is the primary purpose of backlog refinement for a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To finalize requirements before coding begins", "isCorrect": false },
+      { "id": "option_2", "text": "To clarify and break down backlog items for future Sprints", "isCorrect": true },
+      { "id": "option_3", "text": "To reduce the need for Sprint Planning", "isCorrect": false },
+      { "id": "option_4", "text": "To allow only the Product Owner to define work", "isCorrect": false }
+    ],
+    "hint": "Refinement prepares work for upcoming Sprints.",
+    "answerDescription": "Backlog refinement ensures that items are well-defined and ready for the team to take on in future Sprints."
+  },{
+    "id": "agile_2409",
+    "question": "What is the Development Team's primary responsibility in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Creating the product vision", "isCorrect": false },
+      { "id": "option_2", "text": "Defining the Sprint Goal", "isCorrect": false },
+      { "id": "option_3", "text": "Delivering a potentially shippable product increment", "isCorrect": true },
+      { "id": "option_4", "text": "Assigning work based on seniority", "isCorrect": false }
+    ],
+    "hint": "The Development Team is responsible for delivering working software.",
+    "answerDescription": "The team is accountable for completing backlog items and ensuring the product increment is ready for release."
+  },
+  {
+    "id": "agile_2410",
+    "question": "How does a Development Team ensure continuous improvement?",
+    "options": [
+      { "id": "option_1", "text": "By focusing only on new feature development", "isCorrect": false },
+      { "id": "option_2", "text": "By letting the Scrum Master handle improvements", "isCorrect": false },
+      { "id": "option_3", "text": "By conducting regular retrospectives and applying learnings", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding changes to the development process", "isCorrect": false }
+    ],
+    "hint": "Reflection and adaptation are key to Agile success.",
+    "answerDescription": "Retrospectives help teams identify improvement areas and implement better practices in future Sprints."
+  },
+  {
+    "id": "agile_2411",
+    "question": "What is the best way for a Development Team to handle changing requirements?",
+    "options": [
+      { "id": "option_1", "text": "Reject any changes after Sprint Planning", "isCorrect": false },
+      { "id": "option_2", "text": "Only accept changes from upper management", "isCorrect": false },
+      { "id": "option_3", "text": "Embrace change and work with the Product Owner to adjust priorities", "isCorrect": true },
+      { "id": "option_4", "text": "Restart the Sprint if a major change occurs", "isCorrect": false }
+    ],
+    "hint": "Agile welcomes changing requirements for customer satisfaction.",
+    "answerDescription": "The Development Team should collaborate with the Product Owner to adapt to changes while maintaining Sprint goals."
+  },
+  {
+    "id": "agile_2412",
+    "question": "Why is collaboration crucial for a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To minimize individual responsibilities", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid dependencies on other teams", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure efficient problem-solving and knowledge sharing", "isCorrect": true },
+      { "id": "option_4", "text": "To allow the Scrum Master to dictate tasks", "isCorrect": false }
+    ],
+    "hint": "Teamwork enhances problem-solving and efficiency.",
+    "answerDescription": "A collaborative Development Team fosters faster issue resolution and shared understanding of project goals."
+  },
+  {
+    "id": "agile_2413",
+    "question": "What is the main purpose of Sprint Planning for a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To estimate project completion dates", "isCorrect": false },
+      { "id": "option_2", "text": "To assign individual tasks in advance", "isCorrect": false },
+      { "id": "option_3", "text": "To determine how the Sprint Goal will be achieved", "isCorrect": true },
+      { "id": "option_4", "text": "To finalize all Sprint tasks before starting", "isCorrect": false }
+    ],
+    "hint": "Sprint Planning is about defining the approach to achieving Sprint goals.",
+    "answerDescription": "The Development Team collaborates to decide how they will complete backlog items to meet Sprint objectives."
+  },
+  {
+    "id": "agile_2414",
+    "question": "How should a Development Team handle a blocked task during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it and focus on other tasks", "isCorrect": false },
+      { "id": "option_2", "text": "Wait for the Scrum Master to resolve it", "isCorrect": false },
+      { "id": "option_3", "text": "Raise the issue immediately and collaborate to unblock it", "isCorrect": true },
+      { "id": "option_4", "text": "Pause all work until the issue is resolved", "isCorrect": false }
+    ],
+    "hint": "Addressing blockers quickly prevents delays.",
+    "answerDescription": "The team should actively work together to resolve issues and ensure Sprint progress continues smoothly."
+  },
+  {
+    "id": "agile_2415",
+    "question": "What is a key characteristic of a well-functioning Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Each team member works independently", "isCorrect": false },
+      { "id": "option_2", "text": "The Scrum Master assigns all tasks", "isCorrect": false },
+      { "id": "option_3", "text": "The team collaborates and takes ownership of work", "isCorrect": true },
+      { "id": "option_4", "text": "The Product Owner dictates implementation details", "isCorrect": false }
+    ],
+    "hint": "A good Agile team takes responsibility for its work.",
+    "answerDescription": "High-performing teams are self-organizing, taking ownership of their tasks and collaborating effectively."
+  },
+  {
+    "id": "agile_2416",
+    "question": "Why should a Development Team maintain a sustainable work pace?",
+    "options": [
+      { "id": "option_1", "text": "To minimize the need for retrospectives", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure quick releases at all costs", "isCorrect": false },
+      { "id": "option_3", "text": "To prevent burnout and maintain long-term productivity", "isCorrect": true },
+      { "id": "option_4", "text": "To focus only on urgent tasks", "isCorrect": false }
+    ],
+    "hint": "Sustainable work pace ensures consistent performance.",
+    "answerDescription": "Maintaining a sustainable pace helps teams deliver high-quality work without exhaustion or loss of motivation."
+  },
+  {
+    "id": "agile_2417",
+    "question": "What should a Development Team do if they cannot complete all committed work in a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Extend the Sprint to finish the work", "isCorrect": false },
+      { "id": "option_2", "text": "Drop unfinished work without discussion", "isCorrect": false },
+      { "id": "option_3", "text": "Discuss with the Product Owner to reprioritize and adjust", "isCorrect": true },
+      { "id": "option_4", "text": "Blame the Scrum Master for poor planning", "isCorrect": false }
+    ],
+    "hint": "Agile requires collaboration to handle unexpected challenges.",
+    "answerDescription": "If work cannot be completed, the team should work with the Product Owner to prioritize and decide the next steps."
+  },
+  {
+    "id": "agile_2418",
+    "question": "How can a Development Team ensure high product quality?",
+    "options": [
+      { "id": "option_1", "text": "By avoiding tests to speed up development", "isCorrect": false },
+      { "id": "option_2", "text": "By relying only on the testing team", "isCorrect": false },
+      { "id": "option_3", "text": "By following coding standards, test automation, and code reviews", "isCorrect": true },
+      { "id": "option_4", "text": "By focusing only on functional requirements", "isCorrect": false }
+    ],
+    "hint": "Quality requires both good practices and testing.",
+    "answerDescription": "Maintaining high product quality requires a mix of best coding practices, automated tests, and peer reviews."
+  },
+  {
+    "id": "agile_2419",
+    "question": "What is a key characteristic of a self-organizing Development Team?",
+    "options": [
+      { "id": "option_1", "text": "They rely on the Scrum Master for all decisions", "isCorrect": false },
+      { "id": "option_2", "text": "They wait for the Product Owner to assign tasks", "isCorrect": false },
+      { "id": "option_3", "text": "They avoid collaboration and work independently", "isCorrect": false },
+      { "id": "option_4", "text": "They take ownership of their work and make decisions together", "isCorrect": true }
+    ],
+    "hint": "Agile teams are responsible for organizing themselves to meet goals.",
+    "answerDescription": "A self-organizing team collaborates and makes decisions without waiting for external direction."
+  },
+  {
+    "id": "agile_2420",
+    "question": "Why should a Development Team avoid multitasking during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Because it increases productivity by handling multiple tasks at once", "isCorrect": false },
+      { "id": "option_2", "text": "Because Scrum requires tasks to be done sequentially", "isCorrect": false },
+      { "id": "option_3", "text": "Because multitasking reduces the need for team communication", "isCorrect": false },
+      { "id": "option_4", "text": "Because context-switching reduces efficiency and focus", "isCorrect": true }
+    ],
+    "hint": "Switching tasks frequently can slow down overall progress.",
+    "answerDescription": "Avoiding multitasking allows the team to maintain focus and complete work faster with higher quality."
+  },
+  {
+    "id": "agile_2421",
+    "question": "What should the Development Team do if they identify a technical debt item during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it until all features are complete", "isCorrect": false },
+      { "id": "option_2", "text": "Wait for the Product Owner to prioritize it", "isCorrect": false },
+      { "id": "option_3", "text": "Log it in the backlog but avoid addressing it immediately", "isCorrect": false },
+      { "id": "option_4", "text": "Raise it during backlog refinement and address it when appropriate", "isCorrect": true }
+    ],
+    "hint": "Technical debt should be managed proactively to prevent future issues.",
+    "answerDescription": "The team should document and discuss technical debt to ensure it is addressed at the right time."
+  },
+  {
+    "id": "agile_2422",
+    "question": "How can a Development Team improve estimation accuracy?",
+    "options": [
+      { "id": "option_1", "text": "By letting only senior developers estimate tasks", "isCorrect": false },
+      { "id": "option_2", "text": "By using the same estimate for similar past tasks", "isCorrect": false },
+      { "id": "option_3", "text": "By estimating individually and averaging the results", "isCorrect": false },
+      { "id": "option_4", "text": "By using techniques like Planning Poker and considering past velocity", "isCorrect": true }
+    ],
+    "hint": "Accurate estimation relies on collaboration and past experience.",
+    "answerDescription": "Techniques like Planning Poker and data-driven adjustments help improve the accuracy of task estimates."
+  },
+  {
+    "id": "agile_2423",
+    "question": "What should a Development Team do if a team member is struggling with a task?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it and let them complete it alone", "isCorrect": false },
+      { "id": "option_2", "text": "Report it to management immediately", "isCorrect": false },
+      { "id": "option_3", "text": "Replace them with another team member", "isCorrect": false },
+      { "id": "option_4", "text": "Offer help and collaborate to resolve the challenge", "isCorrect": true }
+    ],
+    "hint": "Agile teams support each other to ensure progress.",
+    "answerDescription": "Collaboration and peer support help resolve challenges faster and improve team performance."
+  },
+  {
+    "id": "agile_2424",
+    "question": "Why is cross-functionality important for a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To allow specialization and avoid learning new skills", "isCorrect": false },
+      { "id": "option_2", "text": "To limit dependencies on other teams", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure that all work goes through a single team member", "isCorrect": false },
+      { "id": "option_4", "text": "To enable the team to complete tasks independently without waiting for external help", "isCorrect": true }
+    ],
+    "hint": "Cross-functional teams reduce delays and dependencies.",
+    "answerDescription": "A cross-functional team has the necessary skills to complete tasks without relying on other teams."
+  },
+  {
+    "id": "agile_2425",
+    "question": "What is the best way for a Development Team to ensure knowledge sharing?",
+    "options": [
+      { "id": "option_1", "text": "By assigning documentation tasks to a single member", "isCorrect": false },
+      { "id": "option_2", "text": "By relying only on formal training sessions", "isCorrect": false },
+      { "id": "option_3", "text": "By keeping expertise restricted to individual members", "isCorrect": false },
+      { "id": "option_4", "text": "By using pair programming, code reviews, and team discussions", "isCorrect": true }
+    ],
+    "hint": "Agile promotes continuous learning and collaboration.",
+    "answerDescription": "Techniques like pair programming and code reviews help distribute knowledge across the team."
+  },
+  {
+    "id": "agile_2426",
+    "question": "How does a Development Team ensure transparency in their work in agile ?",
+    "options": [
+      { "id": "option_1", "text": "By only communicating updates to the Scrum Master", "isCorrect": false },
+      { "id": "option_2", "text": "By keeping backlog changes hidden until the Sprint Review", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding frequent discussions to focus on coding", "isCorrect": false },
+      { "id": "option_4", "text": "By updating task boards, holding daily standups, and documenting progress", "isCorrect": true }
+    ],
+    "hint": "Transparency helps the whole team stay aligned and proactive.",
+    "answerDescription": "Using task boards and standups ensures visibility into the team's progress and challenges."
+  },
+  {
+    "id": "agile_2427",
+    "question": "What should a Development Team do if they complete all Sprint tasks early?",
+    "options": [
+      { "id": "option_1", "text": "End the Sprint immediately", "isCorrect": false },
+      { "id": "option_2", "text": "Take a break until the next Sprint", "isCorrect": false },
+      { "id": "option_3", "text": "Start working on the next Sprint’s tasks", "isCorrect": false },
+      { "id": "option_4", "text": "Pick additional backlog items and collaborate with the Product Owner", "isCorrect": true }
+    ],
+    "hint": "Agile teams focus on delivering value continuously.",
+    "answerDescription": "If a team finishes early, they should continue delivering value by selecting additional work from the backlog."
+  },
+  {
+    "id": "agile_2428",
+    "question": "Why is it important for a Development Team to focus on technical excellence?",
+    "options": [
+      { "id": "option_1", "text": "To impress stakeholders with complex code", "isCorrect": false },
+      { "id": "option_2", "text": "To increase the number of features delivered", "isCorrect": false },
+      { "id": "option_3", "text": "To reduce collaboration and work independently", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure maintainability, scalability, and quality", "isCorrect": true }
+    ],
+    "hint": "High-quality code benefits the entire software lifecycle.",
+    "answerDescription": "Technical excellence leads to a stable, maintainable product that adapts to future needs."
+  },
+  {
+    "id": "agile_2429",
+    "question": "What is the primary responsibility of a Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Delivering a potentially shippable product increment", "isCorrect": true },
+      { "id": "option_2", "text": "Defining the business value of features", "isCorrect": false },
+      { "id": "option_3", "text": "Creating the Product Roadmap", "isCorrect": false },
+      { "id": "option_4", "text": "Ensuring stakeholders attend sprint reviews", "isCorrect": false }
+    ],
+    "hint": "The Development Team focuses on delivering a working product increment each sprint.",
+    "answerDescription": "The Agile Development Team is responsible for building and delivering potentially shippable product increments at the end of each sprint."
+  },
+  {
+    "id": "agile_2430",
+    "question": "Which quality is most important for a Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Self-organization", "isCorrect": true },
+      { "id": "option_2", "text": "Following detailed instructions", "isCorrect": false },
+      { "id": "option_3", "text": "Relying solely on the Scrum Master", "isCorrect": false },
+      { "id": "option_4", "text": "Maximizing individual productivity", "isCorrect": false }
+    ],
+    "hint": "Agile teams are empowered to manage their work without constant supervision.",
+    "answerDescription": "Self-organization allows Agile Development Teams to adapt, take ownership, and deliver value efficiently."
+  },
+  {
+    "id": "agile_2431",
+    "question": "What makes an Agile Development Team cross-functional?",
+    "options": [
+      { "id": "option_1", "text": "Having all the necessary skills to deliver a product increment", "isCorrect": true },
+      { "id": "option_2", "text": "Being composed of only software developers", "isCorrect": false },
+      { "id": "option_3", "text": "Following a strict hierarchy", "isCorrect": false },
+      { "id": "option_4", "text": "Working on multiple projects simultaneously", "isCorrect": false }
+    ],
+    "hint": "A cross-functional team includes all expertise needed to deliver value.",
+    "answerDescription": "Cross-functional teams have all the required skills, such as design, development, and testing, to complete their work without dependencies."
+  },
+  {
+    "id": "agile_2432",
+    "question": "Why should an Agile Development Team avoid multitasking?",
+    "options": [
+      { "id": "option_1", "text": "It reduces efficiency and focus", "isCorrect": true },
+      { "id": "option_2", "text": "It helps team members gain more experience", "isCorrect": false },
+      { "id": "option_3", "text": "It increases individual output", "isCorrect": false },
+      { "id": "option_4", "text": "It encourages working longer hours", "isCorrect": false }
+    ],
+    "hint": "Context switching between tasks leads to inefficiency.",
+    "answerDescription": "Avoiding multitasking allows team members to focus on delivering high-quality work and minimizes wasted effort due to context switching."
+  },
+  {
+    "id": "agile_2433",
+    "question": "How does an Agile Development Team ensure continuous improvement?",
+    "options": [
+      { "id": "option_1", "text": "By conducting regular retrospectives", "isCorrect": true },
+      { "id": "option_2", "text": "By working longer hours", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding changes in processes", "isCorrect": false },
+      { "id": "option_4", "text": "By assigning blame for failures", "isCorrect": false }
+    ],
+    "hint": "A specific Agile event focuses on reflecting and improving.",
+    "answerDescription": "Sprint retrospectives help teams reflect on their work and make incremental improvements in processes and collaboration."
+  },
+  {
+    "id": "agile_2434",
+    "question": "What is the benefit of having a small Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Improved communication and collaboration", "isCorrect": true },
+      { "id": "option_2", "text": "Greater individual responsibility", "isCorrect": false },
+      { "id": "option_3", "text": "More detailed task assignments", "isCorrect": false },
+      { "id": "option_4", "text": "More hierarchical control", "isCorrect": false }
+    ],
+    "hint": "Smaller teams communicate and coordinate more effectively.",
+    "answerDescription": "Smaller Agile teams facilitate better collaboration, faster decision-making, and reduced communication overhead."
+  },
+  {
+    "id": "agile_2435",
+    "question": "Why is collective code ownership encouraged in Agile Development Teams?",
+    "options": [
+      { "id": "option_1", "text": "It allows any team member to modify any part of the code", "isCorrect": true },
+      { "id": "option_2", "text": "It makes individual developers accountable for specific modules", "isCorrect": false },
+      { "id": "option_3", "text": "It restricts access to senior developers", "isCorrect": false },
+      { "id": "option_4", "text": "It ensures only one person is responsible for documentation", "isCorrect": false }
+    ],
+    "hint": "This practice increases flexibility and reduces bottlenecks.",
+    "answerDescription": "Collective code ownership ensures that no single developer is a bottleneck and enables continuous collaboration and knowledge sharing."
+  },
+  {
+    "id": "agile_2436",
+    "question": "What is the primary role of a Development Team in Sprint Review?",
+    "options": [
+      { "id": "option_1", "text": "Demonstrating completed work to stakeholders", "isCorrect": true },
+      { "id": "option_2", "text": "Defining the business goals for the next sprint", "isCorrect": false },
+      { "id": "option_3", "text": "Finalizing requirements for future sprints", "isCorrect": false },
+      { "id": "option_4", "text": "Approving changes to the Product Backlog", "isCorrect": false }
+    ],
+    "hint": "Sprint Review involves showcasing the work done.",
+    "answerDescription": "During Sprint Review, the Development Team presents completed work to stakeholders and gathers feedback for future improvements."
+  },
+  {
+    "id": "agile_2437",
+    "question": "How does an Agile Development Team manage dependencies within a sprint?",
+    "options": [
+      { "id": "option_1", "text": "By proactively identifying and addressing them", "isCorrect": true },
+      { "id": "option_2", "text": "By escalating them to management", "isCorrect": false },
+      { "id": "option_3", "text": "By waiting until the end of the sprint to resolve them", "isCorrect": false },
+      { "id": "option_4", "text": "By splitting work into individual silos", "isCorrect": false }
+    ],
+    "hint": "Agile teams need to handle dependencies early for smooth workflow.",
+    "answerDescription": "By identifying dependencies early and collaborating with relevant stakeholders, Agile teams ensure a smooth workflow within the sprint."
+  },
+  {
+    "id": "agile_2438",
+    "question": "What is the best approach for an Agile Development Team when facing uncertainty?",
+    "options": [
+      { "id": "option_1", "text": "Experimenting and adapting based on feedback", "isCorrect": true },
+      { "id": "option_2", "text": "Pausing work until full clarity is achieved", "isCorrect": false },
+      { "id": "option_3", "text": "Strictly following initial project plans", "isCorrect": false },
+      { "id": "option_4", "text": "Delegating decisions to senior management", "isCorrect": false }
+    ],
+    "hint": "Agile encourages learning through iteration.",
+    "answerDescription": "Experimentation and iteration allow Agile teams to adapt to changing requirements and make data-driven decisions."
+  },
+  {
+    "id": "agile_2439",
+    "question": "What is the key characteristic of an effective Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Having a strict hierarchy", "isCorrect": false },
+      { "id": "option_2", "text": "Being self-organizing", "isCorrect": true },
+      { "id": "option_3", "text": "Relying solely on a project manager", "isCorrect": false },
+      { "id": "option_4", "text": "Avoiding stakeholder involvement", "isCorrect": false }
+    ],
+    "hint": "Agile teams take responsibility for managing their work.",
+    "answerDescription": "A self-organizing team takes ownership of their work, collaborates effectively, and adapts to change without rigid control."
+  },
+  {
+    "id": "agile_2440",
+    "question": "What helps a Development Team maintain a sustainable pace of work?",
+    "options": [
+      { "id": "option_1", "text": "Extending work hours during sprints", "isCorrect": false },
+      { "id": "option_2", "text": "Setting realistic sprint goals", "isCorrect": true },
+      { "id": "option_3", "text": "Skipping retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "Increasing multitasking", "isCorrect": false }
+    ],
+    "hint": "Overcommitting can lead to burnout and reduced quality.",
+    "answerDescription": "Realistic sprint goals help teams maintain a steady workflow and avoid burnout while delivering high-quality results."
+  },
+  {
+    "id": "agile_2441",
+    "question": "Why is collaboration important in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To ensure individual tasks are completed in isolation", "isCorrect": false },
+      { "id": "option_2", "text": "To improve knowledge sharing and problem-solving", "isCorrect": true },
+      { "id": "option_3", "text": "To reduce the number of team meetings", "isCorrect": false },
+      { "id": "option_4", "text": "To follow strict workflows without deviation", "isCorrect": false }
+    ],
+    "hint": "Effective teams share insights and tackle challenges together.",
+    "answerDescription": "Collaboration allows teams to share knowledge, solve problems efficiently, and maintain high-quality standards."
+  },
+  {
+    "id": "agile_2442",
+    "question": "How should a Development Team handle changing requirements in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Ignore changes once sprint planning is complete", "isCorrect": false },
+      { "id": "option_2", "text": "Adapt to the changes and adjust priorities", "isCorrect": true },
+      { "id": "option_3", "text": "Only accept changes at the end of the project", "isCorrect": false },
+      { "id": "option_4", "text": "Seek management approval for every change", "isCorrect": false }
+    ],
+    "hint": "Agile embraces change to deliver maximum value.",
+    "answerDescription": "By adapting to changes, Agile teams ensure they deliver the most valuable product that meets evolving needs."
+  },
+  {
+    "id": "agile_2443",
+    "question": "What is the purpose of Daily Stand-up meetings in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To assign new tasks to team members", "isCorrect": false },
+      { "id": "option_2", "text": "To align the team and identify blockers", "isCorrect": true },
+      { "id": "option_3", "text": "To review the entire product backlog", "isCorrect": false },
+      { "id": "option_4", "text": "To finalize sprint deliverables", "isCorrect": false }
+    ],
+    "hint": "This meeting helps keep everyone on the same page daily.",
+    "answerDescription": "Daily Stand-ups help teams coordinate work, discuss progress, and identify obstacles that may impact sprint goals."
+  },
+  {
+    "id": "agile_2444",
+    "question": "Why is having a Definition of Done (DoD) important for a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To allow unfinished work to be accepted", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure consistent quality and completeness", "isCorrect": true },
+      { "id": "option_3", "text": "To restrict flexibility in work execution", "isCorrect": false },
+      { "id": "option_4", "text": "To limit the number of sprint reviews", "isCorrect": false }
+    ],
+    "hint": "It defines the criteria for work to be considered complete.",
+    "answerDescription": "A well-defined DoD ensures that work meets all quality standards before being accepted as complete."
+  },
+  {
+    "id": "agile_2445",
+    "question": "How can a Development Team improve transparency in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder involvement", "isCorrect": false },
+      { "id": "option_2", "text": "By sharing progress openly with the team", "isCorrect": true },
+      { "id": "option_3", "text": "By keeping work details confidential", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding backlog updates", "isCorrect": false }
+    ],
+    "hint": "Agile values openness and visibility in work progress.",
+    "answerDescription": "Sharing progress, challenges, and updates fosters trust and alignment within the team and stakeholders."
+  },
+  {
+    "id": "agile_2446",
+    "question": "Why should a Development Team strive for continuous integration?",
+    "options": [
+      { "id": "option_1", "text": "To minimize testing efforts", "isCorrect": false },
+      { "id": "option_2", "text": "To detect issues early and ensure smooth releases", "isCorrect": true },
+      { "id": "option_3", "text": "To speed up sprint planning", "isCorrect": false },
+      { "id": "option_4", "text": "To reduce collaboration among developers", "isCorrect": false }
+    ],
+    "hint": "Frequent integration helps avoid last-minute surprises.",
+    "answerDescription": "Continuous integration ensures that code is tested and merged frequently, reducing integration issues and improving software quality."
+  },
+  {
+    "id": "agile_2447",
+    "question": "What should a Development Team focus on during Sprint Planning?",
+    "options": [
+      { "id": "option_1", "text": "Finalizing all sprint deliverables in advance", "isCorrect": false },
+      { "id": "option_2", "text": "Breaking down work and planning execution", "isCorrect": true },
+      { "id": "option_3", "text": "Defining high-level business goals", "isCorrect": false },
+      { "id": "option_4", "text": "Avoiding changes in backlog items", "isCorrect": false }
+    ],
+    "hint": "Sprint Planning involves task breakdown and execution planning.",
+    "answerDescription": "During Sprint Planning, the team collaborates to break down backlog items and define a plan to complete them within the sprint."
+  },
+  {
+    "id": "agile_2448",
+    "question": "How does Test-Driven Development (TDD) benefit an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "By reducing the need for automated testing", "isCorrect": false },
+      { "id": "option_2", "text": "By ensuring code quality through test-first development", "isCorrect": true },
+      { "id": "option_3", "text": "By eliminating the need for refactoring", "isCorrect": false },
+      { "id": "option_4", "text": "By slowing down development for more manual testing", "isCorrect": false }
+    ],
+    "hint": "TDD helps build robust and maintainable code.",
+    "answerDescription": "By writing tests before coding, TDD ensures higher code quality, prevents defects, and promotes continuous improvement."
+  },
+  {
+    "id": "agile_2449",
+    "question": "What is a key responsibility of a Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Setting business priorities for the product", "isCorrect": false },
+      { "id": "option_2", "text": "Managing stakeholder expectations directly", "isCorrect": false },
+      { "id": "option_3", "text": "Delivering high-quality increments each sprint", "isCorrect": true },
+      { "id": "option_4", "text": "Controlling budget allocation", "isCorrect": false }
+    ],
+    "hint": "Development Teams focus on delivering working software.",
+    "answerDescription": "The Development Team is responsible for building and delivering high-quality product increments that meet the Definition of Done."
+  },
+  {
+    "id": "agile_2450",
+    "question": "Why is cross-functionality important in a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To allow specialized team members to work separately", "isCorrect": false },
+      { "id": "option_2", "text": "To reduce collaboration and decision-making time", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure the team can complete work independently", "isCorrect": true },
+      { "id": "option_4", "text": "To allow external consultants to handle complex tasks", "isCorrect": false }
+    ],
+    "hint": "A cross-functional team can handle all aspects of development.",
+    "answerDescription": "Cross-functional teams have diverse skills, allowing them to complete work independently without relying on external teams."
+  },
+  {
+    "id": "agile_2451",
+    "question": "How does a Development Team ensure continuous improvement?",
+    "options": [
+      { "id": "option_1", "text": "By avoiding feedback from retrospectives", "isCorrect": false },
+      { "id": "option_2", "text": "By limiting process adjustments", "isCorrect": false },
+      { "id": "option_3", "text": "By reflecting and implementing changes after retrospectives", "isCorrect": true },
+      { "id": "option_4", "text": "By sticking to the same workflow regardless of issues", "isCorrect": false }
+    ],
+    "hint": "Regular reflection and adaptation drive improvement.",
+    "answerDescription": "By using retrospective insights, teams can identify improvements and adjust their practices for better efficiency and performance."
+  },
+  {
+    "id": "agile_2452",
+    "question": "What should a Development Team do if they encounter technical debt?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it to focus only on new features", "isCorrect": false },
+      { "id": "option_2", "text": "Delay addressing it indefinitely", "isCorrect": false },
+      { "id": "option_3", "text": "Address it incrementally to maintain code quality", "isCorrect": true },
+      { "id": "option_4", "text": "Rely only on external teams to resolve it", "isCorrect": false }
+    ],
+    "hint": "Unmanaged technical debt can slow down future development.",
+    "answerDescription": "Addressing technical debt incrementally ensures long-term maintainability and prevents major refactoring challenges."
+  },
+  {
+    "id": "agile_2453",
+    "question": "Why is team autonomy crucial for an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To allow the team to make all business decisions", "isCorrect": false },
+      { "id": "option_2", "text": "To reduce collaboration with stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "To enable faster decision-making and execution", "isCorrect": true },
+      { "id": "option_4", "text": "To eliminate the need for a Product Owner", "isCorrect": false }
+    ],
+    "hint": "Autonomy helps teams make quick and effective decisions.",
+    "answerDescription": "Autonomous teams can respond faster to challenges, improving agility and decision-making efficiency."
+  },
+  {
+    "id": "agile_2454",
+    "question": "What should a Development Team do when they identify a blocker?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it and continue working on other tasks", "isCorrect": false },
+      { "id": "option_2", "text": "Wait for management to provide a solution", "isCorrect": false },
+      { "id": "option_3", "text": "Raise the issue immediately and collaborate on a resolution", "isCorrect": true },
+      { "id": "option_4", "text": "Delay addressing it until the next sprint", "isCorrect": false }
+    ],
+    "hint": "Blockers must be addressed quickly to avoid disruptions.",
+    "answerDescription": "Raising and addressing blockers early ensures smooth workflow and prevents delays in sprint commitments."
+  },
+  {
+    "id": "agile_2455",
+    "question": "How does a Development Team build trust with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder involvement", "isCorrect": false },
+      { "id": "option_2", "text": "By keeping development decisions private", "isCorrect": false },
+      { "id": "option_3", "text": "By delivering working software consistently", "isCorrect": true },
+      { "id": "option_4", "text": "By following traditional waterfall processes", "isCorrect": false }
+    ],
+    "hint": "Agile emphasizes delivering value frequently.",
+    "answerDescription": "Regularly delivering high-quality, working software builds stakeholder confidence and ensures alignment with business goals."
+  },
+  {
+    "id": "agile_2456",
+    "question": "Why is peer feedback valuable in a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To enforce strict performance ratings", "isCorrect": false },
+      { "id": "option_2", "text": "To highlight individual failures", "isCorrect": false },
+      { "id": "option_3", "text": "To foster continuous learning and improvement", "isCorrect": true },
+      { "id": "option_4", "text": "To discourage team collaboration", "isCorrect": false }
+    ],
+    "hint": "Constructive feedback leads to team growth.",
+    "answerDescription": "Peer feedback helps team members learn, improve, and strengthen collaboration by sharing insights and best practices."
+  },
+  {
+    "id": "agile_2457",
+    "question": "What is the benefit of pair programming in Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "It slows down development speed", "isCorrect": false },
+      { "id": "option_2", "text": "It increases reliance on external reviewers", "isCorrect": false },
+      { "id": "option_3", "text": "It enhances code quality and knowledge sharing", "isCorrect": true },
+      { "id": "option_4", "text": "It eliminates the need for code reviews", "isCorrect": false }
+    ],
+    "hint": "Pair programming involves two developers working together.",
+    "answerDescription": "By collaborating closely, developers produce better-quality code and share knowledge, improving team skills and efficiency."
+  },
+  {
+    "id": "agile_2458",
+    "question": "What is an effective way for a Development Team to handle conflicts?",
+    "options": [
+      { "id": "option_1", "text": "Avoid discussing conflicts to maintain harmony", "isCorrect": false },
+      { "id": "option_2", "text": "Wait for the Scrum Master to resolve all issues", "isCorrect": false },
+      { "id": "option_3", "text": "Address conflicts openly and find solutions together", "isCorrect": true },
+      { "id": "option_4", "text": "Ignore conflicts if they do not impact work", "isCorrect": false }
+    ],
+    "hint": "Healthy discussions help teams improve collaboration.",
+    "answerDescription": "Openly addressing conflicts allows teams to resolve issues constructively, strengthening teamwork and communication."
+  }, {
+    "id": "agile_2459",
+    "question": "What is the main goal of a Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To document every change in detail", "isCorrect": false },
+      { "id": "option_2", "text": "To follow instructions from management strictly", "isCorrect": false },
+      { "id": "option_3", "text": "To rely on external consultants for guidance", "isCorrect": false },
+      { "id": "option_4", "text": "To deliver a working product increment each sprint", "isCorrect": true }
+    ],
+    "hint": "Agile teams focus on delivering value in iterations.",
+    "answerDescription": "The primary goal of a Development Team is to create working software that meets the Definition of Done at the end of each sprint."
+  },
+  {
+    "id": "agile_2460",
+    "question": "How does self-organization benefit a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "By reducing the need for collaboration", "isCorrect": false },
+      { "id": "option_2", "text": "By eliminating the need for planning", "isCorrect": false },
+      { "id": "option_3", "text": "By ensuring tasks are assigned by management", "isCorrect": false },
+      { "id": "option_4", "text": "By allowing the team to decide how to accomplish their work", "isCorrect": true }
+    ],
+    "hint": "Agile teams manage their own workflow effectively.",
+    "answerDescription": "Self-organizing teams take responsibility for how they work, leading to better collaboration, efficiency, and accountability."
+  },
+  {
+    "id": "agile_2461",
+    "question": "Why should a Development Team avoid multitasking during a sprint?",
+    "options": [
+      { "id": "option_1", "text": "Because it increases individual productivity", "isCorrect": false },
+      { "id": "option_2", "text": "Because it allows more features to be developed simultaneously", "isCorrect": false },
+      { "id": "option_3", "text": "Because it speeds up testing and integration", "isCorrect": false },
+      { "id": "option_4", "text": "Because it reduces focus and efficiency", "isCorrect": true }
+    ],
+    "hint": "Context switching negatively impacts productivity.",
+    "answerDescription": "Multitasking leads to reduced efficiency and quality; Agile teams focus on completing prioritized tasks before starting new ones."
+  },
+  {
+    "id": "agile_2462",
+    "question": "What is the purpose of Definition of Done (DoD) in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To define when a product is ready for release", "isCorrect": false },
+      { "id": "option_2", "text": "To specify the backlog refinement process", "isCorrect": false },
+      { "id": "option_3", "text": "To track work-in-progress limits", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure all work meets quality standards before completion", "isCorrect": true }
+    ],
+    "hint": "The DoD guarantees quality and completeness.",
+    "answerDescription": "The Definition of Done ensures that all work meets required quality and completeness standards before it is considered finished."
+  },
+  {
+    "id": "agile_2463",
+    "question": "How does a Development Team contribute to backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "By rejecting any new backlog items", "isCorrect": false },
+      { "id": "option_2", "text": "By assigning backlog items to stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "By limiting backlog discussions to the Product Owner", "isCorrect": false },
+      { "id": "option_4", "text": "By estimating and clarifying backlog items", "isCorrect": true }
+    ],
+    "hint": "Development Teams help refine the backlog for clarity and estimation.",
+    "answerDescription": "Development Teams actively engage in backlog refinement to estimate effort, clarify requirements, and ensure work readiness."
+  },
+  {
+    "id": "agile_2464",
+    "question": "What is one way a Development Team can improve sprint predictability?",
+    "options": [
+      { "id": "option_1", "text": "By committing to an unlimited number of backlog items", "isCorrect": false },
+      { "id": "option_2", "text": "By changing sprint goals frequently", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding estimation of work", "isCorrect": false },
+      { "id": "option_4", "text": "By maintaining a consistent velocity", "isCorrect": true }
+    ],
+    "hint": "Velocity helps teams predict their delivery capacity.",
+    "answerDescription": "A stable velocity allows teams to make more accurate sprint commitments and deliverables."
+  },
+  {
+    "id": "agile_2465",
+    "question": "How does a Development Team ensure transparency in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By keeping progress details internal", "isCorrect": false },
+      { "id": "option_2", "text": "By only reporting issues at the end of a sprint", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding documentation and communication", "isCorrect": false },
+      { "id": "option_4", "text": "By using tools like burndown charts and daily stand-ups", "isCorrect": true }
+    ],
+    "hint": "Agile transparency comes through visible progress tracking.",
+    "answerDescription": "Development Teams ensure transparency by openly tracking and sharing progress using Agile tools and ceremonies."
+  },
+  {
+    "id": "agile_2466",
+    "question": "Why is delivering a potentially shippable product important for a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To focus on documentation over functionality", "isCorrect": false },
+      { "id": "option_2", "text": "To delay deployment until the final phase", "isCorrect": false },
+      { "id": "option_3", "text": "To reduce flexibility in adapting to changes", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure valuable increments are available each sprint", "isCorrect": true }
+    ],
+    "hint": "Agile promotes continuous delivery of value.",
+    "answerDescription": "Delivering a potentially shippable product each sprint ensures stakeholders receive continuous value and feedback opportunities."
+  },
+  {
+    "id": "agile_2467",
+    "question": "What should a Development Team do if a sprint goal becomes unachievable?",
+    "options": [
+      { "id": "option_1", "text": "Continue working without raising concerns", "isCorrect": false },
+      { "id": "option_2", "text": "Wait until the next sprint to address the issue", "isCorrect": false },
+      { "id": "option_3", "text": "Blame external factors and stop progress", "isCorrect": false },
+      { "id": "option_4", "text": "Discuss and adjust priorities with the Product Owner", "isCorrect": true }
+    ],
+    "hint": "Collaboration is key when facing sprint challenges.",
+    "answerDescription": "When sprint goals become unachievable, teams should communicate with the Product Owner to adapt and reprioritize effectively."
+  },
+  {
+    "id": "agile_2468",
+    "question": "How can a Development Team ensure efficient sprint execution?",
+    "options": [
+      { "id": "option_1", "text": "By working in silos and avoiding communication", "isCorrect": false },
+      { "id": "option_2", "text": "By skipping daily stand-up meetings", "isCorrect": false },
+      { "id": "option_3", "text": "By delaying testing until the end of the sprint", "isCorrect": false },
+      { "id": "option_4", "text": "By collaborating continuously and adapting to change", "isCorrect": true }
+    ],
+    "hint": "Collaboration and adaptability drive Agile success.",
+    "answerDescription": "By maintaining open communication and adapting to feedback, Development Teams ensure smooth sprint execution and high-quality deliverables."
+  },
+  {
+    "id": "agile_2470",
+    "question": "What is a key responsibility of a Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Delivering a potentially shippable product increment", "isCorrect": true },
+      { "id": "option_2", "text": "Managing stakeholder expectations", "isCorrect": false },
+      { "id": "option_3", "text": "Defining the product roadmap", "isCorrect": false },
+      { "id": "option_4", "text": "Approving sprint goals", "isCorrect": false }
+    ],
+    "hint": "The Development Team focuses on completing product increments within sprints.",
+    "answerDescription": "A Development Team's primary responsibility is to produce a potentially shippable increment of the product by the end of each sprint."
+  },
+  {
+    "id": "agile_2471",
+    "question": "Which of the following best describes the composition of an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Cross-functional team with diverse skills", "isCorrect": true },
+      { "id": "option_2", "text": "A group of specialists working in silos", "isCorrect": false },
+      { "id": "option_3", "text": "A team solely focused on testing", "isCorrect": false },
+      { "id": "option_4", "text": "A fixed set of developers for all projects", "isCorrect": false }
+    ],
+    "hint": "Agile teams require a mix of skills to complete work independently.",
+    "answerDescription": "An Agile Development Team is cross-functional, meaning it has all the skills needed to deliver work without depending on external teams."
+  },
+  {
+    "id": "agile_2472",
+    "question": "How does an Agile Development Team ensure continuous improvement?",
+    "options": [
+      { "id": "option_1", "text": "By holding regular retrospectives", "isCorrect": true },
+      { "id": "option_2", "text": "By strictly following a fixed process", "isCorrect": false },
+      { "id": "option_3", "text": "By relying solely on management decisions", "isCorrect": false },
+      { "id": "option_4", "text": "By focusing only on velocity metrics", "isCorrect": false }
+    ],
+    "hint": "Reflection on past performance is key to growth.",
+    "answerDescription": "Retrospectives allow teams to analyze what worked well and what needs improvement, fostering continuous learning."
+  },
+  {
+    "id": "agile_2473",
+    "question": "What is the recommended size for an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Between 3 and 9 members", "isCorrect": true },
+      { "id": "option_2", "text": "At least 15 members", "isCorrect": false },
+      { "id": "option_3", "text": "A single developer is sufficient", "isCorrect": false },
+      { "id": "option_4", "text": "More than 20 members for efficiency", "isCorrect": false }
+    ],
+    "hint": "Small teams allow better collaboration.",
+    "answerDescription": "Scrum recommends teams of 3-9 members to ensure effective communication and collaboration."
+  },
+  {
+    "id": "agile_2474",
+    "question": "Which statement about self-organizing Agile Development Teams is true?",
+    "options": [
+      { "id": "option_1", "text": "They decide how to accomplish their work", "isCorrect": true },
+      { "id": "option_2", "text": "They require constant supervision", "isCorrect": false },
+      { "id": "option_3", "text": "They follow detailed task assignments from managers", "isCorrect": false },
+      { "id": "option_4", "text": "They do not communicate with stakeholders", "isCorrect": false }
+    ],
+    "hint": "Agile teams have autonomy in their approach to work.",
+    "answerDescription": "Self-organizing teams determine the best way to complete tasks without micromanagement, fostering innovation and ownership."
+  },
+  {
+    "id": "agile_2475",
+    "question": "Why should an Agile Development Team avoid multitasking across projects?",
+    "options": [
+      { "id": "option_1", "text": "Context switching reduces efficiency", "isCorrect": true },
+      { "id": "option_2", "text": "Agile teams do not handle multiple tasks", "isCorrect": false },
+      { "id": "option_3", "text": "Only Scrum Masters should manage workload", "isCorrect": false },
+      { "id": "option_4", "text": "Developers should work in isolation", "isCorrect": false }
+    ],
+    "hint": "Switching tasks often leads to decreased productivity.",
+    "answerDescription": "Context switching can lead to inefficiencies, so Agile teams focus on completing tasks before starting new ones."
+  },
+  {
+    "id": "agile_2476",
+    "question": "How does an Agile Development Team handle changing requirements?",
+    "options": [
+      { "id": "option_1", "text": "By welcoming changes, even late in development", "isCorrect": true },
+      { "id": "option_2", "text": "By freezing requirements after sprint planning", "isCorrect": false },
+      { "id": "option_3", "text": "By escalating changes to upper management", "isCorrect": false },
+      { "id": "option_4", "text": "By restarting the development cycle", "isCorrect": false }
+    ],
+    "hint": "Agile embraces change as a key principle.",
+    "answerDescription": "Agile teams are flexible and adapt to evolving requirements to ensure they deliver maximum value."
+  },
+  {
+    "id": "agile_2477",
+    "question": "Which practice helps an Agile Development Team improve collaboration?",
+    "options": [
+      { "id": "option_1", "text": "Daily stand-up meetings", "isCorrect": true },
+      { "id": "option_2", "text": "Only using written communication", "isCorrect": false },
+      { "id": "option_3", "text": "Strictly avoiding discussions during work hours", "isCorrect": false },
+      { "id": "option_4", "text": "Assigning work without discussion", "isCorrect": false }
+    ],
+    "hint": "Teams align and communicate daily in Agile.",
+    "answerDescription": "Daily stand-ups facilitate teamwork by ensuring all members are aware of progress and roadblocks."
+  },
+  {
+    "id": "agile_2478",
+    "question": "What should an Agile Development Team focus on during a sprint?",
+    "options": [
+      { "id": "option_1", "text": "Delivering a working product increment", "isCorrect": true },
+      { "id": "option_2", "text": "Creating extensive documentation", "isCorrect": false },
+      { "id": "option_3", "text": "Following a rigid process", "isCorrect": false },
+      { "id": "option_4", "text": "Maximizing the number of user stories completed", "isCorrect": false }
+    ],
+    "hint": "Working software is a primary Agile goal.",
+    "answerDescription": "The main focus of an Agile Development Team during a sprint is delivering a functional product increment."
+  },
+  {
+    "id": "agile_2479",
+    "question": "Why is feedback important for an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It helps improve the product and processes", "isCorrect": true },
+      { "id": "option_2", "text": "It slows down decision-making", "isCorrect": false },
+      { "id": "option_3", "text": "It only matters at the end of a project", "isCorrect": false },
+      { "id": "option_4", "text": "It should only come from team members", "isCorrect": false }
+    ],
+    "hint": "Continuous feedback ensures continuous improvement.",
+    "answerDescription": "Feedback allows teams to refine both their product and their processes, leading to better outcomes over time."
+  },
+  {
+    "id": "agile_2480",
+    "question": "What is the primary focus of an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Maximizing the number of tasks completed", "isCorrect": false },
+      { "id": "option_2", "text": "Delivering a valuable product increment", "isCorrect": true },
+      { "id": "option_3", "text": "Strictly following management directives", "isCorrect": false },
+      { "id": "option_4", "text": "Completing all items in the backlog", "isCorrect": false }
+    ],
+    "hint": "Agile teams prioritize delivering working software.",
+    "answerDescription": "The Development Team's primary goal is to deliver a functional, valuable product increment at the end of each sprint."
+  },
+  {
+    "id": "agile_2481",
+    "question": "Why is cross-functionality important for an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It reduces dependency on external teams", "isCorrect": false },
+      { "id": "option_2", "text": "It enables the team to complete work independently", "isCorrect": true },
+      { "id": "option_3", "text": "It allows specialists to work in silos", "isCorrect": false },
+      { "id": "option_4", "text": "It eliminates the need for collaboration", "isCorrect": false }
+    ],
+    "hint": "Self-sufficient teams can deliver complete increments.",
+    "answerDescription": "A cross-functional team possesses all the necessary skills to complete work without relying on other teams."
+  },
+  {
+    "id": "agile_2482",
+    "question": "How should an Agile Development Team respond to blockers?",
+    "options": [
+      { "id": "option_1", "text": "Wait for the Scrum Master to resolve them", "isCorrect": false },
+      { "id": "option_2", "text": "Collaborate to find solutions quickly", "isCorrect": true },
+      { "id": "option_3", "text": "Ignore them and continue working", "isCorrect": false },
+      { "id": "option_4", "text": "Delay work until the next sprint", "isCorrect": false }
+    ],
+    "hint": "Teamwork helps resolve blockers efficiently.",
+    "answerDescription": "Agile teams take ownership of blockers and collaborate to address them as soon as possible."
+  },
+  {
+    "id": "agile_2483",
+    "question": "What is one of the key benefits of self-organizing teams?",
+    "options": [
+      { "id": "option_1", "text": "They require constant supervision", "isCorrect": false },
+      { "id": "option_2", "text": "They improve decision-making and accountability", "isCorrect": true },
+      { "id": "option_3", "text": "They eliminate the need for retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "They strictly follow a predefined workflow", "isCorrect": false }
+    ],
+    "hint": "Autonomy fosters responsibility.",
+    "answerDescription": "Self-organizing teams take ownership of their work, leading to better decisions and accountability."
+  },
+  {
+    "id": "agile_2484",
+    "question": "Why do Agile Development Teams favor face-to-face communication?",
+    "options": [
+      { "id": "option_1", "text": "It eliminates the need for documentation", "isCorrect": false },
+      { "id": "option_2", "text": "It enhances clarity and collaboration", "isCorrect": true },
+      { "id": "option_3", "text": "It reduces the role of Product Owners", "isCorrect": false },
+      { "id": "option_4", "text": "It prevents remote work", "isCorrect": false }
+    ],
+    "hint": "Effective communication improves teamwork.",
+    "answerDescription": "Face-to-face interactions help teams quickly align on goals, resolve issues, and enhance collaboration."
+  },
+  {
+    "id": "agile_2485",
+    "question": "What is the purpose of a Sprint Backlog for a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To track all completed sprints", "isCorrect": false },
+      { "id": "option_2", "text": "To guide the team on what to deliver in a sprint", "isCorrect": true },
+      { "id": "option_3", "text": "To manage external stakeholder requests", "isCorrect": false },
+      { "id": "option_4", "text": "To define the entire product roadmap", "isCorrect": false }
+    ],
+    "hint": "The Sprint Backlog helps teams focus on sprint goals.",
+    "answerDescription": "A Sprint Backlog contains the items the team commits to completing within the sprint."
+  },
+  {
+    "id": "agile_2486",
+    "question": "Why is technical excellence important for an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It allows the team to avoid stakeholder feedback", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures maintainability and quality of work", "isCorrect": true },
+      { "id": "option_3", "text": "It guarantees faster delivery at any cost", "isCorrect": false },
+      { "id": "option_4", "text": "It eliminates the need for refactoring", "isCorrect": false }
+    ],
+    "hint": "Quality code leads to sustainable development.",
+    "answerDescription": "A focus on technical excellence ensures that the product remains maintainable, scalable, and high quality."
+  },
+  {
+    "id": "agile_2487",
+    "question": "What should an Agile Development Team do if a task becomes too complex?",
+    "options": [
+      { "id": "option_1", "text": "Ignore the complexity and continue", "isCorrect": false },
+      { "id": "option_2", "text": "Break it down into smaller manageable tasks", "isCorrect": true },
+      { "id": "option_3", "text": "Delay it until the next sprint", "isCorrect": false },
+      { "id": "option_4", "text": "Request a change in sprint goals", "isCorrect": false }
+    ],
+    "hint": "Smaller tasks improve clarity and execution.",
+    "answerDescription": "Breaking down complex tasks into smaller ones makes them easier to estimate, develop, and test."
+  },
+  {
+    "id": "agile_2488",
+    "question": "What is one key aspect of Agile teamwork?",
+    "options": [
+      { "id": "option_1", "text": "Developers working independently without communication", "isCorrect": false },
+      { "id": "option_2", "text": "Collaborating to achieve common goals", "isCorrect": true },
+      { "id": "option_3", "text": "Following a rigid hierarchical structure", "isCorrect": false },
+      { "id": "option_4", "text": "Prioritizing individual performance over team results", "isCorrect": false }
+    ],
+    "hint": "Agile success depends on team collaboration.",
+    "answerDescription": "Agile teamwork emphasizes collaboration and shared ownership of work to deliver the best possible product."
+  },
+  {
+    "id": "agile_2489",
+    "question": "How does an Agile Development Team ensure alignment with the Product Owner?",
+    "options": [
+      { "id": "option_1", "text": "By working independently and updating the Product Owner at the end", "isCorrect": false },
+      { "id": "option_2", "text": "By maintaining constant communication and collaboration", "isCorrect": true },
+      { "id": "option_3", "text": "By strictly following initial sprint plans without discussion", "isCorrect": false },
+      { "id": "option_4", "text": "By letting the Scrum Master handle all interactions", "isCorrect": false }
+    ],
+    "hint": "Regular discussions help maintain alignment.",
+    "answerDescription": "Frequent collaboration with the Product Owner ensures that the team is aligned with the product vision and priorities."
+  },  {
+    "id": "agile_2490",
+    "question": "What is the ideal size of a Scrum Development Team?",
+    "options": [
+      { "id": "option_1", "text": "2-3 members", "isCorrect": false },
+      { "id": "option_2", "text": "15-20 members", "isCorrect": false },
+      { "id": "option_3", "text": "3-9 members", "isCorrect": true },
+      { "id": "option_4", "text": "More than 20 members", "isCorrect": false }
+    ],
+    "hint": "Small, cross-functional teams are most effective.",
+    "answerDescription": "Scrum recommends a team size of 3-9 members to maintain agility and collaboration while avoiding complexity."
+  },
+  {
+    "id": "agile_2491",
+    "question": "How should a Development Team handle changing requirements during a sprint?",
+    "options": [
+      { "id": "option_1", "text": "Ignore changes until the next sprint", "isCorrect": false },
+      { "id": "option_2", "text": "Immediately stop and adjust all tasks", "isCorrect": false },
+      { "id": "option_3", "text": "Assess the impact and consult the Product Owner", "isCorrect": true },
+      { "id": "option_4", "text": "Reject all changes to maintain sprint scope", "isCorrect": false }
+    ],
+    "hint": "Agile teams adapt while maintaining sprint focus.",
+    "answerDescription": "The team should evaluate changes, understand their impact, and collaborate with the Product Owner to determine the best course of action."
+  },
+  {
+    "id": "agile_2492",
+    "question": "What is the main responsibility of a Development Team in Scrum?",
+    "options": [
+      { "id": "option_1", "text": "Ensuring stakeholders' expectations are always met", "isCorrect": false },
+      { "id": "option_2", "text": "Only working on assigned tasks", "isCorrect": false },
+      { "id": "option_3", "text": "Delivering a potentially shippable product increment", "isCorrect": true },
+      { "id": "option_4", "text": "Creating detailed project documentation", "isCorrect": false }
+    ],
+    "hint": "A sprint should produce a usable outcome.",
+    "answerDescription": "The Development Team is responsible for delivering a working product increment at the end of each sprint."
+  },
+  {
+    "id": "agile_2493",
+    "question": "What ensures that an Agile Development Team remains productive?",
+    "options": [
+      { "id": "option_1", "text": "Strictly following a fixed workflow", "isCorrect": false },
+      { "id": "option_2", "text": "Working in silos to complete tasks independently", "isCorrect": false },
+      { "id": "option_3", "text": "Continuous improvement through retrospectives", "isCorrect": true },
+      { "id": "option_4", "text": "Avoiding feedback loops", "isCorrect": false }
+    ],
+    "hint": "Reflection and improvement drive productivity.",
+    "answerDescription": "Retrospectives help teams identify and implement improvements, leading to better productivity over time."
+  },
+  {
+    "id": "agile_2494",
+    "question": "Why is transparency important for a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To allow management to control progress", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure external teams can dictate priorities", "isCorrect": false },
+      { "id": "option_3", "text": "To foster collaboration and informed decision-making", "isCorrect": true },
+      { "id": "option_4", "text": "To create additional documentation for stakeholders", "isCorrect": false }
+    ],
+    "hint": "Openness leads to better teamwork and trust.",
+    "answerDescription": "Transparency in work processes and progress helps the team and stakeholders make informed decisions and collaborate effectively."
+  },
+  {
+    "id": "agile_2495",
+    "question": "What is the role of the Development Team in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "Defining the overall product vision", "isCorrect": false },
+      { "id": "option_2", "text": "Prioritizing backlog items", "isCorrect": false },
+      { "id": "option_3", "text": "Clarifying and estimating user stories", "isCorrect": true },
+      { "id": "option_4", "text": "Finalizing sprint goals", "isCorrect": false }
+    ],
+    "hint": "The team helps make backlog items ready for future sprints.",
+    "answerDescription": "Development Teams collaborate with the Product Owner to refine backlog items, ensuring clarity and accurate estimates."
+  },
+  {
+    "id": "agile_2496",
+    "question": "How the pair programming benefit an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "By doubling the effort required to complete tasks", "isCorrect": false },
+      { "id": "option_2", "text": "By allowing one developer to work while the other observes", "isCorrect": false },
+      { "id": "option_3", "text": "By improving code quality and knowledge sharing", "isCorrect": true },
+      { "id": "option_4", "text": "By ensuring tasks take longer to complete", "isCorrect": false }
+    ],
+    "hint": "Collaboration enhances both code quality and learning.",
+    "answerDescription": "Pair programming leads to better code quality, improved team learning, and reduced technical debt."
+  },
+  {
+    "id": "agile_2497",
+    "question": "Why does an Agile Development Team conduct daily stand-up meetings?",
+    "options": [
+      { "id": "option_1", "text": "To report progress to management", "isCorrect": false },
+      { "id": "option_2", "text": "To track individual performance", "isCorrect": false },
+      { "id": "option_3", "text": "To align on progress, plans, and blockers", "isCorrect": true },
+      { "id": "option_4", "text": "To extend sprint planning discussions", "isCorrect": false }
+    ],
+    "hint": "Daily stand-ups help teams stay aligned.",
+    "answerDescription": "Daily stand-ups allow teams to synchronize their work, discuss challenges, and ensure alignment on sprint goals."
+  },
+  {
+    "id": "agile_2498",
+    "question": "What is a sign of a well-functioning Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Frequent conflicts and disagreements", "isCorrect": false },
+      { "id": "option_2", "text": "Dependence on external approvals for small tasks", "isCorrect": false },
+      { "id": "option_3", "text": "High collaboration and shared responsibility", "isCorrect": true },
+      { "id": "option_4", "text": "Strictly following a fixed workflow", "isCorrect": false }
+    ],
+    "hint": "Agility thrives on teamwork and ownership.",
+    "answerDescription": "An Agile team that collaborates effectively and shares responsibility produces better outcomes."
+  },
+  {
+    "id": "agile_2499",
+    "question": "What happens when an Agile Development Team lacks psychological safety?",
+    "options": [
+      { "id": "option_1", "text": "Innovation and creativity flourish", "isCorrect": false },
+      { "id": "option_2", "text": "Team members freely share ideas and concerns", "isCorrect": false },
+      { "id": "option_3", "text": "Team members fear making mistakes or speaking up", "isCorrect": true },
+      { "id": "option_4", "text": "The team improves collaboration and trust", "isCorrect": false }
+    ],
+    "hint": "Psychological safety enables open communication.",
+    "answerDescription": "When psychological safety is lacking, team members hesitate to share ideas, leading to lower innovation and engagement."
+  },  {
+    "id": "agile_2500",
+    "question": "What characteristic is essential for a high-performing Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "A rigid hierarchy", "isCorrect": false },
+      { "id": "option_2", "text": "Minimal communication", "isCorrect": false },
+      { "id": "option_3", "text": "Strict individual roles", "isCorrect": false },
+      { "id": "option_4", "text": "Self-organization", "isCorrect": true }
+    ],
+    "hint": "Agile teams take ownership of their work without micromanagement.",
+    "answerDescription": "A high-performing Agile Development Team is self-organizing, meaning team members collaborate and manage their own work without rigid external control."
+  },
+  {
+    "id": "agile_2501",
+    "question": "Why should an Agile Development Team limit Work in Progress (WIP)?",
+    "options": [
+      { "id": "option_1", "text": "To ensure every team member is always busy", "isCorrect": false },
+      { "id": "option_2", "text": "To complete tasks as quickly as possible", "isCorrect": false },
+      { "id": "option_3", "text": "To increase multitasking efficiency", "isCorrect": false },
+      { "id": "option_4", "text": "To improve focus and workflow efficiency", "isCorrect": true }
+    ],
+    "hint": "Too many open tasks can slow progress instead of accelerating it.",
+    "answerDescription": "Limiting WIP helps teams focus on completing tasks efficiently instead of spreading efforts too thin across multiple incomplete work items."
+  },
+  {
+    "id": "agile_2502",
+    "question": "What helps an Agile Development Team deliver high-quality software?",
+    "options": [
+      { "id": "option_1", "text": "Minimizing code reviews", "isCorrect": false },
+      { "id": "option_2", "text": "Avoiding automated testing", "isCorrect": false },
+      { "id": "option_3", "text": "Skipping retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "Practicing continuous integration and deployment", "isCorrect": true }
+    ],
+    "hint": "Frequent testing and integration improve software quality.",
+    "answerDescription": "Continuous integration and deployment help teams catch defects early and ensure software is always in a releasable state."
+  },
+  {
+    "id": "agile_2503",
+    "question": "How does an Agile Development Team ensure accountability?",
+    "options": [
+      { "id": "option_1", "text": "By assigning blame for failures", "isCorrect": false },
+      { "id": "option_2", "text": "By reporting progress only to the Scrum Master", "isCorrect": false },
+      { "id": "option_3", "text": "By tracking individual performance separately", "isCorrect": false },
+      { "id": "option_4", "text": "By committing as a team to deliverables", "isCorrect": true }
+    ],
+    "hint": "Agile teams emphasize shared responsibility.",
+    "answerDescription": "An Agile Development Team ensures accountability by committing to goals as a team rather than focusing on individual performance."
+  },
+  {
+    "id": "agile_2504",
+    "question": "Why is cross-functionality important in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It reduces the need for collaboration", "isCorrect": false },
+      { "id": "option_2", "text": "It allows specialists to work independently", "isCorrect": false },
+      { "id": "option_3", "text": "It prevents team members from learning new skills", "isCorrect": false },
+      { "id": "option_4", "text": "It enables the team to deliver value without dependencies", "isCorrect": true }
+    ],
+    "hint": "Agile teams must be able to complete work independently.",
+    "answerDescription": "A cross-functional team has all the necessary skills to complete a project increment without relying on external specialists."
+  },
+  {
+    "id": "agile_2505",
+    "question": "What should an Agile Development Team do when a team member is struggling with a task?",
+    "options": [
+      { "id": "option_1", "text": "Ignore the issue to maintain individual accountability", "isCorrect": false },
+      { "id": "option_2", "text": "Report it to management immediately", "isCorrect": false },
+      { "id": "option_3", "text": "Wait until the next retrospective to address it", "isCorrect": false },
+      { "id": "option_4", "text": "Offer support and collaborate to resolve the issue", "isCorrect": true }
+    ],
+    "hint": "Agile teams support each other to achieve goals.",
+    "answerDescription": "An Agile team thrives on collaboration, so when a team member struggles, the rest of the team should help them rather than leaving them to resolve the issue alone."
+  },
+  {
+    "id": "agile_2506",
+    "question": "What is one way an Agile Development Team can improve estimation accuracy?",
+    "options": [
+      { "id": "option_1", "text": "By setting fixed deadlines for all tasks", "isCorrect": false },
+      { "id": "option_2", "text": "By relying only on past project data", "isCorrect": false },
+      { "id": "option_3", "text": "By making estimates based on gut feelings", "isCorrect": false },
+      { "id": "option_4", "text": "By using techniques like Planning Poker", "isCorrect": true }
+    ],
+    "hint": "Collaborative estimation methods help teams make better predictions.",
+    "answerDescription": "Planning Poker and other estimation techniques encourage discussion and improve estimation accuracy by leveraging team expertise."
+  },
+  {
+    "id": "agile_2507",
+    "question": "What is a key benefit of limiting the duration of Agile sprints?",
+    "options": [
+      { "id": "option_1", "text": "It allows teams to take on larger workloads", "isCorrect": false },
+      { "id": "option_2", "text": "It reduces the need for customer feedback", "isCorrect": false },
+      { "id": "option_3", "text": "It enables teams to delay difficult decisions", "isCorrect": false },
+      { "id": "option_4", "text": "It encourages frequent delivery and feedback", "isCorrect": true }
+    ],
+    "hint": "Short cycles help teams adjust quickly to changes.",
+    "answerDescription": "Shorter sprints allow Agile teams to frequently deliver value and adapt to feedback, reducing risk and increasing responsiveness."
+  },
+  {
+    "id": "agile_2508",
+    "question": "How does an Agile Development Team ensure continuous learning?",
+    "options": [
+      { "id": "option_1", "text": "By strictly following predefined workflows", "isCorrect": false },
+      { "id": "option_2", "text": "By avoiding unnecessary experimentation", "isCorrect": false },
+      { "id": "option_3", "text": "By limiting knowledge sharing to retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "By encouraging feedback and experimentation", "isCorrect": true }
+    ],
+    "hint": "Agile teams must be open to change and improvement.",
+    "answerDescription": "Agile teams learn continuously by experimenting with new approaches, reflecting on outcomes, and incorporating feedback."
+  },
+  {
+    "id": "agile_2509",
+    "question": "Why should Agile Development Teams practice swarming?",
+    "options": [
+      { "id": "option_1", "text": "To let multiple teams work on the same task", "isCorrect": false },
+      { "id": "option_2", "text": "To assign urgent tasks to a single expert", "isCorrect": false },
+      { "id": "option_3", "text": "To divide work among sub-teams", "isCorrect": false },
+      { "id": "option_4", "text": "To have the team collectively focus on critical work items", "isCorrect": true }
+    ],
+    "hint": "Swarming helps teams complete high-priority work faster.",
+    "answerDescription": "Swarming allows Agile teams to prioritize urgent or blocked tasks by collectively working on them to accelerate progress."
+  },
+  {
+    "id": "agile_2510",
+    "question": "What is a key principle of an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Self-organization", "isCorrect": true },
+      { "id": "option_2", "text": "Strict adherence to a fixed plan", "isCorrect": false },
+      { "id": "option_3", "text": "Working in isolated silos", "isCorrect": false },
+      { "id": "option_4", "text": "Minimizing customer involvement", "isCorrect": false }
+    ],
+    "hint": "Agile teams manage their own work without micromanagement.",
+    "answerDescription": "Self-organization allows Agile teams to be flexible and take ownership of their work without relying on constant direction from management."
+  },
+  {
+    "id": "agile_2511",
+    "question": "What should an Agile Development Team prioritize in their work?",
+    "options": [
+      { "id": "option_1", "text": "Delivering value to the customer", "isCorrect": true },
+      { "id": "option_2", "text": "Writing excessive documentation", "isCorrect": false },
+      { "id": "option_3", "text": "Strictly following initial estimates", "isCorrect": false },
+      { "id": "option_4", "text": "Completing work without stakeholder feedback", "isCorrect": false }
+    ],
+    "hint": "Agile is focused on delivering business value.",
+    "answerDescription": "An Agile Development Team should prioritize delivering value by frequently delivering working software that meets customer needs."
+  },
+  {
+    "id": "agile_2512",
+    "question": "Why should Agile Development Teams embrace change?",
+    "options": [
+      { "id": "option_1", "text": "To maintain rigid plans regardless of feedback", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid adapting to customer needs", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure all requirements are fixed from the start", "isCorrect": false },
+      { "id": "option_4", "text": "To stay responsive to new insights and improvements", "isCorrect": true }
+    ],
+    "hint": "Agile values responding to change over following a plan.",
+    "answerDescription": "Agile teams remain flexible to adjust based on customer needs and evolving requirements."
+  }, 
+  {
+    "id": "agile_2513",
+    "question": "Why is collaboration essential for an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It improves communication and efficiency", "isCorrect": true },
+      { "id": "option_2", "text": "It allows individual team members to work in isolation", "isCorrect": false },
+      { "id": "option_3", "text": "It reduces the need for feedback", "isCorrect": false },
+      { "id": "option_4", "text": "It prevents the team from making independent decisions", "isCorrect": false }
+    ],
+    "hint": "Agile relies on teamwork and open communication.",
+    "answerDescription": "Collaboration ensures that Agile teams work efficiently, solve problems together, and deliver high-quality software."
+  },
+  {
+    "id": "agile_2514",
+    "question": "What is the best way for an Agile Development Team to improve continuously?",
+    "options": [
+      { "id": "option_1", "text": "By conducting regular retrospectives", "isCorrect": true },
+      { "id": "option_2", "text": "By avoiding feedback from stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "By strictly following the same processes", "isCorrect": false },
+      { "id": "option_4", "text": "By focusing only on short-term goals", "isCorrect": false }
+    ],
+    "hint": "Agile teams reflect on their processes regularly.",
+    "answerDescription": "Retrospectives help Agile teams identify what is working well and what needs improvement, leading to continuous growth and efficiency."
+  },
+  {
+    "id": "agile_2515",
+    "question": "What role does transparency play in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It fosters trust and alignment", "isCorrect": true },
+      { "id": "option_2", "text": "It ensures work remains hidden until release", "isCorrect": false },
+      { "id": "option_3", "text": "It eliminates the need for feedback loops", "isCorrect": false },
+      { "id": "option_4", "text": "It increases complexity in the development process", "isCorrect": false }
+    ],
+    "hint": "Agile teams share progress and challenges openly.",
+    "answerDescription": "Transparency enables teams to build trust, stay aligned with stakeholders, and make informed decisions."
+  },
+  {
+    "id": "agile_2516",
+    "question": "What is the main reason Agile Development Teams use user stories?",
+    "options": [
+      { "id": "option_1", "text": "To understand user needs and expectations", "isCorrect": true },
+      { "id": "option_2", "text": "To replace technical documentation", "isCorrect": false },
+      { "id": "option_3", "text": "To avoid collaboration with the Product Owner", "isCorrect": false },
+      { "id": "option_4", "text": "To limit flexibility in feature development", "isCorrect": false }
+    ],
+    "hint": "User stories help teams develop features that provide value.",
+    "answerDescription": "User stories describe features from the end-user’s perspective, ensuring the development team builds functionality that meets customer needs."
+  },
+  {
+    "id": "agile_2517",
+    "question": "How can an Agile Development Team improve their velocity?",
+    "options": [
+      { "id": "option_1", "text": "By removing bottlenecks in the workflow", "isCorrect": true },
+      { "id": "option_2", "text": "By overloading team members with more tasks", "isCorrect": false },
+      { "id": "option_3", "text": "By skipping planning meetings", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding continuous integration", "isCorrect": false }
+    ],
+    "hint": "Improving workflow efficiency leads to better velocity.",
+    "answerDescription": "Removing workflow bottlenecks helps teams complete work faster and improve their overall velocity."
+  },
+  {
+    "id": "agile_2518",
+    "question": "Why is frequent feedback important for an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It ensures continuous improvement", "isCorrect": true },
+      { "id": "option_2", "text": "It slows down development", "isCorrect": false },
+      { "id": "option_3", "text": "It eliminates the need for planning", "isCorrect": false },
+      { "id": "option_4", "text": "It reduces adaptability", "isCorrect": false }
+    ],
+    "hint": "Feedback helps teams adjust and improve their processes.",
+    "answerDescription": "Frequent feedback allows Agile teams to quickly adapt and make improvements based on real user and stakeholder input."
+  },
+  {
+    "id": "agile_2519",
+    "question": "How does an Agile Development Team handle risk?",
+    "options": [
+      { "id": "option_1", "text": "By addressing risks early and iteratively", "isCorrect": true },
+      { "id": "option_2", "text": "By ignoring risks until they cause problems", "isCorrect": false },
+      { "id": "option_3", "text": "By shifting all risk management to senior leadership", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding discussions about risks", "isCorrect": false }
+    ],
+    "hint": "Agile teams focus on early risk identification.",
+    "answerDescription": "Agile teams proactively identify and address risks in each iteration, reducing uncertainty and ensuring smooth project execution."
+  },  {
+    "id": "agile_2520",
+    "question": "What is a key benefit of a cross-functional Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Reduced collaboration between departments", "isCorrect": false },
+      { "id": "option_2", "text": "Ability to deliver a complete product increment independently", "isCorrect": true },
+      { "id": "option_3", "text": "Dependence on external specialists for key tasks", "isCorrect": false },
+      { "id": "option_4", "text": "Less adaptability to changing requirements", "isCorrect": false }
+    ],
+    "hint": "A cross-functional team has all necessary skills to deliver work.",
+    "answerDescription": "Cross-functional teams minimize dependencies and improve efficiency by having all the skills needed to deliver a product increment."
+  },
+  {
+    "id": "agile_2521",
+    "question": "Why should an Agile Development Team maintain a sustainable pace?",
+    "options": [
+      { "id": "option_1", "text": "To maximize output in short bursts", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure long-term productivity and team well-being", "isCorrect": true },
+      { "id": "option_3", "text": "To reduce the time spent on planning and retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid collaboration with business stakeholders", "isCorrect": false }
+    ],
+    "hint": "Sustainable pace prevents burnout and maintains quality.",
+    "answerDescription": "Agile teams work at a steady, maintainable pace to ensure high-quality output and avoid burnout."
+  },
+  {
+    "id": "agile_2522",
+    "question": "What is the primary responsibility of a Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Following orders from management", "isCorrect": false },
+      { "id": "option_2", "text": "Delivering high-quality, working software", "isCorrect": true },
+      { "id": "option_3", "text": "Creating extensive documentation before development", "isCorrect": false },
+      { "id": "option_4", "text": "Minimizing interactions with stakeholders", "isCorrect": false }
+    ],
+    "hint": "Agile focuses on delivering value through working software.",
+    "answerDescription": "Agile Development Teams prioritize delivering functional software that meets customer needs."
+  },
+  {
+    "id": "agile_2523",
+    "question": "How should an Agile Development Team handle technical debt?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it until the end of the project", "isCorrect": false },
+      { "id": "option_2", "text": "Continuously address and refactor it", "isCorrect": true },
+      { "id": "option_3", "text": "Only fix it if stakeholders complain", "isCorrect": false },
+      { "id": "option_4", "text": "Consider it as a normal part of Agile development", "isCorrect": false }
+    ],
+    "hint": "Managing technical debt early prevents larger issues later.",
+    "answerDescription": "Agile teams should actively manage and reduce technical debt through continuous refactoring and improvement."
+  },
+  {
+    "id": "agile_2524",
+    "question": "How does a Development Team ensure high quality in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By writing detailed requirement documents", "isCorrect": false },
+      { "id": "option_2", "text": "By using continuous integration and testing", "isCorrect": true },
+      { "id": "option_3", "text": "By relying solely on manual testing at the end", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding code reviews", "isCorrect": false }
+    ],
+    "hint": "Automated processes help maintain code quality.",
+    "answerDescription": "Continuous integration and automated testing ensure software quality by catching issues early in the development cycle."
+  },
+  {
+    "id": "agile_2525",
+    "question": "Why is collective code ownership important in Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "It allows only senior developers to make changes", "isCorrect": false },
+      { "id": "option_2", "text": "It enables the whole team to improve and maintain code", "isCorrect": true },
+      { "id": "option_3", "text": "It reduces the need for collaboration", "isCorrect": false },
+      { "id": "option_4", "text": "It limits flexibility in development", "isCorrect": false }
+    ],
+    "hint": "In Agile, any team member should be able to work on any part of the codebase.",
+    "answerDescription": "Collective code ownership encourages shared responsibility, improves code quality, and reduces knowledge silos."
+  },
+  {
+    "id": "agile_2526",
+    "question": "What is a key characteristic of an effective Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Strictly hierarchical structure", "isCorrect": false },
+      { "id": "option_2", "text": "High level of collaboration and communication", "isCorrect": true },
+      { "id": "option_3", "text": "Working independently with minimal discussion", "isCorrect": false },
+      { "id": "option_4", "text": "Avoiding customer feedback", "isCorrect": false }
+    ],
+    "hint": "Agile teams thrive on open collaboration.",
+    "answerDescription": "Strong communication and teamwork enable Agile Development Teams to efficiently deliver value to customers."
+  },
+  {
+    "id": "agile_2527",
+    "question": "Why should Agile teams use Test-Driven Development (TDD)?",
+    "options": [
+      { "id": "option_1", "text": "To increase the amount of manual testing", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure code quality by writing tests first", "isCorrect": true },
+      { "id": "option_3", "text": "To delay testing until the end of the project", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid automated testing altogether", "isCorrect": false }
+    ],
+    "hint": "TDD helps teams write better code by defining tests before development.",
+    "answerDescription": "Test-Driven Development improves software quality by requiring tests to be written before code implementation."
+  },
+  {
+    "id": "agile_2528",
+    "question": "How does pair programming benefit an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "By slowing down the coding process", "isCorrect": false },
+      { "id": "option_2", "text": "By improving code quality and knowledge sharing", "isCorrect": true },
+      { "id": "option_3", "text": "By reducing team collaboration", "isCorrect": false },
+      { "id": "option_4", "text": "By limiting code reviews", "isCorrect": false }
+    ],
+    "hint": "Pair programming enhances collaboration and reduces bugs.",
+    "answerDescription": "Pair programming increases code quality, improves team learning, and reduces defects by having two developers work together."
+  },
+  {
+    "id": "agile_2529",
+    "question": "What is an Agile Development Team’s approach to planning?",
+    "options": [
+      { "id": "option_1", "text": "Strictly following a fixed plan", "isCorrect": false },
+      { "id": "option_2", "text": "Using adaptive and iterative planning", "isCorrect": true },
+      { "id": "option_3", "text": "Avoiding planning altogether", "isCorrect": false },
+      { "id": "option_4", "text": "Focusing only on long-term planning", "isCorrect": false }
+    ],
+    "hint": "Agile teams plan continuously and adjust based on feedback.",
+    "answerDescription": "Agile teams use iterative planning to remain flexible and adapt to changing priorities."
+  },
+  {
+    "id": "agile_2530",
+    "question": "What is the primary purpose of a Daily Scrum?",
+    "options": [
+      { "id": "option_1", "text": "To discuss long-term project goals", "isCorrect": false },
+      { "id": "option_2", "text": "To receive instructions from the Scrum Master", "isCorrect": false },
+      { "id": "option_3", "text": "To inspect progress and adapt the plan for the next 24 hours", "isCorrect": true },
+      { "id": "option_4", "text": "To assign tasks to team members", "isCorrect": false }
+    ],
+    "hint": "Daily Scrum is focused on short-term planning and adaptation.",
+    "answerDescription": "The Daily Scrum allows the team to inspect progress and make necessary adjustments for the next 24 hours."
+  },
+  {
+    "id": "agile_2531",
+    "question": "How does an Agile Development Team handle evolving requirements?",
+    "options": [
+      { "id": "option_1", "text": "By rejecting changes after Sprint Planning", "isCorrect": false },
+      { "id": "option_2", "text": "By waiting until the end of development to make changes", "isCorrect": false },
+      { "id": "option_3", "text": "By embracing change and adjusting iteratively", "isCorrect": true },
+      { "id": "option_4", "text": "By requiring formal approval for any changes", "isCorrect": false }
+    ],
+    "hint": "Agile teams are flexible and responsive to change.",
+    "answerDescription": "Agile teams welcome changing requirements, even late in development, to deliver maximum value."
+  },
+  {
+    "id": "agile_2532",
+    "question": "What is the best way for an Agile Development Team to ensure continuous improvement?",
+    "options": [
+      { "id": "option_1", "text": "By sticking to the original process without modifications", "isCorrect": false },
+      { "id": "option_2", "text": "By avoiding feedback from stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "By conducting regular retrospectives and adapting", "isCorrect": true },
+      { "id": "option_4", "text": "By focusing solely on meeting deadlines", "isCorrect": false }
+    ],
+    "hint": "Agile teams reflect on past performance to improve continuously.",
+    "answerDescription": "Retrospectives help Agile teams inspect their process and make incremental improvements."
+  },
+  {
+    "id": "agile_2533",
+    "question": "Why is self-organization important in Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "It allows managers to assign tasks efficiently", "isCorrect": false },
+      { "id": "option_2", "text": "It reduces the need for team collaboration", "isCorrect": false },
+      { "id": "option_3", "text": "It empowers teams to make decisions and take ownership", "isCorrect": true },
+      { "id": "option_4", "text": "It eliminates the need for a Product Owner", "isCorrect": false }
+    ],
+    "hint": "Agile values autonomy and team-driven decision-making.",
+    "answerDescription": "Self-organizing teams are more effective because they take ownership of their work and adapt to challenges proactively."
+  },
+  {
+    "id": "agile_2534",
+    "question": "What should an Agile Development Team do if a Sprint goal is at risk?",
+    "options": [
+      { "id": "option_1", "text": "Continue working as planned and hope to catch up later", "isCorrect": false },
+      { "id": "option_2", "text": "Wait until the Sprint Review to discuss issues", "isCorrect": false },
+      { "id": "option_3", "text": "Collaborate to identify solutions and adjust priorities", "isCorrect": true },
+      { "id": "option_4", "text": "Ask the Product Owner to change the Sprint scope", "isCorrect": false }
+    ],
+    "hint": "Agile teams are adaptive and work together to solve problems.",
+    "answerDescription": "When facing issues, Agile teams collaborate to find solutions and adapt their approach as needed."
+  },
+  {
+    "id": "agile_2535",
+    "question": "How does a Development Team ensure transparency in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder access to project updates", "isCorrect": false },
+      { "id": "option_2", "text": "By keeping progress discussions private", "isCorrect": false },
+      { "id": "option_3", "text": "By using information radiators like task boards and burndown charts", "isCorrect": true },
+      { "id": "option_4", "text": "By focusing only on internal communication", "isCorrect": false }
+    ],
+    "hint": "Transparency is achieved through visibility and communication.",
+    "answerDescription": "Agile teams use visual tools to ensure transparency and keep all stakeholders informed."
+  },
+  {
+    "id": "agile_2536",
+    "question": "What should an Agile Development Team do when a bottleneck is identified?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it and focus on completing other tasks", "isCorrect": false },
+      { "id": "option_2", "text": "Wait until the Sprint Retrospective to discuss it", "isCorrect": false },
+      { "id": "option_3", "text": "Address it immediately and collaborate on a solution", "isCorrect": true },
+      { "id": "option_4", "text": "Escalate the issue to upper management", "isCorrect": false }
+    ],
+    "hint": "Agile teams proactively address challenges as they arise.",
+    "answerDescription": "By quickly identifying and resolving bottlenecks, Agile teams maintain smooth workflow and efficiency."
+  },
+  {
+    "id": "agile_2537",
+    "question": "How does an Agile Development Team maintain a shared understanding of work?",
+    "options": [
+      { "id": "option_1", "text": "By allowing only the Scrum Master to document tasks", "isCorrect": false },
+      { "id": "option_2", "text": "By relying on emails for task updates", "isCorrect": false },
+      { "id": "option_3", "text": "By holding regular discussions and refining backlog items", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding written documentation", "isCorrect": false }
+    ],
+    "hint": "Regular discussions keep everyone aligned.",
+    "answerDescription": "Frequent communication and backlog refinement ensure that all team members have a clear understanding of work priorities."
+  },
+  {
+    "id": "agile_2538",
+    "question": "What is the advantage of limiting Work in Progress (WIP) in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It slows down development", "isCorrect": false },
+      { "id": "option_2", "text": "It increases multitasking", "isCorrect": false },
+      { "id": "option_3", "text": "It helps maintain focus and improves flow efficiency", "isCorrect": true },
+      { "id": "option_4", "text": "It reduces collaboration between team members", "isCorrect": false }
+    ],
+    "hint": "Reducing WIP helps teams complete work faster with better quality.",
+    "answerDescription": "Limiting WIP ensures that Agile teams focus on completing tasks efficiently before starting new work."
+  },
+  {
+    "id": "agile_2539",
+    "question": "How should an Agile Development Team prioritize work?",
+    "options": [
+      { "id": "option_1", "text": "By selecting tasks based on personal preference", "isCorrect": false },
+      { "id": "option_2", "text": "By focusing only on tasks with the shortest estimated time", "isCorrect": false },
+      { "id": "option_3", "text": "By collaborating with the Product Owner to prioritize value-driven work", "isCorrect": true },
+      { "id": "option_4", "text": "By completing all low-effort tasks first", "isCorrect": false }
+    ],
+    "hint": "Work should be prioritized based on value and business needs.",
+    "answerDescription": "Agile teams collaborate with the Product Owner to ensure they are working on the highest-value items first."
+  },
+  {
+    "id": "agile_2540",
+    "question": "What is one key responsibility of a Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Defining the project budget", "isCorrect": false },
+      { "id": "option_2", "text": "Approving change requests from stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "Supervising the Product Owner", "isCorrect": false },
+      { "id": "option_4", "text": "Delivering a potentially shippable product increment", "isCorrect": true }
+    ],
+    "hint": "The team's goal is to create working software in each iteration.",
+    "answerDescription": "The Development Team is responsible for delivering a potentially shippable product increment at the end of each Sprint."
+  },
+  {
+    "id": "agile_2541",
+    "question": "How does a Development Team in Scrum handle task assignments?",
+    "options": [
+      { "id": "option_1", "text": "The Scrum Master assigns tasks", "isCorrect": false },
+      { "id": "option_2", "text": "The Product Owner distributes tasks", "isCorrect": false },
+      { "id": "option_3", "text": "Tasks are assigned based on seniority", "isCorrect": false },
+      { "id": "option_4", "text": "The team self-organizes and selects tasks collaboratively", "isCorrect": true }
+    ],
+    "hint": "Agile promotes self-organization within teams.",
+    "answerDescription": "In Scrum, the Development Team self-organizes by choosing how best to complete the work rather than relying on external task assignment."
+  },
+  {
+    "id": "agile_2542",
+    "question": "What is an effective way for a Development Team to track progress in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Holding long weekly meetings to discuss progress", "isCorrect": false },
+      { "id": "option_2", "text": "Relying solely on individual updates via email", "isCorrect": false },
+      { "id": "option_3", "text": "Using a static project plan with fixed milestones", "isCorrect": false },
+      { "id": "option_4", "text": "Utilizing visual tools like Kanban boards and burndown charts", "isCorrect": true }
+    ],
+    "hint": "Agile favors transparency and visual progress tracking.",
+    "answerDescription": "Visual management tools like Kanban boards and burndown charts help Agile teams maintain transparency and track progress effectively."
+  },
+  {
+    "id": "agile_2543",
+    "question": "What should a Development Team do if a Sprint Backlog item becomes irrelevant?",
+    "options": [
+      { "id": "option_1", "text": "Continue working on it to avoid disrupting the Sprint", "isCorrect": false },
+      { "id": "option_2", "text": "Request the Scrum Master to make the decision", "isCorrect": false },
+      { "id": "option_3", "text": "Ignore the item and move on to other tasks", "isCorrect": false },
+      { "id": "option_4", "text": "Collaborate with the Product Owner to remove or adjust the item", "isCorrect": true }
+    ],
+    "hint": "Changes in priorities should be addressed through collaboration.",
+    "answerDescription": "If an item in the Sprint Backlog becomes irrelevant, the Development Team should work with the Product Owner to adjust or remove it."
+  },
+  {
+    "id": "agile_2544",
+    "question": "How does self-organization benefit an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It eliminates the need for collaboration", "isCorrect": false },
+      { "id": "option_2", "text": "It requires strict control from management", "isCorrect": false },
+      { "id": "option_3", "text": "It increases reliance on external decision-makers", "isCorrect": false },
+      { "id": "option_4", "text": "It empowers teams to take ownership of their work", "isCorrect": true }
+    ],
+    "hint": "Agile values team autonomy and responsibility.",
+    "answerDescription": "Self-organizing teams make decisions collectively, improving motivation and accountability."
+  },
+  {
+    "id": "agile_2545",
+    "question": "What should a Development Team do if they cannot complete all committed Sprint Backlog items?",
+    "options": [
+      { "id": "option_1", "text": "Extend the Sprint deadline", "isCorrect": false },
+      { "id": "option_2", "text": "Have the Scrum Master make the final decision", "isCorrect": false },
+      { "id": "option_3", "text": "Ignore the unfinished items and focus on new work", "isCorrect": false },
+      { "id": "option_4", "text": "Discuss the issue in the Sprint Review and adapt for future Sprints", "isCorrect": true }
+    ],
+    "hint": "Agile is about learning and continuous improvement.",
+    "answerDescription": "Unfinished backlog items should be reviewed at the Sprint Review, and the team should learn from the experience to improve planning in future Sprints."
+  },
+  {
+    "id": "agile_2632",
+    "question": "How can Agile Development Teams minimize technical debt?",
+    "options": [
+      { "id": "option_1", "text": "By refactoring code regularly and following best practices", "isCorrect": true },
+      { "id": "option_2", "text": "By prioritizing speed over quality", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding automated testing", "isCorrect": false },
+      { "id": "option_4", "text": "By delaying bug fixes to future sprints", "isCorrect": false }
+    ],
+    "hint": "Code quality should be maintained over time.",
+    "answerDescription": "Regular refactoring and best practices ensure that Agile teams prevent the accumulation of technical debt."
+  },
+  {
+    "id": "agile_2546",
+    "question": "Why is collaboration essential in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It ensures that team members share knowledge and solve problems together", "isCorrect": true },
+      { "id": "option_2", "text": "It reduces the need for planning and coordination", "isCorrect": false },
+      { "id": "option_3", "text": "It allows team members to work in isolation", "isCorrect": false },
+      { "id": "option_4", "text": "It eliminates the need for retrospectives", "isCorrect": false }
+    ],
+    "hint": "Teamwork improves Agile outcomes.",
+    "answerDescription": "Collaboration ensures that Agile teams share insights, resolve blockers quickly, and maintain high productivity."
+  },
+  {
+    "id": "agile_2547",
+    "question": "How does continuous feedback help an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It helps teams quickly identify and fix issues", "isCorrect": true },
+      { "id": "option_2", "text": "It delays progress by creating unnecessary discussions", "isCorrect": false },
+      { "id": "option_3", "text": "It prevents teams from adjusting their workflow", "isCorrect": false },
+      { "id": "option_4", "text": "It makes long-term planning impossible", "isCorrect": false }
+    ],
+    "hint": "Frequent feedback leads to continuous improvement.",
+    "answerDescription": "By receiving regular feedback, Agile teams can iterate faster and improve their processes efficiently."
+  },
+  {
+    "id": "agile_2548",
+    "question": "What is the main benefit of timeboxing Sprints?",
+    "options": [
+      { "id": "option_1", "text": "It limits the team's ability to make changes", "isCorrect": false },
+      { "id": "option_2", "text": "It forces the team to deliver unfinished work", "isCorrect": false },
+      { "id": "option_3", "text": "It discourages frequent releases", "isCorrect": false },
+      { "id": "option_4", "text": "It helps teams focus on delivering a working increment within a set period", "isCorrect": true }
+    ],
+    "hint": "Timeboxing provides structure while allowing flexibility.",
+    "answerDescription": "Timeboxing ensures that Agile teams stay focused and deliver incremental progress at a predictable cadence."
+  },
+  {
+    "id": "agile_2549",
+    "question": "How does an Agile Development Team handle external dependencies?",
+    "options": [
+      { "id": "option_1", "text": "Wait until the dependency is resolved before continuing work", "isCorrect": false },
+      { "id": "option_2", "text": "Ignore dependencies and proceed with unrelated tasks", "isCorrect": false },
+      { "id": "option_3", "text": "Depend on external teams to set priorities", "isCorrect": false },
+      { "id": "option_4", "text": "Identify and mitigate risks early to minimize delays", "isCorrect": true }
+    ],
+    "hint": "Proactive dependency management reduces project delays.",
+    "answerDescription": "Agile teams should identify dependencies early and work to mitigate potential risks to ensure smooth development."
+  },  {
+    "id": "agile_2550",
+    "question": "What is the primary responsibility of a Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Delivering a potentially shippable product increment", "isCorrect": true },
+      { "id": "option_2", "text": "Managing stakeholder expectations", "isCorrect": false },
+      { "id": "option_3", "text": "Defining the product roadmap", "isCorrect": false },
+      { "id": "option_4", "text": "Supervising the Product Owner", "isCorrect": false }
+    ],
+    "hint": "The team is responsible for creating working software each iteration.",
+    "answerDescription": "The Development Team's primary responsibility is to deliver a potentially shippable product increment at the end of each Sprint."
+  },
+  {
+    "id": "agile_2551",
+    "question": "How does a Development Team in Scrum decide on the amount of work for a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "The team collaboratively estimates and commits to a Sprint backlog", "isCorrect": true },
+      { "id": "option_2", "text": "The Product Owner assigns the work", "isCorrect": false },
+      { "id": "option_3", "text": "The Scrum Master distributes tasks", "isCorrect": false },
+      { "id": "option_4", "text": "Management dictates the workload", "isCorrect": false }
+    ],
+    "hint": "Agile promotes self-organization and collective decision-making.",
+    "answerDescription": "The Development Team estimates the effort required and commits to a realistic Sprint backlog based on their capacity."
+  },
+  {
+    "id": "agile_2552",
+    "question": "What is a key characteristic of a successful Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Self-organizing and cross-functional", "isCorrect": true },
+      { "id": "option_2", "text": "Relies on external guidance for task assignments", "isCorrect": false },
+      { "id": "option_3", "text": "Strictly follows hierarchical decision-making", "isCorrect": false },
+      { "id": "option_4", "text": "Prioritizes individual performance over teamwork", "isCorrect": false }
+    ],
+    "hint": "Agile teams function independently and adapt to changes.",
+    "answerDescription": "A successful Agile Development Team is self-organizing and cross-functional, allowing it to deliver value efficiently."
+  },
+  {
+    "id": "agile_2553",
+    "question": "Why does a Development Team in Agile prefer face-to-face communication?",
+    "options": [
+      { "id": "option_1", "text": "It enhances collaboration and reduces misunderstandings", "isCorrect": true },
+      { "id": "option_2", "text": "It is the only way to document decisions", "isCorrect": false },
+      { "id": "option_3", "text": "It eliminates the need for written documentation", "isCorrect": false },
+      { "id": "option_4", "text": "It prevents remote teams from participating", "isCorrect": false }
+    ],
+    "hint": "Agile values individuals and interactions over processes and tools.",
+    "answerDescription": "Face-to-face communication helps Agile teams collaborate effectively, reducing misunderstandings and improving decision-making."
+  },
+  {
+    "id": "agile_2554",
+    "question": "What should a Development Team do when encountering a roadblock during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Raise the issue in the Daily Scrum and collaborate on a solution", "isCorrect": true },
+      { "id": "option_2", "text": "Wait for the Scrum Master to solve it", "isCorrect": false },
+      { "id": "option_3", "text": "Continue working on other tasks and ignore the problem", "isCorrect": false },
+      { "id": "option_4", "text": "Escalate the issue to upper management immediately", "isCorrect": false }
+    ],
+    "hint": "Agile promotes quick problem-solving through collaboration.",
+    "answerDescription": "The Development Team should discuss roadblocks during the Daily Scrum and work together to find a solution."
+  },
+  {
+    "id": "agile_2555",
+    "question": "What is the best way for a Development Team to improve its velocity over time?",
+    "options": [
+      { "id": "option_1", "text": "Continuously inspect and adapt through retrospectives", "isCorrect": true },
+      { "id": "option_2", "text": "Work overtime to complete more tasks", "isCorrect": false },
+      { "id": "option_3", "text": "Increase the Sprint duration", "isCorrect": false },
+      { "id": "option_4", "text": "Avoid retrospectives to focus more on work", "isCorrect": false }
+    ],
+    "hint": "Agile encourages continuous learning and improvement.",
+    "answerDescription": "Agile teams improve their velocity by reflecting on their processes in retrospectives and making necessary adjustments."
+  },
+  {
+    "id": "agile_2556",
+    "question": "Why is backlog refinement important for a Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It ensures work is well-defined and ready for upcoming Sprints", "isCorrect": true },
+      { "id": "option_2", "text": "It replaces the need for Sprint Planning", "isCorrect": false },
+      { "id": "option_3", "text": "It allows the Scrum Master to control the backlog", "isCorrect": false },
+      { "id": "option_4", "text": "It prevents changes to the backlog", "isCorrect": false }
+    ],
+    "hint": "Refining the backlog helps teams plan effectively.",
+    "answerDescription": "Backlog refinement helps ensure that work items are clear, prioritized, and ready for development in upcoming Sprints."
+  },
+  {
+    "id": "agile_2557",
+    "question": "How does an Agile Development Team ensure quality in their deliverables?",
+    "options": [
+      { "id": "option_1", "text": "By practicing continuous integration and automated testing", "isCorrect": true },
+      { "id": "option_2", "text": "By performing testing only at the end of development", "isCorrect": false },
+      { "id": "option_3", "text": "By relying solely on manual testing", "isCorrect": false },
+      { "id": "option_4", "text": "By delegating testing to an external QA team", "isCorrect": false }
+    ],
+    "hint": "Agile promotes frequent testing and integration.",
+    "answerDescription": "Continuous integration and automated testing help Agile teams catch defects early and maintain high-quality software."
+  },
+  {
+    "id": "agile_2558",
+    "question": "What role does pair programming play in Agile Development Teams?",
+    "options": [
+      { "id": "option_1", "text": "It improves code quality and knowledge sharing", "isCorrect": true },
+      { "id": "option_2", "text": "It slows down development by requiring two people for one task", "isCorrect": false },
+      { "id": "option_3", "text": "It replaces the need for code reviews", "isCorrect": false },
+      { "id": "option_4", "text": "It is only useful for junior developers", "isCorrect": false }
+    ],
+    "hint": "Pair programming is a technique that enhances collaboration.",
+    "answerDescription": "Pair programming helps Agile teams improve code quality, reduce defects, and facilitate knowledge sharing among team members."
+  },
+  {
+    "id": "agile_2559",
+    "question": "Why should an Agile Development Team focus on delivering value rather than just completing tasks?",
+    "options": [
+      { "id": "option_1", "text": "Because delivering value aligns with business and customer needs", "isCorrect": true },
+      { "id": "option_2", "text": "Because completing tasks is secondary in Agile", "isCorrect": false },
+      { "id": "option_3", "text": "Because the Product Owner takes care of prioritization", "isCorrect": false },
+      { "id": "option_4", "text": "Because Agile discourages task-based work", "isCorrect": false }
+    ],
+    "hint": "Agile aims to maximize customer value.",
+    "answerDescription": "An Agile team prioritizes delivering value to customers rather than just completing tasks, ensuring that efforts contribute to business goals."
+  },
+  {
+    "id": "agile_2560",
+    "question": "What is one key benefit of a cross-functional Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It allows team members to specialize in only one area", "isCorrect": false },
+      { "id": "option_2", "text": "It enables faster and more efficient collaboration", "isCorrect": true },
+      { "id": "option_3", "text": "It increases reliance on external experts", "isCorrect": false },
+      { "id": "option_4", "text": "It reduces flexibility in task assignments", "isCorrect": false }
+    ],
+    "hint": "Cross-functional teams reduce dependencies and speed up work.",
+    "answerDescription": "A cross-functional team can collaborate effectively, reducing bottlenecks and increasing efficiency in Agile development."
+  },
+  {
+    "id": "agile_2561",
+    "question": "What is the main reason an Agile Development Team should use Test-Driven Development (TDD)?",
+    "options": [
+      { "id": "option_1", "text": "To avoid writing additional documentation", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure high code quality and prevent defects early", "isCorrect": true },
+      { "id": "option_3", "text": "To minimize collaboration between developers", "isCorrect": false },
+      { "id": "option_4", "text": "To eliminate the need for user testing", "isCorrect": false }
+    ],
+    "hint": "TDD helps teams catch issues early in development.",
+    "answerDescription": "Test-Driven Development (TDD) helps teams write cleaner code and detect defects early, improving software quality."
+  },
+  {
+    "id": "agile_2562",
+    "question": "Why should an Agile Development Team limit Work in Progress (WIP)?",
+    "options": [
+      { "id": "option_1", "text": "To reduce overall work capacity", "isCorrect": false },
+      { "id": "option_2", "text": "To increase focus and efficiency in completing tasks", "isCorrect": true },
+      { "id": "option_3", "text": "To delay delivery and extend the Sprint timeline", "isCorrect": false },
+      { "id": "option_4", "text": "To allow team members to work on multiple items at once", "isCorrect": false }
+    ],
+    "hint": "Limiting WIP ensures that tasks are completed efficiently.",
+    "answerDescription": "By limiting WIP, Agile teams can focus on fewer tasks at a time, improving flow efficiency and reducing context switching."
+  },
+  {
+    "id": "agile_2563",
+    "question": "What should an Agile Development Team do if a task is taking longer than expected during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it and focus on other tasks", "isCorrect": false },
+      { "id": "option_2", "text": "Discuss it in the Daily Scrum and adjust accordingly", "isCorrect": true },
+      { "id": "option_3", "text": "Wait until the Sprint Review to address it", "isCorrect": false },
+      { "id": "option_4", "text": "Ask the Product Owner to reassign the task", "isCorrect": false }
+    ],
+    "hint": "Agile teams adapt to challenges during daily stand-ups.",
+    "answerDescription": "In Agile, teams use Daily Scrums to identify blockers and make adjustments to ensure smooth progress during the Sprint."
+  },
+  {
+    "id": "agile_2564",
+    "question": "What is the role of test-driven development (TDD) in Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "To write tests only after code is complete", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid spending time on testing", "isCorrect": false },
+      { "id": "option_3", "text": "To reduce the need for automated tests", "isCorrect": false },
+      { "id": "option_4", "text": "To write tests first to guide code development", "isCorrect": true }
+    ],
+    "hint": "TDD helps ensure code quality before implementation.",
+    "answerDescription": "Test-driven development improves software quality by writing tests before implementing functionality."
+  },
+  {
+    "id": "agile_2565",
+    "question": "What is the purpose of code reviews in Agile Development Teams?",
+    "options": [
+      { "id": "option_1", "text": "To find faults and assign blame", "isCorrect": false },
+      { "id": "option_2", "text": "To improve code quality and share knowledge", "isCorrect": true },
+      { "id": "option_3", "text": "To delay deployments for quality assurance", "isCorrect": false },
+      { "id": "option_4", "text": "To eliminate the need for automated tests", "isCorrect": false }
+    ],
+    "hint": "Code reviews help improve quality and collaboration.",
+    "answerDescription": "Agile teams use code reviews to ensure quality, reduce defects, and promote knowledge-sharing among team members."
+  },
+  {
+    "id": "agile_2566",
+    "question": "What principle guides Agile Development Teams in delivering customer value?",
+    "options": [
+      { "id": "option_1", "text": "Maximizing the number of completed tasks", "isCorrect": false },
+      { "id": "option_2", "text": "Delivering working software frequently", "isCorrect": true },
+      { "id": "option_3", "text": "Following a rigid development process", "isCorrect": false },
+      { "id": "option_4", "text": "Delaying releases for comprehensive documentation", "isCorrect": false }
+    ],
+    "hint": "Agile values working software over extensive documentation.",
+    "answerDescription": "Agile teams prioritize delivering functional software frequently to maximize customer value and gain rapid feedback."
+  },
+  {
+    "id": "agile_2567",
+    "question": "How does continuous integration benefit an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It reduces the frequency of software updates", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures early detection of integration issues", "isCorrect": true },
+      { "id": "option_3", "text": "It eliminates the need for testing", "isCorrect": false },
+      { "id": "option_4", "text": "It slows down the development process", "isCorrect": false }
+    ],
+    "hint": "Continuous integration helps detect problems early.",
+    "answerDescription": "By integrating code frequently, teams can identify and fix integration issues early, improving software quality."
+  },
+  {
+    "id": "agile_2568",
+    "question": "What role does psychological safety play in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It discourages open communication", "isCorrect": false },
+      { "id": "option_2", "text": "It fosters an environment where team members feel safe to take risks and share ideas", "isCorrect": true },
+      { "id": "option_3", "text": "It prevents team members from challenging each other’s ideas", "isCorrect": false },
+      { "id": "option_4", "text": "It enforces strict adherence to a predefined plan", "isCorrect": false }
+    ],
+    "hint": "Teams perform better when members feel safe to speak up.",
+    "answerDescription": "Psychological safety allows team members to take risks, ask questions, and challenge ideas without fear, leading to better collaboration."
+  },
+  {
+    "id": "agile_2569",
+    "question": "Why is backlog grooming important for an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To finalize all work items at the start of a project", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure backlog items are well-defined and prioritized", "isCorrect": true },
+      { "id": "option_3", "text": "To allow the Scrum Master to manage tasks", "isCorrect": false },
+      { "id": "option_4", "text": "To prevent any changes to the Sprint backlog", "isCorrect": false }
+    ],
+    "hint": "Refining the backlog helps teams work efficiently.",
+    "answerDescription": "Backlog grooming ensures that work items are well-defined, estimated, and prioritized, enabling smooth Sprint execution."
+  },  {
+    "id": "agile_2570",
+    "question": "What is a primary characteristic of a self-organizing Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It relies on a manager for all task assignments", "isCorrect": false },
+      { "id": "option_2", "text": "It avoids making decisions collectively", "isCorrect": false },
+      { "id": "option_3", "text": "It determines how best to accomplish work independently", "isCorrect": true },
+      { "id": "option_4", "text": "It focuses only on individual contributions", "isCorrect": false }
+    ],
+    "hint": "A self-organizing team makes its own decisions about task execution.",
+    "answerDescription": "Self-organizing teams in Agile decide how to complete work without needing direct management intervention."
+  },
+  {
+    "id": "agile_2571",
+    "question": "Why is team collaboration important in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It reduces the need for documentation", "isCorrect": false },
+      { "id": "option_2", "text": "It limits flexibility in project execution", "isCorrect": false },
+      { "id": "option_3", "text": "It enhances problem-solving and innovation", "isCorrect": true },
+      { "id": "option_4", "text": "It ensures tasks are done in strict sequence", "isCorrect": false }
+    ],
+    "hint": "Agile teams work together to find creative solutions.",
+    "answerDescription": "Collaboration fosters knowledge-sharing, enhances creativity, and helps Agile teams solve problems more effectively."
+  },
+  {
+    "id": "agile_2572",
+    "question": "What is one of the main responsibilities of an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To strictly follow a fixed project plan", "isCorrect": false },
+      { "id": "option_2", "text": "To rely on the Scrum Master for decision-making", "isCorrect": false },
+      { "id": "option_3", "text": "To deliver high-quality increments of work", "isCorrect": true },
+      { "id": "option_4", "text": "To avoid making changes to requirements", "isCorrect": false }
+    ],
+    "hint": "An Agile team focuses on delivering working solutions.",
+    "answerDescription": "Agile teams are responsible for delivering high-quality product increments that provide value to customers."
+  },
+  {
+    "id": "agile_2573",
+    "question": "How can an Agile Development Team ensure continuous improvement?",
+    "options": [
+      { "id": "option_1", "text": "By avoiding process changes", "isCorrect": false },
+      { "id": "option_2", "text": "By only reviewing performance at the end of a project", "isCorrect": false },
+      { "id": "option_3", "text": "By regularly conducting Sprint Retrospectives", "isCorrect": true },
+      { "id": "option_4", "text": "By sticking to the same approach in all sprints", "isCorrect": false }
+    ],
+    "hint": "Agile teams reflect on their work to improve continuously.",
+    "answerDescription": "Sprint Retrospectives allow teams to evaluate their work, identify areas for improvement, and enhance performance."
+  },
+  {
+    "id": "agile_2574",
+    "question": "What should an Agile Development Team do if they encounter an impediment?",
+    "options": [
+      { "id": "option_1", "text": "Ignore it and focus on other work", "isCorrect": false },
+      { "id": "option_2", "text": "Wait for the next Sprint Review to discuss it", "isCorrect": false },
+      { "id": "option_3", "text": "Raise the issue in the Daily Scrum for resolution", "isCorrect": true },
+      { "id": "option_4", "text": "Rely on external managers to solve the problem", "isCorrect": false }
+    ],
+    "hint": "Impediments should be addressed as soon as possible.",
+    "answerDescription": "Agile teams discuss impediments in Daily Scrums to find solutions quickly and keep work flowing."
+  },
+  {
+    "id": "agile_2575",
+    "question": "What is a key benefit of having a stable Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It reduces team accountability", "isCorrect": false },
+      { "id": "option_2", "text": "It limits knowledge-sharing", "isCorrect": false },
+      { "id": "option_3", "text": "It enhances productivity and team cohesion", "isCorrect": true },
+      { "id": "option_4", "text": "It prevents changes to team composition", "isCorrect": false }
+    ],
+    "hint": "Stable teams work better together over time.",
+    "answerDescription": "A stable Agile team builds trust, improves communication, and increases productivity over multiple sprints."
+  },
+  {
+    "id": "agile_2576",
+    "question": "Why is frequent feedback important for an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It allows teams to delay project reviews", "isCorrect": false },
+      { "id": "option_2", "text": "It eliminates the need for user testing", "isCorrect": false },
+      { "id": "option_3", "text": "It helps teams make continuous improvements", "isCorrect": true },
+      { "id": "option_4", "text": "It reduces the importance of Sprint Planning", "isCorrect": false }
+    ],
+    "hint": "Feedback drives incremental improvements in Agile.",
+    "answerDescription": "Regular feedback from stakeholders helps Agile teams refine their work and continuously improve their product."
+  },
+  {
+    "id": "agile_2577",
+    "question": "How can an Agile Development Team ensure high software quality?",
+    "options": [
+      { "id": "option_1", "text": "By delaying testing until the final Sprint", "isCorrect": false },
+      { "id": "option_2", "text": "By avoiding frequent code changes", "isCorrect": false },
+      { "id": "option_3", "text": "By using automated testing and continuous integration", "isCorrect": true },
+      { "id": "option_4", "text": "By relying solely on manual reviews", "isCorrect": false }
+    ],
+    "hint": "Automation helps Agile teams maintain software quality.",
+    "answerDescription": "Agile teams use automated testing and continuous integration to catch defects early and maintain high-quality software."
+  },
+  {
+    "id": "agile_2578",
+    "question": "What is the primary purpose of Sprint Planning in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "To review the completed work from the previous Sprint", "isCorrect": false },
+      { "id": "option_2", "text": "To set long-term goals for the entire project", "isCorrect": false },
+      { "id": "option_3", "text": "To define what can be accomplished in the next Sprint", "isCorrect": true },
+      { "id": "option_4", "text": "To assign work to individual team members", "isCorrect": false }
+    ],
+    "hint": "Sprint Planning sets the direction for the upcoming Sprint.",
+    "answerDescription": "Sprint Planning ensures that Agile teams agree on the scope and priorities for the next Sprint."
+  },
+  {
+    "id": "agile_2579",
+    "question": "How the Agile Development Team gets benefits from pair programming? ",
+      "options": [
+      { "id": "option_1", "text": "By reduces team collaboration", "isCorrect": false },
+      { "id": "option_2", "text": "By increases the chances of coding errors", "isCorrect": false },
+      { "id": "option_3", "text": "By enhances code quality and knowledge-sharing", "isCorrect": true },
+      { "id": "option_4", "text": "By slows down the development process", "isCorrect": false }
+    ],
+    "hint": "Pair programming improves both quality and learning.",
+    "answerDescription": "Pair programming helps Agile teams catch errors early, share knowledge, and improve overall code quality."
+  },
+  {
+    "id": "agile_2580",
+    "question": "What is a key characteristic of an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "They follow a strict hierarchy", "isCorrect": false },
+      { "id": "option_2", "text": "They depend on external approvals for all decisions", "isCorrect": false },
+      { "id": "option_3", "text": "They avoid close collaboration", "isCorrect": false },
+      { "id": "option_4", "text": "They are self-organizing and cross-functional", "isCorrect": true }
+    ],
+    "hint": "Agile teams have autonomy and diverse skills.",
+    "answerDescription": "Agile Development Teams are self-organizing and cross-functional, meaning they manage their own work and have a range of skills to complete tasks."
+  },
+  {
+    "id": "agile_2581",
+    "question": "Why is cross-functionality important in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It ensures tasks are assigned based on job titles", "isCorrect": false },
+      { "id": "option_2", "text": "It limits team members to specialized roles", "isCorrect": false },
+      { "id": "option_3", "text": "It prevents team members from learning new skills", "isCorrect": false },
+      { "id": "option_4", "text": "It allows teams to deliver end-to-end solutions", "isCorrect": true }
+    ],
+    "hint": "A cross-functional team can complete work independently.",
+    "answerDescription": "Cross-functional teams have all the necessary skills to deliver a complete product increment without dependencies on external teams."
+  },
+  {
+    "id": "agile_2582",
+    "question": "What is the role of a Development Team in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To follow only high-level directions from the Product Owner", "isCorrect": false },
+      { "id": "option_2", "text": "To work independently without collaboration", "isCorrect": false },
+      { "id": "option_3", "text": "To escalate all decisions to management", "isCorrect": false },
+      { "id": "option_4", "text": "To deliver potentially shippable increments", "isCorrect": true }
+    ],
+    "hint": "A Development Team's focus is on delivering value iteratively.",
+    "answerDescription": "An Agile Development Team is responsible for delivering potentially shippable increments of the product at the end of each Sprint."
+  },
+  {
+    "id": "agile_2583",
+    "question": "How can Agile Development Teams prevent burnout?",
+    "options": [
+      { "id": "option_1", "text": "By working long hours to complete sprints", "isCorrect": false },
+      { "id": "option_2", "text": "By avoiding team retrospectives", "isCorrect": false },
+      { "id": "option_3", "text": "By ignoring individual workloads", "isCorrect": false },
+      { "id": "option_4", "text": "By balancing workloads and promoting sustainable pacing", "isCorrect": true }
+    ],
+    "hint": "Agile promotes sustainable development.",
+    "answerDescription": "Burnout is avoided by maintaining a steady pace, distributing workload evenly, and encouraging breaks."
+  },
+  {
+    "id": "agile_2584",
+    "question": "What best describes the interaction within an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Team members work in isolation to complete their tasks", "isCorrect": false },
+      { "id": "option_2", "text": "Communication is primarily handled by the Scrum Master", "isCorrect": false },
+      { "id": "option_3", "text": "Only senior members contribute to decisions", "isCorrect": false },
+      { "id": "option_4", "text": "Frequent collaboration and shared ownership", "isCorrect": true }
+    ],
+    "hint": "Agile teams emphasize open communication and teamwork.",
+    "answerDescription": "Agile Development Teams work closely together, share knowledge, and collaborate frequently to achieve their goals."
+  },
+  {
+    "id": "agile_2585",
+    "question": "What is the expected outcome of a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "A detailed project report", "isCorrect": false },
+      { "id": "option_2", "text": "A list of unfinished tasks", "isCorrect": false },
+      { "id": "option_3", "text": "A fully documented plan for the next Sprint", "isCorrect": false },
+      { "id": "option_4", "text": "A potentially shippable product increment", "isCorrect": true }
+    ],
+    "hint": "The goal of a Sprint is to produce something valuable.",
+    "answerDescription": "Each Sprint should result in a usable, potentially shippable product increment that adds value to the customer."
+  },
+  {
+    "id": "agile_2586",
+    "question": "How does an Agile Development Team foster continuous improvement?",
+    "options": [
+      { "id": "option_1", "text": "By maintaining the same process without review", "isCorrect": false },
+      { "id": "option_2", "text": "By avoiding feedback to prevent conflicts", "isCorrect": false },
+      { "id": "option_3", "text": "By prioritizing speed over quality", "isCorrect": false },
+      { "id": "option_4", "text": "By reflecting and making incremental process improvements", "isCorrect": true }
+    ],
+    "hint": "Regular reflection helps teams improve over time.",
+    "answerDescription": "Agile teams conduct retrospectives to identify ways to improve and refine their processes in each Sprint."
+  },
+  {
+    "id": "agile_2587",
+    "question": "What is a fundamental principle of Agile teamwork?",
+    "options": [
+      { "id": "option_1", "text": "Following fixed roles with minimal collaboration", "isCorrect": false },
+      { "id": "option_2", "text": "Focusing solely on individual performance", "isCorrect": false },
+      { "id": "option_3", "text": "Relying on extensive documentation instead of communication", "isCorrect": false },
+      { "id": "option_4", "text": "Delivering value through collaboration and feedback", "isCorrect": true }
+    ],
+    "hint": "Agile values teamwork and interaction over rigid structures.",
+    "answerDescription": "Collaboration and feedback are essential for Agile teams to ensure high-quality product delivery."
+  },
+  {
+    "id": "agile_2588",
+    "question": "Why is accountability important in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It ensures that only one person is responsible for the project", "isCorrect": false },
+      { "id": "option_2", "text": "It allows team members to avoid responsibility for issues", "isCorrect": false },
+      { "id": "option_3", "text": "It limits collaboration by assigning strict ownership", "isCorrect": false },
+      { "id": "option_4", "text": "It encourages ownership and shared responsibility", "isCorrect": true }
+    ],
+    "hint": "Agile teams thrive on shared ownership and trust.",
+    "answerDescription": "Accountability in Agile ensures that all team members take responsibility for delivering value and maintaining quality."
+  },
+  {
+    "id": "agile_2589",
+    "question": "How does an Agile Development Team ensure transparency?",
+    "options": [
+      { "id": "option_1", "text": "By keeping decisions limited to leadership", "isCorrect": false },
+      { "id": "option_2", "text": "By restricting access to project updates", "isCorrect": false },
+      { "id": "option_3", "text": "By minimizing stakeholder involvement", "isCorrect": false },
+      { "id": "option_4", "text": "By maintaining open communication and visibility", "isCorrect": true }
+    ],
+    "hint": "Agile promotes openness at all levels.",
+    "answerDescription": "Agile teams ensure transparency through open discussions, regular updates, and continuous stakeholder involvement."
+  }, {
+    "id": "agile_2590",
+    "question": "What is the primary responsibility of an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Delivering a potentially shippable product increment", "isCorrect": true },
+      { "id": "option_2", "text": "Creating extensive documentation before development starts", "isCorrect": false },
+      { "id": "option_3", "text": "Waiting for instructions from management before making decisions", "isCorrect": false },
+      { "id": "option_4", "text": "Focusing only on individual contributions instead of teamwork", "isCorrect": false }
+    ],
+    "hint": "An Agile team's goal is to create working software in each iteration.",
+    "answerDescription": "Agile Development Teams are responsible for delivering a usable product increment at the end of each Sprint."
+  },
+  {
+    "id": "agile_2591",
+    "question": "Why do Agile Development Teams prefer working in iterations?",
+    "options": [
+      { "id": "option_1", "text": "It allows for continuous feedback and adaptation", "isCorrect": true },
+      { "id": "option_2", "text": "It ensures all planning is done upfront", "isCorrect": false },
+      { "id": "option_3", "text": "It eliminates the need for customer involvement", "isCorrect": false },
+      { "id": "option_4", "text": "It prevents changes from being made mid-project", "isCorrect": false }
+    ],
+    "hint": "Iterations help teams improve and adjust based on feedback.",
+    "answerDescription": "By working in iterations, Agile teams can quickly respond to feedback, ensuring continuous improvement and customer satisfaction."
+  },
+  {
+    "id": "agile_2592",
+    "question": "What is a key benefit of having a self-organizing Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It increases team accountability and efficiency", "isCorrect": true },
+      { "id": "option_2", "text": "It ensures strict control by management", "isCorrect": false },
+      { "id": "option_3", "text": "It minimizes collaboration between team members", "isCorrect": false },
+      { "id": "option_4", "text": "It relies on a single person to make all decisions", "isCorrect": false }
+    ],
+    "hint": "Self-organizing teams take ownership of their work.",
+    "answerDescription": "Self-organizing teams are more accountable and efficient because they make decisions collectively and adapt quickly."
+  },
+  {
+    "id": "agile_2593",
+    "question": "How does an Agile Development Team handle dependencies on other teams?",
+    "options": [
+      { "id": "option_1", "text": "By proactively collaborating and reducing bottlenecks", "isCorrect": true },
+      { "id": "option_2", "text": "By waiting for external teams to complete their tasks first", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding communication with other teams", "isCorrect": false },
+      { "id": "option_4", "text": "By escalating issues to management instead of resolving them", "isCorrect": false }
+    ],
+    "hint": "Agile teams aim to reduce dependencies through communication and planning.",
+    "answerDescription": "Agile teams work closely with other teams, plan dependencies in advance, and communicate effectively to minimize delays."
+  },
+  {
+    "id": "agile_2594",
+    "question": "What makes an Agile Development Team effective?",
+    "options": [
+      { "id": "option_1", "text": "Collaboration, adaptability, and continuous improvement", "isCorrect": true },
+      { "id": "option_2", "text": "A rigid hierarchical structure", "isCorrect": false },
+      { "id": "option_3", "text": "Avoiding customer feedback until the final product is ready", "isCorrect": false },
+      { "id": "option_4", "text": "Focusing only on individual tasks rather than team goals", "isCorrect": false }
+    ],
+    "hint": "Agile teams thrive on teamwork and adaptability.",
+    "answerDescription": "Effective Agile teams collaborate, continuously improve, and adapt based on feedback to deliver high-quality products."
+  },
+  {
+    "id": "agile_2595",
+    "question": "What is the best way for an Agile Development Team to ensure quality?",
+    "options": [
+      { "id": "option_1", "text": "By integrating testing into each iteration", "isCorrect": true },
+      { "id": "option_2", "text": "By testing only at the end of the project", "isCorrect": false },
+      { "id": "option_3", "text": "By assigning testing to a separate department", "isCorrect": false },
+      { "id": "option_4", "text": "By minimizing testing to save time", "isCorrect": false }
+    ],
+    "hint": "Agile teams ensure quality through continuous testing.",
+    "answerDescription": "Testing in Agile is an ongoing process, integrated into each Sprint to maintain quality and catch defects early."
+  },
+  {
+    "id": "agile_2596",
+    "question": "How does an Agile Development Team measure success?",
+    "options": [
+      { "id": "option_1", "text": "By delivering working software that meets customer needs", "isCorrect": true },
+      { "id": "option_2", "text": "By completing all assigned tasks, regardless of value", "isCorrect": false },
+      { "id": "option_3", "text": "By following the plan without deviation", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding interactions with stakeholders", "isCorrect": false }
+    ],
+    "hint": "Success in Agile is based on value delivery.",
+    "answerDescription": "The primary measure of success in Agile is working software that provides value to customers and stakeholders."
+  },
+  {
+    "id": "agile_2587",
+    "question": "What is the primary advantage of a self-organizing Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It allows the team to take ownership and make decisions independently", "isCorrect": true },
+      { "id": "option_2", "text": "It removes the need for collaboration within the team", "isCorrect": false },
+      { "id": "option_3", "text": "It ensures that management dictates all work priorities", "isCorrect": false },
+      { "id": "option_4", "text": "It eliminates the need for a Scrum Master", "isCorrect": false }
+    ],
+    "hint": "Self-organizing teams take responsibility for their work.",
+    "answerDescription": "Agile teams thrive by making independent decisions, leading to higher engagement and accountability."
+  },
+  {
+    "id": "agile_2598",
+    "question": "Why do Agile Development Teams conduct retrospectives?",
+    "options": [
+      { "id": "option_1", "text": "To reflect on the Sprint and improve processes", "isCorrect": true },
+      { "id": "option_2", "text": "To assign blame for issues", "isCorrect": false },
+      { "id": "option_3", "text": "To finalize the project plan for the next release", "isCorrect": false },
+      { "id": "option_4", "text": "To document everything in detail before moving forward", "isCorrect": false }
+    ],
+    "hint": "Retrospectives help teams learn and improve continuously.",
+    "answerDescription": "Agile retrospectives allow teams to reflect on what worked well and what can be improved for future Sprints."
+  },
+  {
+    "id": "agile_2599",
+    "question": "What is the best way for an Agile Development Team to maintain focus during a Sprint?",
+    "options": [
+      { "id": "option_1", "text": "By limiting work-in-progress and staying aligned with the Sprint Goal", "isCorrect": true },
+      { "id": "option_2", "text": "By working on as many tasks as possible simultaneously", "isCorrect": false },
+      { "id": "option_3", "text": "By continuously switching priorities throughout the Sprint", "isCorrect": false },
+      { "id": "option_4", "text": "By ignoring the Sprint Backlog and working on ad-hoc tasks", "isCorrect": false }
+    ],
+    "hint": "Keeping work limited helps teams stay productive.",
+    "answerDescription": "By focusing on the Sprint Goal and limiting work-in-progress, Agile teams maintain efficiency and deliver value consistently."
+  },  {
+    "id": "agile_2600",
+    "question": "What is the main advantage of cross-functional Agile Development Teams?",
+    "options": [
+      { "id": "option_1", "text": "They focus only on coding tasks", "isCorrect": false },
+      { "id": "option_2", "text": "They have all the necessary skills to complete a feature independently", "isCorrect": true },
+      { "id": "option_3", "text": "They rely on external teams for most tasks", "isCorrect": false },
+      { "id": "option_4", "text": "They follow a strict hierarchical structure", "isCorrect": false }
+    ],
+    "hint": "Agile teams should be self-sufficient in delivering working software.",
+    "answerDescription": "Cross-functional teams have developers, testers, designers, and other roles needed to complete work independently."
+  },
+  {
+    "id": "agile_2601",
+    "question": "How do Agile Development Teams ensure continuous improvement?",
+    "options": [
+      { "id": "option_1", "text": "By following a fixed process without change", "isCorrect": false },
+      { "id": "option_2", "text": "By regularly holding retrospectives and adapting based on feedback", "isCorrect": true },
+      { "id": "option_3", "text": "By focusing only on delivering code", "isCorrect": false },
+      { "id": "option_4", "text": "By making changes only when issues arise", "isCorrect": false }
+    ],
+    "hint": "Regular team reflection helps Agile teams improve.",
+    "answerDescription": "Agile teams conduct retrospectives to analyze what went well and what needs improvement, ensuring continuous learning."
+  },
+  {
+    "id": "agile_2602",
+    "question": "What role does collaboration play in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It slows down development by increasing meetings", "isCorrect": false },
+      { "id": "option_2", "text": "It enhances problem-solving and innovation", "isCorrect": true },
+      { "id": "option_3", "text": "It is only needed when issues arise", "isCorrect": false },
+      { "id": "option_4", "text": "It is optional for Agile teams", "isCorrect": false }
+    ],
+    "hint": "Agile thrives on teamwork and shared knowledge.",
+    "answerDescription": "Collaboration improves decision-making, speeds up problem resolution, and encourages knowledge sharing within teams."
+  },
+  {
+    "id": "agile_2603",
+    "question": "Why do Agile teams aim for sustainable development?",
+    "options": [
+      { "id": "option_1", "text": "To complete projects as fast as possible, regardless of quality", "isCorrect": false },
+      { "id": "option_2", "text": "To maintain a steady pace without burnout", "isCorrect": true },
+      { "id": "option_3", "text": "To work long hours to meet deadlines", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid adapting to changes", "isCorrect": false }
+    ],
+    "hint": "Sustainable teams avoid excessive overtime and burnout.",
+    "answerDescription": "Agile promotes sustainable development to maintain team productivity and long-term project success."
+  },
+  {
+    "id": "agile_2604",
+    "question": "What is a key characteristic of a high-performing Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "Following instructions without questioning", "isCorrect": false },
+      { "id": "option_2", "text": "Self-organization and proactive problem-solving", "isCorrect": true },
+      { "id": "option_3", "text": "Working in isolation from other team members", "isCorrect": false },
+      { "id": "option_4", "text": "Focusing only on technical skills", "isCorrect": false }
+    ],
+    "hint": "High-performing Agile teams take ownership of their work.",
+    "answerDescription": "A high-performing Agile team is self-organizing, communicates effectively, and proactively finds solutions to challenges."
+  },
+  {
+    "id": "agile_2605",
+    "question": "How should an Agile Development Team handle changing requirements?",
+    "options": [
+      { "id": "option_1", "text": "By rejecting changes to stay on schedule", "isCorrect": false },
+      { "id": "option_2", "text": "By embracing changes and adapting iteratively", "isCorrect": true },
+      { "id": "option_3", "text": "By freezing requirements after planning", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding direct communication with stakeholders", "isCorrect": false }
+    ],
+    "hint": "Agile values flexibility and responsiveness to change.",
+    "answerDescription": "Agile teams adapt to changing requirements through iterative development and continuous feedback."
+  },
+  {
+    "id": "agile_2606",
+    "question": "Why is transparency important for Agile Development Teams?",
+    "options": [
+      { "id": "option_1", "text": "It allows managers to micromanage the team", "isCorrect": false },
+      { "id": "option_2", "text": "It helps build trust and enables better decision-making", "isCorrect": true },
+      { "id": "option_3", "text": "It forces the team to share all details publicly", "isCorrect": false },
+      { "id": "option_4", "text": "It ensures that only leadership knows the project status", "isCorrect": false }
+    ],
+    "hint": "Transparency promotes trust and collaboration in Agile.",
+    "answerDescription": "Transparency in Agile fosters collaboration, accountability, and informed decision-making within teams."
+  },
+  {
+    "id": "agile_2607",
+    "question": "What is the benefit of frequent releases in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It allows teams to complete projects faster without feedback", "isCorrect": false },
+      { "id": "option_2", "text": "It provides early value to customers and gathers feedback", "isCorrect": true },
+      { "id": "option_3", "text": "It ensures that changes can only be made at the end of the project", "isCorrect": false },
+      { "id": "option_4", "text": "It eliminates the need for testing", "isCorrect": false }
+    ],
+    "hint": "Agile focuses on delivering value early and often.",
+    "answerDescription": "Frequent releases enable customer feedback, allowing Agile teams to refine and improve products iteratively."
+  },
+  {
+    "id": "agile_2608",
+    "question": "How does an Agile Development Team ensure stakeholder engagement?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder involvement until the final release", "isCorrect": false },
+      { "id": "option_2", "text": "By involving stakeholders in reviews and feedback sessions", "isCorrect": true },
+      { "id": "option_3", "text": "By focusing only on internal team decisions", "isCorrect": false },
+      { "id": "option_4", "text": "By ignoring customer input until after development is complete", "isCorrect": false }
+    ],
+    "hint": "Regular feedback from stakeholders improves Agile projects.",
+    "answerDescription": "Stakeholder engagement is critical in Agile, and teams achieve this through regular reviews and collaboration."
+  },
+  {
+    "id": "agile_2609",
+    "question": "What should an Agile Development Team do when facing an unexpected challenge?",
+    "options": [
+      { "id": "option_1", "text": "Wait for external guidance before acting", "isCorrect": false },
+      { "id": "option_2", "text": "Collaborate and find a solution through teamwork", "isCorrect": true },
+      { "id": "option_3", "text": "Ignore the issue and focus on existing tasks", "isCorrect": false },
+      { "id": "option_4", "text": "Escalate the problem without attempting a solution", "isCorrect": false }
+    ],
+    "hint": "Agile teams handle challenges through collaboration.",
+    "answerDescription": "Agile teams tackle challenges by working together, experimenting, and adapting solutions based on feedback."
+  },
+  {
+    "id": "agile_2610",
+    "question": "What is the purpose of sprint retrospectives in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To reflect on what went well and what can be improved", "isCorrect": true },
+      { "id": "option_2", "text": "To assign blame for sprint failures", "isCorrect": false },
+      { "id": "option_3", "text": "To extend the sprint duration when tasks are incomplete", "isCorrect": false },
+      { "id": "option_4", "text": "To review only individual performances", "isCorrect": false }
+    ],
+    "hint": "Retrospectives focus on continuous team improvement.",
+    "answerDescription": "Sprint retrospectives help Agile teams identify successes and areas for improvement to enhance future sprints."
+  },
+  {
+    "id": "agile_2611",
+    "question": "How does an Agile Development Team handle conflicting opinions?",
+    "options": [
+      { "id": "option_1", "text": "By allowing the manager to make the final decision", "isCorrect": false },
+      { "id": "option_2", "text": "By ignoring disagreements and proceeding as planned", "isCorrect": false },
+      { "id": "option_3", "text": "By fostering open discussions and reaching consensus", "isCorrect": true },
+      { "id": "option_4", "text": "By following the opinion of the most senior team member", "isCorrect": false }
+    ],
+    "hint": "Agile values collaboration and collective decision-making.",
+    "answerDescription": "Agile teams encourage open communication and teamwork to resolve conflicts effectively."
+  },
+  {
+    "id": "agile_2612",
+    "question": "What is the advantage of limiting work in progress (WIP) for Agile Development Teams?",
+    "options": [
+      { "id": "option_1", "text": "It reduces collaboration between team members", "isCorrect": false },
+      { "id": "option_2", "text": "It increases task switching and multitasking", "isCorrect": false },
+      { "id": "option_3", "text": "It helps teams focus and improve efficiency", "isCorrect": true },
+      { "id": "option_4", "text": "It slows down development significantly", "isCorrect": false }
+    ],
+    "hint": "Reducing WIP minimizes multitasking and improves workflow.",
+    "answerDescription": "By limiting work in progress, Agile teams can focus on completing tasks efficiently, reducing bottlenecks."
+  },
+  {
+    "id": "agile_2613",
+    "question": "Why is continuous feedback important for an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It slows down development by requiring more meetings", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures only leadership has visibility into progress", "isCorrect": false },
+      { "id": "option_3", "text": "It allows teams to adjust and improve iteratively", "isCorrect": true },
+      { "id": "option_4", "text": "It is only useful at the end of a project", "isCorrect": false }
+    ],
+    "hint": "Feedback loops help teams continuously improve their work.",
+    "answerDescription": "Continuous feedback enables Agile teams to refine their work and respond quickly to changes."
+  },
+  {
+    "id": "agile_2614",
+    "question": "How does an Agile Development Team ensure high product quality?",
+    "options": [
+      { "id": "option_1", "text": "By using test-driven development and continuous testing", "isCorrect": true },
+      { "id": "option_2", "text": "By delaying testing until the final stages", "isCorrect": false },
+      { "id": "option_3", "text": "By focusing only on speed rather than quality", "isCorrect": false },
+      { "id": "option_4", "text": "By relying on manual testing alone", "isCorrect": false }
+    ],
+    "hint": "Agile promotes early and frequent testing.",
+    "answerDescription": "By using TDD and continuous testing, Agile teams prevent defects and maintain high-quality software."
+  },
+  {
+    "id": "agile_2615",
+    "question": "What should an Agile Development Team do when a sprint goal becomes unachievable?",
+    "options": [
+      { "id": "option_1", "text": "Continue working without making any changes", "isCorrect": false },
+      { "id": "option_2", "text": "Immediately abandon the sprint and start over", "isCorrect": false },
+      { "id": "option_3", "text": "Discuss challenges with the Product Owner and adjust the plan", "isCorrect": true },
+      { "id": "option_4", "text": "Ignore the issue and work on unrelated tasks", "isCorrect": false }
+    ],
+    "hint": "Agile teams adapt to challenges through collaboration.",
+    "answerDescription": "When a sprint goal becomes unrealistic, Agile teams collaborate with stakeholders to adjust the plan effectively."
+  },
+  {
+    "id": "agile_2616",
+    "question": "Why is technical debt a concern for Agile Development Teams?",
+    "options": [
+      { "id": "option_1", "text": "It improves development speed in the long run", "isCorrect": false },
+      { "id": "option_2", "text": "It only affects non-Agile teams", "isCorrect": false },
+      { "id": "option_3", "text": "It can slow down future development and reduce quality", "isCorrect": true },
+      { "id": "option_4", "text": "It is not a priority in Agile methodologies", "isCorrect": false }
+    ],
+    "hint": "Technical debt impacts future maintainability and agility.",
+    "answerDescription": "Excessive technical debt makes it harder to add new features and increases maintenance effort over time."
+  },
+  {
+    "id": "agile_2617",
+    "question": "What is a characteristic of a self-organizing Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It requires a manager to assign tasks", "isCorrect": false },
+      { "id": "option_2", "text": "It waits for direction before taking action", "isCorrect": false },
+      { "id": "option_3", "text": "It takes ownership of tasks and makes decisions collectively", "isCorrect": true },
+      { "id": "option_4", "text": "It follows a strict hierarchy", "isCorrect": false }
+    ],
+    "hint": "Agile teams are empowered to make decisions autonomously.",
+    "answerDescription": "Self-organizing teams plan their work, take ownership, and adapt without needing constant external direction."
+  },
+  {
+    "id": "agile_2618",
+    "question": "How does an Agile Development Team ensure code quality?",
+    "options": [
+      { "id": "option_1", "text": "By focusing only on speed and delivery", "isCorrect": false },
+      { "id": "option_2", "text": "By skipping reviews to save time", "isCorrect": false },
+      { "id": "option_3", "text": "By implementing automated testing and peer reviews", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding technical discussions", "isCorrect": false }
+    ],
+    "hint": "Quality in Agile is maintained through automated and manual reviews.",
+    "answerDescription": "Agile teams use test automation, code reviews, and continuous integration to ensure high-quality code."
+  },
+  {
+    "id": "agile_2619",
+    "question": "What is the impact of having a psychologically safe environment in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "It discourages open discussions", "isCorrect": false },
+      { "id": "option_2", "text": "It leads to teams avoiding risks", "isCorrect": false },
+      { "id": "option_3", "text": "It fosters innovation and team collaboration", "isCorrect": true },
+      { "id": "option_4", "text": "It reduces the need for feedback", "isCorrect": false }
+    ],
+    "hint": "Psychological safety encourages open communication.",
+    "answerDescription": "Teams that feel safe to express ideas and take risks innovate better and work more effectively together."
+  },
+  {
+    "id": "agile_2620",
+    "question": "What is the main benefit of cross-functional teams in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "They focus only on a single expertise per team", "isCorrect": false },
+      { "id": "option_2", "text": "They depend on external specialists for most tasks", "isCorrect": false },
+      { "id": "option_3", "text": "They work in isolation from other teams", "isCorrect": false },
+      { "id": "option_4", "text": "They can independently complete work without dependencies", "isCorrect": true }
+    ],
+    "hint": "Agile teams aim for self-sufficiency in delivering value.",
+    "answerDescription": "Cross-functional teams reduce bottlenecks and improve efficiency by handling multiple aspects of development within the team."
+  },
+  {
+    "id": "agile_2621",
+    "question": "What role does a Scrum Master play in an Agile Development Team?",
+    "options": [
+      { "id": "option_1", "text": "They facilitate Agile processes and remove obstacles for the team", "isCorrect": true },
+      { "id": "option_2", "text": "They dictate how team members should work", "isCorrect": false },
+      { "id": "option_3", "text": "They directly assign tasks to individuals", "isCorrect": false },
+      { "id": "option_4", "text": "They control the product backlog", "isCorrect": false }
+    ],
+    "hint": "Scrum Masters enable team efficiency and Agile adherence.",
+    "answerDescription": "Scrum Masters help Agile teams stay productive by guiding them in Scrum best practices and removing blockers."
+  },
+  {
+    "id": "agile_2622",
+    "question": "Why should Agile Development Teams conduct daily stand-ups?",
+    "options": [
+      { "id": "option_1", "text": "To have long discussions about technical challenges", "isCorrect": false },
+      { "id": "option_2", "text": "To track individual performance closely", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure the Product Owner controls all decisions", "isCorrect": false },
+      { "id": "option_4", "text": "To align the team and identify roadblocks early", "isCorrect": true }
+    ],
+    "hint": "Stand-ups are short, focused, and improve team coordination.",
+    "answerDescription": "Daily stand-ups help teams stay aligned, communicate blockers, and adjust priorities effectively."
+  },
+  {
+    "id": "agile_2623",
+    "question": "Why is stakeholder engagement important in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "It helps avoid any feedback until the project is completed", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures continuous collaboration and alignment with business goals", "isCorrect": true },
+      { "id": "option_3", "text": "It allows stakeholders to dictate all project decisions", "isCorrect": false },
+      { "id": "option_4", "text": "It minimizes the need for iterative development", "isCorrect": false }
+    ],
+    "hint": "Active stakeholder involvement leads to better project alignment.",
+    "answerDescription": "Engaging stakeholders throughout the Agile process ensures continuous feedback and better business alignment."
+  },
+  {
+    "id": "agile_2624",
+    "question": "Which of the following is a key responsibility of stakeholders in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Developing and testing the product", "isCorrect": false },
+      { "id": "option_2", "text": "Providing feedback and clarifying requirements", "isCorrect": true },
+      { "id": "option_3", "text": "Managing the Agile team’s daily tasks", "isCorrect": false },
+      { "id": "option_4", "text": "Defining technical implementation details", "isCorrect": false }
+    ],
+    "hint": "Stakeholders play a role in shaping the product direction.",
+    "answerDescription": "Stakeholders provide valuable input on requirements and feedback to ensure the product meets business needs."
+  },
+  {
+    "id": "agile_2625",
+    "question": "How does Agile ensure continuous stakeholder involvement?",
+    "options": [
+      { "id": "option_1", "text": "By limiting their involvement to project kickoff meetings", "isCorrect": false },
+      { "id": "option_2", "text": "By involving them in sprint reviews and feedback sessions", "isCorrect": true },
+      { "id": "option_3", "text": "By allowing stakeholders to make all sprint planning decisions", "isCorrect": false },
+      { "id": "option_4", "text": "By requiring them to manage the development team directly", "isCorrect": false }
+    ],
+    "hint": "Agile encourages ongoing collaboration with stakeholders.",
+    "answerDescription": "Regular sprint reviews and feedback loops keep stakeholders engaged throughout the project."
+  },
+  {
+    "id": "agile_2626",
+    "question": "What is the primary role of stakeholders in Agile backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "To prioritize and refine backlog items based on business value", "isCorrect": true },
+      { "id": "option_2", "text": "To write and estimate user stories", "isCorrect": false },
+      { "id": "option_3", "text": "To manage team velocity and sprint capacity", "isCorrect": false },
+      { "id": "option_4", "text": "To approve every technical change in the system", "isCorrect": false }
+    ],
+    "hint": "Stakeholders influence the prioritization of work.",
+    "answerDescription": "Stakeholders help prioritize backlog items based on business needs and value delivery."
+  },
+  {
+    "id": "agile_2627",
+    "question": "How can stakeholders best support an Agile development team?",
+    "options": [
+      { "id": "option_1", "text": "By defining all tasks for the team", "isCorrect": false },
+      { "id": "option_2", "text": "By frequently changing project goals", "isCorrect": false },
+      { "id": "option_3", "text": "By providing clear feedback and timely decisions", "isCorrect": true },
+      { "id": "option_4", "text": "By micromanaging the team’s workflow", "isCorrect": false }
+    ],
+    "hint": "Stakeholders should offer valuable input without disrupting workflows.",
+    "answerDescription": "Timely feedback and clear decision-making help the Agile team stay aligned with business objectives."
+  },
+  {
+    "id": "agile_2628",
+    "question": "Why is transparency important for stakeholders in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It allows stakeholders to take control of development", "isCorrect": false },
+      { "id": "option_2", "text": "It builds trust and enables informed decision-making", "isCorrect": true },
+      { "id": "option_3", "text": "It eliminates the need for stakeholder involvement", "isCorrect": false },
+      { "id": "option_4", "text": "It reduces the need for product backlog reviews", "isCorrect": false }
+    ],
+    "hint": "Transparency fosters trust and collaboration.",
+    "answerDescription": "Sharing progress and challenges openly helps stakeholders make informed decisions and maintain trust."
+  },
+  {
+    "id": "agile_2629",
+    "question": "What is the main benefit of stakeholder feedback in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It speeds up development by removing testing phases", "isCorrect": false },
+      { "id": "option_2", "text": "It helps refine requirements and improve product quality", "isCorrect": true },
+      { "id": "option_3", "text": "It replaces the need for user stories", "isCorrect": false },
+      { "id": "option_4", "text": "It allows stakeholders to control development timelines", "isCorrect": false }
+    ],
+    "hint": "Frequent feedback leads to better alignment with user needs.",
+    "answerDescription": "Stakeholder feedback ensures the product evolves in alignment with business and customer expectations."
+  },
+  {
+    "id": "agile_2630",
+    "question": "What is the best way to keep stakeholders engaged in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By involving them in every daily stand-up", "isCorrect": false },
+      { "id": "option_2", "text": "By keeping them informed through sprint reviews and demos", "isCorrect": true },
+      { "id": "option_3", "text": "By reducing transparency on project progress", "isCorrect": false },
+      { "id": "option_4", "text": "By limiting their role to initial project planning", "isCorrect": false }
+    ],
+    "hint": "Regular updates keep stakeholders involved.",
+    "answerDescription": "Sprint reviews and product demos help stakeholders stay informed and provide valuable input."
+  },
+  {
+    "id": "agile_2631",
+    "question": "Which Agile practice helps maintain a strong relationship with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Retrospectives", "isCorrect": false },
+      { "id": "option_2", "text": "Sprint planning", "isCorrect": false },
+      { "id": "option_3", "text": "Sprint reviews", "isCorrect": true },
+      { "id": "option_4", "text": "Pair programming", "isCorrect": false }
+    ],
+    "hint": "This event provides stakeholders with an overview of progress.",
+    "answerDescription": "Sprint reviews allow stakeholders to see progress and give feedback, ensuring alignment with goals."
+  },
+  {
+    "id": "agile_2632",
+    "question": "What should be the main focus of stakeholders in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Ensuring the team adheres to a strict plan", "isCorrect": false },
+      { "id": "option_2", "text": "Maximizing product value and business impact", "isCorrect": true },
+      { "id": "option_3", "text": "Approving every technical decision", "isCorrect": false },
+      { "id": "option_4", "text": "Monitoring team productivity daily", "isCorrect": false }
+    ],
+    "hint": "Stakeholders should focus on value delivery.",
+    "answerDescription": "Stakeholders help ensure that the Agile team delivers maximum value aligned with business priorities."
+  }, 
+  {
+    "id": "agile_2633",
+    "question": "Why is stakeholder alignment important in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To reduce the need for sprint planning", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure the team works towards shared goals", "isCorrect": true },
+      { "id": "option_3", "text": "To avoid involving stakeholders in product decisions", "isCorrect": false },
+      { "id": "option_4", "text": "To eliminate the need for backlog grooming", "isCorrect": false }
+    ],
+    "hint": "Alignment ensures consistency in priorities and expectations.",
+    "answerDescription": "Stakeholder alignment helps Agile teams focus on delivering value in a unified direction."
+  },
+  {
+    "id": "agile_2634",
+    "question": "What is a stakeholder's primary role in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To assign daily tasks to developers", "isCorrect": false },
+      { "id": "option_2", "text": "To provide feedback and validate progress", "isCorrect": true },
+      { "id": "option_3", "text": "To approve all technical decisions", "isCorrect": false },
+      { "id": "option_4", "text": "To finalize requirements before development starts", "isCorrect": false }
+    ],
+    "hint": "Stakeholders influence project direction through feedback.",
+    "answerDescription": "Providing feedback ensures that Agile teams remain on track to deliver value aligned with business needs."
+  },
+  {
+    "id": "agile_2635",
+    "question": "How does stakeholder feedback improve Agile project outcomes?",
+    "options": [
+      { "id": "option_1", "text": "By reducing team autonomy", "isCorrect": false },
+      { "id": "option_2", "text": "By refining priorities and enhancing product value", "isCorrect": true },
+      { "id": "option_3", "text": "By enforcing rigid deadlines", "isCorrect": false },
+      { "id": "option_4", "text": "By preventing iteration and flexibility", "isCorrect": false }
+    ],
+    "hint": "Continuous feedback helps teams adapt to business needs.",
+    "answerDescription": "Regular stakeholder feedback allows Agile teams to make necessary adjustments to maximize product success."
+  },
+  {
+    "id": "agile_2636",
+    "question": "Which activity helps stakeholders stay informed about Agile project progress?",
+    "options": [
+      { "id": "option_1", "text": "Restricting stakeholder involvement to planning meetings", "isCorrect": false },
+      { "id": "option_2", "text": "Participating in sprint reviews and demos", "isCorrect": true },
+      { "id": "option_3", "text": "Avoiding backlog discussions", "isCorrect": false },
+      { "id": "option_4", "text": "Finalizing all project details at the start", "isCorrect": false }
+    ],
+    "hint": "Stakeholders benefit from visibility into incremental progress.",
+    "answerDescription": "Sprint reviews and demos offer transparency, allowing stakeholders to provide timely feedback."
+  },
+  {
+    "id": "agile_2637",
+    "question": "What is a challenge when managing stakeholder expectations in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Stakeholders always understand Agile processes", "isCorrect": false },
+      { "id": "option_2", "text": "Stakeholders may have conflicting priorities", "isCorrect": true },
+      { "id": "option_3", "text": "Agile teams do not require stakeholder input", "isCorrect": false },
+      { "id": "option_4", "text": "Stakeholders do not influence project direction", "isCorrect": false }
+    ],
+    "hint": "Different stakeholders may prioritize different features.",
+    "answerDescription": "Managing stakeholder expectations requires balancing diverse needs while maintaining Agile flexibility."
+  },
+  {
+    "id": "agile_2638",
+    "question": "How can Agile teams keep stakeholders engaged throughout the project?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder interaction to project kickoff", "isCorrect": false },
+      { "id": "option_2", "text": "By fostering ongoing collaboration and communication", "isCorrect": true },
+      { "id": "option_3", "text": "By avoiding transparency in development progress", "isCorrect": false },
+      { "id": "option_4", "text": "By finalizing all requirements upfront", "isCorrect": false }
+    ],
+    "hint": "Consistent collaboration strengthens stakeholder relationships.",
+    "answerDescription": "Engaged stakeholders contribute valuable insights, helping Agile teams deliver better results."
+  },
+  {
+    "id": "agile_2639",
+    "question": "What is the benefit of involving stakeholders in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "It allows teams to ignore changing requirements", "isCorrect": false },
+      { "id": "option_2", "text": "It helps prioritize work based on business needs", "isCorrect": true },
+      { "id": "option_3", "text": "It removes flexibility from Agile processes", "isCorrect": false },
+      { "id": "option_4", "text": "It eliminates the need for iteration", "isCorrect": false }
+    ],
+    "hint": "Stakeholders provide valuable insights into business priorities.",
+    "answerDescription": "Regular backlog refinement with stakeholders ensures that the team is always working on the highest-value tasks."
+  },
+  {
+    "id": "agile_2640",
+    "question": "Why should Agile teams educate stakeholders on Agile principles?",
+    "options": [
+      { "id": "option_1", "text": "To prevent stakeholder involvement in decision-making", "isCorrect": false },
+      { "id": "option_2", "text": "To align expectations with Agile ways of working", "isCorrect": true },
+      { "id": "option_3", "text": "To make stakeholders responsible for technical solutions", "isCorrect": false },
+      { "id": "option_4", "text": "To remove flexibility from the project", "isCorrect": false }
+    ],
+    "hint": "Understanding Agile helps stakeholders collaborate effectively.",
+    "answerDescription": "Educating stakeholders fosters smoother collaboration and better alignment with Agile values."
+  },
+  {
+    "id": "agile_2641",
+    "question": "What is a key factor in ensuring productive stakeholder engagement?",
+    "options": [
+      { "id": "option_1", "text": "Minimizing communication between stakeholders and the team", "isCorrect": false },
+      { "id": "option_2", "text": "Encouraging open dialogue and shared goals", "isCorrect": true },
+      { "id": "option_3", "text": "Making decisions without stakeholder input", "isCorrect": false },
+      { "id": "option_4", "text": "Setting fixed, unchangeable requirements", "isCorrect": false }
+    ],
+    "hint": "Collaboration fosters shared success in Agile projects.",
+    "answerDescription": "Effective communication and goal alignment lead to better stakeholder relationships and project success."
+  },
+  {
+    "id": "agile_2642",
+    "question": "What should Agile teams do when stakeholders request urgent changes?",
+    "options": [
+      { "id": "option_1", "text": "Reject all changes to maintain sprint focus", "isCorrect": false },
+      { "id": "option_2", "text": "Assess and integrate the changes through backlog updates", "isCorrect": true },
+      { "id": "option_3", "text": "Immediately disrupt the sprint to implement changes", "isCorrect": false },
+      { "id": "option_4", "text": "Ignore stakeholder input during development", "isCorrect": false }
+    ],
+    "hint": "Agile teams embrace change while maintaining focus.",
+    "answerDescription": "Using backlog updates allows teams to accommodate necessary changes without disrupting workflow."
+  },
+ {
+    "id": "agile_2643",
+    "question": "What is a key expectation from stakeholders in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Providing timely feedback and clarifications", "isCorrect": true },
+      { "id": "option_2", "text": "Defining all technical implementations", "isCorrect": false },
+      { "id": "option_3", "text": "Avoiding involvement until project completion", "isCorrect": false },
+      { "id": "option_4", "text": "Micromanaging the development process", "isCorrect": false }
+    ],
+    "hint": "Stakeholders contribute to refining requirements and guiding the project.",
+    "answerDescription": "Active engagement from stakeholders ensures that the Agile team delivers a product aligned with business needs."
+  },
+  {
+    "id": "agile_2644",
+    "question": "Which Agile event is designed to keep stakeholders informed about progress?",
+    "options": [
+      { "id": "option_1", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_2", "text": "Daily Stand-up", "isCorrect": false },
+      { "id": "option_3", "text": "Backlog Refinement", "isCorrect": false },
+      { "id": "option_4", "text": "Pair Programming", "isCorrect": false }
+    ],
+    "hint": "This event allows stakeholders to review completed work and provide feedback.",
+    "answerDescription": "Sprint reviews provide a platform for stakeholders to see progress, give input, and align expectations."
+  },
+  {
+    "id": "agile_2645",
+    "question": "How do stakeholders contribute to Agile success?",
+    "options": [
+      { "id": "option_1", "text": "By ensuring alignment between business needs and development efforts", "isCorrect": true },
+      { "id": "option_2", "text": "By strictly controlling the team’s daily tasks", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding interactions with the Agile team", "isCorrect": false },
+      { "id": "option_4", "text": "By enforcing rigid project timelines without flexibility", "isCorrect": false }
+    ],
+    "hint": "Stakeholders play a crucial role in prioritization and value delivery.",
+    "answerDescription": "Stakeholders ensure that Agile teams focus on high-value features that align with business priorities."
+  },
+  {
+    "id": "agile_2646",
+    "question": "What is an essential quality of an effective Agile stakeholder?",
+    "options": [
+      { "id": "option_1", "text": "Being open to collaboration and iterative development", "isCorrect": true },
+      { "id": "option_2", "text": "Requiring all requirements to be fixed upfront", "isCorrect": false },
+      { "id": "option_3", "text": "Avoiding participation in sprint planning", "isCorrect": false },
+      { "id": "option_4", "text": "Demanding complete project control", "isCorrect": false }
+    ],
+    "hint": "Successful stakeholders embrace adaptability.",
+    "answerDescription": "Agile stakeholders must be collaborative and open to evolving requirements to support iterative development."
+  },
+  {
+    "id": "agile_2647",
+    "question": "Why is it important for stakeholders to prioritize the product backlog?",
+    "options": [
+      { "id": "option_1", "text": "To ensure the highest-value features are developed first", "isCorrect": true },
+      { "id": "option_2", "text": "To dictate technical implementation", "isCorrect": false },
+      { "id": "option_3", "text": "To minimize team autonomy", "isCorrect": false },
+      { "id": "option_4", "text": "To reduce transparency in decision-making", "isCorrect": false }
+    ],
+    "hint": "Backlog prioritization aligns development with business value.",
+    "answerDescription": "Prioritizing backlog items ensures that the Agile team focuses on delivering the most valuable features first."
+  },
+  {
+    "id": "agile_2648",
+    "question": "How should Agile teams handle conflicting stakeholder priorities?",
+    "options": [
+      { "id": "option_1", "text": "Facilitate discussions to align goals and reach consensus", "isCorrect": true },
+      { "id": "option_2", "text": "Ignore lower-priority stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "Let the development team decide independently", "isCorrect": false },
+      { "id": "option_4", "text": "Follow the highest-ranking stakeholder’s demands", "isCorrect": false }
+    ],
+    "hint": "Alignment among stakeholders ensures smooth progress.",
+    "answerDescription": "Facilitating discussions helps resolve conflicts and align stakeholder expectations with business objectives."
+  },
+  {
+    "id": "agile_2649",
+    "question": "What is the benefit of involving stakeholders early in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "It ensures a shared understanding of goals and expectations", "isCorrect": true },
+      { "id": "option_2", "text": "It eliminates the need for backlog refinement", "isCorrect": false },
+      { "id": "option_3", "text": "It allows the team to avoid stakeholder input later", "isCorrect": false },
+      { "id": "option_4", "text": "It guarantees a fixed project scope", "isCorrect": false }
+    ],
+    "hint": "Early involvement helps set clear expectations.",
+    "answerDescription": "When stakeholders are engaged early, teams can better align on priorities and avoid misunderstandings."
+  },
+  {
+    "id": "agile_2650",
+    "question": "Which Agile principle supports continuous stakeholder involvement?",
+    "options": [
+      { "id": "option_1", "text": "Customer collaboration over contract negotiation", "isCorrect": true },
+      { "id": "option_2", "text": "Comprehensive documentation over working software", "isCorrect": false },
+      { "id": "option_3", "text": "Processes and tools over individuals and interactions", "isCorrect": false },
+      { "id": "option_4", "text": "Following a plan over responding to change", "isCorrect": false }
+    ],
+    "hint": "Agile prioritizes engagement with stakeholders.",
+    "answerDescription": "This principle emphasizes the importance of collaboration between stakeholders and Agile teams to achieve project success."
+  },
+  {
+    "id": "agile_2651",
+    "question": "What is the primary concern of stakeholders in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Ensuring the product delivers business value", "isCorrect": true },
+      { "id": "option_2", "text": "Managing team velocity", "isCorrect": false },
+      { "id": "option_3", "text": "Enforcing strict deadlines over quality", "isCorrect": false },
+      { "id": "option_4", "text": "Controlling day-to-day development tasks", "isCorrect": false }
+    ],
+    "hint": "Stakeholders focus on value delivery.",
+    "answerDescription": "The primary concern of stakeholders is ensuring that Agile teams deliver a product that meets business needs."
+  },
+  {
+    "id": "agile_2652",
+    "question": "What role does a stakeholder play in risk management for Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Identifying potential business risks and providing guidance", "isCorrect": true },
+      { "id": "option_2", "text": "Eliminating all risks before development begins", "isCorrect": false },
+      { "id": "option_3", "text": "Dictating how the development team mitigates technical risks", "isCorrect": false },
+      { "id": "option_4", "text": "Avoiding involvement in risk discussions", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help manage business-related risks.",
+    "answerDescription": "Stakeholders contribute by identifying business risks early and collaborating with the team to mitigate them."
+  },
+  {
+    "id": "agile_2653",
+    "question": "What is a primary way stakeholders can support an Agile team?",
+    "options": [
+      { "id": "option_1", "text": "By setting strict deadlines without flexibility", "isCorrect": false },
+      { "id": "option_2", "text": "By providing continuous feedback and clarifications", "isCorrect": true },
+      { "id": "option_3", "text": "By avoiding participation in sprint reviews", "isCorrect": false },
+      { "id": "option_4", "text": "By dictating technical implementation details", "isCorrect": false }
+    ],
+    "hint": "Engaged stakeholders contribute by offering insights throughout development.",
+    "answerDescription": "Stakeholders who actively provide feedback help Agile teams stay aligned with business goals and user needs."
+  },
+  {
+    "id": "agile_2654",
+    "question": "How does stakeholder involvement impact Agile project success?",
+    "options": [
+      { "id": "option_1", "text": "It slows down the development process", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures business objectives are met effectively", "isCorrect": true },
+      { "id": "option_3", "text": "It creates unnecessary distractions for the team", "isCorrect": false },
+      { "id": "option_4", "text": "It removes the need for iterative development", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help teams align with business priorities.",
+    "answerDescription": "By staying engaged, stakeholders help Agile teams focus on features and goals that bring the most value."
+  },
+  {
+    "id": "agile_2655",
+    "question": "What is an effective way for stakeholders to communicate priorities to an Agile team?",
+    "options": [
+      { "id": "option_1", "text": "By micromanaging daily tasks", "isCorrect": false },
+      { "id": "option_2", "text": "By collaborating on backlog refinement", "isCorrect": true },
+      { "id": "option_3", "text": "By insisting on detailed upfront requirements", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding discussions until the product is finished", "isCorrect": false }
+    ],
+    "hint": "Stakeholders shape priorities through backlog interactions.",
+    "answerDescription": "Backlog refinement sessions allow stakeholders to guide development by prioritizing high-value work."
+  },
+  {
+    "id": "agile_2656",
+    "question": "Why should stakeholders participate in Sprint Reviews?",
+    "options": [
+      { "id": "option_1", "text": "To approve or reject individual tasks", "isCorrect": false },
+      { "id": "option_2", "text": "To provide feedback on the completed work", "isCorrect": true },
+      { "id": "option_3", "text": "To control the technical decisions of the team", "isCorrect": false },
+      { "id": "option_4", "text": "To set fixed deadlines for all features", "isCorrect": false }
+    ],
+    "hint": "Sprint Reviews allow stakeholders to ensure the product is meeting expectations.",
+    "answerDescription": "Stakeholder feedback during Sprint Reviews helps Agile teams align their work with business needs."
+  },
+  {
+    "id": "agile_2657",
+    "question": "How can Agile teams ensure stakeholders remain engaged throughout development?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder communication", "isCorrect": false },
+      { "id": "option_2", "text": "By involving them in regular feedback loops", "isCorrect": true },
+      { "id": "option_3", "text": "By finalizing all requirements before development starts", "isCorrect": false },
+      { "id": "option_4", "text": "By restricting their access to the product backlog", "isCorrect": false }
+    ],
+    "hint": "Continuous collaboration strengthens Agile development.",
+    "answerDescription": "Regular feedback sessions keep stakeholders involved and ensure alignment with evolving priorities."
+  },
+  {
+    "id": "agile_2658",
+    "question": "What is a key benefit of having transparent stakeholder communication in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It allows teams to work without stakeholder input", "isCorrect": false },
+      { "id": "option_2", "text": "It helps manage expectations and priorities effectively", "isCorrect": true },
+      { "id": "option_3", "text": "It reduces the need for backlog refinement", "isCorrect": false },
+      { "id": "option_4", "text": "It ensures that requirements never change", "isCorrect": false }
+    ],
+    "hint": "Clear communication prevents misunderstandings in Agile projects.",
+    "answerDescription": "Transparent communication keeps all stakeholders aligned, reducing confusion and conflicts."
+  },
+  {
+    "id": "agile_2659",
+    "question": "What is a common challenge when working with multiple stakeholders in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Stakeholders always agree on priorities", "isCorrect": false },
+      { "id": "option_2", "text": "Conflicting priorities and expectations", "isCorrect": true },
+      { "id": "option_3", "text": "Stakeholders never request changes", "isCorrect": false },
+      { "id": "option_4", "text": "There is no need to align business goals", "isCorrect": false }
+    ],
+    "hint": "Different stakeholders may have different perspectives on priorities.",
+    "answerDescription": "Managing conflicting priorities requires facilitation and collaboration to ensure business objectives are met."
+  },
+  {
+    "id": "agile_2660",
+    "question": "How can Agile teams handle changes in stakeholder requirements?",
+    "options": [
+      { "id": "option_1", "text": "By refusing to accommodate any changes", "isCorrect": false },
+      { "id": "option_2", "text": "By incorporating feedback through backlog updates", "isCorrect": true },
+      { "id": "option_3", "text": "By locking requirements at project start", "isCorrect": false },
+      { "id": "option_4", "text": "By ignoring stakeholder input until project completion", "isCorrect": false }
+    ],
+    "hint": "Agile embraces change through an iterative approach.",
+    "answerDescription": "Updating the backlog with stakeholder feedback ensures Agile teams remain responsive to evolving needs."
+  },
+  {
+    "id": "agile_2661",
+    "question": "What is the role of a Product Owner in stakeholder management?",
+    "options": [
+      { "id": "option_1", "text": "To ensure all stakeholders have the same priorities", "isCorrect": false },
+      { "id": "option_2", "text": "To act as a bridge between stakeholders and the Agile team", "isCorrect": true },
+      { "id": "option_3", "text": "To prevent stakeholders from influencing backlog prioritization", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid engaging with stakeholders during development", "isCorrect": false }
+    ],
+    "hint": "The Product Owner represents stakeholder interests in Agile projects.",
+    "answerDescription": "The Product Owner helps balance stakeholder needs while ensuring the Agile team delivers value efficiently."
+  },
+  {
+    "id": "agile_2662",
+    "question": "Why should stakeholders avoid dictating technical solutions in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Because Agile teams rely on stakeholder direction for technical decisions", "isCorrect": false },
+      { "id": "option_2", "text": "Because technical decisions should be left to development experts", "isCorrect": true },
+      { "id": "option_3", "text": "Because stakeholders do not contribute to the project’s success", "isCorrect": false },
+      { "id": "option_4", "text": "Because Agile does not allow stakeholder involvement", "isCorrect": false }
+    ],
+    "hint": "Stakeholders focus on business needs, while teams handle implementation.",
+    "answerDescription": "Allowing development teams to make technical decisions ensures efficiency and maintains Agile principles."
+  },
+  {
+    "id": "agile_2663",
+    "question": "How can Agile teams ensure stakeholder expectations are effectively managed?",
+    "options": [
+      { "id": "option_1", "text": "By avoiding discussions about project changes", "isCorrect": false },
+      { "id": "option_2", "text": "By limiting stakeholder involvement to sprint reviews", "isCorrect": false },
+      { "id": "option_3", "text": "By maintaining open and transparent communication", "isCorrect": true },
+      { "id": "option_4", "text": "By strictly following initial project requirements without adjustments", "isCorrect": false }
+    ],
+    "hint": "Transparency and communication help align expectations.",
+    "answerDescription": "Clear and ongoing communication with stakeholders helps teams align priorities and expectations effectively."
+  },
+  {
+    "id": "agile_2664",
+    "question": "Why should stakeholders be regularly involved in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To micromanage the development process", "isCorrect": false },
+      { "id": "option_2", "text": "To enforce strict deadlines regardless of team capacity", "isCorrect": false },
+      { "id": "option_3", "text": "To provide feedback and ensure business alignment", "isCorrect": true },
+      { "id": "option_4", "text": "To prevent developers from making technical decisions", "isCorrect": false }
+    ],
+    "hint": "Stakeholder feedback is crucial for Agile success.",
+    "answerDescription": "Regular stakeholder involvement ensures that the product remains aligned with business goals and user needs."
+  },
+  {
+    "id": "agile_2665",
+    "question": "Which Agile event provides stakeholders with visibility into product progress?",
+    "options": [
+      { "id": "option_1", "text": "Daily Stand-ups", "isCorrect": false },
+      { "id": "option_2", "text": "Backlog Refinement", "isCorrect": false },
+      { "id": "option_3", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_4", "text": "Sprint Retrospective", "isCorrect": false }
+    ],
+    "hint": "This event showcases the product increment.",
+    "answerDescription": "Sprint Reviews allow stakeholders to see completed work and provide feedback on the product increment."
+  },
+  {
+    "id": "agile_2666",
+    "question": "What challenge might arise from having multiple stakeholders in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Stakeholders never disagree on priorities", "isCorrect": false },
+      { "id": "option_2", "text": "Stakeholders always fully understand Agile principles", "isCorrect": false },
+      { "id": "option_3", "text": "Conflicting priorities can make decision-making difficult", "isCorrect": true },
+      { "id": "option_4", "text": "Stakeholders should not be involved in backlog refinement", "isCorrect": false }
+    ],
+    "hint": "Different stakeholders may have different priorities.",
+    "answerDescription": "Balancing the needs and priorities of multiple stakeholders requires effective negotiation and alignment strategies."
+  },
+  {
+    "id": "agile_2667",
+    "question": "How can Agile teams handle changing stakeholder requirements?",
+    "options": [
+      { "id": "option_1", "text": "By ignoring all changes after sprint planning", "isCorrect": false },
+      { "id": "option_2", "text": "By implementing changes immediately without review", "isCorrect": false },
+      { "id": "option_3", "text": "By evaluating changes and incorporating them into the backlog", "isCorrect": true },
+      { "id": "option_4", "text": "By rejecting changes to maintain a fixed project scope", "isCorrect": false }
+    ],
+    "hint": "Agile embraces change but requires structured handling.",
+    "answerDescription": "Backlog updates allow teams to manage changing requirements while maintaining development flow."
+  },
+  {
+    "id": "agile_2668",
+    "question": "Which approach helps build trust between Agile teams and stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Providing minimal updates to avoid unnecessary discussions", "isCorrect": false },
+      { "id": "option_2", "text": "Restricting stakeholder access to Agile events", "isCorrect": false },
+      { "id": "option_3", "text": "Delivering working software frequently and maintaining transparency", "isCorrect": true },
+      { "id": "option_4", "text": "Focusing only on technical excellence without considering business value", "isCorrect": false }
+    ],
+    "hint": "Consistent delivery builds confidence in Agile teams.",
+    "answerDescription": "Regular delivery of working software and transparency in progress help establish trust with stakeholders."
+  },
+  {
+    "id": "agile_2669",
+    "question": "What is a key benefit of engaging stakeholders early in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Reduces the need for iterative development", "isCorrect": false },
+      { "id": "option_2", "text": "Ensures a rigid, unchangeable project scope", "isCorrect": false },
+      { "id": "option_3", "text": "Aligns the product vision with business goals from the start", "isCorrect": true },
+      { "id": "option_4", "text": "Eliminates the need for backlog refinement", "isCorrect": false }
+    ],
+    "hint": "Early involvement prevents misalignment later.",
+    "answerDescription": "Engaging stakeholders early ensures that the Agile team is working toward a product that meets business and customer needs."
+  },
+  {
+    "id": "agile_2670",
+    "question": "Which strategy helps avoid stakeholder misalignment in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Keeping all stakeholder discussions informal", "isCorrect": false },
+      { "id": "option_2", "text": "Avoiding backlog discussions with stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "Setting clear priorities and maintaining regular engagement", "isCorrect": true },
+      { "id": "option_4", "text": "Focusing only on technical decisions without business input", "isCorrect": false }
+    ],
+    "hint": "Clarity in priorities helps prevent confusion.",
+    "answerDescription": "Regular engagement and priority setting help ensure that all stakeholders are aligned with the project direction."
+  },
+  {
+    "id": "agile_2671",
+    "question": "What role do stakeholders play in Agile risk management?",
+    "options": [
+      { "id": "option_1", "text": "They do not participate in risk discussions", "isCorrect": false },
+      { "id": "option_2", "text": "They are responsible for solving all technical risks", "isCorrect": false },
+      { "id": "option_3", "text": "They help identify and mitigate business risks", "isCorrect": true },
+      { "id": "option_4", "text": "They only provide funding without project involvement", "isCorrect": false }
+    ],
+    "hint": "Business risks can be better managed with stakeholder insights.",
+    "answerDescription": "Stakeholders contribute to risk management by providing insights on business risks and helping mitigate them early."
+  },
+  {
+    "id": "agile_2672",
+    "question": "How can Agile teams address stakeholder concerns effectively?",
+    "options": [
+      { "id": "option_1", "text": "By focusing only on development and ignoring concerns", "isCorrect": false },
+      { "id": "option_2", "text": "By postponing discussions until after product launch", "isCorrect": false },
+      { "id": "option_3", "text": "By actively listening and incorporating feedback into planning", "isCorrect": true },
+      { "id": "option_4", "text": "By insisting that all decisions are final", "isCorrect": false }
+    ],
+    "hint": "Stakeholder concerns should be addressed proactively.",
+    "answerDescription": "Listening to stakeholders and acting on their feedback improves collaboration and project outcomes."
+  },
+  {
+    "id": "agile_2673",
+    "question": "Why is stakeholder feedback critical in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "It allows the team to avoid making decisions independently", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures the team follows a fixed project scope", "isCorrect": false },
+      { "id": "option_3", "text": "It helps minimize communication with the team", "isCorrect": false },
+      { "id": "option_4", "text": "It ensures the product aligns with business and user needs", "isCorrect": true }
+    ],
+    "hint": "Stakeholder input helps refine the product vision.",
+    "answerDescription": "Continuous stakeholder feedback helps Agile teams build a product that meets business and user expectations."
+  },
+  {
+    "id": "agile_2674",
+    "question": "How does Agile promote stakeholder engagement?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder communication to the project's final phase", "isCorrect": false },
+      { "id": "option_2", "text": "By discouraging feedback that could change the scope", "isCorrect": false },
+      { "id": "option_3", "text": "By making stakeholders responsible for daily stand-ups", "isCorrect": false },
+      { "id": "option_4", "text": "By encouraging regular interaction and feedback loops", "isCorrect": true }
+    ],
+    "hint": "Agile thrives on continuous collaboration.",
+    "answerDescription": "Frequent communication and feedback help stakeholders stay engaged and contribute to project success."
+  },
+  {
+    "id": "agile_2675",
+    "question": "What is an effective way to prioritize stakeholder requirements in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By addressing only the needs of the most vocal stakeholder", "isCorrect": false },
+      { "id": "option_2", "text": "By disregarding changes after sprint planning", "isCorrect": false },
+      { "id": "option_3", "text": "By using a fixed-priority list that never changes", "isCorrect": false },
+      { "id": "option_4", "text": "By evaluating requirements based on business value and feasibility", "isCorrect": true }
+    ],
+    "hint": "Agile prioritization is based on value delivery.",
+    "answerDescription": "Using business value and feasibility as criteria helps teams focus on high-impact requirements."
+  },
+  {
+    "id": "agile_2676",
+    "question": "Which technique helps Agile teams gather stakeholder feedback effectively?",
+    "options": [
+      { "id": "option_1", "text": "Avoiding regular meetings to minimize disruptions", "isCorrect": false },
+      { "id": "option_2", "text": "Only collecting feedback at the end of development", "isCorrect": false },
+      { "id": "option_3", "text": "Limiting feedback collection to senior management", "isCorrect": false },
+      { "id": "option_4", "text": "Using sprint reviews and informal discussions", "isCorrect": true }
+    ],
+    "hint": "Stakeholder feedback should be collected throughout the process.",
+    "answerDescription": "Sprint reviews and informal discussions provide ongoing opportunities for stakeholder input and alignment."
+  },
+  {
+    "id": "agile_2677",
+    "question": "How can Agile teams ensure stakeholders understand project progress?",
+    "options": [
+      { "id": "option_1", "text": "By providing minimal updates to avoid distractions", "isCorrect": false },
+      { "id": "option_2", "text": "By keeping reports limited to technical details", "isCorrect": false },
+      { "id": "option_3", "text": "By only sharing completed features without explanation", "isCorrect": false },
+      { "id": "option_4", "text": "By using visual dashboards and regular progress reports", "isCorrect": true }
+    ],
+    "hint": "Transparency and visibility help stakeholders stay informed.",
+    "answerDescription": "Visual dashboards and reports provide stakeholders with clear insights into project status and progress."
+  },
+  {
+    "id": "agile_2678",
+    "question": "Why is stakeholder alignment important in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "It reduces the need for backlog refinement", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures all decisions are made by the product owner alone", "isCorrect": false },
+      { "id": "option_3", "text": "It minimizes the importance of user feedback", "isCorrect": false },
+      { "id": "option_4", "text": "It ensures the team builds a product that meets business needs", "isCorrect": true }
+    ],
+    "hint": "Stakeholder alignment leads to a more valuable product.",
+    "answerDescription": "Clear alignment ensures that Agile teams are working toward a product that delivers value to both business and users."
+  },
+  {
+    "id": "agile_2679",
+    "question": "Which Agile principle encourages continuous stakeholder involvement?",
+    "options": [
+      { "id": "option_1", "text": "Working in complete isolation to avoid distractions", "isCorrect": false },
+      { "id": "option_2", "text": "Avoiding frequent feedback to maintain a stable plan", "isCorrect": false },
+      { "id": "option_3", "text": "Making major decisions without consulting stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "Welcoming changing requirements, even late in development", "isCorrect": true }
+    ],
+    "hint": "Agile embraces change and stakeholder input.",
+    "answerDescription": "Stakeholder involvement is crucial for adapting to changes and delivering value-driven products."
+  },
+  {
+    "id": "agile_2680",
+    "question": "How does early stakeholder involvement benefit Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "It prevents teams from making independent decisions", "isCorrect": false },
+      { "id": "option_2", "text": "It eliminates the need for iterative development", "isCorrect": false },
+      { "id": "option_3", "text": "It ensures that project requirements remain fixed", "isCorrect": false },
+      { "id": "option_4", "text": "It helps define a clear vision and avoid costly rework", "isCorrect": true }
+    ],
+    "hint": "Early involvement ensures better project alignment.",
+    "answerDescription": "Engaging stakeholders early helps Agile teams define goals and reduce the risk of misunderstandings or late-stage changes."
+  },
+  {
+    "id": "agile_2681",
+    "question": "What is the key role of stakeholders in Agile product development?",
+    "options": [
+      { "id": "option_1", "text": "To dictate every detail of the implementation process", "isCorrect": false },
+      { "id": "option_2", "text": "To focus only on financial aspects and ignore development", "isCorrect": false },
+      { "id": "option_3", "text": "To approve the final product without involvement in iterations", "isCorrect": false },
+      { "id": "option_4", "text": "To provide feedback, set priorities, and define business goals", "isCorrect": true }
+    ],
+    "hint": "Stakeholders help guide business and user needs.",
+    "answerDescription": "Stakeholders contribute by defining priorities and providing continuous feedback to ensure business objectives are met."
+  },
+  {
+    "id": "agile_2682",
+    "question": "How can Agile teams encourage active stakeholder participation?",
+    "options": [
+      { "id": "option_1", "text": "By limiting communication to avoid unnecessary input", "isCorrect": false },
+      { "id": "option_2", "text": "By waiting until the end of the project to involve them", "isCorrect": false },
+      { "id": "option_3", "text": "By restricting stakeholder access to team discussions", "isCorrect": false },
+      { "id": "option_4", "text": "By inviting stakeholders to sprint reviews and backlog refinements", "isCorrect": true }
+    ],
+    "hint": "Stakeholder involvement should be regular and structured.",
+    "answerDescription": "Including stakeholders in key Agile ceremonies ensures they remain engaged and aligned with project goals."
+  },
+  {
+    "id": "agile_2683",
+    "question": "What is the primary responsibility of stakeholders in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To provide input and feedback throughout the project", "isCorrect": true },
+      { "id": "option_2", "text": "To avoid interaction until the final product is ready", "isCorrect": false },
+      { "id": "option_3", "text": "To control all technical decisions made by the team", "isCorrect": false },
+      { "id": "option_4", "text": "To oversee daily stand-up meetings", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help shape the product direction.",
+    "answerDescription": "Stakeholders play a critical role in providing ongoing feedback to ensure the product meets business and user needs."
+  },
+  {
+    "id": "agile_2684",
+    "question": "Why should Agile teams engage stakeholders early in the project?",
+    "options": [
+      { "id": "option_1", "text": "To ensure project goals align with business needs", "isCorrect": true },
+      { "id": "option_2", "text": "To prevent stakeholders from influencing requirements", "isCorrect": false },
+      { "id": "option_3", "text": "To delay decision-making until the last sprint", "isCorrect": false },
+      { "id": "option_4", "text": "To minimize changes in the project scope", "isCorrect": false }
+    ],
+    "hint": "Early stakeholder involvement reduces misalignment.",
+    "answerDescription": "Engaging stakeholders early helps define clear objectives and avoids costly rework later in the development process."
+  },
+  {
+    "id": "agile_2685",
+    "question": "How do stakeholders contribute to Agile backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "By prioritizing user stories based on business value", "isCorrect": true },
+      { "id": "option_2", "text": "By writing all technical implementation details", "isCorrect": false },
+      { "id": "option_3", "text": "By approving the backlog only after development is complete", "isCorrect": false },
+      { "id": "option_4", "text": "By ensuring the backlog remains unchanged throughout the project", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help guide the prioritization process.",
+    "answerDescription": "Their input ensures that the most valuable features are developed first, maximizing business and user impact."
+  },
+  {
+    "id": "agile_2686",
+    "question": "Which Agile practice ensures continuous stakeholder collaboration?",
+    "options": [
+      { "id": "option_1", "text": "Regular sprint reviews and demos", "isCorrect": true },
+      { "id": "option_2", "text": "Holding all discussions until project completion", "isCorrect": false },
+      { "id": "option_3", "text": "Minimizing stakeholder involvement to reduce distractions", "isCorrect": false },
+      { "id": "option_4", "text": "Avoiding feedback to maintain development speed", "isCorrect": false }
+    ],
+    "hint": "Agile fosters ongoing communication with stakeholders.",
+    "answerDescription": "Sprint reviews and demos allow stakeholders to see progress, provide feedback, and align expectations."
+  },
+  {
+    "id": "agile_2687",
+    "question": "What is a key challenge of managing multiple stakeholders in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Balancing conflicting priorities and expectations", "isCorrect": true },
+      { "id": "option_2", "text": "Ensuring only one stakeholder has decision-making power", "isCorrect": false },
+      { "id": "option_3", "text": "Avoiding all feedback to maintain a stable plan", "isCorrect": false },
+      { "id": "option_4", "text": "Limiting stakeholder communication to avoid complexity", "isCorrect": false }
+    ],
+    "hint": "Different stakeholders may have different goals.",
+    "answerDescription": "Agile teams must navigate varying needs and find a balance that aligns with business objectives and user value."
+  },
+  {
+    "id": "agile_2688",
+    "question": "How does stakeholder feedback improve Agile product development?",
+    "options": [
+      { "id": "option_1", "text": "By identifying issues early and refining requirements", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting development to predefined specifications", "isCorrect": false },
+      { "id": "option_3", "text": "By reducing the need for iterations", "isCorrect": false },
+      { "id": "option_4", "text": "By ensuring all decisions are made only by the development team", "isCorrect": false }
+    ],
+    "hint": "Feedback helps refine the product continuously.",
+    "answerDescription": "Stakeholder input allows Agile teams to make adjustments and enhance product value throughout the development cycle."
+  },
+  {
+    "id": "agile_2689",
+    "question": "Why is transparency important in stakeholder communication?",
+    "options": [
+      { "id": "option_1", "text": "It builds trust and aligns expectations", "isCorrect": true },
+      { "id": "option_2", "text": "It limits stakeholder involvement to reduce feedback", "isCorrect": false },
+      { "id": "option_3", "text": "It helps teams control project decisions without input", "isCorrect": false },
+      { "id": "option_4", "text": "It prevents stakeholders from making scope changes", "isCorrect": false }
+    ],
+    "hint": "Open communication fosters collaboration and trust.",
+    "answerDescription": "When teams are transparent, stakeholders remain engaged and aligned with project progress and goals."
+  },
+  {
+    "id": "agile_2690",
+    "question": "How can Agile teams effectively manage stakeholder expectations?",
+    "options": [
+      { "id": "option_1", "text": "By setting clear goals and maintaining open communication", "isCorrect": true },
+      { "id": "option_2", "text": "By making all product decisions without consulting stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding discussions about changing requirements", "isCorrect": false },
+      { "id": "option_4", "text": "By ensuring stakeholders do not participate in backlog refinement", "isCorrect": false }
+    ],
+    "hint": "Expectation management requires clarity and collaboration.",
+    "answerDescription": "Clear goals, transparency, and ongoing discussions help Agile teams align expectations with stakeholders effectively."
+  },
+  {
+    "id": "agile_2691",
+    "question": "What role do stakeholders play in Agile risk management?",
+    "options": [
+      { "id": "option_1", "text": "They identify potential business risks early", "isCorrect": true },
+      { "id": "option_2", "text": "They avoid discussing risks to maintain focus on development", "isCorrect": false },
+      { "id": "option_3", "text": "They ensure that technical risks are ignored", "isCorrect": false },
+      { "id": "option_4", "text": "They provide feedback only after product launch", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help foresee business and market risks.",
+    "answerDescription": "By engaging stakeholders in discussions about risks, Agile teams can proactively address potential challenges."
+  },
+  {
+    "id": "agile_2692",
+    "question": "How does Agile help stakeholders make informed decisions?",
+    "options": [
+      { "id": "option_1", "text": "By providing regular updates and empirical data", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting visibility into the development process", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding discussions about project changes", "isCorrect": false },
+      { "id": "option_4", "text": "By finalizing requirements without stakeholder input", "isCorrect": false }
+    ],
+    "hint": "Agile relies on data-driven decision-making.",
+    "answerDescription": "Frequent updates, sprint reviews, and data-driven insights allow stakeholders to make better-informed decisions."
+  },{
+    "id": "agile_2693",
+    "question": "Why is it important for stakeholders to participate in Agile sprint reviews?",
+    "options": [
+      { "id": "option_1", "text": "To ensure that developers follow a strict hierarchy", "isCorrect": false },
+      { "id": "option_2", "text": "To provide feedback and align expectations", "isCorrect": true },
+      { "id": "option_3", "text": "To make last-minute changes without team involvement", "isCorrect": false },
+      { "id": "option_4", "text": "To finalize all project decisions in a single meeting", "isCorrect": false }
+    ],
+    "hint": "Sprint reviews allow stakeholders to guide the product direction.",
+    "answerDescription": "Regular stakeholder participation in sprint reviews ensures the product meets business and user needs while avoiding costly misalignment."
+  },
+  {
+    "id": "agile_2694",
+    "question": "How do Agile teams ensure stakeholders remain engaged throughout development?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder interactions to project kickoff meetings", "isCorrect": false },
+      { "id": "option_2", "text": "By maintaining open communication and frequent updates", "isCorrect": true },
+      { "id": "option_3", "text": "By restricting access to backlog refinement sessions", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding stakeholder feedback to prevent scope changes", "isCorrect": false }
+    ],
+    "hint": "Consistent communication is key to engagement.",
+    "answerDescription": "Regular updates, demos, and discussions keep stakeholders informed and invested in the project's progress."
+  },
+  {
+    "id": "agile_2695",
+    "question": "What is a key benefit of involving stakeholders in Agile backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "It reduces the need for any future backlog adjustments", "isCorrect": false },
+      { "id": "option_2", "text": "It helps prioritize work based on business value", "isCorrect": true },
+      { "id": "option_3", "text": "It ensures that developers work without external input", "isCorrect": false },
+      { "id": "option_4", "text": "It prevents the product backlog from evolving", "isCorrect": false }
+    ],
+    "hint": "Stakeholder input guides prioritization.",
+    "answerDescription": "By refining the backlog with stakeholder involvement, teams can ensure they focus on the most impactful features."
+  },
+  {
+    "id": "agile_2696",
+    "question": "How does Agile encourage stakeholder trust in the development process?",
+    "options": [
+      { "id": "option_1", "text": "By limiting transparency to avoid external pressure", "isCorrect": false },
+      { "id": "option_2", "text": "By demonstrating progress through working software", "isCorrect": true },
+      { "id": "option_3", "text": "By minimizing stakeholder involvement in decision-making", "isCorrect": false },
+      { "id": "option_4", "text": "By delaying feedback until after product release", "isCorrect": false }
+    ],
+    "hint": "Visible progress builds trust with stakeholders.",
+    "answerDescription": "Agile emphasizes working software as the primary measure of progress, ensuring stakeholders see real results."
+  },
+  {
+    "id": "agile_2697",
+    "question": "What is a common challenge when managing Agile stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Lack of access to Agile teams", "isCorrect": false },
+      { "id": "option_2", "text": "Conflicting priorities among different stakeholders", "isCorrect": true },
+      { "id": "option_3", "text": "Having too much alignment in expectations", "isCorrect": false },
+      { "id": "option_4", "text": "Stakeholders making all technical decisions", "isCorrect": false }
+    ],
+    "hint": "Stakeholders may have varying business goals.",
+    "answerDescription": "Managing diverse expectations requires clear communication, prioritization, and collaboration to balance different needs."
+  },
+  {
+    "id": "agile_2698",
+    "question": "Why is stakeholder collaboration critical in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To prevent the team from making independent decisions", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure the product delivers real business value", "isCorrect": true },
+      { "id": "option_3", "text": "To maintain rigid documentation requirements", "isCorrect": false },
+      { "id": "option_4", "text": "To eliminate the need for backlog refinement", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help align development with business needs.",
+    "answerDescription": "Ongoing collaboration ensures the final product effectively serves its intended purpose and meets user expectations."
+  },
+  {
+    "id": "agile_2699",
+    "question": "Why should Agile teams regularly communicate risks to stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To shift responsibility for risk management", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure stakeholders can make informed trade-offs", "isCorrect": true },
+      { "id": "option_3", "text": "To create unnecessary concerns", "isCorrect": false },
+      { "id": "option_4", "text": "To reduce transparency in project updates", "isCorrect": false }
+    ],
+    "hint": "Risk management is a shared responsibility in Agile projects.",
+    "answerDescription": "Keeping stakeholders informed about risks enables proactive decision-making and risk mitigation strategies."
+  },
+  {
+    "id": "agile_2700",
+    "question": "What is the purpose of stakeholder personas in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To limit stakeholder involvement to predefined roles", "isCorrect": false },
+      { "id": "option_2", "text": "To identify key stakeholder needs and expectations", "isCorrect": true },
+      { "id": "option_3", "text": "To replace real stakeholder interactions", "isCorrect": false },
+      { "id": "option_4", "text": "To focus only on internal team feedback", "isCorrect": false }
+    ],
+    "hint": "Personas help teams understand different perspectives.",
+    "answerDescription": "Creating stakeholder personas allows Agile teams to address diverse business and user needs effectively."
+  },
+  {
+    "id": "agile_2701",
+    "question": "Why is it important for Agile teams to set clear stakeholder expectations?",
+    "options": [
+      { "id": "option_1", "text": "To ensure stakeholders have full control over sprints", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid misunderstandings and scope creep", "isCorrect": true },
+      { "id": "option_3", "text": "To reduce the frequency of stakeholder communication", "isCorrect": false },
+      { "id": "option_4", "text": "To limit stakeholder feedback to the final stages", "isCorrect": false }
+    ],
+    "hint": "Clear expectations reduce uncertainty.",
+    "answerDescription": "When stakeholders understand timelines, deliverables, and constraints, Agile projects run more smoothly."
+  },
+  {
+    "id": "agile_2702",
+    "question": "How can Agile teams measure stakeholder satisfaction?",
+    "options": [
+      { "id": "option_1", "text": "By tracking the number of meetings attended", "isCorrect": false },
+      { "id": "option_2", "text": "By using feedback surveys and engagement metrics", "isCorrect": true },
+      { "id": "option_3", "text": "By avoiding stakeholder involvement in metrics discussions", "isCorrect": false },
+      { "id": "option_4", "text": "By focusing solely on team velocity", "isCorrect": false }
+    ],
+    "hint": "Stakeholder feedback is key to measuring satisfaction.",
+    "answerDescription": "Surveys, feedback loops, and participation levels help gauge stakeholder engagement and satisfaction with the Agile process."
+  },
+  {
+    "id": "agile_2703",
+    "question": "What is the main responsibility of stakeholders in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To control the development team's daily tasks", "isCorrect": false },
+      { "id": "option_2", "text": "To approve each user story before implementation", "isCorrect": false },
+      { "id": "option_3", "text": "To provide input and validate business value", "isCorrect": true },
+      { "id": "option_4", "text": "To dictate technical implementation details", "isCorrect": false }
+    ],
+    "hint": "Stakeholders ensure the product aligns with business goals.",
+    "answerDescription": "Stakeholders provide guidance on business priorities and validate the product's value through continuous feedback."
+  },
+  {
+    "id": "agile_2704",
+    "question": "How do Agile teams ensure effective stakeholder communication?",
+    "options": [
+      { "id": "option_1", "text": "By limiting updates to only major milestones", "isCorrect": false },
+      { "id": "option_2", "text": "By avoiding feedback that could change sprint goals", "isCorrect": false },
+      { "id": "option_3", "text": "By maintaining regular touchpoints and transparency", "isCorrect": true },
+      { "id": "option_4", "text": "By restricting communication to the product owner", "isCorrect": false }
+    ],
+    "hint": "Consistent communication fosters stakeholder trust.",
+    "answerDescription": "Frequent updates, demos, and open dialogue help keep stakeholders informed and engaged throughout the project."
+  },
+  {
+    "id": "agile_2705",
+    "question": "What challenge do Agile teams face when dealing with multiple stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Stakeholders always agree on priorities", "isCorrect": false },
+      { "id": "option_2", "text": "Stakeholders rarely provide feedback", "isCorrect": false },
+      { "id": "option_3", "text": "Stakeholders may have conflicting requirements", "isCorrect": true },
+      { "id": "option_4", "text": "Stakeholders avoid participating in sprint reviews", "isCorrect": false }
+    ],
+    "hint": "Different stakeholders may have different goals.",
+    "answerDescription": "Agile teams must balance varying stakeholder interests by aligning requirements with business objectives."
+  },
+  {
+    "id": "agile_2706",
+    "question": "Why should Agile teams involve stakeholders in backlog prioritization?",
+    "options": [
+      { "id": "option_1", "text": "To allow stakeholders to control team assignments", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure backlog items are completed in order", "isCorrect": false },
+      { "id": "option_3", "text": "To align work with business objectives", "isCorrect": true },
+      { "id": "option_4", "text": "To finalize all project details upfront", "isCorrect": false }
+    ],
+    "hint": "Business value should drive backlog priorities.",
+    "answerDescription": "By involving stakeholders, Agile teams can ensure development efforts focus on the most valuable features."
+  },
+  {
+    "id": "agile_2707",
+    "question": "How do stakeholders contribute to Agile risk management?",
+    "options": [
+      { "id": "option_1", "text": "By approving risks only at the start of the project", "isCorrect": false },
+      { "id": "option_2", "text": "By eliminating the need for iterative development", "isCorrect": false },
+      { "id": "option_3", "text": "By identifying and mitigating business risks early", "isCorrect": true },
+      { "id": "option_4", "text": "By preventing changes to initial project plans", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help assess business risks.",
+    "answerDescription": "Active stakeholder involvement allows teams to address risks early, reducing potential negative impacts on the project."
+  },
+  {
+    "id": "agile_2708",
+    "question": "What is a key reason for involving stakeholders in Agile retrospectives?",
+    "options": [
+      { "id": "option_1", "text": "To allow stakeholders to manage team workflows", "isCorrect": false },
+      { "id": "option_2", "text": "To set fixed rules for the development team", "isCorrect": false },
+      { "id": "option_3", "text": "To gain insights on how Agile processes impact business", "isCorrect": true },
+      { "id": "option_4", "text": "To ensure stakeholders approve sprint results", "isCorrect": false }
+    ],
+    "hint": "Stakeholders can provide valuable external perspectives.",
+    "answerDescription": "Their feedback helps Agile teams refine processes and ensure alignment with business needs."
+  },
+  {
+    "id": "agile_2709",
+    "question": "What is an effective way for Agile teams to manage stakeholder feedback?",
+    "options": [
+      { "id": "option_1", "text": "By implementing all feedback immediately", "isCorrect": false },
+      { "id": "option_2", "text": "By avoiding feedback to maintain sprint focus", "isCorrect": false },
+      { "id": "option_3", "text": "By prioritizing feedback based on value and feasibility", "isCorrect": true },
+      { "id": "option_4", "text": "By allowing stakeholders to dictate sprint goals", "isCorrect": false }
+    ],
+    "hint": "Not all feedback is equally valuable or feasible.",
+    "answerDescription": "Teams should assess stakeholder feedback based on its impact on the product and business objectives."
+  },
+  {
+    "id": "agile_2710",
+    "question": "Why should Agile teams keep stakeholders informed of development progress?",
+    "options": [
+      { "id": "option_1", "text": "To allow stakeholders to approve each technical decision", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid surprises and maintain alignment", "isCorrect": true },
+      { "id": "option_3", "text": "To allow stakeholders to revise sprint goals frequently", "isCorrect": false },
+      { "id": "option_4", "text": "To prevent stakeholders from questioning project direction", "isCorrect": false }
+    ],
+    "hint": "Transparency helps build trust.",
+    "answerDescription": "Regular updates ensure that stakeholders remain aligned with the team's progress and expectations."
+  },
+  {
+    "id": "agile_2711",
+    "question": "What is the benefit of Agile teams using stakeholder personas?",
+    "options": [
+      { "id": "option_1", "text": "To replace direct stakeholder engagement", "isCorrect": false },
+      { "id": "option_2", "text": "To make assumptions about stakeholder needs", "isCorrect": false },
+      { "id": "option_3", "text": "To better understand stakeholder motivations", "isCorrect": true },
+      { "id": "option_4", "text": "To limit project scope based on predefined roles", "isCorrect": false }
+    ],
+    "hint": "Personas help teams empathize with stakeholders.",
+    "answerDescription": "Stakeholder personas help Agile teams align features with business needs and user expectations."
+  },
+  {
+    "id": "agile_2712",
+    "question": "How can Agile teams encourage active stakeholder participation?",
+    "options": [
+      { "id": "option_1", "text": "By requiring stakeholders to attend daily standups", "isCorrect": false },
+      { "id": "option_2", "text": "By making stakeholder involvement optional", "isCorrect": false },
+      { "id": "option_3", "text": "By showing how their input directly impacts outcomes", "isCorrect": true },
+      { "id": "option_4", "text": "By limiting stakeholder meetings to project milestones", "isCorrect": false }
+    ],
+    "hint": "Stakeholders need to see the value of their input.",
+    "answerDescription": "Demonstrating how stakeholder feedback influences decisions encourages ongoing engagement and collaboration."
+  },
+  {
+    "id": "agile_2713",
+    "question": "Why is stakeholder engagement critical in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To allow stakeholders to control daily development tasks", "isCorrect": false },
+      { "id": "option_2", "text": "To finalize project scope at the beginning", "isCorrect": false },
+      { "id": "option_3", "text": "To prevent unexpected feedback during sprints", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure continuous alignment with business needs", "isCorrect": true }
+    ],
+    "hint": "Stakeholders help maintain the relevance of the project.",
+    "answerDescription": "Regular engagement ensures that Agile teams build products that align with evolving business priorities."
+  },
+  {
+    "id": "agile_2714",
+    "question": "What is the primary benefit of frequent stakeholder feedback in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It eliminates the need for backlog refinement", "isCorrect": false },
+      { "id": "option_2", "text": "It reduces the development team's autonomy", "isCorrect": false },
+      { "id": "option_3", "text": "It prevents scope changes after sprint planning", "isCorrect": false },
+      { "id": "option_4", "text": "It allows early identification of business needs", "isCorrect": true }
+    ],
+    "hint": "Early feedback helps teams course-correct effectively.",
+    "answerDescription": "Frequent stakeholder feedback ensures that the product remains relevant and valuable throughout development."
+  },
+  {
+    "id": "agile_2715",
+    "question": "How does Agile facilitate better stakeholder relationships?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder input to project milestones", "isCorrect": false },
+      { "id": "option_2", "text": "By reducing transparency in decision-making", "isCorrect": false },
+      { "id": "option_3", "text": "By discouraging changes once development starts", "isCorrect": false },
+      { "id": "option_4", "text": "By promoting collaboration and continuous communication", "isCorrect": true }
+    ],
+    "hint": "Agile thrives on open and ongoing stakeholder engagement.",
+    "answerDescription": "Maintaining regular interaction with stakeholders helps build trust and ensures alignment with business goals."
+  },
+  {
+    "id": "agile_2716",
+    "question": "What role does a stakeholder play in Agile sprint reviews?",
+    "options": [
+      { "id": "option_1", "text": "To manage team velocity and technical decisions", "isCorrect": false },
+      { "id": "option_2", "text": "To assign daily tasks to developers", "isCorrect": false },
+      { "id": "option_3", "text": "To define sprint goals before development begins", "isCorrect": false },
+      { "id": "option_4", "text": "To provide feedback on the delivered increment", "isCorrect": true }
+    ],
+    "hint": "Stakeholders review progress at the end of each sprint.",
+    "answerDescription": "Sprint reviews allow stakeholders to validate progress and suggest necessary adjustments to meet business needs."
+  },
+  {
+    "id": "agile_2717",
+    "question": "How can Agile teams handle conflicting stakeholder priorities?",
+    "options": [
+      { "id": "option_1", "text": "By implementing every stakeholder request", "isCorrect": false },
+      { "id": "option_2", "text": "By disregarding lower-priority stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "By allowing only the highest-ranking stakeholder to decide", "isCorrect": false },
+      { "id": "option_4", "text": "By aligning priorities with business objectives", "isCorrect": true }
+    ],
+    "hint": "Decisions should be based on business value.",
+    "answerDescription": "Teams should evaluate stakeholder inputs based on the impact they have on product value and organizational goals."
+  },
+  {
+    "id": "agile_2718",
+    "question": "What is a key factor in maintaining stakeholder trust in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Delivering only what was initially planned", "isCorrect": false },
+      { "id": "option_2", "text": "Minimizing communication to avoid distractions", "isCorrect": false },
+      { "id": "option_3", "text": "Rejecting late-stage stakeholder feedback", "isCorrect": false },
+      { "id": "option_4", "text": "Being transparent about progress and challenges", "isCorrect": true }
+    ],
+    "hint": "Trust is built through openness and honesty.",
+    "answerDescription": "Keeping stakeholders informed about successes and challenges fosters transparency and strengthens trust."
+  },
+  {
+    "id": "agile_2719",
+    "question": "Why should Agile teams seek early stakeholder involvement?",
+    "options": [
+      { "id": "option_1", "text": "To finalize all requirements before development begins", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid scope changes later in the project", "isCorrect": false },
+      { "id": "option_3", "text": "To limit stakeholder influence on sprint planning", "isCorrect": false },
+      { "id": "option_4", "text": "To validate business priorities from the start", "isCorrect": true }
+    ],
+    "hint": "Engagement from the start helps guide development direction.",
+    "answerDescription": "Early involvement ensures that the product direction aligns with stakeholder needs and market demands."
+  },
+  {
+    "id": "agile_2720",
+    "question": "What should an Agile team do if a stakeholder is disengaged?",
+    "options": [
+      { "id": "option_1", "text": "Continue without stakeholder input", "isCorrect": false },
+      { "id": "option_2", "text": "Avoid discussing business-related decisions", "isCorrect": false },
+      { "id": "option_3", "text": "Exclude the stakeholder from sprint reviews", "isCorrect": false },
+      { "id": "option_4", "text": "Actively re-engage them through collaboration", "isCorrect": true }
+    ],
+    "hint": "Stakeholders are key to delivering business value.",
+    "answerDescription": "Regular communication and demonstrating the impact of their input can help re-engage stakeholders in the process."
+  },
+  {
+    "id": "agile_2721",
+    "question": "Why should Agile teams educate stakeholders about Agile practices?",
+    "options": [
+      { "id": "option_1", "text": "To shift control of sprints to stakeholders", "isCorrect": false },
+      { "id": "option_2", "text": "To make stakeholders responsible for technical decisions", "isCorrect": false },
+      { "id": "option_3", "text": "To reduce the need for continuous feedback", "isCorrect": false },
+      { "id": "option_4", "text": "To set realistic expectations about Agile processes", "isCorrect": true }
+    ],
+    "hint": "Stakeholders must understand Agile to collaborate effectively.",
+    "answerDescription": "Educating stakeholders helps them understand the iterative nature of Agile and fosters better collaboration."
+  },
+  {
+    "id": "agile_2722",
+    "question": "What is the best way to ensure stakeholder feedback is actionable?",
+    "options": [
+      { "id": "option_1", "text": "By collecting feedback only at the end of the project", "isCorrect": false },
+      { "id": "option_2", "text": "By gathering feedback frequently and prioritizing it", "isCorrect": true },
+      { "id": "option_3", "text": "By avoiding feedback that requires changes", "isCorrect": false },
+      { "id": "option_4", "text": "By implementing all feedback immediately", "isCorrect": false }
+    ],
+    "hint": "Frequent feedback allows for continuous improvements.",
+    "answerDescription": "Regular feedback collection ensures that changes are prioritized based on their impact and feasibility."
+  },
+  {
+    "id": "agile_2723",
+    "question": "What is the primary reason for engaging stakeholders in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To ensure the product meets business needs", "isCorrect": true },
+      { "id": "option_2", "text": "To limit changes once development starts", "isCorrect": false },
+      { "id": "option_3", "text": "To reduce the need for sprint reviews", "isCorrect": false },
+      { "id": "option_4", "text": "To finalize requirements before development begins", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help define the product direction.",
+    "answerDescription": "Regular stakeholder engagement ensures that Agile teams build a product that aligns with evolving business priorities."
+  },
+  {
+    "id": "agile_2724",
+    "question": "How can Agile teams ensure effective stakeholder communication?",
+    "options": [
+      { "id": "option_1", "text": "By holding regular feedback sessions", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting interactions to sprint retrospectives", "isCorrect": false },
+      { "id": "option_3", "text": "By only involving stakeholders in release planning", "isCorrect": false },
+      { "id": "option_4", "text": "By requiring stakeholders to review technical documentation", "isCorrect": false }
+    ],
+    "hint": "Consistent communication improves alignment.",
+    "answerDescription": "Regular feedback sessions ensure that stakeholders stay informed and provide input throughout the development process."
+  },
+  {
+    "id": "agile_2725",
+    "question": "What is a key responsibility of stakeholders in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To provide feedback on product increments", "isCorrect": true },
+      { "id": "option_2", "text": "To manage the development team’s tasks", "isCorrect": false },
+      { "id": "option_3", "text": "To define sprint backlog items", "isCorrect": false },
+      { "id": "option_4", "text": "To approve daily stand-up meetings", "isCorrect": false }
+    ],
+    "hint": "Stakeholders influence product evolution.",
+    "answerDescription": "Providing feedback helps ensure that the product aligns with business goals and customer needs."
+  },
+  {
+    "id": "agile_2726",
+    "question": "Why is it important for stakeholders to attend Agile sprint reviews?",
+    "options": [
+      { "id": "option_1", "text": "To validate progress and provide feedback", "isCorrect": true },
+      { "id": "option_2", "text": "To assign new tasks to the development team", "isCorrect": false },
+      { "id": "option_3", "text": "To approve the sprint backlog", "isCorrect": false },
+      { "id": "option_4", "text": "To adjust team velocity estimates", "isCorrect": false }
+    ],
+    "hint": "Sprint reviews are a key opportunity for feedback.",
+    "answerDescription": "Stakeholder participation in sprint reviews ensures alignment with business priorities and improves product quality."
+  },
+  {
+    "id": "agile_2727",
+    "question": "How do Agile teams handle conflicting stakeholder requirements?",
+    "options": [
+      { "id": "option_1", "text": "By prioritizing based on business value", "isCorrect": true },
+      { "id": "option_2", "text": "By implementing every request equally", "isCorrect": false },
+      { "id": "option_3", "text": "By assigning priority based on stakeholder hierarchy", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding changes once development starts", "isCorrect": false }
+    ],
+    "hint": "Not all requests have the same impact on business goals.",
+    "answerDescription": "Agile teams work with stakeholders to align priorities with the most valuable business outcomes."
+  },
+  {
+    "id": "agile_2728",
+    "question": "What is one way to increase stakeholder engagement in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By demonstrating value through working software", "isCorrect": true },
+      { "id": "option_2", "text": "By reducing the number of stakeholder meetings", "isCorrect": false },
+      { "id": "option_3", "text": "By finalizing all requirements upfront", "isCorrect": false },
+      { "id": "option_4", "text": "By restricting stakeholder input to the product owner", "isCorrect": false }
+    ],
+    "hint": "Stakeholders engage more when they see results.",
+    "answerDescription": "Delivering working software regularly helps stakeholders see progress and remain actively involved in development."
+  },
+  {
+    "id": "agile_2729",
+    "question": "Why should Agile teams proactively seek stakeholder feedback?",
+    "options": [
+      { "id": "option_1", "text": "To align development with business goals", "isCorrect": true },
+      { "id": "option_2", "text": "To avoid modifying product features", "isCorrect": false },
+      { "id": "option_3", "text": "To finalize requirements before the project starts", "isCorrect": false },
+      { "id": "option_4", "text": "To reduce the need for sprint planning", "isCorrect": false }
+    ],
+    "hint": "Stakeholder input guides product success.",
+    "answerDescription": "Regular feedback ensures that development stays aligned with business needs and market demands."
+  },
+  {
+    "id": "agile_2730",
+    "question": "What is an effective way to manage stakeholder expectations in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By maintaining transparency about progress", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting access to sprint demos", "isCorrect": false },
+      { "id": "option_3", "text": "By preventing scope changes after sprint planning", "isCorrect": false },
+      { "id": "option_4", "text": "By allowing stakeholders to define team velocity", "isCorrect": false }
+    ],
+    "hint": "Clear communication prevents misunderstandings.",
+    "answerDescription": "Keeping stakeholders informed about progress and challenges helps set realistic expectations."
+  },
+  {
+    "id": "agile_2731",
+    "question": "How can Agile teams handle disengaged stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "By actively seeking their input and demonstrating value", "isCorrect": true },
+      { "id": "option_2", "text": "By excluding them from sprint planning", "isCorrect": false },
+      { "id": "option_3", "text": "By proceeding without their feedback", "isCorrect": false },
+      { "id": "option_4", "text": "By restricting them to final approval meetings", "isCorrect": false }
+    ],
+    "hint": "Stakeholder involvement is key to Agile success.",
+    "answerDescription": "Encouraging collaboration and showing tangible results can help re-engage stakeholders in the Agile process."
+  },
+  {
+    "id": "agile_2732",
+    "question": "Why is it beneficial for Agile teams to educate stakeholders on Agile principles?",
+    "options": [
+      { "id": "option_1", "text": "To foster better collaboration and understanding", "isCorrect": true },
+      { "id": "option_2", "text": "To give stakeholders control over sprint planning", "isCorrect": false },
+      { "id": "option_3", "text": "To reduce the need for frequent feedback", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure stakeholders follow strict project timelines", "isCorrect": false }
+    ],
+    "hint": "Shared understanding improves collaboration.",
+    "answerDescription": "When stakeholders understand Agile principles, they can provide more effective input and align better with development teams."
+  },
+  {
+    "id": "agile_2733",
+    "question": "Why is it important to involve stakeholders early in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "To finalize the product roadmap before development", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure alignment with business objectives", "isCorrect": true },
+      { "id": "option_3", "text": "To reduce the need for sprint reviews", "isCorrect": false },
+      { "id": "option_4", "text": "To define all features upfront", "isCorrect": false }
+    ],
+    "hint": "Early stakeholder involvement helps guide project goals.",
+    "answerDescription": "Engaging stakeholders early ensures that the product aligns with business needs and expectations."
+  },
+  {
+    "id": "agile_2734",
+    "question": "What is a key benefit of regular stakeholder feedback in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It helps developers work in isolation", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures continuous improvement of the product", "isCorrect": true },
+      { "id": "option_3", "text": "It eliminates the need for sprint planning", "isCorrect": false },
+      { "id": "option_4", "text": "It minimizes stakeholder involvement", "isCorrect": false }
+    ],
+    "hint": "Ongoing feedback helps refine the product over time.",
+    "answerDescription": "Regular stakeholder input allows Agile teams to adapt and improve the product based on real needs."
+  },
+  {
+    "id": "agile_2735",
+    "question": "How should Agile teams manage multiple stakeholders with conflicting priorities?",
+    "options": [
+      { "id": "option_1", "text": "By implementing all stakeholder requests equally", "isCorrect": false },
+      { "id": "option_2", "text": "By prioritizing work based on business value", "isCorrect": true },
+      { "id": "option_3", "text": "By allowing the most senior stakeholder to decide", "isCorrect": false },
+      { "id": "option_4", "text": "By delaying development until all conflicts are resolved", "isCorrect": false }
+    ],
+    "hint": "Business value should guide prioritization.",
+    "answerDescription": "Agile teams use business value as a key factor in deciding which stakeholder requests to implement first."
+  },
+  {
+    "id": "agile_2736",
+    "question": "What is an effective way to keep stakeholders engaged throughout the Agile process?",
+    "options": [
+      { "id": "option_1", "text": "By limiting their involvement to project kickoff meetings", "isCorrect": false },
+      { "id": "option_2", "text": "By providing regular updates and demos", "isCorrect": true },
+      { "id": "option_3", "text": "By assigning them detailed technical tasks", "isCorrect": false },
+      { "id": "option_4", "text": "By requiring them to approve each sprint backlog", "isCorrect": false }
+    ],
+    "hint": "Frequent visibility into progress helps engagement.",
+    "answerDescription": "Regular updates and demos ensure stakeholders remain informed and invested in the project’s success."
+  },
+  {
+    "id": "agile_2737",
+    "question": "Why should Agile teams clearly communicate project risks to stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To ensure risks are ignored until they become critical", "isCorrect": false },
+      { "id": "option_2", "text": "To allow stakeholders to help mitigate them proactively", "isCorrect": true },
+      { "id": "option_3", "text": "To transfer risk management to external consultants", "isCorrect": false },
+      { "id": "option_4", "text": "To justify delays in project delivery", "isCorrect": false }
+    ],
+    "hint": "Stakeholders can play a role in risk mitigation.",
+    "answerDescription": "Keeping stakeholders informed about risks allows for collaborative problem-solving and better decision-making."
+  },
+  {
+    "id": "agile_2738",
+    "question": "How can Agile teams ensure that stakeholders understand product progress?",
+    "options": [
+      { "id": "option_1", "text": "By sharing technical documentation only", "isCorrect": false },
+      { "id": "option_2", "text": "By demonstrating working software frequently", "isCorrect": true },
+      { "id": "option_3", "text": "By restricting access to sprint retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding non-technical discussions", "isCorrect": false }
+    ],
+    "hint": "Seeing results in action helps understanding.",
+    "answerDescription": "Frequent demos of working software provide stakeholders with tangible proof of progress."
+  },
+  {
+    "id": "agile_2739",
+    "question": "What is the main reason for aligning stakeholder expectations in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To finalize all requirements before development", "isCorrect": false },
+      { "id": "option_2", "text": "To prevent misunderstandings about project scope and timelines", "isCorrect": true },
+      { "id": "option_3", "text": "To avoid changes during development", "isCorrect": false },
+      { "id": "option_4", "text": "To limit stakeholder involvement in decision-making", "isCorrect": false }
+    ],
+    "hint": "Clear expectations reduce surprises.",
+    "answerDescription": "Aligning expectations helps ensure stakeholders and development teams share a common understanding of goals and timelines."
+  },
+  {
+    "id": "agile_2740",
+    "question": "Why should Agile teams educate stakeholders about Agile methodologies?",
+    "options": [
+      { "id": "option_1", "text": "To make them responsible for sprint execution", "isCorrect": false },
+      { "id": "option_2", "text": "To foster collaboration and set realistic expectations", "isCorrect": true },
+      { "id": "option_3", "text": "To shift decision-making away from the product owner", "isCorrect": false },
+      { "id": "option_4", "text": "To eliminate the need for frequent meetings", "isCorrect": false }
+    ],
+    "hint": "Understanding Agile improves collaboration.",
+    "answerDescription": "When stakeholders understand Agile principles, they can provide more meaningful input and set realistic expectations."
+  },
+  {
+    "id": "agile_2741",
+    "question": "How can Agile teams effectively incorporate stakeholder feedback?",
+    "options": [
+      { "id": "option_1", "text": "By applying all feedback immediately", "isCorrect": false },
+      { "id": "option_2", "text": "By evaluating feedback and prioritizing it based on impact", "isCorrect": true },
+      { "id": "option_3", "text": "By collecting feedback only at project completion", "isCorrect": false },
+      { "id": "option_4", "text": "By requiring all stakeholders to approve each sprint", "isCorrect": false }
+    ],
+    "hint": "Not all feedback carries the same weight.",
+    "answerDescription": "Agile teams assess feedback carefully, ensuring changes align with business goals and user needs."
+  },
+  {
+    "id": "agile_2742",
+    "question": "What is a good practice for ensuring productive stakeholder meetings in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By keeping meetings informal and unstructured", "isCorrect": false },
+      { "id": "option_2", "text": "By setting clear objectives and agendas", "isCorrect": true },
+      { "id": "option_3", "text": "By limiting participation to developers only", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding discussions about risks and challenges", "isCorrect": false }
+    ],
+    "hint": "Structured discussions lead to better outcomes.",
+    "answerDescription": "Clear objectives and structured meetings help ensure productive conversations with stakeholders."
+  },
+  {
+    "id": "agile_2743",
+    "question": "What is the primary role of stakeholders in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To write and test code", "isCorrect": false },
+      { "id": "option_2", "text": "To manage team workflows", "isCorrect": false },
+      { "id": "option_3", "text": "To provide feedback and set business priorities", "isCorrect": true },
+      { "id": "option_4", "text": "To approve daily task assignments", "isCorrect": false }
+    ],
+    "hint": "Stakeholders contribute to business alignment and product direction.",
+    "answerDescription": "Stakeholders play a crucial role in defining priorities and ensuring that the product meets business needs."
+  },
+  {
+    "id": "agile_2744",
+    "question": "How can Agile teams ensure effective collaboration with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder input to project initiation", "isCorrect": false },
+      { "id": "option_2", "text": "By providing only high-level progress reports", "isCorrect": false },
+      { "id": "option_3", "text": "By engaging them regularly through reviews and feedback loops", "isCorrect": true },
+      { "id": "option_4", "text": "By assigning them direct responsibility for backlog management", "isCorrect": false }
+    ],
+    "hint": "Regular communication strengthens collaboration.",
+    "answerDescription": "Frequent engagement ensures that stakeholder insights contribute to product improvements and alignment."
+  },
+  {
+    "id": "agile_2745",
+    "question": "Why should Agile teams prioritize transparency with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To allow stakeholders to control daily tasks", "isCorrect": false },
+      { "id": "option_2", "text": "To minimize stakeholder involvement", "isCorrect": false },
+      { "id": "option_3", "text": "To build trust and ensure shared understanding", "isCorrect": true },
+      { "id": "option_4", "text": "To avoid revealing project risks", "isCorrect": false }
+    ],
+    "hint": "Trust is built on open communication.",
+    "answerDescription": "Transparency helps stakeholders stay informed and aligned with project goals, leading to better collaboration."
+  },
+  {
+    "id": "agile_2746",
+    "question": "What is the best way for Agile teams to handle conflicting stakeholder expectations?",
+    "options": [
+      { "id": "option_1", "text": "By accepting all stakeholder demands equally", "isCorrect": false },
+      { "id": "option_2", "text": "By ignoring less influential stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "By aligning priorities based on business value and feasibility", "isCorrect": true },
+      { "id": "option_4", "text": "By delaying development until all conflicts are resolved", "isCorrect": false }
+    ],
+    "hint": "Business value should guide prioritization.",
+    "answerDescription": "Stakeholders may have competing interests, so Agile teams must prioritize work based on the highest business impact."
+  },
+  {
+    "id": "agile_2747",
+    "question": "Which Agile event is most useful for keeping stakeholders engaged?",
+    "options": [
+      { "id": "option_1", "text": "Daily stand-ups", "isCorrect": false },
+      { "id": "option_2", "text": "Sprint retrospectives", "isCorrect": false },
+      { "id": "option_3", "text": "Sprint reviews", "isCorrect": true },
+      { "id": "option_4", "text": "Backlog refinement sessions", "isCorrect": false }
+    ],
+    "hint": "This event showcases progress and gathers feedback.",
+    "answerDescription": "Sprint reviews provide stakeholders with opportunities to see working software and give valuable feedback."
+  },
+  {
+    "id": "agile_2748",
+    "question": "Why is stakeholder alignment crucial for Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To reduce the need for frequent feedback", "isCorrect": false },
+      { "id": "option_2", "text": "To finalize all requirements upfront", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure a shared vision and prevent scope misalignment", "isCorrect": true },
+      { "id": "option_4", "text": "To allow developers to work independently", "isCorrect": false }
+    ],
+    "hint": "A shared vision minimizes project risks.",
+    "answerDescription": "When stakeholders and Agile teams are aligned, the project stays on track and meets the intended business goals."
+  },
+  {
+    "id": "agile_2749",
+    "question": "What is the primary challenge of managing multiple stakeholders in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Lack of technical expertise among stakeholders", "isCorrect": false },
+      { "id": "option_2", "text": "Overreliance on Agile ceremonies", "isCorrect": false },
+      { "id": "option_3", "text": "Conflicting priorities and expectations", "isCorrect": true },
+      { "id": "option_4", "text": "Stakeholders resisting project updates", "isCorrect": false }
+    ],
+    "hint": "Different stakeholders may have different needs.",
+    "answerDescription": "Agile teams must manage diverse stakeholder interests and ensure that priorities align with business goals."
+  },
+  {
+    "id": "agile_2750",
+    "question": "How should Agile teams communicate project risks to stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "By sharing only positive updates", "isCorrect": false },
+      { "id": "option_2", "text": "By presenting risks only after they become critical", "isCorrect": false },
+      { "id": "option_3", "text": "By proactively discussing risks and mitigation strategies", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding risk discussions to prevent concerns", "isCorrect": false }
+    ],
+    "hint": "Transparency in risk management leads to better decisions.",
+    "answerDescription": "Proactive risk discussions help stakeholders support mitigation efforts and align expectations."
+  },
+  {
+    "id": "agile_2751",
+    "question": "What role do stakeholders play in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "They assign tasks to developers", "isCorrect": false },
+      { "id": "option_2", "text": "They approve technical implementation details", "isCorrect": false },
+      { "id": "option_3", "text": "They provide input on priorities and requirements", "isCorrect": true },
+      { "id": "option_4", "text": "They determine sprint velocity", "isCorrect": false }
+    ],
+    "hint": "Stakeholders influence what gets built and when.",
+    "answerDescription": "Stakeholders help shape backlog priorities by providing insights into business needs and customer expectations."
+  },
+  {
+    "id": "agile_2752",
+    "question": "Why is it important for stakeholders to attend Agile demos?",
+    "options": [
+      { "id": "option_1", "text": "To ensure that all completed tasks match the original plan", "isCorrect": false },
+      { "id": "option_2", "text": "To dictate changes to the Agile process", "isCorrect": false },
+      { "id": "option_3", "text": "To provide timely feedback and validate progress", "isCorrect": true },
+      { "id": "option_4", "text": "To approve every user story before release", "isCorrect": false }
+    ],
+    "hint": "Stakeholder feedback helps refine the product.",
+    "answerDescription": "Stakeholders attending demos can provide immediate feedback, ensuring that the product evolves in the right direction."
+  },
+  {
+    "id": "agile_2753",
+    "question": "What is the main benefit of involving stakeholders early in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "It reduces the need for Agile ceremonies", "isCorrect": false },
+      { "id": "option_2", "text": "It speeds up coding and testing phases", "isCorrect": false },
+      { "id": "option_3", "text": "It ensures minimal changes during development", "isCorrect": false },
+      { "id": "option_4", "text": "It aligns business objectives with project goals", "isCorrect": true }
+    ],
+    "hint": "Early involvement leads to better alignment.",
+    "answerDescription": "Stakeholders provide critical insights that help shape priorities and ensure the project delivers business value."
+  },
+  {
+    "id": "agile_2754",
+    "question": "How can Agile teams manage changing stakeholder expectations effectively?",
+    "options": [
+      { "id": "option_1", "text": "By freezing requirements after sprint planning", "isCorrect": false },
+      { "id": "option_2", "text": "By limiting stakeholder communication to sprint reviews", "isCorrect": false },
+      { "id": "option_3", "text": "By following a rigid change control process", "isCorrect": false },
+      { "id": "option_4", "text": "By using backlog refinement and iterative feedback", "isCorrect": true }
+    ],
+    "hint": "Frequent feedback helps adapt to changes.",
+    "answerDescription": "Regular refinement sessions help Agile teams adjust priorities based on evolving stakeholder needs."
+  },
+  {
+    "id": "agile_2755",
+    "question": "What is a key indicator of strong stakeholder engagement in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Minimal interaction with development teams", "isCorrect": false },
+      { "id": "option_2", "text": "Approval of project scope before development begins", "isCorrect": false },
+      { "id": "option_3", "text": "Involvement only during final testing", "isCorrect": false },
+      { "id": "option_4", "text": "Active participation in sprint reviews and planning", "isCorrect": true }
+    ],
+    "hint": "Stakeholders should be actively involved throughout development.",
+    "answerDescription": "When stakeholders engage in sprint reviews and planning, they help align the project with business needs."
+  },
+  {
+    "id": "agile_2756",
+    "question": "Why is it important to define stakeholder roles in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To ensure that only senior executives provide feedback", "isCorrect": false },
+      { "id": "option_2", "text": "To prevent stakeholders from interfering with development", "isCorrect": false },
+      { "id": "option_3", "text": "To limit stakeholder involvement to high-priority tasks", "isCorrect": false },
+      { "id": "option_4", "text": "To clarify expectations and streamline decision-making", "isCorrect": true }
+    ],
+    "hint": "Clear roles help avoid confusion.",
+    "answerDescription": "Defining stakeholder roles ensures that responsibilities are well understood and decision-making is efficient."
+  },
+  {
+    "id": "agile_2757",
+    "question": "What is one way Agile teams can demonstrate value to stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "By delivering all features at once", "isCorrect": false },
+      { "id": "option_2", "text": "By focusing only on technical implementation", "isCorrect": false },
+      { "id": "option_3", "text": "By minimizing stakeholder involvement", "isCorrect": false },
+      { "id": "option_4", "text": "By delivering incremental, working software frequently", "isCorrect": true }
+    ],
+    "hint": "Frequent delivery keeps stakeholders engaged.",
+    "answerDescription": "Agile teams showcase progress by delivering functional increments, ensuring transparency and value realization."
+  },
+  {
+    "id": "agile_2758",
+    "question": "How can Agile teams prevent misunderstandings with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "By documenting all requirements upfront", "isCorrect": false },
+      { "id": "option_2", "text": "By limiting stakeholder input", "isCorrect": false },
+      { "id": "option_3", "text": "By relying solely on automated reports", "isCorrect": false },
+      { "id": "option_4", "text": "By maintaining open and continuous communication", "isCorrect": true }
+    ],
+    "hint": "Regular discussions improve clarity.",
+    "answerDescription": "Frequent communication ensures that stakeholders and teams stay aligned, reducing the risk of misunderstandings."
+  },
+  {
+    "id": "agile_2759",
+    "question": "What challenge do Agile teams often face when working with multiple stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Stakeholders always have identical priorities", "isCorrect": false },
+      { "id": "option_2", "text": "Stakeholders rarely need updates", "isCorrect": false },
+      { "id": "option_3", "text": "Stakeholders prefer a waterfall approach", "isCorrect": false },
+      { "id": "option_4", "text": "Conflicting interests and shifting priorities", "isCorrect": true }
+    ],
+    "hint": "Different stakeholders may have competing goals.",
+    "answerDescription": "Agile teams must balance multiple stakeholder expectations and focus on the highest-value priorities."
+  },
+  {
+    "id": "agile_2760",
+    "question": "Which Agile principle supports continuous stakeholder collaboration?",
+    "options": [
+      { "id": "option_1", "text": "Processes and tools over individuals and interactions", "isCorrect": false },
+      { "id": "option_2", "text": "Responding to change over following a plan", "isCorrect": false },
+      { "id": "option_3", "text": "Comprehensive documentation over working software", "isCorrect": false },
+      { "id": "option_4", "text": "Customer collaboration over contract negotiation", "isCorrect": true }
+    ],
+    "hint": "Agile values strong collaboration with stakeholders.",
+    "answerDescription": "Agile prioritizes working closely with stakeholders to ensure product success and adaptability."
+  },
+  {
+    "id": "agile_2761",
+    "question": "What is the main reason for involving stakeholders in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "To finalize all sprint tasks in advance", "isCorrect": false },
+      { "id": "option_2", "text": "To reduce team autonomy in decision-making", "isCorrect": false },
+      { "id": "option_3", "text": "To eliminate the need for product owner involvement", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure priorities align with business needs", "isCorrect": true }
+    ],
+    "hint": "Stakeholders influence product direction.",
+    "answerDescription": "Backlog refinement ensures that stakeholders' needs and priorities are reflected in the product roadmap."
+  },
+  {
+    "id": "agile_2762",
+    "question": "How can Agile teams encourage stakeholder participation in Agile ceremonies?",
+    "options": [
+      { "id": "option_1", "text": "By making attendance optional without engagement", "isCorrect": false },
+      { "id": "option_2", "text": "By restricting access to team discussions", "isCorrect": false },
+      { "id": "option_3", "text": "By limiting their involvement to reporting", "isCorrect": false },
+      { "id": "option_4", "text": "By showing how their input directly impacts outcomes", "isCorrect": true }
+    ],
+    "hint": "Stakeholders engage when they see value.",
+    "answerDescription": "Demonstrating how stakeholder feedback influences decisions encourages active participation in Agile events."
+  },
+  {
+    "id": "agile_2763",
+    "question": "Why is stakeholder involvement crucial in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "It helps align project goals with business needs", "isCorrect": true },
+      { "id": "option_2", "text": "It reduces the need for product backlog updates", "isCorrect": false },
+      { "id": "option_3", "text": "It allows teams to avoid changing requirements", "isCorrect": false },
+      { "id": "option_4", "text": "It minimizes communication between teams and customers", "isCorrect": false }
+    ],
+    "hint": "Agile emphasizes business alignment.",
+    "answerDescription": "Active stakeholder engagement ensures the product meets business needs and delivers value."
+  },
+  {
+    "id": "agile_2764",
+    "question": "What is the best way to ensure stakeholder expectations are met in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Frequent communication and feedback loops", "isCorrect": true },
+      { "id": "option_2", "text": "Finalizing all requirements before development begins", "isCorrect": false },
+      { "id": "option_3", "text": "Restricting stakeholder involvement to sprint reviews", "isCorrect": false },
+      { "id": "option_4", "text": "Minimizing requirement changes", "isCorrect": false }
+    ],
+    "hint": "Regular collaboration reduces misalignment.",
+    "answerDescription": "Continuous stakeholder engagement ensures the product evolves to meet their expectations."
+  },
+  {
+    "id": "agile_2765",
+    "question": "How does stakeholder feedback influence Agile product development?",
+    "options": [
+      { "id": "option_1", "text": "It helps prioritize features based on business value", "isCorrect": true },
+      { "id": "option_2", "text": "It eliminates the need for backlog refinement", "isCorrect": false },
+      { "id": "option_3", "text": "It ensures that the initial plan remains unchanged", "isCorrect": false },
+      { "id": "option_4", "text": "It limits the flexibility of Agile teams", "isCorrect": false }
+    ],
+    "hint": "Stakeholders influence product direction.",
+    "answerDescription": "Stakeholder feedback helps teams focus on the most valuable features, improving product relevance."
+  },
+  {
+    "id": "agile_2766",
+    "question": "What is a key way Agile teams build trust with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Delivering working software frequently", "isCorrect": true },
+      { "id": "option_2", "text": "Avoiding stakeholder involvement until release", "isCorrect": false },
+      { "id": "option_3", "text": "Minimizing feedback cycles", "isCorrect": false },
+      { "id": "option_4", "text": "Focusing only on technical excellence", "isCorrect": false }
+    ],
+    "hint": "Transparency builds trust.",
+    "answerDescription": "Frequent software deliveries allow stakeholders to see progress and provide input regularly."
+  },
+  {
+    "id": "agile_2767",
+    "question": "Why should stakeholders participate in sprint reviews?",
+    "options": [
+      { "id": "option_1", "text": "To provide feedback and adjust priorities", "isCorrect": true },
+      { "id": "option_2", "text": "To finalize product requirements", "isCorrect": false },
+      { "id": "option_3", "text": "To approve team velocity", "isCorrect": false },
+      { "id": "option_4", "text": "To limit development changes", "isCorrect": false }
+    ],
+    "hint": "Stakeholder feedback ensures relevance.",
+    "answerDescription": "Sprint reviews allow stakeholders to review progress and suggest changes to maximize business value."
+  },
+  {
+    "id": "agile_2768",
+    "question": "What is the primary role of stakeholders in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "Helping prioritize features based on business needs", "isCorrect": true },
+      { "id": "option_2", "text": "Defining all user stories in advance", "isCorrect": false },
+      { "id": "option_3", "text": "Avoiding changes to backlog items", "isCorrect": false },
+      { "id": "option_4", "text": "Approving technical decisions", "isCorrect": false }
+    ],
+    "hint": "Stakeholders guide prioritization.",
+    "answerDescription": "By participating in backlog refinement, stakeholders ensure features align with strategic goals."
+  },
+  {
+    "id": "agile_2769",
+    "question": "How can Agile teams ensure continuous stakeholder engagement?",
+    "options": [
+      { "id": "option_1", "text": "By involving them in regular Agile ceremonies", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting their access to project updates", "isCorrect": false },
+      { "id": "option_3", "text": "By finalizing all features before development starts", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding changes to the product roadmap", "isCorrect": false }
+    ],
+    "hint": "Engagement happens through regular interactions.",
+    "answerDescription": "Regular involvement in Agile ceremonies keeps stakeholders informed and engaged throughout the project."
+  },
+  {
+    "id": "agile_2770",
+    "question": "Why is transparency important in Agile stakeholder communication?",
+    "options": [
+      { "id": "option_1", "text": "It helps build trust and align expectations", "isCorrect": true },
+      { "id": "option_2", "text": "It eliminates the need for sprint retrospectives", "isCorrect": false },
+      { "id": "option_3", "text": "It allows teams to work in isolation", "isCorrect": false },
+      { "id": "option_4", "text": "It reduces the importance of stakeholder feedback", "isCorrect": false }
+    ],
+    "hint": "Openness fosters collaboration.",
+    "answerDescription": "Clear communication ensures stakeholders understand progress and contribute effectively."
+  },
+  {
+    "id": "agile_2771",
+    "question": "What should Agile teams do when stakeholders have conflicting priorities?",
+    "options": [
+      { "id": "option_1", "text": "Facilitate discussions to align goals", "isCorrect": true },
+      { "id": "option_2", "text": "Choose the highest-paying stakeholder's priority", "isCorrect": false },
+      { "id": "option_3", "text": "Ignore lower-priority stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "Follow the product owner's personal preference", "isCorrect": false }
+    ],
+    "hint": "Collaboration resolves conflicts.",
+    "answerDescription": "Aligning stakeholder priorities through open discussions ensures the best outcomes for the project."
+  },
+  {
+    "id": "agile_2772",
+    "question": "How can Agile teams demonstrate progress to stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "By showcasing working software in iterations", "isCorrect": true },
+      { "id": "option_2", "text": "By delivering all features at project completion", "isCorrect": false },
+      { "id": "option_3", "text": "By providing extensive documentation", "isCorrect": false },
+      { "id": "option_4", "text": "By limiting stakeholder involvement", "isCorrect": false }
+    ],
+    "hint": "Working software is the best progress indicator.",
+    "answerDescription": "Demonstrating working software allows stakeholders to see value early and provide timely feedback."
+  },
+  {
+    "id": "agile_2773",
+    "question": "What is the impact of poor stakeholder engagement in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Reduced alignment with business needs", "isCorrect": true },
+      { "id": "option_2", "text": "Faster product development", "isCorrect": false },
+      { "id": "option_3", "text": "More efficient technical decision-making", "isCorrect": false },
+      { "id": "option_4", "text": "Better team autonomy", "isCorrect": false }
+    ],
+    "hint": "Lack of engagement affects product relevance.",
+    "answerDescription": "Without stakeholder involvement, Agile teams may develop solutions that do not fully align with business priorities."
+  },
+  {
+    "id": "agile_2774",
+    "question": "How can Agile teams ensure effective collaboration with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "By maintaining open and frequent communication", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting stakeholder access to updates", "isCorrect": false },
+      { "id": "option_3", "text": "By only involving stakeholders at project completion", "isCorrect": false },
+      { "id": "option_4", "text": "By assigning technical tasks to stakeholders", "isCorrect": false }
+    ],
+    "hint": "Regular engagement keeps stakeholders aligned.",
+    "answerDescription": "Frequent communication with stakeholders ensures they remain informed and engaged throughout the project."
+  },
+  {
+    "id": "agile_2775",
+    "question": "Why should stakeholders be involved throughout the Agile development process?",
+    "options": [
+      { "id": "option_1", "text": "To reduce the need for testing", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure the product meets their needs", "isCorrect": true },
+      { "id": "option_3", "text": "To finalize all project requirements upfront", "isCorrect": false },
+      { "id": "option_4", "text": "To approve each sprint backlog", "isCorrect": false }
+    ],
+    "hint": "Continuous involvement improves outcomes.",
+    "answerDescription": "Engaging stakeholders throughout development ensures the product remains relevant and valuable."
+  },
+  {
+    "id": "agile_2776",
+    "question": "What role do stakeholders play in Agile sprint reviews?",
+    "options": [
+      { "id": "option_1", "text": "They dictate team velocity", "isCorrect": false },
+      { "id": "option_2", "text": "They provide feedback on completed work", "isCorrect": true },
+      { "id": "option_3", "text": "They approve all sprint deliverables", "isCorrect": false },
+      { "id": "option_4", "text": "They define sprint goals", "isCorrect": false }
+    ],
+    "hint": "Sprint reviews are for feedback.",
+    "answerDescription": "Stakeholders give valuable input in sprint reviews, helping refine the product direction."
+  },
+  {
+    "id": "agile_2777",
+    "question": "Which Agile artifact ensures transparency between the development team and stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_2", "text": "Daily Standup", "isCorrect": false },
+      { "id": "option_3", "text": "Product Backlog", "isCorrect": true },
+      { "id": "option_4", "text": "Definition of Done", "isCorrect": false }
+    ],
+    "hint": "This artifact provides a prioritized list of work items visible to all.",
+    "answerDescription": "The Product Backlog is a transparent artifact that helps stakeholders understand priorities and upcoming work."
+  },
+  {
+    "id": "agile_2778",
+    "question": "What is the best way to keep stakeholders informed in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By providing only end-of-project reports", "isCorrect": false },
+      { "id": "option_2", "text": "By giving regular updates through Agile ceremonies", "isCorrect": true },
+      { "id": "option_3", "text": "By keeping all project details confidential", "isCorrect": false },
+      { "id": "option_4", "text": "By only sharing success stories", "isCorrect": false }
+    ],
+    "hint": "Frequent updates prevent misalignment.",
+    "answerDescription": "Regular updates in stand-ups, sprint reviews, and demos help keep stakeholders engaged and informed."
+  },
+  {
+    "id": "agile_2779",
+    "question": "How does stakeholder feedback impact Agile backlog management?",
+    "options": [
+      { "id": "option_1", "text": "It reduces the need for backlog refinement", "isCorrect": false },
+      { "id": "option_2", "text": "It helps prioritize items based on business value", "isCorrect": true },
+      { "id": "option_3", "text": "It prevents changes to the backlog", "isCorrect": false },
+      { "id": "option_4", "text": "It delays the development process", "isCorrect": false }
+    ],
+    "hint": "Feedback ensures backlog relevance.",
+    "answerDescription": "Stakeholder feedback helps refine backlog items to ensure they align with evolving business needs."
+  },
+  {
+    "id": "agile_2780",
+    "question": "What is the purpose of stakeholder collaboration in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To enforce strict requirements", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure business and development alignment", "isCorrect": true },
+      { "id": "option_3", "text": "To limit product changes", "isCorrect": false },
+      { "id": "option_4", "text": "To accelerate software delivery without feedback", "isCorrect": false }
+    ],
+    "hint": "Collaboration ensures a shared vision.",
+    "answerDescription": "Stakeholder collaboration ensures that the product meets both business goals and user needs."
+  },
+  {
+    "id": "agile_2781",
+    "question": "Why is stakeholder trust important in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "It fosters collaboration and reduces conflicts", "isCorrect": true },
+      { "id": "option_2", "text": "It allows teams to ignore feedback", "isCorrect": false },
+      { "id": "option_3", "text": "It removes the need for sprint planning", "isCorrect": false },
+      { "id": "option_4", "text": "It eliminates the need for retrospectives", "isCorrect": false }
+    ],
+    "hint": "Trust improves teamwork and alignment.",
+    "answerDescription": "Stakeholder trust ensures smoother collaboration, leading to better decision-making and project success."
+  },
+  {
+    "id": "agile_2782",
+    "question": "What is the benefit of involving stakeholders in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "It locks down requirements permanently", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures backlog items align with business needs", "isCorrect": true },
+      { "id": "option_3", "text": "It removes the need for sprint reviews", "isCorrect": false },
+      { "id": "option_4", "text": "It limits the influence of changing priorities", "isCorrect": false }
+    ],
+    "hint": "Stakeholder input improves prioritization.",
+    "answerDescription": "Involving stakeholders in backlog refinement helps keep development aligned with business objectives."
+  },
+  {
+    "id": "agile_2783",
+    "question": "Why is stakeholder feedback crucial in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "It prevents scope changes", "isCorrect": false },
+      { "id": "option_2", "text": "It eliminates the need for user testing", "isCorrect": false },
+      { "id": "option_3", "text": "It helps refine and improve the product", "isCorrect": true },
+      { "id": "option_4", "text": "It ensures faster delivery without changes", "isCorrect": false }
+    ],
+    "hint": "Stakeholder feedback enhances the final product.",
+    "answerDescription": "Continuous feedback from stakeholders ensures the product evolves in alignment with user needs and business goals."
+  },
+  {
+    "id": "agile_2784",
+    "question": "How should Agile teams handle changing stakeholder requirements?",
+    "options": [
+      { "id": "option_1", "text": "By rejecting changes after sprint planning", "isCorrect": false },
+      { "id": "option_2", "text": "By finalizing all requirements upfront", "isCorrect": false },
+      { "id": "option_3", "text": "By embracing change and adjusting priorities", "isCorrect": true },
+      { "id": "option_4", "text": "By freezing the backlog to prevent changes", "isCorrect": false }
+    ],
+    "hint": "Agile values responding to change.",
+    "answerDescription": "Agile teams welcome changing requirements to ensure the product remains relevant and valuable."
+  },
+  {
+    "id": "agile_2785",
+    "question": "What is a key responsibility of stakeholders in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Managing the development team’s daily work", "isCorrect": false },
+      { "id": "option_2", "text": "Defining technical implementation details", "isCorrect": false },
+      { "id": "option_3", "text": "Providing business insights and feedback", "isCorrect": true },
+      { "id": "option_4", "text": "Approving every code commit", "isCorrect": false }
+    ],
+    "hint": "Stakeholders contribute business knowledge.",
+    "answerDescription": "Stakeholders help shape the product by providing feedback, setting priorities, and aligning the product with business goals."
+  },
+  {
+    "id": "agile_2786",
+    "question": "Why should Agile teams regularly engage with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To get approval for daily tasks", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid any modifications to the backlog", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure alignment with business objectives", "isCorrect": true },
+      { "id": "option_4", "text": "To finalize requirements early", "isCorrect": false }
+    ],
+    "hint": "Continuous engagement improves business alignment.",
+    "answerDescription": "Regular stakeholder interactions help ensure that the Agile team’s work remains relevant and valuable to the business."
+  },
+  {
+    "id": "agile_2787",
+    "question": "Which Agile event is most effective for gathering stakeholder feedback?",
+    "options": [
+      { "id": "option_1", "text": "Daily stand-ups", "isCorrect": false },
+      { "id": "option_2", "text": "Backlog grooming", "isCorrect": false },
+      { "id": "option_3", "text": "Sprint review", "isCorrect": true },
+      { "id": "option_4", "text": "Sprint retrospective", "isCorrect": false }
+    ],
+    "hint": "Stakeholders review completed work in this event.",
+    "answerDescription": "Sprint reviews allow stakeholders to see progress and provide feedback to refine future iterations."
+  },
+  {
+    "id": "agile_2788",
+    "question": "What is the best way for stakeholders to support Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "By dictating development priorities without discussion", "isCorrect": false },
+      { "id": "option_2", "text": "By reviewing only the final product", "isCorrect": false },
+      { "id": "option_3", "text": "By actively engaging and providing timely feedback", "isCorrect": true },
+      { "id": "option_4", "text": "By approving all tasks before execution", "isCorrect": false }
+    ],
+    "hint": "Active engagement helps teams adapt.",
+    "answerDescription": "Regular communication and feedback from stakeholders ensure that development stays aligned with business needs."
+  },
+  {
+    "id": "agile_2789",
+    "question": "How does stakeholder collaboration impact Agile project success?",
+    "options": [
+      { "id": "option_1", "text": "It slows down the development process", "isCorrect": false },
+      { "id": "option_2", "text": "It increases project complexity", "isCorrect": false },
+      { "id": "option_3", "text": "It enhances alignment and product relevance", "isCorrect": true },
+      { "id": "option_4", "text": "It removes the need for Agile ceremonies", "isCorrect": false }
+    ],
+    "hint": "Collaboration ensures business alignment.",
+    "answerDescription": "Effective stakeholder collaboration helps teams develop products that meet user and business needs."
+  },
+  {
+    "id": "agile_2790",
+    "question": "What challenge can arise from stakeholder involvement in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "A lack of necessary feedback", "isCorrect": false },
+      { "id": "option_2", "text": "Reduced team productivity", "isCorrect": false },
+      { "id": "option_3", "text": "Conflicting priorities that need alignment", "isCorrect": true },
+      { "id": "option_4", "text": "Elimination of user testing", "isCorrect": false }
+    ],
+    "hint": "Different stakeholders may have different goals.",
+    "answerDescription": "Conflicting stakeholder priorities require collaboration and negotiation to ensure alignment with project goals."
+  },
+  {
+    "id": "agile_2791",
+    "question": "How can Agile teams ensure stakeholder involvement is productive?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder communication", "isCorrect": false },
+      { "id": "option_2", "text": "By following a rigid set of requirements", "isCorrect": false },
+      { "id": "option_3", "text": "By defining clear roles and expectations", "isCorrect": true },
+      { "id": "option_4", "text": "By assigning stakeholders to development tasks", "isCorrect": false }
+    ],
+    "hint": "Well-defined roles prevent confusion.",
+    "answerDescription": "Setting clear expectations ensures stakeholders contribute effectively without disrupting Agile processes."
+  },
+  {
+    "id": "agile_2792",
+    "question": "What is the primary reason stakeholders should attend sprint reviews?",
+    "options": [
+      { "id": "option_1", "text": "To approve the sprint backlog", "isCorrect": false },
+      { "id": "option_2", "text": "To evaluate team velocity", "isCorrect": false },
+      { "id": "option_3", "text": "To provide feedback on completed work", "isCorrect": true },
+      { "id": "option_4", "text": "To define team roles", "isCorrect": false }
+    ],
+    "hint": "Sprint reviews focus on showcasing work done.",
+    "answerDescription": "Stakeholder feedback in sprint reviews helps refine the product and improve future development efforts."
+  },
+  {
+    "id": "agile_2793",
+    "question": "Why is it important for Agile teams to keep stakeholders informed?",
+    "options": [
+      { "id": "option_1", "text": "To reduce the need for product iterations", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid changes to the product vision", "isCorrect": false },
+      { "id": "option_3", "text": "To finalize requirements early", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure alignment and continuous feedback", "isCorrect": true }
+    ],
+    "hint": "Regular updates help stakeholders guide the project.",
+    "answerDescription": "Keeping stakeholders informed allows them to provide feedback, ensuring the project stays on track and meets expectations."
+  },
+  {
+    "id": "agile_2794",
+    "question": "How can stakeholders best contribute to Agile development?",
+    "options": [
+      { "id": "option_1", "text": "By defining technical architecture", "isCorrect": false },
+      { "id": "option_2", "text": "By approving daily tasks", "isCorrect": false },
+      { "id": "option_3", "text": "By setting strict deadlines", "isCorrect": false },
+      { "id": "option_4", "text": "By offering insights on business needs and priorities", "isCorrect": true }
+    ],
+    "hint": "Stakeholders provide business value, not technical details.",
+    "answerDescription": "Stakeholders help guide development by sharing business insights, market trends, and user expectations."
+  },
+  {
+    "id": "agile_2795",
+    "question": "Which Agile principle highlights the role of stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Working software over comprehensive documentation", "isCorrect": false },
+      { "id": "option_2", "text": "Responding to change over following a plan", "isCorrect": false },
+      { "id": "option_3", "text": "Simplicity—the art of maximizing the amount of work not done", "isCorrect": false },
+      { "id": "option_4", "text": "Business people and developers must work together daily", "isCorrect": true }
+    ],
+    "hint": "Collaboration is key in Agile.",
+    "answerDescription": "Agile emphasizes frequent interaction between stakeholders and teams to ensure business goals are met effectively."
+  },
+  {
+    "id": "agile_2796",
+    "question": "What is a common challenge in stakeholder management in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Stakeholders demanding unrealistic deadlines", "isCorrect": false },
+      { "id": "option_2", "text": "Lack of stakeholder interest in the product", "isCorrect": false },
+      { "id": "option_3", "text": "Stakeholders making technical decisions", "isCorrect": false },
+      { "id": "option_4", "text": "Conflicting priorities among stakeholders", "isCorrect": true }
+    ],
+    "hint": "Different stakeholders have different expectations.",
+    "answerDescription": "Agile teams must manage conflicting stakeholder needs through collaboration and prioritization techniques."
+  },
+  {
+    "id": "agile_2797",
+    "question": "How does Agile address stakeholder expectations?",
+    "options": [
+      { "id": "option_1", "text": "By setting fixed requirements at the start", "isCorrect": false },
+      { "id": "option_2", "text": "By avoiding frequent interactions", "isCorrect": false },
+      { "id": "option_3", "text": "By prioritizing speed over quality", "isCorrect": false },
+      { "id": "option_4", "text": "By involving stakeholders in iterative feedback loops", "isCorrect": true }
+    ],
+    "hint": "Stakeholders contribute throughout the project.",
+    "answerDescription": "Continuous stakeholder engagement ensures evolving business needs are addressed and expectations are met."
+  },
+  {
+    "id": "agile_2798",
+    "question": "What is the purpose of stakeholder feedback in Agile retrospectives?",
+    "options": [
+      { "id": "option_1", "text": "To define new feature requests", "isCorrect": false },
+      { "id": "option_2", "text": "To assess team velocity", "isCorrect": false },
+      { "id": "option_3", "text": "To allocate new project budgets", "isCorrect": false },
+      { "id": "option_4", "text": "To improve collaboration and processes", "isCorrect": true }
+    ],
+    "hint": "Retrospectives focus on continuous improvement.",
+    "answerDescription": "Stakeholder feedback in retrospectives helps teams refine their approach to collaboration and process efficiency."
+  },
+  {
+    "id": "agile_2799",
+    "question": "Which Agile framework emphasizes close stakeholder collaboration?",
+    "options": [
+      { "id": "option_1", "text": "Waterfall", "isCorrect": false },
+      { "id": "option_2", "text": "Prince2", "isCorrect": false },
+      { "id": "option_3", "text": "V-Model", "isCorrect": false },
+      { "id": "option_4", "text": "Scrum", "isCorrect": true }
+    ],
+    "hint": "This framework includes Product Owners as key stakeholders.",
+    "answerDescription": "Scrum ensures stakeholders are engaged through events like Sprint Reviews and Backlog Refinement."
+  },
+  {
+    "id": "agile_2800",
+    "question": "Why should stakeholders attend backlog refinement meetings?",
+    "options": [
+      { "id": "option_1", "text": "To dictate task assignments", "isCorrect": false },
+      { "id": "option_2", "text": "To review daily stand-up discussions", "isCorrect": false },
+      { "id": "option_3", "text": "To approve completed work", "isCorrect": false },
+      { "id": "option_4", "text": "To help prioritize and clarify requirements", "isCorrect": true }
+    ],
+    "hint": "These meetings refine upcoming work.",
+    "answerDescription": "Stakeholder participation ensures backlog items align with business goals and expectations."
+  },
+  {
+    "id": "agile_2801",
+    "question": "What is a key benefit of maintaining a strong relationship with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Fewer software releases", "isCorrect": false },
+      { "id": "option_2", "text": "Reduced need for team communication", "isCorrect": false },
+      { "id": "option_3", "text": "Less time spent on product development", "isCorrect": false },
+      { "id": "option_4", "text": "Better alignment with business goals", "isCorrect": true }
+    ],
+    "hint": "Alignment ensures a valuable product.",
+    "answerDescription": "A strong stakeholder relationship helps Agile teams create products that match business needs and user expectations."
+  },
+  {
+    "id": "agile_2802",
+    "question": "How do Agile teams prioritize stakeholder requirements?",
+    "options": [
+      { "id": "option_1", "text": "By using techniques like MoSCoW and backlog refinement", "isCorrect": true },
+      { "id": "option_2", "text": "By implementing all requirements immediately", "isCorrect": false },
+      { "id": "option_3", "text": "By focusing only on technical improvements", "isCorrect": false },
+      { "id": "option_4", "text": "By delaying less urgent requests indefinitely", "isCorrect": false }
+    ],
+    "hint": "Prioritization frameworks help teams manage stakeholder needs.",
+    "answerDescription": "Techniques like MoSCoW and backlog refinement help Agile teams prioritize stakeholder requirements effectively."
+  },
+  {
+    "id": "agile_2803",
+    "question": "What is the primary role of stakeholders in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To provide feedback and ensure business alignment", "isCorrect": true },
+      { "id": "option_2", "text": "To assign technical tasks to developers", "isCorrect": false },
+      { "id": "option_3", "text": "To create the Agile framework", "isCorrect": false },
+      { "id": "option_4", "text": "To enforce deadlines without flexibility", "isCorrect": false }
+    ],
+    "hint": "Stakeholders influence project direction through feedback.",
+    "answerDescription": "Stakeholders help guide Agile projects by providing business insights, setting priorities, and ensuring alignment with organizational goals."
+  },
+  {
+    "id": "agile_2804",
+    "question": "Why should stakeholders be actively involved throughout an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "To ensure the product meets business needs", "isCorrect": true },
+      { "id": "option_2", "text": "To micromanage development tasks", "isCorrect": false },
+      { "id": "option_3", "text": "To define the technical architecture", "isCorrect": false },
+      { "id": "option_4", "text": "To set fixed project requirements upfront", "isCorrect": false }
+    ],
+    "hint": "Continuous involvement ensures business value.",
+    "answerDescription": "Active stakeholder participation ensures Agile teams stay aligned with evolving business requirements and user expectations."
+  },
+  {
+    "id": "agile_2805",
+    "question": "How do stakeholders contribute to Agile sprint reviews?",
+    "options": [
+      { "id": "option_1", "text": "By providing feedback on the increment", "isCorrect": true },
+      { "id": "option_2", "text": "By assigning tasks for the next sprint", "isCorrect": false },
+      { "id": "option_3", "text": "By finalizing the backlog for the entire project", "isCorrect": false },
+      { "id": "option_4", "text": "By making technical decisions for the team", "isCorrect": false }
+    ],
+    "hint": "Sprint reviews focus on feedback and improvement.",
+    "answerDescription": "Stakeholders provide feedback on completed work during sprint reviews, ensuring alignment with business objectives."
+  },
+  {
+    "id": "agile_2806",
+    "question": "What is a key benefit of involving stakeholders in Agile planning?",
+    "options": [
+      { "id": "option_1", "text": "Ensures priorities align with business goals", "isCorrect": true },
+      { "id": "option_2", "text": "Reduces the need for team collaboration", "isCorrect": false },
+      { "id": "option_3", "text": "Eliminates the need for iteration", "isCorrect": false },
+      { "id": "option_4", "text": "Speeds up code deployment", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help set business priorities.",
+    "answerDescription": "Stakeholder involvement in Agile planning ensures the team focuses on the most valuable features and requirements."
+  },
+  {
+    "id": "agile_2807",
+    "question": "Which Agile event allows stakeholders to inspect progress and provide feedback?",
+    "options": [
+      { "id": "option_1", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_2", "text": "Daily Stand-up", "isCorrect": false },
+      { "id": "option_3", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_4", "text": "Backlog Refinement", "isCorrect": false }
+    ],
+    "hint": "This event happens at the end of each sprint.",
+    "answerDescription": "The Sprint Review allows stakeholders to review progress, provide feedback, and help shape future development efforts."
+  },
+  {
+    "id": "agile_2808",
+    "question": "Why is stakeholder feedback important in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "It slows down the development process", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures the product aligns with business goals", "isCorrect": true },
+      { "id": "option_3", "text": "It reduces the need for testing and quality checks", "isCorrect": false },
+      { "id": "option_4", "text": "It eliminates the need for sprint planning", "isCorrect": false }
+    ],
+    "hint": "Stakeholder input helps in aligning development with business needs.",
+    "answerDescription": "Regular stakeholder feedback helps Agile teams ensure that the product meets expectations and business goals."
+  },
+  {
+    "id": "agile_2809",
+    "question": "Which method is most effective for keeping stakeholders engaged in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Providing them with a final product demo only", "isCorrect": false },
+      { "id": "option_2", "text": "Involving them in sprint reviews and feedback loops", "isCorrect": true },
+      { "id": "option_3", "text": "Restricting their involvement to planning phases", "isCorrect": false },
+      { "id": "option_4", "text": "Sending them occasional project status reports", "isCorrect": false }
+    ],
+    "hint": "Regular interaction ensures stakeholder involvement.",
+    "answerDescription": "Involving stakeholders in sprint reviews allows for continuous feedback and better alignment with project goals."
+  },
+  {
+    "id": "agile_2810",
+    "question": "What is a primary responsibility of a stakeholder in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "To manage the development team's daily tasks", "isCorrect": false },
+      { "id": "option_2", "text": "To provide feedback on product increments", "isCorrect": true },
+      { "id": "option_3", "text": "To dictate all project requirements without flexibility", "isCorrect": false },
+      { "id": "option_4", "text": "To create and estimate user stories", "isCorrect": false }
+    ],
+    "hint": "Stakeholders play a key role in providing feedback on product progress.",
+    "answerDescription": "Stakeholders contribute to Agile projects by offering feedback on iterations and ensuring the product meets expectations."
+  },
+  {
+    "id": "agile_2811",
+    "question": "How can Agile teams ensure they meet stakeholder expectations?",
+    "options": [
+      { "id": "option_1", "text": "By delivering the full product at the end of development", "isCorrect": false },
+      { "id": "option_2", "text": "By frequently demonstrating working increments", "isCorrect": true },
+      { "id": "option_3", "text": "By avoiding direct interactions with stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "By prioritizing technical perfection over user needs", "isCorrect": false }
+    ],
+    "hint": "Stakeholders need to see progress frequently.",
+    "answerDescription": "Regular product demos and iterations help stakeholders see progress and provide necessary adjustments."
+  },
+  {
+    "id": "agile_2812",
+    "question": "Which Agile event is specifically designed for stakeholder involvement?",
+    "options": [
+      { "id": "option_1", "text": "Daily Standups", "isCorrect": false },
+      { "id": "option_2", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_3", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_4", "text": "Backlog Refinement", "isCorrect": false }
+    ],
+    "hint": "This event showcases completed work to stakeholders.",
+    "answerDescription": "The Sprint Review allows stakeholders to review progress and provide feedback on deliverables."
+  },
+  {
+    "id": "agile_2813",
+    "question": "What should Agile teams do if stakeholders have conflicting requirements?",
+    "options": [
+      { "id": "option_1", "text": "Follow the highest-ranking stakeholder’s request", "isCorrect": false },
+      { "id": "option_2", "text": "Facilitate discussions to reach a consensus", "isCorrect": true },
+      { "id": "option_3", "text": "Ignore conflicting feedback and proceed as planned", "isCorrect": false },
+      { "id": "option_4", "text": "Revert to a traditional project management approach", "isCorrect": false }
+    ],
+    "hint": "Collaboration is key to resolving conflicts.",
+    "answerDescription": "Agile teams should encourage discussions among stakeholders to align on project priorities."
+  },
+  {
+    "id": "agile_2814",
+    "question": "Why is early stakeholder involvement crucial in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To ensure all features are finalized before development starts", "isCorrect": false },
+      { "id": "option_2", "text": "To align development with business needs from the beginning", "isCorrect": true },
+      { "id": "option_3", "text": "To avoid changes later in the process", "isCorrect": false },
+      { "id": "option_4", "text": "To allow stakeholders to micromanage the development team", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help shape the project vision early on.",
+    "answerDescription": "Engaging stakeholders early helps Agile teams build products that align with business goals and user needs."
+  },
+  {
+    "id": "agile_2815",
+    "question": "How does Agile ensure continuous stakeholder collaboration?",
+    "options": [
+      { "id": "option_1", "text": "By having stakeholders review the product only at the end", "isCorrect": false },
+      { "id": "option_2", "text": "By encouraging ongoing feedback through iterative cycles", "isCorrect": true },
+      { "id": "option_3", "text": "By limiting stakeholder interaction to the planning phase", "isCorrect": false },
+      { "id": "option_4", "text": "By keeping stakeholders informed but not engaged", "isCorrect": false }
+    ],
+    "hint": "Frequent interaction keeps stakeholders engaged.",
+    "answerDescription": "Agile methodologies emphasize continuous feedback loops to align development with stakeholder needs."
+  },
+  {
+    "id": "agile_2816",
+    "question": "What is the primary way stakeholders influence an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "By determining team velocity", "isCorrect": false },
+      { "id": "option_2", "text": "By providing feedback on the evolving product", "isCorrect": true },
+      { "id": "option_3", "text": "By managing sprint backlogs directly", "isCorrect": false },
+      { "id": "option_4", "text": "By assigning tasks to the development team", "isCorrect": false }
+    ],
+    "hint": "Stakeholders contribute by assessing progress and guiding improvements.",
+    "answerDescription": "Stakeholders provide essential feedback on product increments, helping teams refine and improve the final product."
+  },
+  {
+    "id": "agile_2817",
+    "question": "What role do stakeholders play in Agile backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "They directly manage and prioritize tasks", "isCorrect": false },
+      { "id": "option_2", "text": "They provide input to refine requirements and priorities", "isCorrect": true },
+      { "id": "option_3", "text": "They approve every sprint's backlog", "isCorrect": false },
+      { "id": "option_4", "text": "They dictate the technical approach to development", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help shape what gets built by offering insights.",
+    "answerDescription": "In backlog refinement, stakeholders give input to ensure the backlog aligns with business needs and priorities."
+  },
+  {
+    "id": "agile_2818",
+    "question": "What is the main benefit of involving stakeholders in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Faster coding and development", "isCorrect": false },
+      { "id": "option_2", "text": "Less need for documentation", "isCorrect": false },
+      { "id": "option_3", "text": "Better alignment with business goals", "isCorrect": true },
+      { "id": "option_4", "text": "More control over team decisions", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help ensure the project meets business needs.",
+    "answerDescription": "Regular stakeholder involvement helps align product development with business goals and user expectations."
+  },
+  {
+    "id": "agile_2819",
+    "question": "How can Agile teams improve communication with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Sending stakeholders detailed reports only at project completion", "isCorrect": false },
+      { "id": "option_2", "text": "Minimizing stakeholder involvement to speed up work", "isCorrect": false },
+      { "id": "option_3", "text": "Holding regular sprint reviews and feedback sessions", "isCorrect": true },
+      { "id": "option_4", "text": "Allowing stakeholders to manage the development team", "isCorrect": false }
+    ],
+    "hint": "Frequent interaction ensures better alignment.",
+    "answerDescription": "Sprint reviews and feedback loops help Agile teams keep stakeholders engaged and informed."
+  },
+  {
+    "id": "agile_2820",
+    "question": "Which Agile artifact helps stakeholders understand project progress?",
+    "options": [
+      { "id": "option_1", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_2", "text": "Daily Standup", "isCorrect": false },
+      { "id": "option_3", "text": "Product Backlog", "isCorrect": true },
+      { "id": "option_4", "text": "Team Velocity Chart", "isCorrect": false }
+    ],
+    "hint": "This artifact contains prioritized work items.",
+    "answerDescription": "The Product Backlog helps stakeholders track upcoming work and priorities in Agile projects."
+  },
+  {
+    "id": "agile_2821",
+    "question": "Why should stakeholders participate in backlog refinement sessions?",
+    "options": [
+      { "id": "option_1", "text": "To dictate development methodologies", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure developers follow strict requirements", "isCorrect": false },
+      { "id": "option_3", "text": "To clarify priorities and refine requirements", "isCorrect": true },
+      { "id": "option_4", "text": "To set daily coding tasks", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help define what should be built.",
+    "answerDescription": "By participating in backlog refinement, stakeholders ensure that priorities and requirements remain clear."
+  },
+  {
+    "id": "agile_2822",
+    "question": "Which Agile principle emphasizes stakeholder collaboration?",
+    "options": [
+      { "id": "option_1", "text": "Simplicity—the art of maximizing work not done", "isCorrect": false },
+      { "id": "option_2", "text": "Responding to change over following a plan", "isCorrect": false },
+      { "id": "option_3", "text": "Customer collaboration over contract negotiation", "isCorrect": true },
+      { "id": "option_4", "text": "Continuous delivery of valuable software", "isCorrect": false }
+    ],
+    "hint": "It contrasts rigid contract terms with ongoing interaction.",
+    "answerDescription": "Agile values customer collaboration to ensure project success and adaptability."
+  },
+  {
+    "id": "agile_2823",
+    "question": "What should teams do when stakeholders provide conflicting feedback?",
+    "options": [
+      { "id": "option_1", "text": "Ignore the feedback and follow their own plan", "isCorrect": false },
+      { "id": "option_2", "text": "Implement changes based on the most senior stakeholder’s opinion", "isCorrect": false },
+      { "id": "option_3", "text": "Facilitate discussions to align priorities", "isCorrect": true },
+      { "id": "option_4", "text": "Pause development until an agreement is reached", "isCorrect": false }
+    ],
+    "hint": "Communication is key to resolving conflicts.",
+    "answerDescription": "Agile teams should help stakeholders reach a consensus to ensure smooth project progress."
+  },
+  {
+    "id": "agile_2824",
+    "question": "What is the key reason for engaging stakeholders early in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To lock down all project requirements upfront", "isCorrect": false },
+      { "id": "option_2", "text": "To prevent developers from making key decisions", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure alignment with business needs from the start", "isCorrect": true },
+      { "id": "option_4", "text": "To reduce the number of iterations needed", "isCorrect": false }
+    ],
+    "hint": "Stakeholders shape the project vision.",
+    "answerDescription": "Early stakeholder engagement helps Agile teams align with business objectives and avoid misalignment."
+  },
+  {
+    "id": "agile_2825",
+    "question": "What should stakeholders expect from a Sprint Review?",
+    "options": [
+      { "id": "option_1", "text": "A list of tasks completed without demonstration", "isCorrect": false },
+      { "id": "option_2", "text": "A high-level presentation without interaction", "isCorrect": false },
+      { "id": "option_3", "text": "A demonstration of working software and discussion", "isCorrect": true },
+      { "id": "option_4", "text": "A finalized product ready for release", "isCorrect": false }
+    ],
+    "hint": "This meeting focuses on showing progress.",
+    "answerDescription": "Sprint Reviews allow stakeholders to see the latest work and provide feedback before the next iteration."
+  },
+  {
+    "id": "agile_2826",
+    "question": "Which challenge can arise when stakeholders are not actively involved in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "The project will have too many iterations", "isCorrect": false },
+      { "id": "option_2", "text": "Teams will spend too much time on documentation", "isCorrect": false },
+      { "id": "option_3", "text": "Project goals may not align with business needs", "isCorrect": true },
+      { "id": "option_4", "text": "Development teams will work too fast", "isCorrect": false }
+    ],
+    "hint": "Misalignment with business objectives can occur.",
+    "answerDescription": "Lack of stakeholder involvement can result in products that do not fully meet business or customer needs."
+  },
+  {
+    "id": "agile_2827",
+    "question": "Why is transparency important in Agile stakeholder engagement?",
+    "options": [
+      { "id": "option_1", "text": "It helps reduce the number of meetings", "isCorrect": false },
+      { "id": "option_2", "text": "It allows teams to hide delays until the last moment", "isCorrect": false },
+      { "id": "option_3", "text": "It ensures stakeholders have clear visibility into progress", "isCorrect": true },
+      { "id": "option_4", "text": "It allows stakeholders to directly control sprint tasks", "isCorrect": false }
+    ],
+    "hint": "Stakeholders need clear insights into the project.",
+    "answerDescription": "Transparency ensures that stakeholders stay informed, reducing surprises and misalignment."
+  },
+  {
+    "id": "agile_2828",
+    "question": "What is the primary role of stakeholders in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "To assign daily tasks to developers", "isCorrect": false },
+      { "id": "option_2", "text": "To write code and develop features", "isCorrect": false },
+      { "id": "option_3", "text": "To manage the Agile ceremonies", "isCorrect": false },
+      { "id": "option_4", "text": "To provide feedback and ensure business alignment", "isCorrect": true }
+    ],
+    "hint": "Stakeholders play a key role in guiding the project vision.",
+    "answerDescription": "Stakeholders ensure that Agile teams build solutions that align with business needs by providing continuous feedback."
+  },
+  {
+    "id": "agile_2829",
+    "question": "Which Agile event is most important for gathering stakeholder feedback?",
+    "options": [
+      { "id": "option_1", "text": "Daily Standup", "isCorrect": false },
+      { "id": "option_2", "text": "Sprint Planning", "isCorrect": false },
+      { "id": "option_3", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_4", "text": "Sprint Review", "isCorrect": true }
+    ],
+    "hint": "This event is focused on demonstrating completed work.",
+    "answerDescription": "The Sprint Review allows stakeholders to see the progress made during the sprint and provide feedback for future iterations."
+  },
+  {
+    "id": "agile_2830",
+    "question": "Why is stakeholder buy-in crucial for Agile project success?",
+    "options": [
+      { "id": "option_1", "text": "It eliminates the need for sprint planning", "isCorrect": false },
+      { "id": "option_2", "text": "It allows teams to bypass backlog grooming", "isCorrect": false },
+      { "id": "option_3", "text": "It ensures stakeholders micromanage the team", "isCorrect": false },
+      { "id": "option_4", "text": "It increases support and commitment to project outcomes", "isCorrect": true }
+    ],
+    "hint": "Support from key decision-makers strengthens project execution.",
+    "answerDescription": "When stakeholders are fully engaged, they provide valuable input and ensure that Agile teams receive the necessary resources and approvals."
+  },
+  {
+    "id": "agile_2831",
+    "question": "How can Agile teams handle stakeholders with unrealistic expectations?",
+    "options": [
+      { "id": "option_1", "text": "Agree to all their requests to maintain a good relationship", "isCorrect": false },
+      { "id": "option_2", "text": "Avoid communicating with them to prevent conflict", "isCorrect": false },
+      { "id": "option_3", "text": "Ignore their feedback and follow their own roadmap", "isCorrect": false },
+      { "id": "option_4", "text": "Educate them on Agile constraints and prioritization", "isCorrect": true }
+    ],
+    "hint": "Managing expectations requires open and informed discussions.",
+    "answerDescription": "By explaining Agile principles and limitations, teams can align stakeholder expectations with realistic project capabilities."
+  },
+  {
+    "id": "agile_2832",
+    "question": "What is a key way to keep stakeholders engaged throughout an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Providing them with extensive documentation instead of meetings", "isCorrect": false },
+      { "id": "option_2", "text": "Giving them direct control over sprint execution", "isCorrect": false },
+      { "id": "option_3", "text": "Allowing them to dictate technical implementations", "isCorrect": false },
+      { "id": "option_4", "text": "Regular updates, reviews, and transparent communication", "isCorrect": true }
+    ],
+    "hint": "Frequent collaboration builds strong stakeholder relationships.",
+    "answerDescription": "By involving stakeholders in continuous updates and feedback loops, Agile teams ensure alignment and support."
+  },
+  {
+    "id": "agile_2833",
+    "question": "What is the risk of not involving stakeholders in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "The development team will have too many meetings", "isCorrect": false },
+      { "id": "option_2", "text": "The backlog will become too detailed", "isCorrect": false },
+      { "id": "option_3", "text": "The team will have complete autonomy over requirements", "isCorrect": false },
+      { "id": "option_4", "text": "The product may not meet business needs", "isCorrect": true }
+    ],
+    "hint": "Lack of business input can lead to misaligned priorities.",
+    "answerDescription": "Stakeholder involvement in backlog refinement helps ensure the highest priority items align with business goals and user needs."
+  },
+  {
+    "id": "agile_2834",
+    "question": "Which technique can Agile teams use to gain deeper insights from stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Only engaging them at project kickoff", "isCorrect": false },
+      { "id": "option_2", "text": "Using detailed contracts instead of discussions", "isCorrect": false },
+      { "id": "option_3", "text": "Avoiding their input to prevent unnecessary changes", "isCorrect": false },
+      { "id": "option_4", "text": "Conducting stakeholder interviews and workshops", "isCorrect": true }
+    ],
+    "hint": "Direct engagement provides better understanding of needs.",
+    "answerDescription": "Interviews and workshops allow teams to gather detailed insights on business priorities and customer needs."
+  },
+  {
+    "id": "agile_2835",
+    "question": "How does stakeholder feedback improve Agile product development?",
+    "options": [
+      { "id": "option_1", "text": "By enforcing strict requirements that never change", "isCorrect": false },
+      { "id": "option_2", "text": "By eliminating the need for retrospectives", "isCorrect": false },
+      { "id": "option_3", "text": "By ensuring that teams focus only on technical improvements", "isCorrect": false },
+      { "id": "option_4", "text": "By enabling teams to adapt to changing market needs", "isCorrect": true }
+    ],
+    "hint": "Agility is all about responding to change effectively.",
+    "answerDescription": "Stakeholder feedback ensures that products remain relevant and aligned with evolving business and customer demands."
+  },
+  {
+    "id": "agile_2836",
+    "question": "What should teams do if stakeholders frequently change project priorities?",
+    "options": [
+      { "id": "option_1", "text": "Ignore the changes and continue the original plan", "isCorrect": false },
+      { "id": "option_2", "text": "Adopt a rigid workflow to prevent modifications", "isCorrect": false },
+      { "id": "option_3", "text": "Stop development until priorities are finalized", "isCorrect": false },
+      { "id": "option_4", "text": "Continuously reassess backlog priorities and adjust accordingly", "isCorrect": true }
+    ],
+    "hint": "Flexibility is key to Agile success.",
+    "answerDescription": "By continuously prioritizing the backlog based on new insights, Agile teams can remain responsive to business needs."
+  },
+  {
+    "id": "agile_2837",
+    "question": "Which stakeholder role is most crucial in defining the product vision?",
+    "options": [
+      { "id": "option_1", "text": "Scrum Master", "isCorrect": false },
+      { "id": "option_2", "text": "Development Team", "isCorrect": false },
+      { "id": "option_3", "text": "Quality Assurance Tester", "isCorrect": false },
+      { "id": "option_4", "text": "Product Owner", "isCorrect": true }
+    ],
+    "hint": "This role acts as the bridge between business and development.",
+    "answerDescription": "The Product Owner is responsible for defining and communicating the product vision based on stakeholder input."
+  },
+  {
+    "id": "agile_2838",
+    "question": "Why is stakeholder communication crucial in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To ensure alignment between business goals and development", "isCorrect": true },
+      { "id": "option_2", "text": "To allow stakeholders to dictate sprint tasks", "isCorrect": false },
+      { "id": "option_3", "text": "To reduce the need for team retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "To replace backlog refinement meetings", "isCorrect": false }
+    ],
+    "hint": "Effective communication ensures business needs are met.",
+    "answerDescription": "Regular communication with stakeholders ensures that Agile teams build solutions aligned with business objectives."
+  },
+  {
+    "id": "agile_2839",
+    "question": "What is a key responsibility of stakeholders in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "Providing feedback on product increments", "isCorrect": true },
+      { "id": "option_2", "text": "Managing sprint backlog directly", "isCorrect": false },
+      { "id": "option_3", "text": "Defining the technical implementation", "isCorrect": false },
+      { "id": "option_4", "text": "Eliminating the need for a Product Owner", "isCorrect": false }
+    ],
+    "hint": "Stakeholders play an active role in guiding the product.",
+    "answerDescription": "Stakeholders provide valuable feedback during reviews, helping to shape the product based on business needs."
+  },
+  {
+    "id": "agile_2840",
+    "question": "How can Agile teams effectively manage stakeholder expectations?",
+    "options": [
+      { "id": "option_1", "text": "By setting clear priorities and maintaining transparency", "isCorrect": true },
+      { "id": "option_2", "text": "By committing to all stakeholder demands", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding stakeholder involvement until the project is complete", "isCorrect": false },
+      { "id": "option_4", "text": "By limiting communication to only the project sponsor", "isCorrect": false }
+    ],
+    "hint": "Transparency and prioritization help align expectations.",
+    "answerDescription": "Clear priorities and open communication prevent misunderstandings and keep stakeholders engaged."
+  },
+  {
+    "id": "agile_2841",
+    "question": "Which Agile event allows stakeholders to assess progress and provide input?",
+    "options": [
+      { "id": "option_1", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_2", "text": "Daily Standup", "isCorrect": false },
+      { "id": "option_3", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_4", "text": "Backlog Grooming", "isCorrect": false }
+    ],
+    "hint": "This event showcases completed work to stakeholders.",
+    "answerDescription": "Sprint Reviews provide stakeholders an opportunity to see progress and offer feedback for future development."
+  },
+  {
+    "id": "agile_2842",
+    "question": "What should Agile teams do if stakeholders frequently change requirements?",
+    "options": [
+      { "id": "option_1", "text": "Emphasize backlog refinement and reprioritization", "isCorrect": true },
+      { "id": "option_2", "text": "Ignore the changes and continue with the original plan", "isCorrect": false },
+      { "id": "option_3", "text": "Completely stop development until priorities are finalized", "isCorrect": false },
+      { "id": "option_4", "text": "Allow stakeholders to micromanage the sprint backlog", "isCorrect": false }
+    ],
+    "hint": "Frequent prioritization helps teams stay on track.",
+    "answerDescription": "Backlog refinement ensures that the most valuable features are always prioritized, even if requirements evolve."
+  },
+  {
+    "id": "agile_2843",
+    "question": "How does stakeholder involvement benefit Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "By ensuring alignment with customer and business needs", "isCorrect": true },
+      { "id": "option_2", "text": "By replacing the need for a Product Owner", "isCorrect": false },
+      { "id": "option_3", "text": "By reducing the need for sprint retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "By giving stakeholders full control over development tasks", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help ensure product-market fit.",
+    "answerDescription": "Engaged stakeholders provide valuable insights that align the product with customer and business expectations."
+  },
+  {
+    "id": "agile_2844",
+    "question": "Why should Agile teams regularly update stakeholders on progress?",
+    "options": [
+      { "id": "option_1", "text": "To keep them engaged and informed on developments", "isCorrect": true },
+      { "id": "option_2", "text": "To get approval for every minor change", "isCorrect": false },
+      { "id": "option_3", "text": "To avoid involving them in decision-making", "isCorrect": false },
+      { "id": "option_4", "text": "To replace the need for backlog refinement", "isCorrect": false }
+    ],
+    "hint": "Regular updates help maintain stakeholder trust.",
+    "answerDescription": "By keeping stakeholders informed, teams ensure continued alignment and support for the project."
+  },
+  {
+    "id": "agile_2845",
+    "question": "What is a common challenge when dealing with multiple stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Balancing conflicting interests and priorities", "isCorrect": true },
+      { "id": "option_2", "text": "Allowing all stakeholders to dictate development", "isCorrect": false },
+      { "id": "option_3", "text": "Avoiding stakeholder input to maintain team autonomy", "isCorrect": false },
+      { "id": "option_4", "text": "Ignoring stakeholder concerns until the project ends", "isCorrect": false }
+    ],
+    "hint": "Different stakeholders may have different objectives.",
+    "answerDescription": "Agile teams must navigate conflicting priorities to ensure the best outcome for the project."
+  },
+  {
+    "id": "agile_2846",
+    "question": "How can Agile teams ensure that stakeholder feedback is actionable?",
+    "options": [
+      { "id": "option_1", "text": "By clarifying requirements and defining priorities", "isCorrect": true },
+      { "id": "option_2", "text": "By implementing every suggestion immediately", "isCorrect": false },
+      { "id": "option_3", "text": "By limiting stakeholder involvement to planning", "isCorrect": false },
+      { "id": "option_4", "text": "By treating all feedback as equally urgent", "isCorrect": false }
+    ],
+    "hint": "Understanding priorities helps teams focus on key improvements.",
+    "answerDescription": "Clarifying stakeholder expectations ensures that feedback is useful and aligns with project goals."
+  },
+  {
+    "id": "agile_2847",
+    "question": "What is the benefit of inviting stakeholders to Sprint Reviews?",
+    "options": [
+      { "id": "option_1", "text": "They can provide direct feedback on completed work", "isCorrect": true },
+      { "id": "option_2", "text": "They can assign tasks to developers", "isCorrect": false },
+      { "id": "option_3", "text": "They can control sprint execution", "isCorrect": false },
+      { "id": "option_4", "text": "They can replace the need for a Product Owner", "isCorrect": false }
+    ],
+    "hint": "Sprint Reviews foster transparency and feedback.",
+    "answerDescription": "By participating in Sprint Reviews, stakeholders can assess progress and help refine the product direction."
+  },
+  {
+    "id": "agile_2848",
+    "question": "Why is stakeholder engagement crucial in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "It minimizes customer involvement in decision-making", "isCorrect": false },
+      { "id": "option_2", "text": "It allows teams to work without external interference", "isCorrect": false },
+      { "id": "option_3", "text": "It ensures alignment with business needs and user expectations", "isCorrect": true },
+      { "id": "option_4", "text": "It eliminates the need for iterative feedback", "isCorrect": false }
+    ],
+    "hint": "Stakeholder engagement helps refine product goals.",
+    "answerDescription": "By actively involving stakeholders, teams ensure that the product aligns with evolving business and user needs."
+  },
+  {
+    "id": "agile_2849",
+    "question": "What is the primary benefit of frequent stakeholder feedback in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It slows down development cycles", "isCorrect": false },
+      { "id": "option_2", "text": "It increases uncertainty in project direction", "isCorrect": false },
+      { "id": "option_3", "text": "It enables rapid course corrections and improved product quality", "isCorrect": true },
+      { "id": "option_4", "text": "It reduces the need for user testing", "isCorrect": false }
+    ],
+    "hint": "Feedback helps teams adjust early.",
+    "answerDescription": "Regular feedback allows Agile teams to refine their product direction and enhance quality based on stakeholder input."
+  },
+  {
+    "id": "agile_2850",
+    "question": "How do stakeholders contribute to backlog refinement in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By ignoring user requirements and focusing on business goals only", "isCorrect": false },
+      { "id": "option_2", "text": "By controlling the development team’s tasks", "isCorrect": false },
+      { "id": "option_3", "text": "By providing insights on priorities, dependencies, and business value", "isCorrect": true },
+      { "id": "option_4", "text": "By finalizing all backlog items at the start of the project", "isCorrect": false }
+    ],
+    "hint": "Stakeholders provide key business perspectives.",
+    "answerDescription": "Stakeholders help refine backlog items by prioritizing them based on business needs and value delivery."
+  },
+  {
+    "id": "agile_2851",
+    "question": "What is a key challenge of stakeholder management in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Stakeholders always agree on priorities", "isCorrect": false },
+      { "id": "option_2", "text": "Stakeholders have little impact on project success", "isCorrect": false },
+      { "id": "option_3", "text": "Balancing diverse expectations and interests", "isCorrect": true },
+      { "id": "option_4", "text": "Stakeholder engagement is only needed at project completion", "isCorrect": false }
+    ],
+    "hint": "Managing different perspectives can be complex.",
+    "answerDescription": "Since stakeholders have varied interests, Agile teams must manage conflicting priorities and ensure alignment."
+  },
+  {
+    "id": "agile_2852",
+    "question": "Which stakeholder is most concerned with product-market fit in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Development team members", "isCorrect": false },
+      { "id": "option_2", "text": "Scrum Master", "isCorrect": false },
+      { "id": "option_3", "text": "Product Owner", "isCorrect": true },
+      { "id": "option_4", "text": "QA Engineers", "isCorrect": false }
+    ],
+    "hint": "This role defines product vision and prioritization.",
+    "answerDescription": "The Product Owner ensures that the product meets market demands and aligns with business strategy."
+  },
+  {
+    "id": "agile_2853",
+    "question": "Why is it important to identify key stakeholders in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "To restrict access to project information", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure only senior management is involved", "isCorrect": false },
+      { "id": "option_3", "text": "To engage the right people for feedback and decision-making", "isCorrect": true },
+      { "id": "option_4", "text": "To limit the number of opinions considered", "isCorrect": false }
+    ],
+    "hint": "Stakeholders influence product direction.",
+    "answerDescription": "Engaging the right stakeholders ensures the project aligns with business needs and user expectations."
+  },
+  {
+    "id": "agile_2854",
+    "question": "How can Agile teams ensure effective stakeholder communication?",
+    "options": [
+      { "id": "option_1", "text": "By sending long, detailed reports weekly", "isCorrect": false },
+      { "id": "option_2", "text": "By restricting stakeholder involvement", "isCorrect": false },
+      { "id": "option_3", "text": "By using frequent, transparent, and concise updates", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding discussions on project challenges", "isCorrect": false }
+    ],
+    "hint": "Transparency and clarity improve communication.",
+    "answerDescription": "Regular, clear, and honest communication fosters strong stakeholder relationships and trust."
+  },
+  {
+    "id": "agile_2855",
+    "question": "What role do stakeholders play in Agile sprint reviews?",
+    "options": [
+      { "id": "option_1", "text": "They approve final product releases", "isCorrect": false },
+      { "id": "option_2", "text": "They dictate all development decisions", "isCorrect": false },
+      { "id": "option_3", "text": "They provide feedback on the increment and suggest improvements", "isCorrect": true },
+      { "id": "option_4", "text": "They determine team velocity", "isCorrect": false }
+    ],
+    "hint": "Sprint reviews allow stakeholders to assess progress.",
+    "answerDescription": "Stakeholders give feedback in sprint reviews, helping the team adjust features and priorities."
+  },
+  {
+    "id": "agile_2856",
+    "question": "Which of the following is a best practice for stakeholder engagement in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Avoiding discussions on scope changes", "isCorrect": false },
+      { "id": "option_2", "text": "Only engaging stakeholders at project completion", "isCorrect": false },
+      { "id": "option_3", "text": "Involving stakeholders in iterative feedback loops", "isCorrect": true },
+      { "id": "option_4", "text": "Allowing only one stakeholder to make all decisions", "isCorrect": false }
+    ],
+    "hint": "Frequent interactions help refine requirements.",
+    "answerDescription": "Engaging stakeholders continuously ensures alignment with business goals and user needs."
+  },
+  {
+    "id": "agile_2857",
+    "question": "What is a key challenge when managing stakeholder expectations in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Ensuring all requirements are locked upfront", "isCorrect": false },
+      { "id": "option_2", "text": "Delivering a fixed scope within a strict timeline", "isCorrect": false },
+      { "id": "option_3", "text": "Balancing evolving requirements with team capacity", "isCorrect": true },
+      { "id": "option_4", "text": "Preventing stakeholder involvement in iterations", "isCorrect": false }
+    ],
+    "hint": "Stakeholders often introduce changing requirements that teams must manage.",
+    "answerDescription": "Agile teams must balance changing stakeholder needs with the team’s capacity and development constraints."
+  },
+  {
+    "id": "agile_2858",
+    "question": "Which strategy best ensures continuous stakeholder engagement in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Limiting interactions to project milestones", "isCorrect": false },
+      { "id": "option_2", "text": "Conducting regular meetings and feedback sessions", "isCorrect": true },
+      { "id": "option_3", "text": "Avoiding direct discussions on project progress", "isCorrect": false },
+      { "id": "option_4", "text": "Only sharing updates when requested", "isCorrect": false }
+    ],
+    "hint": "Stakeholders should be involved frequently.",
+    "answerDescription": "Regular engagement through meetings and feedback sessions ensures alignment with business objectives."
+  },
+  {
+    "id": "agile_2859",
+    "question": "What is a key characteristic of an effective stakeholder in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "Providing rigid, unchangeable requirements", "isCorrect": false },
+      { "id": "option_2", "text": "Being open to collaboration and iterative changes", "isCorrect": true },
+      { "id": "option_3", "text": "Avoiding participation in sprint reviews", "isCorrect": false },
+      { "id": "option_4", "text": "Focusing only on budget constraints", "isCorrect": false }
+    ],
+    "hint": "Adaptability is crucial in Agile environments.",
+    "answerDescription": "Effective stakeholders collaborate with the team and adapt requirements based on iterative feedback."
+  },
+  {
+    "id": "agile_2860",
+    "question": "Why is stakeholder alignment important in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To eliminate flexibility in decision-making", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure the project remains focused on common goals", "isCorrect": true },
+      { "id": "option_3", "text": "To reduce customer involvement in product development", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid changes based on market feedback", "isCorrect": false }
+    ],
+    "hint": "Common goals help Agile teams stay on track.",
+    "answerDescription": "Aligning stakeholders ensures the project direction supports shared objectives and business needs."
+  },
+  {
+    "id": "agile_2861",
+    "question": "What is the main reason for prioritizing stakeholder needs in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To follow a strict hierarchical decision-making process", "isCorrect": false },
+      { "id": "option_2", "text": "To deliver maximum value based on business and user priorities", "isCorrect": true },
+      { "id": "option_3", "text": "To ensure the product is completed as quickly as possible", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid discussions on project scope", "isCorrect": false }
+    ],
+    "hint": "Value delivery is key in Agile projects.",
+    "answerDescription": "Prioritizing stakeholder needs ensures that Agile teams focus on delivering high-value features that align with business goals."
+  },
+  {
+    "id": "agile_2862",
+    "question": "How can Agile teams effectively manage stakeholder expectations?",
+    "options": [
+      { "id": "option_1", "text": "By avoiding conversations about project challenges", "isCorrect": false },
+      { "id": "option_2", "text": "By maintaining transparency and setting realistic goals", "isCorrect": true },
+      { "id": "option_3", "text": "By making promises without considering feasibility", "isCorrect": false },
+      { "id": "option_4", "text": "By limiting stakeholder involvement in decision-making", "isCorrect": false }
+    ],
+    "hint": "Clear communication helps manage expectations.",
+    "answerDescription": "Being transparent and setting achievable goals helps Agile teams align with stakeholder expectations and build trust."
+  },
+  {
+    "id": "agile_2863",
+    "question": "Which Agile event provides stakeholders an opportunity to review progress?",
+    "options": [
+      { "id": "option_1", "text": "Daily Scrum", "isCorrect": false },
+      { "id": "option_2", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_3", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_4", "text": "Backlog Refinement", "isCorrect": false }
+    ],
+    "hint": "This event showcases the increment to stakeholders.",
+    "answerDescription": "Sprint Reviews allow stakeholders to assess the product increment and provide valuable feedback."
+  },
+  {
+    "id": "agile_2864",
+    "question": "What is a critical factor in maintaining strong stakeholder relationships in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Minimizing direct communication", "isCorrect": false },
+      { "id": "option_2", "text": "Encouraging continuous collaboration and trust-building", "isCorrect": true },
+      { "id": "option_3", "text": "Avoiding discussions about project risks", "isCorrect": false },
+      { "id": "option_4", "text": "Keeping stakeholders informed only at the project’s end", "isCorrect": false }
+    ],
+    "hint": "Regular interactions foster trust.",
+    "answerDescription": "Consistent communication and collaboration help Agile teams maintain productive stakeholder relationships."
+  },
+  {
+    "id": "agile_2865",
+    "question": "Which role is primarily responsible for managing stakeholder expectations in Scrum?",
+    "options": [
+      { "id": "option_1", "text": "Scrum Master", "isCorrect": false },
+      { "id": "option_2", "text": "Product Owner", "isCorrect": true },
+      { "id": "option_3", "text": "Development Team", "isCorrect": false },
+      { "id": "option_4", "text": "Agile Coach", "isCorrect": false }
+    ],
+    "hint": "This role prioritizes and communicates with stakeholders.",
+    "answerDescription": "The Product Owner manages stakeholder expectations by defining priorities and ensuring alignment with business objectives."
+  },
+  {
+    "id": "agile_2866",
+    "question": "How can stakeholders best support an Agile team?",
+    "options": [
+      { "id": "option_1", "text": "By enforcing strict deadlines with no flexibility", "isCorrect": false },
+      { "id": "option_2", "text": "By providing timely feedback and clarifications", "isCorrect": true },
+      { "id": "option_3", "text": "By reducing their involvement until product release", "isCorrect": false },
+      { "id": "option_4", "text": "By requiring all features to be implemented at once", "isCorrect": false }
+    ],
+    "hint": "Frequent feedback helps teams stay on track.",
+    "answerDescription": "Engaged stakeholders who offer feedback and clarifications enable Agile teams to make informed decisions and adjustments."
+  },
+  {
+    "id": "agile_2867",
+    "question": "What is the main goal of stakeholder involvement in Agile retrospectives?",
+    "options": [
+      { "id": "option_1", "text": "To determine team salaries and promotions", "isCorrect": false },
+      { "id": "option_2", "text": "To provide insights that help improve collaboration and processes", "isCorrect": true },
+      { "id": "option_3", "text": "To finalize sprint deliverables", "isCorrect": false },
+      { "id": "option_4", "text": "To approve feature releases", "isCorrect": false }
+    ],
+    "hint": "Retrospectives focus on continuous improvement.",
+    "answerDescription": "Stakeholder involvement in retrospectives helps Agile teams refine their processes and enhance collaboration."
+  },{
+    "id": "agile_2868",
+    "question": "What is a primary reason for involving stakeholders in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To impose strict deadlines and penalties", "isCorrect": false },
+      { "id": "option_2", "text": "To reduce the team's autonomy", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure the project aligns with business goals", "isCorrect": true },
+      { "id": "option_4", "text": "To limit changes during development", "isCorrect": false }
+    ],
+    "hint": "Business alignment is key in Agile.",
+    "answerDescription": "Engaging stakeholders ensures that Agile teams deliver solutions aligned with business needs and objectives."
+  },
+  {
+    "id": "agile_2869",
+    "question": "How should Agile teams handle conflicting stakeholder requirements?",
+    "options": [
+      { "id": "option_1", "text": "Prioritize the highest-ranking stakeholder's request", "isCorrect": false },
+      { "id": "option_2", "text": "Ignore the conflicts to maintain team focus", "isCorrect": false },
+      { "id": "option_3", "text": "Facilitate discussions to align expectations", "isCorrect": true },
+      { "id": "option_4", "text": "Delay decision-making until the final product release", "isCorrect": false }
+    ],
+    "hint": "Collaboration helps resolve conflicts.",
+    "answerDescription": "Agile teams should foster open discussions to resolve stakeholder conflicts and ensure alignment."
+  },
+  {
+    "id": "agile_2870",
+    "question": "Which approach helps maintain stakeholder trust in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Avoid sharing project challenges", "isCorrect": false },
+      { "id": "option_2", "text": "Provide updates only when necessary", "isCorrect": false },
+      { "id": "option_3", "text": "Ensure transparency in communication", "isCorrect": true },
+      { "id": "option_4", "text": "Limit stakeholder involvement in reviews", "isCorrect": false }
+    ],
+    "hint": "Openness builds trust.",
+    "answerDescription": "Clear and transparent communication fosters trust between Agile teams and stakeholders."
+  },
+  {
+    "id": "agile_2871",
+    "question": "What is a key benefit of stakeholder feedback in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It allows stakeholders to control sprint planning", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures the team follows a fixed scope", "isCorrect": false },
+      { "id": "option_3", "text": "It helps refine the product based on real needs", "isCorrect": true },
+      { "id": "option_4", "text": "It prevents scope changes", "isCorrect": false }
+    ],
+    "hint": "Feedback helps refine deliverables.",
+    "answerDescription": "Stakeholder feedback ensures that the product evolves to meet actual business and user needs."
+  },
+  {
+    "id": "agile_2872",
+    "question": "Which stakeholder behavior can negatively impact Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "Providing regular feedback on progress", "isCorrect": false },
+      { "id": "option_2", "text": "Participating in sprint reviews", "isCorrect": false },
+      { "id": "option_3", "text": "Constantly changing priorities mid-sprint", "isCorrect": true },
+      { "id": "option_4", "text": "Aligning expectations with the Product Owner", "isCorrect": false }
+    ],
+    "hint": "Frequent changes can disrupt progress.",
+    "answerDescription": "Shifting priorities mid-sprint can cause disruption and reduce team efficiency."
+  },
+  {
+    "id": "agile_2873",
+    "question": "What should Agile teams do when stakeholders request features outside of sprint goals?",
+    "options": [
+      { "id": "option_1", "text": "Immediately add the feature to the sprint backlog", "isCorrect": false },
+      { "id": "option_2", "text": "Ignore the request to stay focused", "isCorrect": false },
+      { "id": "option_3", "text": "Evaluate and prioritize it for future sprints", "isCorrect": true },
+      { "id": "option_4", "text": "Abandon current sprint goals", "isCorrect": false }
+    ],
+    "hint": "Prioritization is essential in Agile.",
+    "answerDescription": "New feature requests should be assessed and planned for future sprints to maintain sprint focus."
+  },
+  {
+    "id": "agile_2874",
+    "question": "How can Agile teams ensure stakeholders remain engaged throughout a project?",
+    "options": [
+      { "id": "option_1", "text": "Limit their involvement to initial planning", "isCorrect": false },
+      { "id": "option_2", "text": "Provide updates only at the end of development", "isCorrect": false },
+      { "id": "option_3", "text": "Encourage regular participation in Agile ceremonies", "isCorrect": true },
+      { "id": "option_4", "text": "Restrict discussions to product owners only", "isCorrect": false }
+    ],
+    "hint": "Stakeholder participation is vital.",
+    "answerDescription": "Involving stakeholders in Agile ceremonies keeps them informed and engaged throughout the project."
+  },
+  {
+    "id": "agile_2875",
+    "question": "What role do stakeholders play in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "They define all sprint tasks", "isCorrect": false },
+      { "id": "option_2", "text": "They finalize sprint planning", "isCorrect": false },
+      { "id": "option_3", "text": "They provide insights to prioritize backlog items", "isCorrect": true },
+      { "id": "option_4", "text": "They manage team workload", "isCorrect": false }
+    ],
+    "hint": "Stakeholders influence prioritization.",
+    "answerDescription": "Stakeholders offer valuable input to help prioritize backlog items for optimal business value."
+  },
+  {
+    "id": "agile_2876",
+    "question": "What is the best way to align stakeholder expectations with Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "Restrict their access to sprint progress updates", "isCorrect": false },
+      { "id": "option_2", "text": "Avoid discussing evolving project needs", "isCorrect": false },
+      { "id": "option_3", "text": "Set clear expectations through continuous communication", "isCorrect": true },
+      { "id": "option_4", "text": "Ensure fixed requirements from the start", "isCorrect": false }
+    ],
+    "hint": "Clear communication is key.",
+    "answerDescription": "Regular communication ensures stakeholder expectations align with Agile team workflows."
+  },
+  {
+    "id": "agile_2877",
+    "question": "Why is stakeholder involvement crucial in Agile decision-making?",
+    "options": [
+      { "id": "option_1", "text": "To micromanage development tasks", "isCorrect": false },
+      { "id": "option_2", "text": "To enforce rigid project constraints", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure business goals are considered", "isCorrect": true },
+      { "id": "option_4", "text": "To reduce team autonomy", "isCorrect": false }
+    ],
+    "hint": "Business alignment drives Agile success.",
+    "answerDescription": "Stakeholders ensure that Agile teams consider business needs in decision-making processes."
+  },
+  {
+    "id": "agile_2878",
+    "question": "Why is it important to identify stakeholders early in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "To minimize their influence on the project", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure they approve every sprint task", "isCorrect": false },
+      { "id": "option_3", "text": "To prevent scope creep entirely", "isCorrect": false },
+      { "id": "option_4", "text": "To align project goals with business needs", "isCorrect": true }
+    ],
+    "hint": "Early engagement helps ensure project alignment.",
+    "answerDescription": "Identifying stakeholders early helps Agile teams align project goals with business objectives."
+  },
+  {
+    "id": "agile_2879",
+    "question": "How can Agile teams effectively manage stakeholder expectations?",
+    "options": [
+      { "id": "option_1", "text": "By avoiding discussions about evolving project needs", "isCorrect": false },
+      { "id": "option_2", "text": "By ensuring stakeholders review only final deliverables", "isCorrect": false },
+      { "id": "option_3", "text": "By keeping stakeholders out of backlog discussions", "isCorrect": false },
+      { "id": "option_4", "text": "By maintaining transparency and regular communication", "isCorrect": true }
+    ],
+    "hint": "Frequent updates help manage expectations.",
+    "answerDescription": "Clear communication ensures stakeholders are aligned with Agile teams and understand project progress."
+  },
+  {
+    "id": "agile_2880",
+    "question": "Which stakeholder behavior can hinder Agile project success?",
+    "options": [
+      { "id": "option_1", "text": "Providing consistent feedback", "isCorrect": false },
+      { "id": "option_2", "text": "Engaging in backlog refinement", "isCorrect": false },
+      { "id": "option_3", "text": "Participating in sprint reviews", "isCorrect": false },
+      { "id": "option_4", "text": "Insisting on fixed requirements with no flexibility", "isCorrect": true }
+    ],
+    "hint": "Agile values adaptability over rigidity.",
+    "answerDescription": "Agile thrives on flexibility, and rigid requirements can lead to project inefficiencies."
+  },
+  {
+    "id": "agile_2881",
+    "question": "What is the role of a Product Owner in managing stakeholder input?",
+    "options": [
+      { "id": "option_1", "text": "To prioritize stakeholder demands over team needs", "isCorrect": false },
+      { "id": "option_2", "text": "To exclude stakeholders from backlog discussions", "isCorrect": false },
+      { "id": "option_3", "text": "To implement every stakeholder request immediately", "isCorrect": false },
+      { "id": "option_4", "text": "To balance stakeholder needs with business priorities", "isCorrect": true }
+    ],
+    "hint": "Product Owners must align priorities effectively.",
+    "answerDescription": "A Product Owner ensures stakeholder needs align with business objectives and development priorities."
+  },
+  {
+    "id": "agile_2882",
+    "question": "Why is stakeholder feedback crucial in Agile retrospectives?",
+    "options": [
+      { "id": "option_1", "text": "To dictate the team's process changes", "isCorrect": false },
+      { "id": "option_2", "text": "To control the team's daily activities", "isCorrect": false },
+      { "id": "option_3", "text": "To define individual team member tasks", "isCorrect": false },
+      { "id": "option_4", "text": "To help identify areas for continuous improvement", "isCorrect": true }
+    ],
+    "hint": "Retrospectives focus on team growth.",
+    "answerDescription": "Stakeholder input helps Agile teams refine processes and improve overall performance."
+  },
+  {
+    "id": "agile_2883",
+    "question": "How can Agile teams ensure stakeholder collaboration remains productive?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder communication", "isCorrect": false },
+      { "id": "option_2", "text": "By avoiding discussions about project risks", "isCorrect": false },
+      { "id": "option_3", "text": "By rejecting feedback that contradicts team goals", "isCorrect": false },
+      { "id": "option_4", "text": "By fostering open dialogue and shared decision-making", "isCorrect": true }
+    ],
+    "hint": "Agile values collaboration and transparency.",
+    "answerDescription": "Encouraging open discussions ensures stakeholders contribute meaningfully to project decisions."
+  },
+  {
+    "id": "agile_2884",
+    "question": "What is a key challenge in managing multiple stakeholders in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Ensuring all stakeholders have equal decision power", "isCorrect": false },
+      { "id": "option_2", "text": "Preventing stakeholders from interacting with the team", "isCorrect": false },
+      { "id": "option_3", "text": "Avoiding stakeholder involvement in sprint reviews", "isCorrect": false },
+      { "id": "option_4", "text": "Balancing conflicting interests while maintaining focus", "isCorrect": true }
+    ],
+    "hint": "Multiple perspectives can create challenges.",
+    "answerDescription": "Agile teams must balance diverse stakeholder needs without losing sight of project goals."
+  },
+  {
+    "id": "agile_2885",
+    "question": "Which Agile practice helps stakeholders stay informed about progress?",
+    "options": [
+      { "id": "option_1", "text": "Restricting access to sprint planning meetings", "isCorrect": false },
+      { "id": "option_2", "text": "Providing updates only at project completion", "isCorrect": false },
+      { "id": "option_3", "text": "Reducing the number of stakeholder touchpoints", "isCorrect": false },
+      { "id": "option_4", "text": "Conducting regular sprint reviews and demos", "isCorrect": true }
+    ],
+    "hint": "Agile encourages frequent feedback.",
+    "answerDescription": "Sprint reviews and demos allow stakeholders to track progress and provide timely input."
+  },
+  {
+    "id": "agile_2886",
+    "question": "How can Agile teams handle changing stakeholder priorities?",
+    "options": [
+      { "id": "option_1", "text": "By ignoring changes to maintain the original plan", "isCorrect": false },
+      { "id": "option_2", "text": "By requiring approval from all team members", "isCorrect": false },
+      { "id": "option_3", "text": "By forcing stakeholders to stick to initial requirements", "isCorrect": false },
+      { "id": "option_4", "text": "By adapting the backlog and reassessing priorities", "isCorrect": true }
+    ],
+    "hint": "Agility means adapting to change.",
+    "answerDescription": "Backlog refinement ensures Agile teams can accommodate changing stakeholder priorities."
+  },
+  {
+    "id": "agile_2887",
+    "question": "Why should stakeholders participate in Agile sprint planning?",
+    "options": [
+      { "id": "option_1", "text": "To dictate how the development team works", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure all requests are completed in one sprint", "isCorrect": false },
+      { "id": "option_3", "text": "To finalize a rigid project plan", "isCorrect": false },
+      { "id": "option_4", "text": "To provide input on priority tasks and objectives", "isCorrect": true }
+    ],
+    "hint": "Stakeholders help define priorities.",
+    "answerDescription": "Stakeholders contribute valuable insights to prioritize sprint goals effectively."
+  },
+  {
+    "id": "agile_2888",
+    "question": "What is a key responsibility of stakeholders in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Providing feedback and clarifying requirements", "isCorrect": true },
+      { "id": "option_2", "text": "Managing the development team’s daily tasks", "isCorrect": false },
+      { "id": "option_3", "text": "Controlling every decision made by the team", "isCorrect": false },
+      { "id": "option_4", "text": "Eliminating Agile ceremonies to speed up delivery", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help refine the project vision.",
+    "answerDescription": "In Agile, stakeholders provide valuable feedback and clarify requirements to ensure project success."
+  },
+  {
+    "id": "agile_2889",
+    "question": "Why should stakeholders be involved in sprint reviews?",
+    "options": [
+      { "id": "option_1", "text": "To evaluate progress and provide feedback", "isCorrect": true },
+      { "id": "option_2", "text": "To assign tasks to development team members", "isCorrect": false },
+      { "id": "option_3", "text": "To finalize future project budgets", "isCorrect": false },
+      { "id": "option_4", "text": "To dictate the sprint goals", "isCorrect": false }
+    ],
+    "hint": "Sprint reviews provide insight into project progress.",
+    "answerDescription": "Stakeholders use sprint reviews to assess the current state of the project and provide necessary input."
+  },
+  {
+    "id": "agile_2890",
+    "question": "What is an effective way to engage stakeholders in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Involving them in backlog refinement discussions", "isCorrect": true },
+      { "id": "option_2", "text": "Limiting their participation to project kickoff", "isCorrect": false },
+      { "id": "option_3", "text": "Keeping them away from sprint planning", "isCorrect": false },
+      { "id": "option_4", "text": "Only updating them after the final release", "isCorrect": false }
+    ],
+    "hint": "Continuous collaboration is key in Agile.",
+    "answerDescription": "In Agile, involving stakeholders in backlog refinement ensures alignment with business priorities."
+  },
+  {
+    "id": "agile_2891",
+    "question": "Which Agile event allows stakeholders to provide feedback on working increments?",
+    "options": [
+      { "id": "option_1", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_2", "text": "Daily Stand-up", "isCorrect": false },
+      { "id": "option_3", "text": "Retrospective", "isCorrect": false },
+      { "id": "option_4", "text": "Backlog Grooming", "isCorrect": false }
+    ],
+    "hint": "Stakeholders review and assess the delivered work.",
+    "answerDescription": "Sprint Reviews allow stakeholders to see working increments and provide feedback."
+  },
+  {
+    "id": "agile_2892",
+    "question": "How does stakeholder feedback influence Agile development?",
+    "options": [
+      { "id": "option_1", "text": "It helps refine requirements and priorities", "isCorrect": true },
+      { "id": "option_2", "text": "It replaces the role of the Product Owner", "isCorrect": false },
+      { "id": "option_3", "text": "It is only considered at project closure", "isCorrect": false },
+      { "id": "option_4", "text": "It forces the team to change sprint goals mid-cycle", "isCorrect": false }
+    ],
+    "hint": "Feedback ensures continuous improvement.",
+    "answerDescription": "Stakeholder input is essential for refining requirements and ensuring alignment with business goals."
+  },
+  {
+    "id": "agile_2893",
+    "question": "Why is stakeholder buy-in critical for Agile success?",
+    "options": [
+      { "id": "option_1", "text": "It ensures alignment between business goals and development", "isCorrect": true },
+      { "id": "option_2", "text": "It allows stakeholders to directly assign team tasks", "isCorrect": false },
+      { "id": "option_3", "text": "It eliminates the need for Agile ceremonies", "isCorrect": false },
+      { "id": "option_4", "text": "It prevents the need for backlog refinement", "isCorrect": false }
+    ],
+    "hint": "Agile works best with stakeholder support.",
+    "answerDescription": "When stakeholders support Agile, development aligns better with business needs and priorities."
+  },
+  {
+    "id": "agile_2894",
+    "question": "What is a benefit of continuous stakeholder involvement in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Ensuring the project delivers maximum business value", "isCorrect": true },
+      { "id": "option_2", "text": "Eliminating the need for product increments", "isCorrect": false },
+      { "id": "option_3", "text": "Allowing developers to ignore changing priorities", "isCorrect": false },
+      { "id": "option_4", "text": "Ensuring all tasks are predefined at project start", "isCorrect": false }
+    ],
+    "hint": "Business value is a key Agile priority.",
+    "answerDescription": "Continuous involvement ensures that the project stays aligned with evolving business needs."
+  },
+  {
+    "id": "agile_2895",
+    "question": "What is the primary reason for prioritizing stakeholder collaboration in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To adapt to changes quickly and effectively", "isCorrect": true },
+      { "id": "option_2", "text": "To control every aspect of team execution", "isCorrect": false },
+      { "id": "option_3", "text": "To slow down decision-making", "isCorrect": false },
+      { "id": "option_4", "text": "To make sprint reviews optional", "isCorrect": false }
+    ],
+    "hint": "Agile values responsiveness to change.",
+    "answerDescription": "Stakeholder collaboration ensures agility in adapting to evolving business requirements."
+  },
+  {
+    "id": "agile_2896",
+    "question": "Which Agile principle emphasizes working closely with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Customer collaboration over contract negotiation", "isCorrect": true },
+      { "id": "option_2", "text": "Comprehensive documentation over working software", "isCorrect": false },
+      { "id": "option_3", "text": "Processes and tools over individuals and interactions", "isCorrect": false },
+      { "id": "option_4", "text": "Following a strict project plan", "isCorrect": false }
+    ],
+    "hint": "Agile prioritizes collaboration over rigid contracts.",
+    "answerDescription": "This Agile principle ensures that customer and stakeholder needs are met through close collaboration."
+  },
+  {
+    "id": "agile_2897",
+    "question": "How does Agile ensure stakeholder satisfaction?",
+    "options": [
+      { "id": "option_1", "text": "By delivering working software frequently", "isCorrect": true },
+      { "id": "option_2", "text": "By restricting stakeholders from project discussions", "isCorrect": false },
+      { "id": "option_3", "text": "By locking requirements at project start", "isCorrect": false },
+      { "id": "option_4", "text": "By eliminating sprint reviews", "isCorrect": false }
+    ],
+    "hint": "Frequent deliveries lead to better feedback cycles.",
+    "answerDescription": "Agile ensures stakeholder satisfaction by delivering working software frequently for review."
+  },
+  {
+    "id": "agile_2898",
+    "question": "Why is it important for Agile teams to collaborate with stakeholders regularly?",
+    "options": [
+      { "id": "option_1", "text": "To avoid changing project requirements", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure alignment with business needs", "isCorrect": true },
+      { "id": "option_3", "text": "To reduce the number of product increments", "isCorrect": false },
+      { "id": "option_4", "text": "To limit stakeholder influence on the project", "isCorrect": false }
+    ],
+    "hint": "Agile teams need to stay aligned with business priorities.",
+    "answerDescription": "Regular collaboration with stakeholders ensures that the project continues to meet business objectives."
+  },
+  {
+    "id": "agile_2899",
+    "question": "What is a key benefit of involving stakeholders in Agile decision-making?",
+    "options": [
+      { "id": "option_1", "text": "To prevent Agile teams from making independent decisions", "isCorrect": false },
+      { "id": "option_2", "text": "To improve prioritization based on business value", "isCorrect": true },
+      { "id": "option_3", "text": "To delay feedback until after project completion", "isCorrect": false },
+      { "id": "option_4", "text": "To eliminate sprint planning meetings", "isCorrect": false }
+    ],
+    "hint": "Business value plays a crucial role in Agile decisions.",
+    "answerDescription": "Involving stakeholders helps prioritize work based on business impact and customer needs."
+  },
+  {
+    "id": "agile_2900",
+    "question": "How can stakeholders best support Agile development teams?",
+    "options": [
+      { "id": "option_1", "text": "By setting fixed project requirements", "isCorrect": false },
+      { "id": "option_2", "text": "By providing continuous feedback and clarifications", "isCorrect": true },
+      { "id": "option_3", "text": "By enforcing strict deadlines without flexibility", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding engagement until project completion", "isCorrect": false }
+    ],
+    "hint": "Feedback is essential for Agile progress.",
+    "answerDescription": "Stakeholders help Agile teams succeed by offering timely feedback and requirement clarifications."
+  },
+  {
+    "id": "agile_2901",
+    "question": "Which Agile event is specifically designed to involve stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Daily Stand-up", "isCorrect": false },
+      { "id": "option_2", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_3", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_4", "text": "Backlog Grooming", "isCorrect": false }
+    ],
+    "hint": "This event allows stakeholders to see progress and give input.",
+    "answerDescription": "Sprint Reviews give stakeholders an opportunity to review working increments and provide feedback."
+  },
+  {
+    "id": "agile_2902",
+    "question": "What is a common challenge in stakeholder engagement in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Too much focus on Agile ceremonies", "isCorrect": false },
+      { "id": "option_2", "text": "Lack of stakeholder availability for feedback", "isCorrect": true },
+      { "id": "option_3", "text": "Having too many user stories in the backlog", "isCorrect": false },
+      { "id": "option_4", "text": "Overemphasis on technical documentation", "isCorrect": false }
+    ],
+    "hint": "Stakeholders need to be engaged consistently.",
+    "answerDescription": "One key challenge is ensuring that stakeholders are available to provide continuous input throughout the project."
+  },
+  {
+    "id": "agile_2903",
+    "question": "How does Agile encourage stakeholder collaboration?",
+    "options": [
+      { "id": "option_1", "text": "By limiting their involvement to project kickoff", "isCorrect": false },
+      { "id": "option_2", "text": "By emphasizing frequent communication and feedback", "isCorrect": true },
+      { "id": "option_3", "text": "By allowing stakeholders to make all development decisions", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding stakeholder input in backlog prioritization", "isCorrect": false }
+    ],
+    "hint": "Communication is a key Agile principle.",
+    "answerDescription": "Agile relies on regular stakeholder communication to ensure alignment with evolving business needs."
+  },
+  {
+    "id": "agile_2904",
+    "question": "Why should stakeholders be involved in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "To directly assign tasks to developers", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure product backlog items align with business needs", "isCorrect": true },
+      { "id": "option_3", "text": "To control technical implementation decisions", "isCorrect": false },
+      { "id": "option_4", "text": "To finalize sprint commitments in advance", "isCorrect": false }
+    ],
+    "hint": "Backlog refinement ensures business priorities are met.",
+    "answerDescription": "Stakeholders contribute to backlog refinement by aligning priorities with customer and business needs."
+  },
+  {
+    "id": "agile_2905",
+    "question": "Which Agile principle promotes stakeholder engagement?",
+    "options": [
+      { "id": "option_1", "text": "Following a strict project plan", "isCorrect": false },
+      { "id": "option_2", "text": "Customer collaboration over contract negotiation", "isCorrect": true },
+      { "id": "option_3", "text": "Working software over comprehensive documentation", "isCorrect": false },
+      { "id": "option_4", "text": "Processes and tools over individuals and interactions", "isCorrect": false }
+    ],
+    "hint": "Agile prioritizes collaboration with customers and stakeholders.",
+    "answerDescription": "This principle ensures that stakeholders remain involved throughout the project lifecycle."
+  },
+  {
+    "id": "agile_2906",
+    "question": "What is the primary expectation from stakeholders in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To dictate how the team executes tasks", "isCorrect": false },
+      { "id": "option_2", "text": "To provide timely feedback and insights", "isCorrect": true },
+      { "id": "option_3", "text": "To finalize all requirements upfront", "isCorrect": false },
+      { "id": "option_4", "text": "To review the product only after development ends", "isCorrect": false }
+    ],
+    "hint": "Stakeholders play a key role in guiding development.",
+    "answerDescription": "Agile depends on stakeholder feedback to make iterative improvements and align with business goals."
+  },
+  {
+    "id": "agile_2907",
+    "question": "How does continuous stakeholder involvement benefit an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "By ensuring all project risks are eliminated", "isCorrect": false },
+      { "id": "option_2", "text": "By increasing adaptability to changing requirements", "isCorrect": true },
+      { "id": "option_3", "text": "By reducing the need for Agile ceremonies", "isCorrect": false },
+      { "id": "option_4", "text": "By finalizing all deliverables at project start", "isCorrect": false }
+    ],
+    "hint": "Agile thrives on adaptability.",
+    "answerDescription": "Engaging stakeholders regularly allows Agile teams to adapt to changes and refine priorities effectively."
+  }, {
+    "id": "agile_2908",
+    "question": "What is the primary role of stakeholders in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To dictate technical solutions", "isCorrect": false },
+      { "id": "option_2", "text": "To set rigid project deadlines", "isCorrect": false },
+      { "id": "option_3", "text": "To provide feedback and prioritize business needs", "isCorrect": true },
+      { "id": "option_4", "text": "To approve every sprint increment", "isCorrect": false }
+    ],
+    "hint": "Stakeholders guide business priorities and feedback.",
+    "answerDescription": "Stakeholders help Agile teams align their work with business objectives through feedback and prioritization."
+  },
+  {
+    "id": "agile_2909",
+    "question": "Why is early and continuous stakeholder involvement important in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To finalize requirements before development begins", "isCorrect": false },
+      { "id": "option_2", "text": "To reduce the frequency of sprint reviews", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure the product evolves based on real needs", "isCorrect": true },
+      { "id": "option_4", "text": "To speed up the Agile process by minimizing feedback", "isCorrect": false }
+    ],
+    "hint": "Stakeholder input helps Agile teams adapt.",
+    "answerDescription": "Regular stakeholder involvement ensures that the product remains aligned with evolving business and customer needs."
+  },
+  {
+    "id": "agile_2910",
+    "question": "What is a key challenge when engaging stakeholders in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Too much focus on team autonomy", "isCorrect": false },
+      { "id": "option_2", "text": "Excessive documentation requirements", "isCorrect": false },
+      { "id": "option_3", "text": "Stakeholder availability and commitment", "isCorrect": true },
+      { "id": "option_4", "text": "Strict adherence to traditional project management methods", "isCorrect": false }
+    ],
+    "hint": "Consistent stakeholder participation is essential.",
+    "answerDescription": "One challenge in Agile is ensuring stakeholders remain available and engaged throughout the development process."
+  },
+  {
+    "id": "agile_2911",
+    "question": "Which Agile framework emphasizes stakeholder collaboration through program increment planning?",
+    "options": [
+      { "id": "option_1", "text": "Scrum", "isCorrect": false },
+      { "id": "option_2", "text": "Kanban", "isCorrect": false },
+      { "id": "option_3", "text": "SAFe (Scaled Agile Framework)", "isCorrect": true },
+      { "id": "option_4", "text": "Extreme Programming (XP)", "isCorrect": false }
+    ],
+    "hint": "This framework is designed for scaling Agile across enterprises.",
+    "answerDescription": "SAFe includes program increment (PI) planning to ensure strong stakeholder collaboration and alignment."
+  },
+  {
+    "id": "agile_2912",
+    "question": "What is a recommended way for Agile teams to keep stakeholders engaged?",
+    "options": [
+      { "id": "option_1", "text": "Limiting stakeholder access to backlog discussions", "isCorrect": false },
+      { "id": "option_2", "text": "Avoiding stakeholder input until the final product release", "isCorrect": false },
+      { "id": "option_3", "text": "Regular sprint reviews and feedback sessions", "isCorrect": true },
+      { "id": "option_4", "text": "Finalizing all requirements upfront", "isCorrect": false }
+    ],
+    "hint": "Frequent feedback opportunities keep stakeholders engaged.",
+    "answerDescription": "Regular sprint reviews allow stakeholders to provide input and ensure alignment with project goals."
+  },
+  {
+    "id": "agile_2913",
+    "question": "Which of the following is NOT a benefit of involving stakeholders in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "Improved alignment with business needs", "isCorrect": false },
+      { "id": "option_2", "text": "Faster response to changing requirements", "isCorrect": false },
+      { "id": "option_3", "text": "Eliminating the need for team retrospectives", "isCorrect": true },
+      { "id": "option_4", "text": "Increased customer satisfaction", "isCorrect": false }
+    ],
+    "hint": "Stakeholders impact product value but not team processes.",
+    "answerDescription": "While stakeholder involvement improves many aspects of Agile, it does not replace internal team retrospectives."
+  },
+  {
+    "id": "agile_2914",
+    "question": "What is the most effective way for stakeholders to contribute to an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "By enforcing strict deadlines for each sprint", "isCorrect": false },
+      { "id": "option_2", "text": "By managing the team's day-to-day tasks", "isCorrect": false },
+      { "id": "option_3", "text": "By providing feedback on deliverables and priorities", "isCorrect": true },
+      { "id": "option_4", "text": "By reviewing the product only at project completion", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help refine priorities and provide input.",
+    "answerDescription": "Stakeholders add value by continuously reviewing progress and adjusting priorities to ensure business alignment."
+  },
+  {
+    "id": "agile_2915",
+    "question": "How can Agile teams ensure that stakeholder feedback is actionable?",
+    "options": [
+      { "id": "option_1", "text": "By collecting feedback only at the end of the project", "isCorrect": false },
+      { "id": "option_2", "text": "By relying only on automated reports", "isCorrect": false },
+      { "id": "option_3", "text": "By organizing structured review sessions", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding feedback that changes project scope", "isCorrect": false }
+    ],
+    "hint": "Regular, structured discussions help clarify feedback.",
+    "answerDescription": "Structured review sessions help Agile teams capture and implement actionable stakeholder feedback."
+  },
+  {
+    "id": "agile_2916",
+    "question": "What is a major reason why Agile teams conduct Sprint Reviews?",
+    "options": [
+      { "id": "option_1", "text": "To finalize all project documentation", "isCorrect": false },
+      { "id": "option_2", "text": "To complete unfinished backlog items", "isCorrect": false },
+      { "id": "option_3", "text": "To gather stakeholder feedback on product increments", "isCorrect": true },
+      { "id": "option_4", "text": "To assign tasks for the next sprint", "isCorrect": false }
+    ],
+    "hint": "Stakeholders play a key role in Sprint Reviews.",
+    "answerDescription": "Sprint Reviews provide an opportunity for stakeholders to review progress and provide input on the next steps."
+  },
+  {
+    "id": "agile_2917",
+    "question": "Which metric can help stakeholders assess the progress of an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Number of team meetings held", "isCorrect": false },
+      { "id": "option_2", "text": "Amount of documentation produced", "isCorrect": false },
+      { "id": "option_3", "text": "Velocity of completed story points", "isCorrect": true },
+      { "id": "option_4", "text": "Total number of backlog items", "isCorrect": false }
+    ],
+    "hint": "This metric tracks the team's work output over time.",
+    "answerDescription": "Velocity measures how many story points a team completes in a sprint, providing insight into project progress."
+  }, {
+    "id": "agile_2918",
+    "question": "Which type of stakeholder is primarily responsible for defining business requirements in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Scrum Master", "isCorrect": false },
+      { "id": "option_2", "text": "Development Team", "isCorrect": false },
+      { "id": "option_3", "text": "Technical Lead", "isCorrect": false },
+      { "id": "option_4", "text": "Product Owner", "isCorrect": true }
+    ],
+    "hint": "This role bridges the gap between business and development.",
+    "answerDescription": "The Product Owner is responsible for defining business requirements and maintaining the product backlog."
+  },
+  {
+    "id": "agile_2919",
+    "question": "What is the best way for Agile teams to manage conflicting stakeholder priorities?",
+    "options": [
+      { "id": "option_1", "text": "Ignore lower-priority stakeholders", "isCorrect": false },
+      { "id": "option_2", "text": "Follow the direction of the highest-ranking stakeholder", "isCorrect": false },
+      { "id": "option_3", "text": "Implement changes without discussion", "isCorrect": false },
+      { "id": "option_4", "text": "Facilitate discussions to align priorities", "isCorrect": true }
+    ],
+    "hint": "Stakeholder collaboration is key in Agile.",
+    "answerDescription": "Aligning priorities through facilitated discussions helps ensure that stakeholder expectations are balanced."
+  },
+  {
+    "id": "agile_2920",
+    "question": "How can Agile teams ensure that stakeholders remain actively involved?",
+    "options": [
+      { "id": "option_1", "text": "Restrict stakeholder participation in meetings", "isCorrect": false },
+      { "id": "option_2", "text": "Limit updates to only major project milestones", "isCorrect": false },
+      { "id": "option_3", "text": "Discourage changes based on feedback", "isCorrect": false },
+      { "id": "option_4", "text": "Hold frequent and transparent communication sessions", "isCorrect": true }
+    ],
+    "hint": "Consistent engagement is crucial for Agile success.",
+    "answerDescription": "Frequent communication keeps stakeholders involved, informed, and aligned with the development process."
+  },
+  {
+    "id": "agile_2921",
+    "question": "Which of the following is a key responsibility of stakeholders in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Managing team velocity", "isCorrect": false },
+      { "id": "option_2", "text": "Assigning daily tasks to developers", "isCorrect": false },
+      { "id": "option_3", "text": "Overseeing technical implementation", "isCorrect": false },
+      { "id": "option_4", "text": "Providing feedback on product increments", "isCorrect": true }
+    ],
+    "hint": "Stakeholders shape the product through ongoing feedback.",
+    "answerDescription": "Stakeholders play a crucial role by reviewing and providing feedback on Agile deliverables."
+  },
+  {
+    "id": "agile_2922",
+    "question": "Why is it important for stakeholders to attend sprint reviews?",
+    "options": [
+      { "id": "option_1", "text": "To evaluate team performance based on speed", "isCorrect": false },
+      { "id": "option_2", "text": "To finalize the product scope for the next sprint", "isCorrect": false },
+      { "id": "option_3", "text": "To micromanage development progress", "isCorrect": false },
+      { "id": "option_4", "text": "To assess product progress and provide input", "isCorrect": true }
+    ],
+    "hint": "Sprint reviews allow stakeholders to guide development.",
+    "answerDescription": "Stakeholders attend sprint reviews to ensure the product is evolving as expected and to offer course corrections."
+  },
+  {
+    "id": "agile_2923",
+    "question": "What is the primary purpose of stakeholder feedback in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To enforce fixed project deadlines", "isCorrect": false },
+      { "id": "option_2", "text": "To validate the technical implementation", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure all requirements are locked in early", "isCorrect": false },
+      { "id": "option_4", "text": "To continuously refine and improve the product", "isCorrect": true }
+    ],
+    "hint": "Agile values iterative improvements based on feedback.",
+    "answerDescription": "Stakeholder feedback helps Agile teams refine product features and align with business needs."
+  },
+  {
+    "id": "agile_2924",
+    "question": "Which Agile event provides the best opportunity for stakeholders to influence the product direction?",
+    "options": [
+      { "id": "option_1", "text": "Daily Stand-ups", "isCorrect": false },
+      { "id": "option_2", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_3", "text": "Backlog Refinement", "isCorrect": false },
+      { "id": "option_4", "text": "Sprint Review", "isCorrect": true }
+    ],
+    "hint": "This event is specifically designed for stakeholder input.",
+    "answerDescription": "Sprint Reviews provide stakeholders with a chance to review progress and shape future development."
+  },
+  {
+    "id": "agile_2925",
+    "question": "How should Agile teams handle stakeholder feedback that contradicts product goals?",
+    "options": [
+      { "id": "option_1", "text": "Immediately implement the changes", "isCorrect": false },
+      { "id": "option_2", "text": "Ignore the feedback to stay on schedule", "isCorrect": false },
+      { "id": "option_3", "text": "Avoid discussing it with the team", "isCorrect": false },
+      { "id": "option_4", "text": "Discuss and align feedback with the product vision", "isCorrect": true }
+    ],
+    "hint": "Feedback should align with the overall product strategy.",
+    "answerDescription": "Teams should engage in discussions with stakeholders to ensure feedback aligns with the broader product vision."
+  },
+  {
+    "id": "agile_2926",
+    "question": "Which method helps Agile teams prioritize stakeholder requirements effectively?",
+    "options": [
+      { "id": "option_1", "text": "Using a first-come, first-served approach", "isCorrect": false },
+      { "id": "option_2", "text": "Prioritizing only the most vocal stakeholder's needs", "isCorrect": false },
+      { "id": "option_3", "text": "Adding all requests to the backlog without ranking", "isCorrect": false },
+      { "id": "option_4", "text": "Using techniques like MoSCoW or WSJF prioritization", "isCorrect": true }
+    ],
+    "hint": "Frameworks exist to help teams prioritize effectively.",
+    "answerDescription": "MoSCoW and WSJF help Agile teams prioritize features based on value and urgency."
+  },
+  {
+    "id": "agile_2927",
+    "question": "What is the main benefit of keeping stakeholders involved throughout Agile development?",
+    "options": [
+      { "id": "option_1", "text": "Faster delivery due to fewer discussions", "isCorrect": false },
+      { "id": "option_2", "text": "Less need for backlog refinement", "isCorrect": false },
+      { "id": "option_3", "text": "A more rigid and predictable roadmap", "isCorrect": false },
+      { "id": "option_4", "text": "A product that better meets business and customer needs", "isCorrect": true }
+    ],
+    "hint": "Stakeholder involvement leads to better alignment.",
+    "answerDescription": "Continuous engagement ensures that the final product aligns with stakeholder expectations and business goals."
+  },{
+    "id": "agile_2928",
+    "question": "Which stakeholder is responsible for defining the product vision in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Product Owner", "isCorrect": true },
+      { "id": "option_2", "text": "Scrum Master", "isCorrect": false },
+      { "id": "option_3", "text": "Development Team", "isCorrect": false },
+      { "id": "option_4", "text": "Project Sponsor", "isCorrect": false }
+    ],
+    "hint": "This stakeholder maintains and communicates the product backlog.",
+    "answerDescription": "The Product Owner defines the product vision and ensures alignment with business objectives."
+  },
+  {
+    "id": "agile_2929",
+    "question": "What is the best way to manage stakeholder expectations in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Frequent and transparent communication", "isCorrect": true },
+      { "id": "option_2", "text": "Only provide updates at the end of the project", "isCorrect": false },
+      { "id": "option_3", "text": "Minimize stakeholder involvement to avoid changes", "isCorrect": false },
+      { "id": "option_4", "text": "Deliver all requirements upfront", "isCorrect": false }
+    ],
+    "hint": "Consistent engagement ensures alignment and trust.",
+    "answerDescription": "Regular and open communication helps stakeholders stay informed and aligned with project progress."
+  },
+  {
+    "id": "agile_2930",
+    "question": "Why is it important to involve stakeholders early in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To align product goals with business needs", "isCorrect": true },
+      { "id": "option_2", "text": "To reduce development team autonomy", "isCorrect": false },
+      { "id": "option_3", "text": "To minimize the need for backlog refinement", "isCorrect": false },
+      { "id": "option_4", "text": "To lock requirements before development begins", "isCorrect": false }
+    ],
+    "hint": "Stakeholder input ensures business value is prioritized.",
+    "answerDescription": "Early stakeholder involvement helps align the product with business objectives and user needs."
+  },
+  {
+    "id": "agile_2931",
+    "question": "Which Agile event provides stakeholders with a chance to review the progress of a sprint?",
+    "options": [
+      { "id": "option_1", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_2", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_3", "text": "Daily Stand-up", "isCorrect": false },
+      { "id": "option_4", "text": "Backlog Refinement", "isCorrect": false }
+    ],
+    "hint": "This event showcases completed work to stakeholders.",
+    "answerDescription": "Sprint Reviews allow stakeholders to see progress and provide feedback on the product."
+  },
+  {
+    "id": "agile_2932",
+    "question": "How can Agile teams encourage stakeholder collaboration?",
+    "options": [
+      { "id": "option_1", "text": "Invite stakeholders to key Agile ceremonies", "isCorrect": true },
+      { "id": "option_2", "text": "Only communicate when required by the contract", "isCorrect": false },
+      { "id": "option_3", "text": "Limit feedback to the end of development", "isCorrect": false },
+      { "id": "option_4", "text": "Avoid stakeholder involvement to speed up development", "isCorrect": false }
+    ],
+    "hint": "Engagement in Agile events fosters collaboration.",
+    "answerDescription": "Including stakeholders in Agile ceremonies ensures continuous alignment and input."
+  },
+  {
+    "id": "agile_2933",
+    "question": "What role do stakeholders play in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "They provide feedback on priorities and requirements", "isCorrect": true },
+      { "id": "option_2", "text": "They write the user stories for the team", "isCorrect": false },
+      { "id": "option_3", "text": "They assign tasks to the development team", "isCorrect": false },
+      { "id": "option_4", "text": "They decide on the sprint backlog items", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help ensure the backlog reflects business needs.",
+    "answerDescription": "Stakeholders contribute by refining and prioritizing backlog items based on business value."
+  },
+  {
+    "id": "agile_2934",
+    "question": "What is a key challenge when managing multiple stakeholders in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Balancing competing priorities", "isCorrect": true },
+      { "id": "option_2", "text": "Ensuring stakeholders do not attend meetings", "isCorrect": false },
+      { "id": "option_3", "text": "Allowing only one stakeholder to make decisions", "isCorrect": false },
+      { "id": "option_4", "text": "Minimizing stakeholder communication", "isCorrect": false }
+    ],
+    "hint": "Different stakeholders may have conflicting interests.",
+    "answerDescription": "Managing multiple stakeholders involves balancing diverse interests and aligning them with project goals."
+  },
+  {
+    "id": "agile_2935",
+    "question": "Which technique can Agile teams use to prioritize stakeholder requirements?",
+    "options": [
+      { "id": "option_1", "text": "MoSCoW method", "isCorrect": true },
+      { "id": "option_2", "text": "Random selection", "isCorrect": false },
+      { "id": "option_3", "text": "First-come, first-served approach", "isCorrect": false },
+      { "id": "option_4", "text": "Only considering the highest-ranking stakeholder's requests", "isCorrect": false }
+    ],
+    "hint": "This method categorizes requirements into must-have, should-have, could-have, and won’t-have.",
+    "answerDescription": "The MoSCoW method helps teams prioritize features based on importance and urgency."
+  },
+  {
+    "id": "agile_2936",
+    "question": "How should Agile teams handle last-minute stakeholder requests?",
+    "options": [
+      { "id": "option_1", "text": "Evaluate the impact and prioritize accordingly", "isCorrect": true },
+      { "id": "option_2", "text": "Reject all last-minute requests", "isCorrect": false },
+      { "id": "option_3", "text": "Immediately implement the request without discussion", "isCorrect": false },
+      { "id": "option_4", "text": "Only accept requests from senior management", "isCorrect": false }
+    ],
+    "hint": "Requests should be assessed based on impact and feasibility.",
+    "answerDescription": "Teams should evaluate stakeholder requests and prioritize them based on value and feasibility."
+  },
+  {
+    "id": "agile_2937",
+    "question": "Why is continuous stakeholder engagement important in Agile?",
+    "options": [
+      { "id": "option_1", "text": "It ensures the product aligns with business goals", "isCorrect": true },
+      { "id": "option_2", "text": "It reduces the need for retrospectives", "isCorrect": false },
+      { "id": "option_3", "text": "It speeds up development by avoiding feedback", "isCorrect": false },
+      { "id": "option_4", "text": "It guarantees that all features are implemented", "isCorrect": false }
+    ],
+    "hint": "Engagement ensures business alignment and product success.",
+    "answerDescription": "Continuous engagement ensures the product evolves according to stakeholder needs and business goals."
+  },
+  {
+    "id": "agile_2938",
+    "question": "Which Agile practice ensures stakeholders regularly review and provide feedback on the product?",
+    "options": [
+      { "id": "option_1", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_2", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_3", "text": "Daily Stand-up", "isCorrect": false },
+      { "id": "option_4", "text": "Backlog Grooming", "isCorrect": false }
+    ],
+    "hint": "This event happens at the end of each sprint to showcase progress.",
+    "answerDescription": "Sprint Review provides stakeholders with an opportunity to assess progress and suggest improvements."
+  },
+  {
+    "id": "agile_2939",
+    "question": "What is the primary role of stakeholders in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "To micromanage the development team", "isCorrect": false },
+      { "id": "option_2", "text": "To provide input on priorities and business value", "isCorrect": true },
+      { "id": "option_3", "text": "To assign tasks to developers", "isCorrect": false },
+      { "id": "option_4", "text": "To define sprint backlog items", "isCorrect": false }
+    ],
+    "hint": "Stakeholders help shape the product vision and requirements.",
+    "answerDescription": "Stakeholders guide the project by providing business insights and prioritization."
+  },
+  {
+    "id": "agile_2940",
+    "question": "Why is it important to identify all key stakeholders in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To increase project documentation", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure all perspectives and needs are considered", "isCorrect": true },
+      { "id": "option_3", "text": "To prevent frequent changes in requirements", "isCorrect": false },
+      { "id": "option_4", "text": "To reduce the number of meetings", "isCorrect": false }
+    ],
+    "hint": "Including diverse perspectives helps build a well-rounded product.",
+    "answerDescription": "Engaging all stakeholders ensures the product meets varied business and user needs."
+  },
+  {
+    "id": "agile_2941",
+    "question": "How can an Agile team effectively manage conflicting stakeholder expectations?",
+    "options": [
+      { "id": "option_1", "text": "By implementing all requested changes immediately", "isCorrect": false },
+      { "id": "option_2", "text": "By prioritizing based on business value and feasibility", "isCorrect": true },
+      { "id": "option_3", "text": "By ignoring less influential stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "By freezing requirements early", "isCorrect": false }
+    ],
+    "hint": "Balancing stakeholder needs requires prioritization strategies.",
+    "answerDescription": "Teams should balance stakeholder input by focusing on the highest business value."
+  },
+  {
+    "id": "agile_2942",
+    "question": "Which document helps communicate stakeholder expectations and project goals in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Sprint Backlog", "isCorrect": false },
+      { "id": "option_2", "text": "Product Vision Statement", "isCorrect": true },
+      { "id": "option_3", "text": "Daily Stand-up Report", "isCorrect": false },
+      { "id": "option_4", "text": "Definition of Done", "isCorrect": false }
+    ],
+    "hint": "This document aligns stakeholders and teams around common objectives.",
+    "answerDescription": "A Product Vision Statement ensures all stakeholders share a clear understanding of project goals."
+  },
+  {
+    "id": "agile_2943",
+    "question": "How does an Agile team ensure stakeholders remain engaged throughout the project?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder interactions to the start and end of the project", "isCorrect": false },
+      { "id": "option_2", "text": "By involving them in regular sprint reviews and backlog discussions", "isCorrect": true },
+      { "id": "option_3", "text": "By providing updates only upon request", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding stakeholder feedback to prevent scope changes", "isCorrect": false }
+    ],
+    "hint": "Consistent engagement improves transparency and alignment.",
+    "answerDescription": "Regular involvement in sprint reviews and backlog refinement ensures stakeholders stay engaged."
+  },
+  {
+    "id": "agile_2944",
+    "question": "Which Agile principle emphasizes customer and stakeholder collaboration?",
+    "options": [
+      { "id": "option_1", "text": "Delivering projects on time", "isCorrect": false },
+      { "id": "option_2", "text": "Customer collaboration over contract negotiation", "isCorrect": true },
+      { "id": "option_3", "text": "Strict adherence to project plans", "isCorrect": false },
+      { "id": "option_4", "text": "Minimizing stakeholder involvement", "isCorrect": false }
+    ],
+    "hint": "Agile values working closely with customers.",
+    "answerDescription": "Agile prioritizes collaboration with customers and stakeholders to adapt to evolving needs."
+  },
+  {
+    "id": "agile_2945",
+    "question": "How should an Agile team handle a stakeholder who frequently changes requirements?",
+    "options": [
+      { "id": "option_1", "text": "By refusing all changes after sprint planning", "isCorrect": false },
+      { "id": "option_2", "text": "By using backlog refinement to assess and prioritize changes", "isCorrect": true },
+      { "id": "option_3", "text": "By implementing all requested changes immediately", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding communication with the stakeholder", "isCorrect": false }
+    ],
+    "hint": "Agile teams manage changes through structured backlog refinement.",
+    "answerDescription": "Regular backlog refinement helps teams evaluate and prioritize requirement changes effectively."
+  },
+  {
+    "id": "agile_2946",
+    "question": "What is a key benefit of keeping stakeholders engaged throughout an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Reduced need for retrospectives", "isCorrect": false },
+      { "id": "option_2", "text": "Increased alignment with business goals", "isCorrect": true },
+      { "id": "option_3", "text": "Faster delivery with no changes", "isCorrect": false },
+      { "id": "option_4", "text": "Avoiding the need for a product backlog", "isCorrect": false }
+    ],
+    "hint": "Regular engagement ensures the project stays on track with business needs.",
+    "answerDescription": "Continuous stakeholder involvement keeps the project aligned with evolving business priorities."
+  },
+  {
+    "id": "agile_2947",
+    "question": "Which stakeholder is primarily responsible for prioritizing the product backlog?",
+    "options": [
+      { "id": "option_1", "text": "Scrum Master", "isCorrect": false },
+      { "id": "option_2", "text": "Product Owner", "isCorrect": true },
+      { "id": "option_3", "text": "Development Team", "isCorrect": false },
+      { "id": "option_4", "text": "Project Sponsor", "isCorrect": false }
+    ],
+    "hint": "This stakeholder ensures backlog items align with business objectives.",
+    "answerDescription": "The Product Owner is responsible for prioritizing backlog items based on business value."
+  },
+  {
+    "id": "agile_2948",
+    "question": "Which stakeholder is most responsible for defining business requirements in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Scrum Master", "isCorrect": false },
+      { "id": "option_2", "text": "Development Team", "isCorrect": false },
+      { "id": "option_3", "text": "Product Owner", "isCorrect": true },
+      { "id": "option_4", "text": "Project Sponsor", "isCorrect": false }
+    ],
+    "hint": "This role bridges business needs with development efforts.",
+    "answerDescription": "The Product Owner ensures business requirements are well-defined and prioritized."
+  },
+  {
+    "id": "agile_2949",
+    "question": "Why should Agile teams maintain continuous communication with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To minimize documentation effort", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid last-minute requirement changes", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure alignment with business goals", "isCorrect": true },
+      { "id": "option_4", "text": "To increase the length of sprint cycles", "isCorrect": false }
+    ],
+    "hint": "Ongoing collaboration keeps development aligned with business needs.",
+    "answerDescription": "Regular stakeholder communication ensures that evolving business priorities are reflected in the product."
+  },
+  {
+    "id": "agile_2950",
+    "question": "Which Agile practice helps ensure stakeholders are consistently involved in the development process?",
+    "options": [
+      { "id": "option_1", "text": "Daily Stand-ups", "isCorrect": false },
+      { "id": "option_2", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_3", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_4", "text": "Pair Programming", "isCorrect": false }
+    ],
+    "hint": "This event allows stakeholders to see the latest progress.",
+    "answerDescription": "Sprint Reviews provide stakeholders an opportunity to give feedback on completed work."
+  },
+  {
+    "id": "agile_2951",
+    "question": "How does Agile encourage effective stakeholder engagement?",
+    "options": [
+      { "id": "option_1", "text": "By limiting their involvement to project initiation", "isCorrect": false },
+      { "id": "option_2", "text": "By assigning them as part of the development team", "isCorrect": false },
+      { "id": "option_3", "text": "By integrating stakeholder feedback into iterations", "isCorrect": true },
+      { "id": "option_4", "text": "By finalizing all requirements upfront", "isCorrect": false }
+    ],
+    "hint": "Stakeholder involvement is key to adapting to changing requirements.",
+    "answerDescription": "Agile fosters stakeholder engagement by continuously incorporating their feedback throughout development."
+  },
+  {
+    "id": "agile_2952",
+    "question": "Which key responsibility do stakeholders have in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Approving all technical decisions", "isCorrect": false },
+      { "id": "option_2", "text": "Managing sprint planning sessions", "isCorrect": false },
+      { "id": "option_3", "text": "Providing feedback on deliverables", "isCorrect": true },
+      { "id": "option_4", "text": "Writing code and tests", "isCorrect": false }
+    ],
+    "hint": "Stakeholders contribute to project direction rather than execution.",
+    "answerDescription": "Stakeholders guide Agile teams by providing feedback on progress and suggesting improvements."
+  },
+  {
+    "id": "agile_2953",
+    "question": "What should an Agile team do when a stakeholder requests a major feature change mid-sprint?",
+    "options": [
+      { "id": "option_1", "text": "Immediately implement the change", "isCorrect": false },
+      { "id": "option_2", "text": "Ignore the request until the next release", "isCorrect": false },
+      { "id": "option_3", "text": "Assess it in the next backlog refinement session", "isCorrect": true },
+      { "id": "option_4", "text": "Abandon the current sprint plan", "isCorrect": false }
+    ],
+    "hint": "Changes are evaluated before being introduced into upcoming sprints.",
+    "answerDescription": "Feature changes are considered in backlog refinement to maintain sprint focus."
+  },
+  {
+    "id": "agile_2954",
+    "question": "How can an Agile team gain the most value from stakeholder feedback?",
+    "options": [
+      { "id": "option_1", "text": "By implementing all suggestions immediately", "isCorrect": false },
+      { "id": "option_2", "text": "By conducting stakeholder meetings once per project", "isCorrect": false },
+      { "id": "option_3", "text": "By prioritizing feedback based on business impact", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding stakeholder involvement after planning", "isCorrect": false }
+    ],
+    "hint": "Not all feedback should be implemented without prioritization.",
+    "answerDescription": "Teams should evaluate feedback based on its business value and feasibility before implementation."
+  },
+  {
+    "id": "agile_2955",
+    "question": "Which Agile event provides stakeholders with a regular opportunity to inspect the product?",
+    "options": [
+      { "id": "option_1", "text": "Sprint Planning", "isCorrect": false },
+      { "id": "option_2", "text": "Daily Stand-up", "isCorrect": false },
+      { "id": "option_3", "text": "Sprint Review", "isCorrect": true },
+      { "id": "option_4", "text": "Sprint Retrospective", "isCorrect": false }
+    ],
+    "hint": "This event focuses on reviewing completed work at the end of a sprint.",
+    "answerDescription": "Sprint Reviews allow stakeholders to inspect the product and provide valuable feedback."
+  },
+  {
+    "id": "agile_2956",
+    "question": "What is the best way for Agile teams to manage conflicting stakeholder priorities?",
+    "options": [
+      { "id": "option_1", "text": "By focusing only on the highest-paying stakeholder’s requests", "isCorrect": false },
+      { "id": "option_2", "text": "By implementing changes without discussion", "isCorrect": false },
+      { "id": "option_3", "text": "By using a prioritization framework such as MoSCoW", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding conflict and making no changes", "isCorrect": false }
+    ],
+    "hint": "Frameworks like MoSCoW help categorize priorities effectively.",
+    "answerDescription": "Using prioritization techniques ensures fair and structured decision-making when handling stakeholder conflicts."
+  },
+  {
+    "id": "agile_2957",
+    "question": "Why is it important to regularly update stakeholders about project progress?",
+    "options": [
+      { "id": "option_1", "text": "To reduce the number of development iterations", "isCorrect": false },
+      { "id": "option_2", "text": "To finalize the project scope early", "isCorrect": false },
+      { "id": "option_3", "text": "To align expectations and gain valuable feedback", "isCorrect": true },
+      { "id": "option_4", "text": "To minimize stakeholder involvement", "isCorrect": false }
+    ],
+    "hint": "Regular updates keep stakeholders informed and engaged.",
+    "answerDescription": "Stakeholder updates ensure alignment with business goals and allow for early feedback."
+  },
+  {
+    "id": "agile_2958",
+    "question": "What is a key benefit of engaging stakeholders early in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Eliminating the need for a Product Owner", "isCorrect": false },
+      { "id": "option_2", "text": "Avoiding scope changes", "isCorrect": false },
+      { "id": "option_3", "text": "Minimizing development effort", "isCorrect": false },
+      { "id": "option_4", "text": "Ensuring alignment with business goals", "isCorrect": true }
+    ],
+    "hint": "Stakeholder involvement helps guide project direction.",
+    "answerDescription": "Engaging stakeholders early helps align the project with business needs and reduces the risk of misalignment."
+  },
+  {
+    "id": "agile_2959",
+    "question": "Why should Agile teams maintain transparency with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To reduce development costs", "isCorrect": false },
+      { "id": "option_2", "text": "To shorten sprint duration", "isCorrect": false },
+      { "id": "option_3", "text": "To eliminate stakeholder feedback", "isCorrect": false },
+      { "id": "option_4", "text": "To build trust and improve collaboration", "isCorrect": true }
+    ],
+    "hint": "Trust is crucial for effective stakeholder engagement.",
+    "answerDescription": "Transparency ensures stakeholders are informed, which fosters trust and collaboration."
+  },
+  {
+    "id": "agile_2960",
+    "question": "What should an Agile team do if a stakeholder disagrees with the project direction?",
+    "options": [
+      { "id": "option_1", "text": "Ignore the stakeholder's concerns", "isCorrect": false },
+      { "id": "option_2", "text": "Change the project scope immediately", "isCorrect": false },
+      { "id": "option_3", "text": "Delay development until all stakeholders agree", "isCorrect": false },
+      { "id": "option_4", "text": "Facilitate discussions to address concerns", "isCorrect": true }
+    ],
+    "hint": "Collaboration helps resolve conflicts effectively.",
+    "answerDescription": "Facilitating discussions allows the team to address concerns while keeping project progress on track."
+  },
+  {
+    "id": "agile_2961",
+    "question": "Which Agile ceremony is most valuable for keeping stakeholders updated on progress?",
+    "options": [
+      { "id": "option_1", "text": "Sprint Retrospective", "isCorrect": false },
+      { "id": "option_2", "text": "Daily Stand-up", "isCorrect": false },
+      { "id": "option_3", "text": "Backlog Refinement", "isCorrect": false },
+      { "id": "option_4", "text": "Sprint Review", "isCorrect": true }
+    ],
+    "hint": "This meeting allows stakeholders to inspect deliverables and provide feedback.",
+    "answerDescription": "Sprint Reviews give stakeholders visibility into project progress and an opportunity to offer input."
+  },
+  {
+    "id": "agile_2962",
+    "question": "What is a common challenge when working with multiple stakeholders in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Lack of technical knowledge among developers", "isCorrect": false },
+      { "id": "option_2", "text": "Frequent changes to sprint durations", "isCorrect": false },
+      { "id": "option_3", "text": "Over-reliance on automated tools", "isCorrect": false },
+      { "id": "option_4", "text": "Conflicting priorities among stakeholders", "isCorrect": true }
+    ],
+    "hint": "Different stakeholders may have different expectations.",
+    "answerDescription": "Managing multiple stakeholders can be challenging due to conflicting priorities, which require structured decision-making."
+  },
+  {
+    "id": "agile_2963",
+    "question": "How can an Agile team ensure stakeholder expectations are met?",
+    "options": [
+      { "id": "option_1", "text": "By avoiding stakeholder involvement", "isCorrect": false },
+      { "id": "option_2", "text": "By delivering all requested features immediately", "isCorrect": false },
+      { "id": "option_3", "text": "By focusing only on technical tasks", "isCorrect": false },
+      { "id": "option_4", "text": "By continuously gathering feedback and adjusting priorities", "isCorrect": true }
+    ],
+    "hint": "Stakeholder feedback helps refine the product.",
+    "answerDescription": "Regular feedback cycles help ensure the final product meets stakeholder needs."
+  },
+  {
+    "id": "agile_2964",
+    "question": "What role does the Product Owner play in stakeholder management?",
+    "options": [
+      { "id": "option_1", "text": "Enforces all stakeholder requests", "isCorrect": false },
+      { "id": "option_2", "text": "Avoids stakeholder involvement", "isCorrect": false },
+      { "id": "option_3", "text": "Focuses only on technical implementation", "isCorrect": false },
+      { "id": "option_4", "text": "Acts as a bridge between stakeholders and the development team", "isCorrect": true }
+    ],
+    "hint": "The Product Owner translates business needs into development goals.",
+    "answerDescription": "The Product Owner ensures stakeholder requirements are communicated and prioritized within the development team."
+  },
+  {
+    "id": "agile_2965",
+    "question": "What is the primary purpose of a stakeholder register in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To track team attendance", "isCorrect": false },
+      { "id": "option_2", "text": "To maintain financial records", "isCorrect": false },
+      { "id": "option_3", "text": "To record daily stand-up notes", "isCorrect": false },
+      { "id": "option_4", "text": "To document key stakeholders and their expectations", "isCorrect": true }
+    ],
+    "hint": "This document helps in managing stakeholder relationships.",
+    "answerDescription": "A stakeholder register keeps track of stakeholders, their influence, and their expectations to guide project decisions."
+  },
+  {
+    "id": "agile_2966",
+    "question": "Which action can help improve stakeholder engagement in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "Limiting feedback opportunities", "isCorrect": false },
+      { "id": "option_2", "text": "Avoiding updates on project progress", "isCorrect": false },
+      { "id": "option_3", "text": "Reducing stakeholder involvement", "isCorrect": false },
+      { "id": "option_4", "text": "Encouraging active participation in sprint reviews", "isCorrect": true }
+    ],
+    "hint": "Stakeholders should be involved in evaluating deliverables.",
+    "answerDescription": "Sprint Reviews allow stakeholders to provide feedback, ensuring their concerns are addressed throughout the project."
+  },
+  {
+    "id": "agile_2967",
+    "question": "Why is it important to identify key stakeholders at the beginning of an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "To finalize the entire project scope upfront", "isCorrect": false },
+      { "id": "option_2", "text": "To reduce the number of required Agile ceremonies", "isCorrect": false },
+      { "id": "option_3", "text": "To limit stakeholder involvement in later stages", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure their needs and expectations are understood early", "isCorrect": true }
+    ],
+    "hint": "Early stakeholder involvement helps set project direction.",
+    "answerDescription": "Identifying stakeholders early ensures their needs are incorporated into project planning and execution."
+  },{
+    "id": "agile_2968",
+    "question": "What is the primary responsibility of stakeholders in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Providing feedback and setting expectations", "isCorrect": true },
+      { "id": "option_2", "text": "Managing daily development tasks", "isCorrect": false },
+      { "id": "option_3", "text": "Writing and testing code", "isCorrect": false },
+      { "id": "option_4", "text": "Handling sprint planning", "isCorrect": false }
+    ],
+    "hint": "Stakeholders influence project direction rather than execution.",
+    "answerDescription": "Stakeholders play a crucial role by providing input and setting priorities to align the project with business goals."
+  },
+  {
+    "id": "agile_2969",
+    "question": "Why is it important for Agile teams to regularly communicate with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To ensure alignment with business goals", "isCorrect": true },
+      { "id": "option_2", "text": "To increase the length of sprints", "isCorrect": false },
+      { "id": "option_3", "text": "To reduce the need for retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid updating the backlog", "isCorrect": false }
+    ],
+    "hint": "Regular communication helps maintain project direction.",
+    "answerDescription": "Frequent communication ensures the team is meeting stakeholder expectations and delivering valuable outcomes."
+  },
+  {
+    "id": "agile_2970",
+    "question": "How can an Agile team ensure stakeholders are engaged throughout a project?",
+    "options": [
+      { "id": "option_1", "text": "By involving them in Sprint Reviews", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting feedback opportunities", "isCorrect": false },
+      { "id": "option_3", "text": "By excluding them from backlog refinement", "isCorrect": false },
+      { "id": "option_4", "text": "By delivering all features at the end of the project", "isCorrect": false }
+    ],
+    "hint": "Stakeholders should be involved in key Agile ceremonies.",
+    "answerDescription": "Sprint Reviews provide stakeholders with insight into progress and allow them to give feedback."
+  },
+  {
+    "id": "agile_2971",
+    "question": "What should an Agile team do if stakeholders request frequent changes to project scope?",
+    "options": [
+      { "id": "option_1", "text": "Assess and prioritize changes in the backlog", "isCorrect": true },
+      { "id": "option_2", "text": "Reject all scope changes", "isCorrect": false },
+      { "id": "option_3", "text": "Pause development until all changes are finalized", "isCorrect": false },
+      { "id": "option_4", "text": "Limit communication with stakeholders", "isCorrect": false }
+    ],
+    "hint": "Changes should be evaluated rather than ignored.",
+    "answerDescription": "The backlog should be updated and prioritized based on stakeholder input and business value."
+  },
+  {
+    "id": "agile_2972",
+    "question": "What is one way Agile teams can manage conflicting stakeholder priorities?",
+    "options": [
+      { "id": "option_1", "text": "Facilitate discussions to reach alignment", "isCorrect": true },
+      { "id": "option_2", "text": "Ignore lower-priority stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "Assign priority based on stakeholder hierarchy", "isCorrect": false },
+      { "id": "option_4", "text": "Avoid stakeholder involvement in decision-making", "isCorrect": false }
+    ],
+    "hint": "Discussions help resolve conflicts.",
+    "answerDescription": "Facilitating discussions ensures that different perspectives are considered and alignment is achieved."
+  },
+  {
+    "id": "agile_2973",
+    "question": "How can Agile teams ensure that stakeholders provide valuable feedback?",
+    "options": [
+      { "id": "option_1", "text": "By asking specific and structured questions", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting the number of stakeholders involved", "isCorrect": false },
+      { "id": "option_3", "text": "By only seeking feedback at the project’s end", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding detailed discussions", "isCorrect": false }
+    ],
+    "hint": "Guided feedback is more actionable.",
+    "answerDescription": "Structured questions help stakeholders provide relevant and actionable feedback."
+  },
+  {
+    "id": "agile_2974",
+    "question": "Why is it beneficial to have stakeholders involved in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "To ensure priorities align with business needs", "isCorrect": true },
+      { "id": "option_2", "text": "To avoid technical discussions", "isCorrect": false },
+      { "id": "option_3", "text": "To reduce the role of the Product Owner", "isCorrect": false },
+      { "id": "option_4", "text": "To shorten sprint durations", "isCorrect": false }
+    ],
+    "hint": "Stakeholder input helps shape backlog priorities.",
+    "answerDescription": "Stakeholder involvement ensures that high-priority features are identified and addressed early."
+  },
+  {
+    "id": "agile_2975",
+    "question": "What can Agile teams do to keep stakeholders aligned with project goals?",
+    "options": [
+      { "id": "option_1", "text": "Hold regular status updates and demos", "isCorrect": true },
+      { "id": "option_2", "text": "Minimize interactions with stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "Only share progress at the end of development", "isCorrect": false },
+      { "id": "option_4", "text": "Allow stakeholders to dictate development timelines", "isCorrect": false }
+    ],
+    "hint": "Frequent updates foster alignment.",
+    "answerDescription": "Regular updates and demos help stakeholders stay informed and aligned with the project direction."
+  },
+  {
+    "id": "agile_2976",
+    "question": "How does Agile encourage stakeholder collaboration?",
+    "options": [
+      { "id": "option_1", "text": "By involving them in iterative development cycles", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting communication to the end of the project", "isCorrect": false },
+      { "id": "option_3", "text": "By focusing only on internal team goals", "isCorrect": false },
+      { "id": "option_4", "text": "By reducing the need for stakeholder input", "isCorrect": false }
+    ],
+    "hint": "Frequent iterations allow stakeholder engagement.",
+    "answerDescription": "Stakeholders are involved in each iteration to provide feedback and ensure project success."
+  },
+  {
+    "id": "agile_2977",
+    "question": "What is an effective way to manage stakeholder expectations in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Setting clear goals and communicating progress regularly", "isCorrect": true },
+      { "id": "option_2", "text": "Avoiding discussions on project limitations", "isCorrect": false },
+      { "id": "option_3", "text": "Making all requested changes immediately", "isCorrect": false },
+      { "id": "option_4", "text": "Reducing transparency to prevent conflicts", "isCorrect": false }
+    ],
+    "hint": "Clarity and regular updates help manage expectations.",
+    "answerDescription": "Clearly defined goals and continuous communication ensure stakeholders remain informed and aligned."
+  },{
+    "id": "agile_2978",
+    "question": "What is a key benefit of engaging stakeholders early in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Avoiding changes to requirements", "isCorrect": false },
+      { "id": "option_2", "text": "Ensuring alignment with business objectives", "isCorrect": true },
+      { "id": "option_3", "text": "Reducing the need for user feedback", "isCorrect": false },
+      { "id": "option_4", "text": "Eliminating the need for a Product Owner", "isCorrect": false }
+    ],
+    "hint": "Early engagement helps with strategic alignment.",
+    "answerDescription": "Involving stakeholders early ensures the project aligns with business needs and reduces misalignment risks."
+  },
+  {
+    "id": "agile_2979",
+    "question": "Why is it important for Agile teams to consider stakeholder feedback during development?",
+    "options": [
+      { "id": "option_1", "text": "To extend project timelines", "isCorrect": false },
+      { "id": "option_2", "text": "To enhance product value and usability", "isCorrect": true },
+      { "id": "option_3", "text": "To reduce team autonomy", "isCorrect": false },
+      { "id": "option_4", "text": "To increase backlog complexity", "isCorrect": false }
+    ],
+    "hint": "Stakeholder feedback contributes to product success.",
+    "answerDescription": "Incorporating stakeholder feedback helps Agile teams deliver products that provide real value to users."
+  },
+  {
+    "id": "agile_2980",
+    "question": "What role do stakeholders play in Agile decision-making?",
+    "options": [
+      { "id": "option_1", "text": "They dictate all project decisions", "isCorrect": false },
+      { "id": "option_2", "text": "They provide insights to guide priorities", "isCorrect": true },
+      { "id": "option_3", "text": "They replace the Product Owner", "isCorrect": false },
+      { "id": "option_4", "text": "They finalize sprint tasks", "isCorrect": false }
+    ],
+    "hint": "Stakeholders influence decisions without micromanaging.",
+    "answerDescription": "Stakeholders provide valuable insights that help Agile teams prioritize and align work with business objectives."
+  },
+  {
+    "id": "agile_2981",
+    "question": "How can Agile teams effectively manage multiple stakeholder inputs?",
+    "options": [
+      { "id": "option_1", "text": "By only considering the highest-ranking stakeholder", "isCorrect": false },
+      { "id": "option_2", "text": "By prioritizing inputs based on business value", "isCorrect": true },
+      { "id": "option_3", "text": "By limiting feedback sessions", "isCorrect": false },
+      { "id": "option_4", "text": "By making ad-hoc changes without evaluation", "isCorrect": false }
+    ],
+    "hint": "Not all inputs have equal impact.",
+    "answerDescription": "Agile teams prioritize stakeholder feedback based on business value to ensure meaningful improvements."
+  },
+  {
+    "id": "agile_2982",
+    "question": "What is a best practice for engaging stakeholders in Agile ceremonies?",
+    "options": [
+      { "id": "option_1", "text": "Keeping meetings invitation-only", "isCorrect": false },
+      { "id": "option_2", "text": "Encouraging active participation", "isCorrect": true },
+      { "id": "option_3", "text": "Restricting their involvement to the final release", "isCorrect": false },
+      { "id": "option_4", "text": "Avoiding their input in backlog discussions", "isCorrect": false }
+    ],
+    "hint": "Stakeholders should be actively involved.",
+    "answerDescription": "Encouraging stakeholders to participate ensures transparency and alignment with project goals."
+  },
+  {
+    "id": "agile_2983",
+    "question": "How can Agile teams prevent misalignment with stakeholder expectations?",
+    "options": [
+      { "id": "option_1", "text": "By avoiding frequent updates", "isCorrect": false },
+      { "id": "option_2", "text": "By maintaining continuous communication", "isCorrect": true },
+      { "id": "option_3", "text": "By limiting feedback to retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "By focusing only on technical requirements", "isCorrect": false }
+    ],
+    "hint": "Communication is key to expectation management.",
+    "answerDescription": "Regular updates and discussions with stakeholders ensure alignment and reduce potential conflicts."
+  },
+  {
+    "id": "agile_2984",
+    "question": "What is an advantage of involving stakeholders in Sprint Reviews?",
+    "options": [
+      { "id": "option_1", "text": "It reduces team accountability", "isCorrect": false },
+      { "id": "option_2", "text": "It allows for real-time feedback", "isCorrect": true },
+      { "id": "option_3", "text": "It eliminates the need for Product Backlog refinement", "isCorrect": false },
+      { "id": "option_4", "text": "It finalizes all project deliverables", "isCorrect": false }
+    ],
+    "hint": "Sprint Reviews provide visibility into progress.",
+    "answerDescription": "Stakeholder participation in Sprint Reviews enables real-time feedback and helps refine project direction."
+  },
+  {
+    "id": "agile_2985",
+    "question": "How can Agile teams ensure they are meeting stakeholder needs?",
+    "options": [
+      { "id": "option_1", "text": "By following the original plan without adjustments", "isCorrect": false },
+      { "id": "option_2", "text": "By validating requirements through feedback loops", "isCorrect": true },
+      { "id": "option_3", "text": "By deprioritizing stakeholder input", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding discussions on changing priorities", "isCorrect": false }
+    ],
+    "hint": "Feedback loops ensure ongoing alignment.",
+    "answerDescription": "Frequent validation of requirements helps Agile teams adjust their approach to better meet stakeholder needs."
+  },
+  {
+    "id": "agile_2986",
+    "question": "What challenge do Agile teams face when working with multiple stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Lack of available backlog items", "isCorrect": false },
+      { "id": "option_2", "text": "Conflicting priorities among stakeholders", "isCorrect": true },
+      { "id": "option_3", "text": "Having too few feedback opportunities", "isCorrect": false },
+      { "id": "option_4", "text": "Minimal involvement in sprint planning", "isCorrect": false }
+    ],
+    "hint": "Different stakeholders may have different goals.",
+    "answerDescription": "Agile teams must balance stakeholder priorities to ensure fair and effective decision-making."
+  },
+  {
+    "id": "agile_2987",
+    "question": "What is one way to manage shifting stakeholder requirements in Agile?",
+    "options": [
+      { "id": "option_1", "text": "By finalizing all requirements at the start", "isCorrect": false },
+      { "id": "option_2", "text": "By continuously refining the backlog", "isCorrect": true },
+      { "id": "option_3", "text": "By preventing changes once a sprint starts", "isCorrect": false },
+      { "id": "option_4", "text": "By minimizing stakeholder involvement", "isCorrect": false }
+    ],
+    "hint": "The backlog should be a living document.",
+    "answerDescription": "Regular backlog refinement helps accommodate changing requirements without disrupting Agile workflows."
+  },
+  {
+    "id": "agile_2988",
+    "question": "What is the primary reason Agile teams engage stakeholders throughout the development process?",
+    "options": [
+      { "id": "option_1", "text": "To increase project documentation", "isCorrect": false },
+      { "id": "option_2", "text": "To reduce the need for retrospectives", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure continuous alignment with business goals", "isCorrect": true },
+      { "id": "option_4", "text": "To limit the number of change requests", "isCorrect": false }
+    ],
+    "hint": "Engaging stakeholders helps maintain strategic direction.",
+    "answerDescription": "Ongoing stakeholder engagement ensures that the Agile team stays aligned with evolving business needs."
+  },
+  {
+    "id": "agile_2989",
+    "question": "Which approach helps Agile teams effectively prioritize stakeholder feedback?",
+    "options": [
+      { "id": "option_1", "text": "Handling all feedback immediately", "isCorrect": false },
+      { "id": "option_2", "text": "Ignoring conflicting inputs", "isCorrect": false },
+      { "id": "option_3", "text": "Evaluating feedback based on business value", "isCorrect": true },
+      { "id": "option_4", "text": "Allowing only senior stakeholders to provide input", "isCorrect": false }
+    ],
+    "hint": "Not all feedback has equal impact.",
+    "answerDescription": "Prioritizing feedback based on business value ensures that Agile teams focus on impactful changes."
+  },
+  {
+    "id": "agile_2990",
+    "question": "Why is stakeholder participation in Sprint Reviews beneficial?",
+    "options": [
+      { "id": "option_1", "text": "It eliminates the need for sprint planning", "isCorrect": false },
+      { "id": "option_2", "text": "It reduces the number of development iterations", "isCorrect": false },
+      { "id": "option_3", "text": "It allows for early feedback and course correction", "isCorrect": true },
+      { "id": "option_4", "text": "It finalizes project scope immediately", "isCorrect": false }
+    ],
+    "hint": "Sprint Reviews help refine product direction.",
+    "answerDescription": "Stakeholder involvement in Sprint Reviews helps Agile teams adapt to changing requirements efficiently."
+  },
+  {
+    "id": "agile_2991",
+    "question": "How does Agile encourage stakeholder collaboration?",
+    "options": [
+      { "id": "option_1", "text": "By limiting communication to project kickoff", "isCorrect": false },
+      { "id": "option_2", "text": "By preventing scope changes after planning", "isCorrect": false },
+      { "id": "option_3", "text": "By fostering transparency and frequent interactions", "isCorrect": true },
+      { "id": "option_4", "text": "By reducing the role of the Product Owner", "isCorrect": false }
+    ],
+    "hint": "Collaboration thrives with open communication.",
+    "answerDescription": "Agile principles emphasize transparency and regular interactions to ensure stakeholders and teams work together effectively."
+  },
+  {
+    "id": "agile_2992",
+    "question": "What is a challenge Agile teams face when dealing with multiple stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Having too many backlog items", "isCorrect": false },
+      { "id": "option_2", "text": "Reducing the number of user stories", "isCorrect": false },
+      { "id": "option_3", "text": "Managing conflicting priorities", "isCorrect": true },
+      { "id": "option_4", "text": "Minimizing the need for feedback sessions", "isCorrect": false }
+    ],
+    "hint": "Different stakeholders may have different objectives.",
+    "answerDescription": "Agile teams must balance and negotiate conflicting stakeholder needs to ensure smooth project progress."
+  },
+  {
+    "id": "agile_2993",
+    "question": "How can Agile teams ensure stakeholder requirements are met without disrupting the sprint?",
+    "options": [
+      { "id": "option_1", "text": "By accepting all change requests immediately", "isCorrect": false },
+      { "id": "option_2", "text": "By freezing requirements after sprint planning", "isCorrect": false },
+      { "id": "option_3", "text": "By refining the backlog regularly", "isCorrect": true },
+      { "id": "option_4", "text": "By allowing unlimited changes at any time", "isCorrect": false }
+    ],
+    "hint": "The backlog is key to handling evolving requirements.",
+    "answerDescription": "Frequent backlog refinement allows Agile teams to manage stakeholder needs while maintaining sprint focus."
+  },
+  {
+    "id": "agile_2994",
+    "question": "Which Agile practice helps keep stakeholders informed about progress?",
+    "options": [
+      { "id": "option_1", "text": "Eliminating daily standups", "isCorrect": false },
+      { "id": "option_2", "text": "Minimizing communication with stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "Conducting Sprint Reviews and demos", "isCorrect": true },
+      { "id": "option_4", "text": "Only updating stakeholders at project completion", "isCorrect": false }
+    ],
+    "hint": "Stakeholder updates are a regular Agile practice.",
+    "answerDescription": "Sprint Reviews and demos provide stakeholders with insights into project progress and gather valuable feedback."
+  },
+  {
+    "id": "agile_2995",
+    "question": "How should Agile teams handle stakeholder feedback that contradicts business goals?",
+    "options": [
+      { "id": "option_1", "text": "By implementing all feedback regardless of impact", "isCorrect": false },
+      { "id": "option_2", "text": "By disregarding feedback entirely", "isCorrect": false },
+      { "id": "option_3", "text": "By evaluating feedback against business objectives", "isCorrect": true },
+      { "id": "option_4", "text": "By making changes without consulting the team", "isCorrect": false }
+    ],
+    "hint": "Not all feedback aligns with project goals.",
+    "answerDescription": "Agile teams assess stakeholder feedback to ensure that implemented changes align with business priorities."
+  },
+  {
+    "id": "agile_2996",
+    "question": "What is a common mistake Agile teams make when working with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "Over-communicating project progress", "isCorrect": false },
+      { "id": "option_2", "text": "Allowing stakeholders to manage sprint tasks", "isCorrect": false },
+      { "id": "option_3", "text": "Not setting clear expectations for involvement", "isCorrect": true },
+      { "id": "option_4", "text": "Encouraging feedback in sprint planning", "isCorrect": false }
+    ],
+    "hint": "Stakeholders need guidance on their role.",
+    "answerDescription": "Clearly defining stakeholder roles helps prevent misunderstandings and ensures effective collaboration."
+  },
+  {
+    "id": "agile_2997",
+    "question": "Which strategy helps Agile teams align stakeholder expectations with project realities?",
+    "options": [
+      { "id": "option_1", "text": "Making commitments without validation", "isCorrect": false },
+      { "id": "option_2", "text": "Avoiding conversations about feasibility", "isCorrect": false },
+      { "id": "option_3", "text": "Setting realistic goals and providing transparency", "isCorrect": true },
+      { "id": "option_4", "text": "Only sharing progress at project completion", "isCorrect": false }
+    ],
+    "hint": "Transparency and realistic planning build trust.",
+    "answerDescription": "Clearly defined goals and open communication help Agile teams manage stakeholder expectations effectively."
+  },
+  {
+    "id": "agile_3008",
+    "question": "Why is early stakeholder involvement crucial in Agile projects?",
+    "options": [
+      { "id": "option_1", "text": "To align expectations and prevent major changes later", "isCorrect": true },
+      { "id": "option_2", "text": "To allow stakeholders to control sprint execution", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure all features are pre-defined", "isCorrect": false },
+      { "id": "option_4", "text": "To reduce the need for iterations", "isCorrect": false }
+    ],
+    "hint": "Early involvement helps prevent last-minute surprises.",
+    "answerDescription": "Engaging stakeholders early ensures alignment, reduces rework, and increases project success."
+  },
+  {
+    "id": "agile_3009",
+    "question": "How can Agile teams ensure continuous stakeholder engagement?",
+    "options": [
+      { "id": "option_1", "text": "By conducting regular sprint reviews and demos", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting interactions to project initiation", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding changes based on feedback", "isCorrect": false },
+      { "id": "option_4", "text": "By sharing updates only at project completion", "isCorrect": false }
+    ],
+    "hint": "Regular interaction ensures alignment with business needs.",
+    "answerDescription": "Frequent sprint reviews help keep stakeholders engaged and provide timely feedback."
+  },
+  {
+    "id": "agile_3010",
+    "question": "What is a key benefit of having active stakeholder participation in Agile?",
+    "options": [
+      { "id": "option_1", "text": "Faster decision-making and risk mitigation", "isCorrect": true },
+      { "id": "option_2", "text": "Increased micromanagement of development teams", "isCorrect": false },
+      { "id": "option_3", "text": "Delays due to constant feedback loops", "isCorrect": false },
+      { "id": "option_4", "text": "Reduced need for prioritization", "isCorrect": false }
+    ],
+    "hint": "Active stakeholders help resolve blockers efficiently.",
+    "answerDescription": "Engaged stakeholders contribute to quicker decisions and better alignment with business goals."
+  },
+  {
+    "id": "agile_3011",
+    "question": "Which Agile practice ensures that stakeholders have visibility into project progress?",
+    "options": [
+      { "id": "option_1", "text": "Using information radiators like Kanban boards", "isCorrect": true },
+      { "id": "option_2", "text": "Keeping all progress updates internal", "isCorrect": false },
+      { "id": "option_3", "text": "Restricting access to reports", "isCorrect": false },
+      { "id": "option_4", "text": "Providing updates only at the project’s end", "isCorrect": false }
+    ],
+    "hint": "Transparency is key in Agile.",
+    "answerDescription": "Information radiators, such as Kanban boards, help stakeholders track progress in real time."
+  },
+  {
+    "id": "agile_3012",
+    "question": "How can stakeholders contribute to Agile team success?",
+    "options": [
+      { "id": "option_1", "text": "By reviewing only the final product", "isCorrect": false },
+      { "id": "option_2", "text": "By actively participating in Agile ceremonies", "isCorrect": true },
+      { "id": "option_3", "text": "By requesting major scope changes late in development", "isCorrect": false },
+      { "id": "option_4", "text": "By demanding fixed deadlines regardless of complexity", "isCorrect": false }
+    ],
+    "hint": "Stakeholder engagement is crucial in Agile methodologies.",
+    "answerDescription": "Active stakeholder participation in Agile events improves collaboration and project alignment."
+  },
+  {
+    "id": "agile_3013",
+    "question": "What is the primary responsibility of a stakeholder in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "Providing timely feedback and business priorities", "isCorrect": true },
+      { "id": "option_2", "text": "Directly assigning tasks to developers", "isCorrect": false },
+      { "id": "option_3", "text": "Deciding the length of sprints", "isCorrect": false },
+      { "id": "option_4", "text": "Controlling the daily standups", "isCorrect": false }
+    ],
+    "hint": "Stakeholders contribute to business alignment.",
+    "answerDescription": "Stakeholders guide Agile teams by sharing priorities and giving feedback to align development with business goals."
+  },
+  {
+    "id": "agile_3014",
+    "question": "Why should stakeholders be involved in backlog refinement?",
+    "options": [
+      { "id": "option_1", "text": "To ensure the backlog reflects business needs", "isCorrect": true },
+      { "id": "option_2", "text": "To approve technical implementations", "isCorrect": false },
+      { "id": "option_3", "text": "To prevent Agile teams from reprioritizing work", "isCorrect": false },
+      { "id": "option_4", "text": "To control team velocity", "isCorrect": false }
+    ],
+    "hint": "Backlog refinement helps maintain business relevance.",
+    "answerDescription": "Engaging stakeholders in backlog refinement ensures that work remains aligned with business priorities."
+  },
+  {
+    "id": "agile_3015",
+    "question": "How can Agile teams help stakeholders adapt to iterative development?",
+    "options": [
+      { "id": "option_1", "text": "By educating them on Agile principles and processes", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting their involvement to final reviews", "isCorrect": false },
+      { "id": "option_3", "text": "By restricting changes to the backlog", "isCorrect": false },
+      { "id": "option_4", "text": "By delivering the entire product at once", "isCorrect": false }
+    ],
+    "hint": "Understanding Agile helps stakeholders work more effectively with teams.",
+    "answerDescription": "Educating stakeholders on Agile methodologies helps them engage effectively in iterative development."
+  },
+  {
+    "id": "agile_3016",
+    "question": "Why is it important for Agile teams to regularly validate deliverables with stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To ensure the product meets business expectations", "isCorrect": true },
+      { "id": "option_2", "text": "To finalize all requirements upfront", "isCorrect": false },
+      { "id": "option_3", "text": "To avoid making changes during development", "isCorrect": false },
+      { "id": "option_4", "text": "To increase project complexity", "isCorrect": false }
+    ],
+    "hint": "Regular validation prevents misalignment.",
+    "answerDescription": "Continuous validation with stakeholders ensures that Agile teams deliver value-driven solutions."
+  },
+  {
+    "id": "agile_3017",
+    "question": "How can Agile teams encourage productive stakeholder collaboration?",
+    "options": [
+      { "id": "option_1", "text": "By fostering open and continuous communication", "isCorrect": true },
+      { "id": "option_2", "text": "By limiting stakeholder input to formal meetings", "isCorrect": false },
+      { "id": "option_3", "text": "By minimizing discussions on priorities", "isCorrect": false },
+      { "id": "option_4", "text": "By avoiding feedback until the final release", "isCorrect": false }
+    ],
+    "hint": "Good communication strengthens stakeholder relationships.",
+    "answerDescription": "Open communication helps stakeholders stay engaged and contribute effectively to Agile projects."
+  },
+  {
+    "id": "agile_3018",
+    "question": "What is a key reason for keeping stakeholders informed throughout an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "To reduce their involvement in decision-making", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure alignment with business goals and expectations", "isCorrect": true },
+      { "id": "option_3", "text": "To minimize feedback loops", "isCorrect": false },
+      { "id": "option_4", "text": "To prevent changes to the backlog", "isCorrect": false }
+    ],
+    "hint": "Stakeholders must be engaged to align project outcomes with business needs.",
+    "answerDescription": "Regular updates help stakeholders stay aligned with the project’s progress and ensure that their expectations are met."
+  },
+  {
+    "id": "agile_3019",
+    "question": "How can Agile teams effectively manage conflicting stakeholder requirements?",
+    "options": [
+      { "id": "option_1", "text": "By implementing all stakeholder requests equally", "isCorrect": false },
+      { "id": "option_2", "text": "By prioritizing requirements based on business value", "isCorrect": true },
+      { "id": "option_3", "text": "By ignoring conflicts until later stages", "isCorrect": false },
+      { "id": "option_4", "text": "By allowing only one stakeholder to define priorities", "isCorrect": false }
+    ],
+    "hint": "Value-driven prioritization helps resolve conflicts effectively.",
+    "answerDescription": "Stakeholder needs should be prioritized based on business value to ensure the most impactful features are delivered."
+  },
+  {
+    "id": "agile_3020",
+    "question": "Which Agile ceremony is most beneficial for keeping stakeholders engaged?",
+    "options": [
+      { "id": "option_1", "text": "Daily Standups", "isCorrect": false },
+      { "id": "option_2", "text": "Sprint Reviews", "isCorrect": true },
+      { "id": "option_3", "text": "Retrospectives", "isCorrect": false },
+      { "id": "option_4", "text": "Backlog Grooming", "isCorrect": false }
+    ],
+    "hint": "This event allows stakeholders to see progress and provide feedback.",
+    "answerDescription": "Sprint reviews provide stakeholders with visibility into completed work and an opportunity to give feedback."
+  },
+  {
+    "id": "agile_3021",
+    "question": "Why is transparency important when working with Agile stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To limit stakeholder involvement", "isCorrect": false },
+      { "id": "option_2", "text": "To build trust and ensure informed decision-making", "isCorrect": true },
+      { "id": "option_3", "text": "To speed up the development process", "isCorrect": false },
+      { "id": "option_4", "text": "To prevent scope changes", "isCorrect": false }
+    ],
+    "hint": "Trust and visibility lead to better collaboration.",
+    "answerDescription": "Transparency ensures stakeholders have a clear view of progress, fostering trust and better decision-making."
+  },
+  {
+    "id": "agile_3022",
+    "question": "What should Agile teams do if stakeholders frequently change requirements?",
+    "options": [
+      { "id": "option_1", "text": "Reject all changes to avoid disruptions", "isCorrect": false },
+      { "id": "option_2", "text": "Adapt to changes through iterative development", "isCorrect": true },
+      { "id": "option_3", "text": "Freeze requirements after the first sprint", "isCorrect": false },
+      { "id": "option_4", "text": "Delay work until requirements are final", "isCorrect": false }
+    ],
+    "hint": "Agile embraces change to deliver better value.",
+    "answerDescription": "Iterative development allows teams to incorporate evolving requirements without disrupting the entire project."
+  },
+  {
+    "id": "agile_3023",
+    "question": "Which stakeholder role is most responsible for defining and prioritizing the product backlog?",
+    "options": [
+      { "id": "option_1", "text": "Scrum Master", "isCorrect": false },
+      { "id": "option_2", "text": "Product Owner", "isCorrect": true },
+      { "id": "option_3", "text": "Development Team", "isCorrect": false },
+      { "id": "option_4", "text": "End Users", "isCorrect": false }
+    ],
+    "hint": "This role represents the business and manages the backlog.",
+    "answerDescription": "The Product Owner is responsible for prioritizing the backlog to ensure business value is maximized."
+  },
+  {
+    "id": "agile_3024",
+    "question": "How can Agile teams help stakeholders make informed decisions?",
+    "options": [
+      { "id": "option_1", "text": "By withholding technical details", "isCorrect": false },
+      { "id": "option_2", "text": "By providing regular progress reports and demos", "isCorrect": true },
+      { "id": "option_3", "text": "By limiting stakeholder involvement", "isCorrect": false },
+      { "id": "option_4", "text": "By delaying feedback sessions", "isCorrect": false }
+    ],
+    "hint": "Regular updates empower stakeholders to make better decisions.",
+    "answerDescription": "Frequent demos and progress reports help stakeholders understand project status and make informed decisions."
+  },
+  {
+    "id": "agile_3025",
+    "question": "Why should Agile teams continuously communicate project risks to stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "To shift responsibility for mitigation", "isCorrect": false },
+      { "id": "option_2", "text": "To avoid taking accountability for decisions", "isCorrect": false },
+      { "id": "option_3", "text": "To enable proactive decision-making and adjustments", "isCorrect": true },
+      { "id": "option_4", "text": "To create a sense of urgency regardless of impact", "isCorrect": false }
+    ],
+    "hint": "Transparency in risk management leads to better stakeholder decisions.",
+    "answerDescription": "Communicating risks early helps stakeholders make informed choices and allows teams to take corrective actions proactively."
+  },
+  {
+    "id": "agile_3026",
+    "question": "What is a primary benefit of Agile’s iterative approach for stakeholders?",
+    "options": [
+      { "id": "option_1", "text": "It eliminates the need for stakeholder involvement", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures all work is completed in one release", "isCorrect": false },
+      { "id": "option_3", "text": "It allows stakeholders to provide feedback frequently", "isCorrect": true },
+      { "id": "option_4", "text": "It prevents any changes after development starts", "isCorrect": false }
+    ],
+    "hint": "Frequent feedback loops help refine the product continuously.",
+    "answerDescription": "The iterative approach enables stakeholders to review progress and provide feedback, ensuring the product meets their needs."
+  },
+  {
+    "id": "agile_3027",
+    "question": "How can Agile teams demonstrate value to stakeholders effectively?",
+    "options": [
+      { "id": "option_1", "text": "By focusing solely on documentation", "isCorrect": false },
+      { "id": "option_2", "text": "By avoiding changes to the original plan", "isCorrect": false },
+      { "id": "option_3", "text": "By delivering working software incrementally", "isCorrect": true },
+      { "id": "option_4", "text": "By limiting stakeholder involvement to final reviews", "isCorrect": false }
+    ],
+    "hint": "Working software is a key indicator of progress in Agile.",
+    "answerDescription": "Agile teams showcase value by delivering working software frequently, allowing stakeholders to see real progress."
+  },
+  {
+    "id": "agile_3028",
+    "question": "What is the primary reason for engaging stakeholders early in an Agile project?",
+    "options": [
+      { "id": "option_1", "text": "To finalize all requirements upfront", "isCorrect": false },
+      { "id": "option_2", "text": "To minimize their involvement later", "isCorrect": false },
+      { "id": "option_3", "text": "To align expectations and ensure valuable feedback", "isCorrect": true },
+      { "id": "option_4", "text": "To delegate decision-making responsibilities", "isCorrect": false }
+    ],
+    "hint": "Early involvement helps shape the project direction effectively.",
+    "answerDescription": "Engaging stakeholders early ensures that their expectations align with project goals and facilitates valuable feedback."
+  },
+  {
+    "id": "agile_3029",
+    "question": "How can Agile teams ensure stakeholders remain engaged throughout the project?",
+    "options": [
+      { "id": "option_1", "text": "By limiting stakeholder interactions to the project kickoff", "isCorrect": false },
+      { "id": "option_2", "text": "By presenting only final deliverables", "isCorrect": false },
+      { "id": "option_3", "text": "By providing regular updates and involving them in key decisions", "isCorrect": true },
+      { "id": "option_4", "text": "By requiring stakeholders to attend daily standups", "isCorrect": false }
+    ],
+    "hint": "Ongoing communication keeps stakeholders involved and informed.",
+    "answerDescription": "Regular updates and participation in key decisions help keep stakeholders engaged and aligned with the project's progress."
+  },
+  {
+    "id": "agile_3030",
+    "question": "Why should Agile teams involve stakeholders in Sprint Reviews?",
+    "options": [
+      { "id": "option_1", "text": "To collect final project approvals", "isCorrect": false },
+      { "id": "option_2", "text": "To replace retrospective discussions", "isCorrect": false },
+      { "id": "option_3", "text": "To showcase progress and gather feedback", "isCorrect": true },
+      { "id": "option_4", "text": "To delegate sprint planning tasks", "isCorrect": false }
+    ],
+    "hint": "Sprint Reviews provide visibility and foster collaboration.",
+    "answerDescription": "Sprint Reviews allow stakeholders to see completed work, provide feedback, and align expectations for future sprints."
+},
+{
+    "id": "agile_3031",
+    "question": "What is the primary purpose of user stories in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To define detailed technical specifications", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure only developers understand the requirements", "isCorrect": false },
+      { "id": "option_3", "text": "To capture user needs in a simple, clear format", "isCorrect": true },
+      { "id": "option_4", "text": "To replace all documentation in Agile projects", "isCorrect": false }
+    ],
+    "hint": "User stories focus on user needs rather than technical details.",
+    "answerDescription": "User stories describe the value a feature provides to users in an easily understandable way."
+  },
+  {
+    "id": "agile_3032",
+    "question": "Which format is commonly used for writing user stories?",
+    "options": [
+      { "id": "option_1", "text": "IF-THEN logic statements", "isCorrect": false },
+      { "id": "option_2", "text": "Formal contract-like documents", "isCorrect": false },
+      { "id": "option_3", "text": "As a [role], I want [feature] so that [benefit]", "isCorrect": true },
+      { "id": "option_4", "text": "A numbered list of requirements", "isCorrect": false }
+    ],
+    "hint": "User stories follow a structure that highlights the user’s perspective.",
+    "answerDescription": "The format 'As a [role], I want [feature] so that [benefit]' keeps the focus on user needs and outcomes."
+  },
+  {
+    "id": "agile_3033",
+    "question": "Why are acceptance criteria important in user stories?",
+    "options": [
+      { "id": "option_1", "text": "They specify how users should write code", "isCorrect": false },
+      { "id": "option_2", "text": "They ensure all team members agree on the implementation details", "isCorrect": false },
+      { "id": "option_3", "text": "They define the conditions that must be met for the story to be considered complete", "isCorrect": true },
+      { "id": "option_4", "text": "They make user stories unnecessary", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria help teams define 'done' for a story.",
+    "answerDescription": "Clear acceptance criteria help ensure that development meets the intended purpose of the user story."
+  },
+  {
+    "id": "agile_3034",
+    "question": "What happens if user stories lack clear acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "The story can still be implemented successfully", "isCorrect": false },
+      { "id": "option_2", "text": "Developers will always know exactly what to build", "isCorrect": false },
+      { "id": "option_3", "text": "There may be confusion about what defines 'done'", "isCorrect": true },
+      { "id": "option_4", "text": "Stakeholders will automatically approve the work", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria provide a shared understanding of completion.",
+    "answerDescription": "Without clear acceptance criteria, teams risk misunderstanding requirements, leading to rework."
+  },
+  {
+    "id": "agile_3035",
+    "question": "Which characteristic is essential for a well-written user story?",
+    "options": [
+      { "id": "option_1", "text": "It contains extensive technical details", "isCorrect": false },
+      { "id": "option_2", "text": "It includes a fixed implementation approach", "isCorrect": false },
+      { "id": "option_3", "text": "It is concise, user-focused, and testable", "isCorrect": true },
+      { "id": "option_4", "text": "It defines a full product roadmap", "isCorrect": false }
+    ],
+    "hint": "Good user stories should be easy to understand and verify.",
+    "answerDescription": "A good user story is simple, focused on the user, and includes testable criteria."
+  },
+  {
+    "id": "agile_3036",
+    "question": "What is the INVEST principle in relation to user stories?",
+    "options": [
+      { "id": "option_1", "text": "A financial strategy for Agile teams", "isCorrect": false },
+      { "id": "option_2", "text": "A way to prioritize backlog items based on cost", "isCorrect": false },
+      { "id": "option_3", "text": "A guideline ensuring stories are Independent, Negotiable, Valuable, Estimable, Small, and Testable", "isCorrect": true },
+      { "id": "option_4", "text": "A formula for calculating project ROI", "isCorrect": false }
+    ],
+    "hint": "The INVEST principle helps define quality user stories.",
+    "answerDescription": "Following the INVEST criteria ensures user stories are structured effectively for Agile teams."
+  },
+  {
+    "id": "agile_3037",
+    "question": "How do user stories help Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "By focusing only on technical implementation", "isCorrect": false },
+      { "id": "option_2", "text": "By ensuring only business analysts write requirements", "isCorrect": false },
+      { "id": "option_3", "text": "By providing a shared understanding of customer needs", "isCorrect": true },
+      { "id": "option_4", "text": "By defining exact coding steps for developers", "isCorrect": false }
+    ],
+    "hint": "User stories facilitate communication between teams and stakeholders.",
+    "answerDescription": "User stories bridge the gap between users and developers, helping teams deliver meaningful features."
+  },
+  {
+    "id": "agile_3038",
+    "question": "What should be avoided when writing user stories?",
+    "options": [
+      { "id": "option_1", "text": "Keeping the focus on user needs", "isCorrect": false },
+      { "id": "option_2", "text": "Ensuring stories are independent", "isCorrect": false },
+      { "id": "option_3", "text": "Overloading stories with technical details", "isCorrect": true },
+      { "id": "option_4", "text": "Including acceptance criteria", "isCorrect": false }
+    ],
+    "hint": "User stories should remain simple and focused on the user.",
+    "answerDescription": "Too much technical detail in a user story can shift the focus away from the user’s needs."
+  },
+  {
+    "id": "agile_3039",
+    "question": "What is a common way to refine user stories?",
+    "options": [
+      { "id": "option_1", "text": "Adding more complex details", "isCorrect": false },
+      { "id": "option_2", "text": "Rewriting them as long technical documents", "isCorrect": false },
+      { "id": "option_3", "text": "Breaking large stories into smaller, manageable ones", "isCorrect": true },
+      { "id": "option_4", "text": "Ignoring stakeholder feedback", "isCorrect": false }
+    ],
+    "hint": "Smaller user stories make implementation easier.",
+    "answerDescription": "Breaking down user stories ensures they remain actionable and achievable within sprints."
+  },
+  {
+    "id": "agile_3040",
+    "question": "Why should teams regularly review and update user stories?",
+    "options": [
+      { "id": "option_1", "text": "To make them more complex over time", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure they stay aligned with evolving project needs", "isCorrect": true },
+      { "id": "option_3", "text": "To replace user stories with technical requirements", "isCorrect": false },
+      { "id": "option_4", "text": "To increase project scope", "isCorrect": false }
+    ],
+    "hint": "User stories should reflect changing priorities and feedback.",
+    "answerDescription": "Regularly updating user stories keeps them relevant and aligned with project goals."
+  },
+ {
+    "id": "agile_3041",
+    "question": "Which of the following is NOT a key characteristic of a well-written user story?",
+    "options": [
+      { "id": "option_1", "text": "Independent", "isCorrect": false },
+      { "id": "option_2", "text": "Negotiable", "isCorrect": false },
+      { "id": "option_3", "text": "Testable", "isCorrect": false },
+      { "id": "option_4", "text": "Highly technical", "isCorrect": true }
+    ],
+    "hint": "User stories should be user-centric rather than focused on technical details.",
+    "answerDescription": "A well-written user story should be clear and testable, avoiding unnecessary technical complexity."
+  },
+  {
+    "id": "agile_3042",
+    "question": "Why should user stories be small and manageable?",
+    "options": [
+      { "id": "option_1", "text": "To reduce team communication", "isCorrect": false },
+      { "id": "option_2", "text": "To make them difficult to estimate", "isCorrect": false },
+      { "id": "option_3", "text": "To allow for multiple stakeholders' opinions", "isCorrect": false },
+      { "id": "option_4", "text": "To enable faster development and testing", "isCorrect": true }
+    ],
+    "hint": "Smaller stories are easier to implement and validate.",
+    "answerDescription": "Breaking down user stories ensures they can be completed and tested within a sprint."
+  },
+  {
+    "id": "agile_3043",
+    "question": "What is the primary goal of acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "To describe the user interface in detail", "isCorrect": false },
+      { "id": "option_2", "text": "To limit the scope of a project", "isCorrect": false },
+      { "id": "option_3", "text": "To provide flexibility in feature implementation", "isCorrect": false },
+      { "id": "option_4", "text": "To define what must be met for a story to be considered complete", "isCorrect": true }
+    ],
+    "hint": "Acceptance criteria help define 'done' for a user story.",
+    "answerDescription": "They ensure that all stakeholders agree on what needs to be achieved before a story is accepted."
+  },
+  {
+    "id": "agile_3044",
+    "question": "Which of the following best describes a good user story?",
+    "options": [
+      { "id": "option_1", "text": "A detailed technical specification", "isCorrect": false },
+      { "id": "option_2", "text": "A description of the expected software behavior", "isCorrect": false },
+      { "id": "option_3", "text": "A list of feature requirements", "isCorrect": false },
+      { "id": "option_4", "text": "A concise, user-focused statement with clear goals", "isCorrect": true }
+    ],
+    "hint": "User stories should be simple and user-centric.",
+    "answerDescription": "A well-written user story is short, to the point, and focused on user needs."
+  },
+  {
+    "id": "agile_3045",
+    "question": "What is a common mistake when writing user stories?",
+    "options": [
+      { "id": "option_1", "text": "Keeping them simple and user-focused", "isCorrect": false },
+      { "id": "option_2", "text": "Using the 'As a... I want... so that...' format", "isCorrect": false },
+      { "id": "option_3", "text": "Defining clear acceptance criteria", "isCorrect": false },
+      { "id": "option_4", "text": "Adding too much technical detail", "isCorrect": true }
+    ],
+    "hint": "User stories should focus on what the user needs, not technical specifics.",
+    "answerDescription": "Too much technical detail can make stories hard to understand and reduce flexibility."
+  },
+  {
+    "id": "agile_3046",
+    "question": "What should teams do if a user story is too large?",
+    "options": [
+      { "id": "option_1", "text": "Reject it entirely", "isCorrect": false },
+      { "id": "option_2", "text": "Implement it without changes", "isCorrect": false },
+      { "id": "option_3", "text": "Ignore any acceptance criteria", "isCorrect": false },
+      { "id": "option_4", "text": "Break it down into smaller, manageable stories", "isCorrect": true }
+    ],
+    "hint": "Smaller user stories improve clarity and execution.",
+    "answerDescription": "Large stories should be refined into smaller units to ensure they can be completed in a sprint."
+  },
+  {
+    "id": "agile_3047",
+    "question": "Who is primarily responsible for writing user stories?",
+    "options": [
+      { "id": "option_1", "text": "Software developers", "isCorrect": false },
+      { "id": "option_2", "text": "Testers", "isCorrect": false },
+      { "id": "option_3", "text": "Project managers", "isCorrect": false },
+      { "id": "option_4", "text": "The product owner with input from the team", "isCorrect": true }
+    ],
+    "hint": "The person responsible for maximizing product value usually writes user stories.",
+    "answerDescription": "The product owner typically writes user stories, incorporating feedback from the development team and stakeholders."
+  },
+  {
+    "id": "agile_3048",
+    "question": "Why should acceptance criteria be written before development begins?",
+    "options": [
+      { "id": "option_1", "text": "To allow developers to write code before planning", "isCorrect": false },
+      { "id": "option_2", "text": "To reduce stakeholder involvement", "isCorrect": false },
+      { "id": "option_3", "text": "To avoid changing requirements later", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure a shared understanding of what 'done' means", "isCorrect": true }
+    ],
+    "hint": "Clarity before development prevents misunderstandings.",
+    "answerDescription": "Writing acceptance criteria early helps all team members understand expectations before work starts."
+  },
+  {
+    "id": "agile_3049",
+    "question": "What is the main reason for prioritizing user stories in a backlog?",
+    "options": [
+      { "id": "option_1", "text": "To assign work randomly", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure developers work on the easiest tasks first", "isCorrect": false },
+      { "id": "option_3", "text": "To focus on the most valuable features first", "isCorrect": true },
+      { "id": "option_4", "text": "To follow a strict order without flexibility", "isCorrect": false }
+    ],
+    "hint": "The backlog helps deliver high-value features first.",
+    "answerDescription": "Prioritizing user stories ensures that teams work on the most important and impactful features first."
+  },
+  {
+    "id": "agile_3050",
+    "question": "Which factor should NOT determine the priority of a user story?",
+    "options": [
+      { "id": "option_1", "text": "Customer value", "isCorrect": false },
+      { "id": "option_2", "text": "Business impact", "isCorrect": false },
+      { "id": "option_3", "text": "Technical complexity", "isCorrect": false },
+      { "id": "option_4", "text": "Personal preference of the developer", "isCorrect": true }
+    ],
+    "hint": "Story priority should align with business and customer needs.",
+    "answerDescription": "Prioritization should be based on value and impact, not individual preferences."
+  },
   
 
+
+
+  
+  
+  
+  
+
+
+
+  
  
 ]
