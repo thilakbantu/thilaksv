@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "banking_001",
     "question": "What is the primary function of the stock market?",
     "options": [
@@ -1188,7 +1189,8 @@
     ],
     "hint": "This is a performance measure used to evaluate the return of an investment compared to its expected return based on market risk.",
     "answerDescription": "Alpha measures an investment's ability to beat the market's performance, adjusting for the risk taken on by the investor."
-  },{
+  },
+  {
     "id": "banking_101",
     "question": "What is 'compound interest'?",
     "options": [

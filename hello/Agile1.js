@@ -36228,17 +36228,1809 @@
     "hint": "Story priority should align with business and customer needs.",
     "answerDescription": "Prioritization should be based on value and impact, not individual preferences."
   },
+  {
+    "id": "agile_3051",
+    "question": "What is the primary benefit of using user stories in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "They help capture user needs in a simple and understandable way", "isCorrect": true },
+      { "id": "option_2", "text": "They eliminate the need for communication with stakeholders", "isCorrect": false },
+      { "id": "option_3", "text": "They ensure developers work independently without guidance", "isCorrect": false },
+      { "id": "option_4", "text": "They replace all technical documentation", "isCorrect": false }
+    ],
+    "hint": "User stories focus on user needs rather than technical details.",
+    "answerDescription": "User stories provide a clear, user-centric way to define requirements that guide development."
+  },
+  {
+    "id": "agile_3052",
+    "question": "Which format is most commonly used when writing a user story?",
+    "options": [
+      { "id": "option_1", "text": "As a [user], I want [feature], so that [benefit]", "isCorrect": true },
+      { "id": "option_2", "text": "A detailed technical specification document", "isCorrect": false },
+      { "id": "option_3", "text": "A bulleted list of system functionalities", "isCorrect": false },
+      { "id": "option_4", "text": "A flowchart of the system architecture", "isCorrect": false }
+    ],
+    "hint": "A standard template exists to ensure clarity in user stories.",
+    "answerDescription": "The 'As a... I want... so that...' format ensures that stories remain focused on the user’s perspective and benefits."
+  },
+  {
+    "id": "agile_3053",
+    "question": "What makes a user story testable?",
+    "options": [
+      { "id": "option_1", "text": "Having well-defined acceptance criteria", "isCorrect": true },
+      { "id": "option_2", "text": "Being vague to allow flexibility", "isCorrect": false },
+      { "id": "option_3", "text": "Only describing the business goal", "isCorrect": false },
+      { "id": "option_4", "text": "Being purely technical without any user perspective", "isCorrect": false }
+    ],
+    "hint": "A story should have measurable success conditions.",
+    "answerDescription": "Acceptance criteria define the conditions under which a story is considered complete, making it testable."
+  },
+  {
+    "id": "agile_3054",
+    "question": "Why should user stories avoid technical jargon?",
+    "options": [
+      { "id": "option_1", "text": "To ensure that all stakeholders can understand them", "isCorrect": true },
+      { "id": "option_2", "text": "To make them easier for developers only", "isCorrect": false },
+      { "id": "option_3", "text": "To limit stakeholder involvement", "isCorrect": false },
+      { "id": "option_4", "text": "To increase complexity and specificity", "isCorrect": false }
+    ],
+    "hint": "User stories should be accessible to non-technical stakeholders.",
+    "answerDescription": "A good user story should be understandable by business and development teams alike, facilitating collaboration."
+  },
+  {
+    "id": "agile_3055",
+    "question": "What role do acceptance criteria play in user stories?",
+    "options": [
+      { "id": "option_1", "text": "They define the conditions for accepting a story as complete", "isCorrect": true },
+      { "id": "option_2", "text": "They specify only the UI design details", "isCorrect": false },
+      { "id": "option_3", "text": "They serve as a replacement for test cases", "isCorrect": false },
+      { "id": "option_4", "text": "They describe how developers should write code", "isCorrect": false }
+    ],
+    "hint": "They ensure everyone agrees on when a story is done.",
+    "answerDescription": "Acceptance criteria provide clear expectations for when a story is considered finished, ensuring quality and alignment."
+  },
+  {
+    "id": "agile_3056",
+    "question": "What is a common mistake teams make when defining acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "Not making them specific and measurable", "isCorrect": true },
+      { "id": "option_2", "text": "Keeping them clear and concise", "isCorrect": false },
+      { "id": "option_3", "text": "Ensuring they are aligned with business goals", "isCorrect": false },
+      { "id": "option_4", "text": "Reviewing them with stakeholders", "isCorrect": false }
+    ],
+    "hint": "Vague criteria make it difficult to validate completion.",
+    "answerDescription": "Acceptance criteria should be specific and testable to ensure clarity on what defines a successful implementation."
+  },
+  {
+    "id": "agile_3057",
+    "question": "Why is it important for user stories to be independent?",
+    "options": [
+      { "id": "option_1", "text": "To allow teams to work on them in any order", "isCorrect": true },
+      { "id": "option_2", "text": "To make planning more complex", "isCorrect": false },
+      { "id": "option_3", "text": "To increase the dependency between teams", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure all features are delivered together", "isCorrect": false }
+    ],
+    "hint": "User stories should not be blocked by others.",
+    "answerDescription": "Independent stories enable teams to prioritize and deliver value without unnecessary dependencies."
+  },
+  {
+    "id": "agile_3058",
+    "question": "What is the INVEST principle in Agile user stories?",
+    "options": [
+      { "id": "option_1", "text": "A guideline for writing effective user stories", "isCorrect": true },
+      { "id": "option_2", "text": "A project budgeting technique", "isCorrect": false },
+      { "id": "option_3", "text": "A performance tracking metric", "isCorrect": false },
+      { "id": "option_4", "text": "A tool for estimating story points", "isCorrect": false }
+    ],
+    "hint": "It stands for Independent, Negotiable, Valuable, Estimable, Small, Testable.",
+    "answerDescription": "The INVEST principle ensures that user stories are well-defined and actionable for Agile teams."
+  },
+  {
+    "id": "agile_3059",
+    "question": "Why should user stories be small enough to complete in a single sprint?",
+    "options": [
+      { "id": "option_1", "text": "To ensure quick feedback and iteration", "isCorrect": true },
+      { "id": "option_2", "text": "To make sprint planning more difficult", "isCorrect": false },
+      { "id": "option_3", "text": "To limit the scope of Agile teams", "isCorrect": false },
+      { "id": "option_4", "text": "To reduce collaboration between developers", "isCorrect": false }
+    ],
+    "hint": "Shorter stories improve adaptability and delivery speed.",
+    "answerDescription": "Small stories allow teams to deliver working features quickly and adapt to changes more easily."
+  },
+  {
+    "id": "agile_3060",
+    "question": "Who should be involved in defining acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "The product owner, developers, and testers", "isCorrect": true },
+      { "id": "option_2", "text": "Only the product owner", "isCorrect": false },
+      { "id": "option_3", "text": "Only the development team", "isCorrect": false },
+      { "id": "option_4", "text": "Only the QA team", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria require collaboration from multiple roles.",
+    "answerDescription": "By involving all key stakeholders, teams ensure that acceptance criteria align with business needs and technical feasibility."
+  },
+  {
+    "id": "agile_3061",
+    "question": "What is the characteristic of a well-written user story?",
+    "options": [
+      { "id": "option_1", "text": "It contains detailed technical specifications", "isCorrect": false },
+      { "id": "option_2", "text": "It is focused on user needs and business value", "isCorrect": true },
+      { "id": "option_3", "text": "It includes all possible edge cases", "isCorrect": false },
+      { "id": "option_4", "text": "It is written in complex language for developers", "isCorrect": false }
+    ],
+    "hint": "A good user story should prioritize the end-user experience.",
+    "answerDescription": "User stories are meant to capture user needs in a simple and business-focused way, ensuring alignment with product goals."
+  },
+  {
+    "id": "agile_3062",
+    "question": "Why should acceptance criteria be defined before development begins?",
+    "options": [
+      { "id": "option_1", "text": "To prevent developers from making design decisions", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure alignment on expected outcomes", "isCorrect": true },
+      { "id": "option_3", "text": "To reduce the need for testing", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid writing test cases", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria define when a user story is considered done.",
+    "answerDescription": "Defining acceptance criteria early ensures that everyone involved understands what is needed for successful implementation."
+  },
+  {
+    "id": "agile_3063",
+    "question": "Which of the following is NOT an ideal characteristic of a user story?",
+    "options": [
+      { "id": "option_1", "text": "It is independent of other stories", "isCorrect": false },
+      { "id": "option_2", "text": "It is highly technical and difficult to understand", "isCorrect": true },
+      { "id": "option_3", "text": "It delivers value to the user", "isCorrect": false },
+      { "id": "option_4", "text": "It is small enough to complete in one sprint", "isCorrect": false }
+    ],
+    "hint": "User stories should be simple and accessible to all stakeholders.",
+    "answerDescription": "A user story should be clear, focused on value, and understandable, rather than overly technical."
+  },
+  {
+    "id": "agile_3064",
+    "question": "Which element is typically included in well-defined acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "A list of all technical requirements", "isCorrect": false },
+      { "id": "option_2", "text": "Clear conditions that determine if a story is complete", "isCorrect": true },
+      { "id": "option_3", "text": "A timeline for project delivery", "isCorrect": false },
+      { "id": "option_4", "text": "A breakdown of internal team tasks", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria define what success looks like for a story.",
+    "answerDescription": "Well-defined acceptance criteria provide clear, testable conditions for story completion, ensuring alignment among stakeholders."
+  },
+  {
+    "id": "agile_3065",
+    "question": "What is the primary purpose of writing user stories?",
+    "options": [
+      { "id": "option_1", "text": "To specify implementation details for developers", "isCorrect": false },
+      { "id": "option_2", "text": "To describe the desired functionality from a user's perspective", "isCorrect": true },
+      { "id": "option_3", "text": "To document technical architecture", "isCorrect": false },
+      { "id": "option_4", "text": "To replace formal requirement documents", "isCorrect": false }
+    ],
+    "hint": "User stories should capture user needs rather than technical details.",
+    "answerDescription": "User stories focus on describing functionality in terms of user goals, ensuring alignment with business value."
+  },
+  {
+    "id": "agile_3066",
+    "question": "Which of the following is a common mistake when writing acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "Making them specific and measurable", "isCorrect": false },
+      { "id": "option_2", "text": "Leaving them vague or ambiguous", "isCorrect": true },
+      { "id": "option_3", "text": "Ensuring they align with business needs", "isCorrect": false },
+      { "id": "option_4", "text": "Defining testable conditions", "isCorrect": false }
+    ],
+    "hint": "Ambiguous criteria make testing difficult.",
+    "answerDescription": "Acceptance criteria should be clear and measurable to ensure that development meets user expectations."
+  },
+  {
+    "id": "agile_3067",
+    "question": "Why should user stories be negotiable?",
+    "options": [
+      { "id": "option_1", "text": "To allow for flexibility in implementation", "isCorrect": false },
+      { "id": "option_2", "text": "To enable collaboration between stakeholders and development teams", "isCorrect": true },
+      { "id": "option_3", "text": "To change requirements frequently without structure", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid defining clear goals", "isCorrect": false }
+    ],
+    "hint": "User stories should encourage discussion and refinement.",
+    "answerDescription": "A negotiable story allows room for collaboration, ensuring that both business and technical needs are met."
+  },
+  {
+    "id": "agile_3068",
+    "question": "How do acceptance criteria support test automation?",
+    "options": [
+      { "id": "option_1", "text": "By providing a list of potential test cases", "isCorrect": false },
+      { "id": "option_2", "text": "By defining expected behavior that can be validated", "isCorrect": true },
+      { "id": "option_3", "text": "By replacing the need for manual testing", "isCorrect": false },
+      { "id": "option_4", "text": "By eliminating the need for QA involvement", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria guide what should be tested.",
+    "answerDescription": "Well-written acceptance criteria help automate tests by clearly defining expected functionality and conditions for success."
+  },
+  {
+    "id": "agile_3069",
+    "question": "What is an effective way to ensure user stories meet business needs?",
+    "options": [
+      { "id": "option_1", "text": "Having only the development team review them", "isCorrect": false },
+      { "id": "option_2", "text": "Collaborating with stakeholders throughout the process", "isCorrect": true },
+      { "id": "option_3", "text": "Skipping refinement meetings to save time", "isCorrect": false },
+      { "id": "option_4", "text": "Making them as broad and generic as possible", "isCorrect": false }
+    ],
+    "hint": "Business stakeholders should be actively involved in defining stories.",
+    "answerDescription": "Engaging stakeholders ensures that user stories align with real business requirements and priorities."
+  },
+  {
+    "id": "agile_3070",
+    "question": "Which of the following is a key benefit of defining clear acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "It allows developers to work without testing", "isCorrect": false },
+      { "id": "option_2", "text": "It ensures shared understanding of success criteria", "isCorrect": true },
+      { "id": "option_3", "text": "It eliminates the need for user feedback", "isCorrect": false },
+      { "id": "option_4", "text": "It replaces agile ceremonies", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria ensure everyone agrees on what 'done' means.",
+    "answerDescription": "Clear acceptance criteria provide a common understanding, reducing confusion and ensuring quality outcomes."
+  },  {
+    "id": "agile_3071",
+    "question": "What is the primary reason for using the INVEST criteria when writing user stories?",
+    "options": [
+      { "id": "option_1", "text": "To ensure stories are written in technical language", "isCorrect": false },
+      { "id": "option_2", "text": "To create stories that are large and complex", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure stories are independent, valuable, and testable", "isCorrect": true },
+      { "id": "option_4", "text": "To avoid collaboration with stakeholders", "isCorrect": false }
+    ],
+    "hint": "INVEST helps make user stories clear and actionable.",
+    "answerDescription": "The INVEST criteria help ensure user stories are well-structured and deliver value efficiently."
+  },
+  {
+    "id": "agile_3072",
+    "question": "Which of the following best describes acceptance criteria in Agile?",
+    "options": [
+      { "id": "option_1", "text": "A checklist for documenting design details", "isCorrect": false },
+      { "id": "option_2", "text": "A way to replace product backlog items", "isCorrect": false },
+      { "id": "option_3", "text": "A set of conditions that must be met for a story to be accepted", "isCorrect": true },
+      { "id": "option_4", "text": "A list of potential implementation methods", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria help define when a story is considered done.",
+    "answerDescription": "Well-defined acceptance criteria establish clear conditions that ensure a story meets business and user needs."
+  },
+  {
+    "id": "agile_3073",
+    "question": "Why should user stories be written in a non-technical language?",
+    "options": [
+      { "id": "option_1", "text": "To prevent developers from making changes", "isCorrect": false },
+      { "id": "option_2", "text": "To make them difficult to implement", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure all stakeholders can understand them", "isCorrect": true },
+      { "id": "option_4", "text": "To avoid documenting business value", "isCorrect": false }
+    ],
+    "hint": "User stories should be understandable by both business and technical teams.",
+    "answerDescription": "User stories should be written in simple, user-focused language so that all stakeholders can engage with them."
+  },
+  {
+    "id": "agile_3074",
+    "question": "Which of the following is NOT a benefit of writing clear acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "It helps ensure alignment between developers and stakeholders", "isCorrect": false },
+      { "id": "option_2", "text": "It reduces ambiguity in requirements", "isCorrect": false },
+      { "id": "option_3", "text": "It eliminates the need for testing", "isCorrect": true },
+      { "id": "option_4", "text": "It supports better estimation and planning", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria guide development but do not replace testing.",
+    "answerDescription": "While clear acceptance criteria help in development, they do not remove the need for proper testing."
+  },
+  {
+    "id": "agile_3075",
+    "question": "What makes a user story ‘valuable’ in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "It contains detailed technical specifications", "isCorrect": false },
+      { "id": "option_2", "text": "It is written only for developers", "isCorrect": false },
+      { "id": "option_3", "text": "It delivers a benefit to users or the business", "isCorrect": true },
+      { "id": "option_4", "text": "It follows a strict format regardless of context", "isCorrect": false }
+    ],
+    "hint": "A valuable user story must provide benefits to stakeholders.",
+    "answerDescription": "A valuable user story ensures that each feature contributes to business objectives and user satisfaction."
+  },
+  {
+    "id": "agile_3076",
+    "question": "What is a common challenge in defining acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "Ensuring they are testable and measurable", "isCorrect": false },
+      { "id": "option_2", "text": "Writing them before development starts", "isCorrect": false },
+      { "id": "option_3", "text": "Keeping them vague and open-ended", "isCorrect": true },
+      { "id": "option_4", "text": "Aligning them with user needs", "isCorrect": false }
+    ],
+    "hint": "Vague acceptance criteria lead to misunderstandings.",
+    "answerDescription": "Acceptance criteria should be clearly defined to provide precise validation points for a story."
+  },
+  {
+    "id": "agile_3077",
+    "question": "How can teams improve the quality of their user stories?",
+    "options": [
+      { "id": "option_1", "text": "By making them as broad as possible", "isCorrect": false },
+      { "id": "option_2", "text": "By writing them without stakeholder input", "isCorrect": false },
+      { "id": "option_3", "text": "By refining them through backlog grooming sessions", "isCorrect": true },
+      { "id": "option_4", "text": "By avoiding acceptance criteria", "isCorrect": false }
+    ],
+    "hint": "User stories improve through continuous refinement.",
+    "answerDescription": "Regular backlog grooming sessions help ensure user stories remain clear, actionable, and aligned with business needs."
+  },
+  {
+    "id": "agile_3078",
+    "question": "Which of the following best describes a well-written acceptance criterion?",
+    "options": [
+      { "id": "option_1", "text": "It contains ambiguous expectations", "isCorrect": false },
+      { "id": "option_2", "text": "It requires interpretation by the development team", "isCorrect": false },
+      { "id": "option_3", "text": "It clearly defines expected behavior and outcomes", "isCorrect": true },
+      { "id": "option_4", "text": "It replaces the need for conversations", "isCorrect": false }
+    ],
+    "hint": "Good acceptance criteria leave no room for confusion.",
+    "answerDescription": "A well-defined acceptance criterion provides clear, measurable, and testable conditions for story completion."
+  },
+  {
+    "id": "agile_3079",
+    "question": "How do well-defined user stories contribute to Agile project success?",
+    "options": [
+      { "id": "option_1", "text": "By reducing the need for testing", "isCorrect": false },
+      { "id": "option_2", "text": "By increasing project documentation", "isCorrect": false },
+      { "id": "option_3", "text": "By ensuring clear requirements and user focus", "isCorrect": true },
+      { "id": "option_4", "text": "By eliminating the need for stakeholder involvement", "isCorrect": false }
+    ],
+    "hint": "Clear user stories improve project alignment and execution.",
+    "answerDescription": "Well-defined user stories ensure teams understand and deliver value-driven features effectively."
+  },
+  {
+    "id": "agile_3080",
+    "question": "Which aspect is NOT typically included in user stories?",
+    "options": [
+      { "id": "option_1", "text": "User role or persona", "isCorrect": false },
+      { "id": "option_2", "text": "Expected outcome or value", "isCorrect": false },
+      { "id": "option_3", "text": "Detailed technical implementation", "isCorrect": true },
+      { "id": "option_4", "text": "Acceptance criteria", "isCorrect": false }
+    ],
+    "hint": "User stories focus on needs, not implementation details.",
+    "answerDescription": "User stories capture the 'what' and 'why' rather than the 'how' of implementation."
+  },
+  {
+    "id": "agile_3081",
+    "question": "What is the primary purpose of a user story in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To describe technical specifications", "isCorrect": false },
+      { "id": "option_2", "text": "To create long documentation", "isCorrect": false },
+      { "id": "option_3", "text": "To restrict stakeholder involvement", "isCorrect": false },
+      { "id": "option_4", "text": "To capture a user’s needs and expected outcomes", "isCorrect": true }
+    ],
+    "hint": "User stories focus on delivering value to users.",
+    "answerDescription": "User stories help ensure Agile teams build features that align with user needs and business objectives."
+  },
+  {
+    "id": "agile_3082",
+    "question": "Which component is essential in a well-defined acceptance criterion?",
+    "options": [
+      { "id": "option_1", "text": "Vague requirements", "isCorrect": false },
+      { "id": "option_2", "text": "Detailed UI design elements", "isCorrect": false },
+      { "id": "option_3", "text": "Implementation details", "isCorrect": false },
+      { "id": "option_4", "text": "Clear and measurable conditions", "isCorrect": true }
+    ],
+    "hint": "Acceptance criteria should define what must be met for a story to be complete.",
+    "answerDescription": "Clear and measurable acceptance criteria ensure that teams can validate whether a story is complete."
+  },
+  {
+    "id": "agile_3083",
+    "question": "Why we should write the acceptance criteria before the development begins?",
+    "options": [
+      { "id": "option_1", "text": "To increase development complexity", "isCorrect": false },
+      { "id": "option_2", "text": "To eliminate the need for testing", "isCorrect": false },
+      { "id": "option_3", "text": "To replace the need for user feedback", "isCorrect": false },
+      { "id": "option_4", "text": "To establish clear expectations for completion", "isCorrect": true }
+    ],
+    "hint": "Well-defined acceptance criteria guide development and testing.",
+    "answerDescription": "Acceptance criteria ensure that all stakeholders understand the expected functionality before development starts."
+  },
+  {
+    "id": "agile_3084",
+    "question": "How does defining acceptance criteria benefit an Agile team?",
+    "options": [
+      { "id": "option_1", "text": "It eliminates the need for communication", "isCorrect": false },
+      { "id": "option_2", "text": "It increases the number of user stories required", "isCorrect": false },
+      { "id": "option_3", "text": "It makes backlog refinement unnecessary", "isCorrect": false },
+      { "id": "option_4", "text": "It ensures alignment between stakeholders and developers", "isCorrect": true }
+    ],
+    "hint": "Acceptance criteria help bridge the gap between business needs and technical implementation.",
+    "answerDescription": "Clearly defined acceptance criteria align teams, ensuring that features meet business requirements and user needs."
+  },
+  {
+    "id": "agile_3085",
+    "question": "What is a key characteristic of an effective user story?",
+    "options": [
+      { "id": "option_1", "text": "It is long and highly detailed", "isCorrect": false },
+      { "id": "option_2", "text": "It focuses on technical implementation", "isCorrect": false },
+      { "id": "option_3", "text": "It excludes acceptance criteria", "isCorrect": false },
+      { "id": "option_4", "text": "It describes a small, valuable piece of functionality", "isCorrect": true }
+    ],
+    "hint": "User stories should be concise and provide value to the user.",
+    "answerDescription": "An effective user story is small enough to be completed in a sprint while delivering clear value."
+  },
+  {
+    "id": "agile_3086",
+    "question": "Which statement about user stories is true?",
+    "options": [
+      { "id": "option_1", "text": "They should contain detailed technical solutions", "isCorrect": false },
+      { "id": "option_2", "text": "They must be written only by developers", "isCorrect": false },
+      { "id": "option_3", "text": "They should be as broad as possible", "isCorrect": false },
+      { "id": "option_4", "text": "They are written from the user’s perspective", "isCorrect": true }
+    ],
+    "hint": "User stories describe what the user wants to achieve, not how it is built.",
+    "answerDescription": "User stories focus on the user's perspective to ensure development aligns with actual needs."
+  },
+  {
+    "id": "agile_3087",
+    "question": "What is a potential risk of not having clear acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "User stories will be too simple", "isCorrect": false },
+      { "id": "option_2", "text": "The development team will not need testing", "isCorrect": false },
+      { "id": "option_3", "text": "The backlog will become too small", "isCorrect": false },
+      { "id": "option_4", "text": "Different stakeholders may have different expectations", "isCorrect": true }
+    ],
+    "hint": "Without acceptance criteria, there is no clear definition of 'done.'",
+    "answerDescription": "Lack of clear acceptance criteria can lead to misalignment between stakeholders and developers."
+  },
+  {
+    "id": "agile_3088",
+    "question": "Why is it important to prioritize user stories in a product backlog?",
+    "options": [
+      { "id": "option_1", "text": "To increase documentation requirements", "isCorrect": false },
+      { "id": "option_2", "text": "To prevent developers from contributing", "isCorrect": false },
+      { "id": "option_3", "text": "To create unnecessary work for the team", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure high-value features are developed first", "isCorrect": true }
+    ],
+    "hint": "Prioritization helps teams deliver the most impactful features first.",
+    "answerDescription": "Well-prioritized backlogs ensure that teams focus on the most valuable user stories first."
+  },
+  {
+    "id": "agile_3089",
+    "question": "Which Agile practice helps refine user stories over time?",
+    "options": [
+      { "id": "option_1", "text": "Pair programming", "isCorrect": false },
+      { "id": "option_2", "text": "Test-driven development", "isCorrect": false },
+      { "id": "option_3", "text": "Daily stand-ups", "isCorrect": false },
+      { "id": "option_4", "text": "Backlog grooming", "isCorrect": true }
+    ],
+    "hint": "This practice ensures user stories remain relevant and well-defined.",
+    "answerDescription": "Backlog grooming sessions help refine user stories, making them more precise and actionable."
+  },
+  {
+    "id": "agile_3090",
+    "question": "What happens when a user story does not meet its acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "It is automatically marked as done", "isCorrect": false },
+      { "id": "option_2", "text": "It is added to the next sprint without discussion", "isCorrect": false },
+      { "id": "option_3", "text": "It is ignored by the team", "isCorrect": false },
+      { "id": "option_4", "text": "It is reviewed and either refined or reworked", "isCorrect": true }
+    ],
+    "hint": "User stories must meet acceptance criteria before being marked as complete.",
+    "answerDescription": "When a user story does not meet its acceptance criteria, it needs further refinement or implementation adjustments."
+  },
+  {
+    "id": "3091",
+    "question": "What is the primary purpose of acceptance criteria in a user story?",
+    "options": [
+      { "id": "option_1", "text": "To define the conditions for meeting the story's requirements", "isCorrect": true },
+      { "id": "option_2", "text": "To replace the user story itself", "isCorrect": false },
+      { "id": "option_3", "text": "To describe the technical implementation details", "isCorrect": false },
+      { "id": "option_4", "text": "To prioritize backlog items", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria help verify whether a story is complete.",
+    "answerDescription": "Acceptance criteria provide clear conditions that must be met for a user story to be considered done."
+  },
+  {
+    "id": "3092",
+    "question": "Which of the following is a key characteristic of a well-written user story?",
+    "options": [
+      { "id": "option_1", "text": "It is written in a simple and user-centric manner", "isCorrect": true },
+      { "id": "option_2", "text": "It includes all possible technical specifications", "isCorrect": false },
+      { "id": "option_3", "text": "It is assigned to a specific developer", "isCorrect": false },
+      { "id": "option_4", "text": "It is detailed enough to cover all future changes", "isCorrect": false }
+    ],
+    "hint": "User stories focus on user needs rather than technical details.",
+    "answerDescription": "A well-written user story is simple, clear, and focused on the user’s perspective."
+  },
+  {
+    "id": "3093",
+    "question": "Why should user stories follow the INVEST principle?",
+    "options": [
+      { "id": "option_1", "text": "To ensure they are Independent, Negotiable, Valuable, Estimable, Small, and Testable", "isCorrect": true },
+      { "id": "option_2", "text": "To include as many technical details as possible", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure they are always assigned to a senior developer", "isCorrect": false },
+      { "id": "option_4", "text": "To replace the need for acceptance criteria", "isCorrect": false }
+    ],
+    "hint": "INVEST ensures user stories are high quality and manageable.",
+    "answerDescription": "The INVEST principle helps teams create well-structured and effective user stories."
+  },
+  {
+    "id": "3094",
+    "question": "How do acceptance criteria benefit Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "They define when a user story is considered done", "isCorrect": true },
+      { "id": "option_2", "text": "They ensure that only developers can approve a feature", "isCorrect": false },
+      { "id": "option_3", "text": "They allow stakeholders to rewrite user stories", "isCorrect": false },
+      { "id": "option_4", "text": "They replace the need for sprint planning", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria help define completion standards for a story.",
+    "answerDescription": "Acceptance criteria serve as a guideline for teams to determine when a user story is successfully implemented."
+  },
+  {
+    "id": "3095",
+    "question": "What is a common mistake when writing user stories?",
+    "options": [
+      { "id": "option_1", "text": "Including multiple functionalities in a single story", "isCorrect": true },
+      { "id": "option_2", "text": "Writing the story in non-technical language", "isCorrect": false },
+      { "id": "option_3", "text": "Using the INVEST principle", "isCorrect": false },
+      { "id": "option_4", "text": "Defining clear acceptance criteria", "isCorrect": false }
+    ],
+    "hint": "User stories should be small and manageable.",
+    "answerDescription": "User stories should be concise and focus on one feature to ensure they are easy to implement and test."
+  },
+  {
+    "id": "3096",
+    "question": "How do user stories contribute to Agile development?",
+    "options": [
+      { "id": "option_1", "text": "They help define customer needs in a simple format", "isCorrect": true },
+      { "id": "option_2", "text": "They specify the exact technical implementation details", "isCorrect": false },
+      { "id": "option_3", "text": "They are used to track developer performance", "isCorrect": false },
+      { "id": "option_4", "text": "They replace project documentation", "isCorrect": false }
+    ],
+    "hint": "User stories focus on describing what the user wants.",
+    "answerDescription": "User stories ensure that Agile teams deliver valuable features by focusing on user needs."
+  },
+  {
+    "id": "3097",
+    "question": "What is the purpose of the 'As a... I want... So that...' format in user stories?",
+    "options": [
+      { "id": "option_1", "text": "To clarify the user, action, and benefit of the story", "isCorrect": true },
+      { "id": "option_2", "text": "To specify technical details upfront", "isCorrect": false },
+      { "id": "option_3", "text": "To replace acceptance criteria", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure only developers write user stories", "isCorrect": false }
+    ],
+    "hint": "This format helps express user needs clearly.",
+    "answerDescription": "The format ensures clarity by defining the role, the need, and the benefit of the feature."
+  },
+  {
+    "id": "3098",
+    "question": "Which statement about user stories is true?",
+    "options": [
+      { "id": "option_1", "text": "They should be small, independent, and testable", "isCorrect": true },
+      { "id": "option_2", "text": "They must contain detailed technical specifications", "isCorrect": false },
+      { "id": "option_3", "text": "They should be assigned to a single developer", "isCorrect": false },
+      { "id": "option_4", "text": "They must be approved by all stakeholders before development", "isCorrect": false }
+    ],
+    "hint": "Good user stories are concise and testable.",
+    "answerDescription": "A good user story follows the INVEST principle and is easy to validate."
+  },
+  {
+    "id": "3099",
+    "question": "Why are acceptance criteria essential in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "They ensure a common understanding of success", "isCorrect": true },
+      { "id": "option_2", "text": "They define the technical architecture", "isCorrect": false },
+      { "id": "option_3", "text": "They replace the need for user feedback", "isCorrect": false },
+      { "id": "option_4", "text": "They eliminate the need for sprint reviews", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria clarify when a story is complete.",
+    "answerDescription": "Acceptance criteria help teams align on the expected outcomes of a user story."
+  },
+  {
+    "id": "3100",
+    "question": "What should acceptance criteria focus on?",
+    "options": [
+      { "id": "option_1", "text": "The expected behavior and conditions for completion", "isCorrect": true },
+      { "id": "option_2", "text": "The internal coding structure", "isCorrect": false },
+      { "id": "option_3", "text": "The estimated effort required", "isCorrect": false },
+      { "id": "option_4", "text": "The developer's preferred implementation method", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria should define expected results, not technical details.",
+    "answerDescription": "They ensure a user story meets functional requirements by defining expected behavior."
+  },{
+    "id": "3101",
+    "question": "What is the purpose of acceptance criteria in a user story?",
+    "options": [
+      { "id": "option_1", "text": "To describe the technical implementation details", "isCorrect": false },
+      { "id": "option_2", "text": "To define the conditions that must be met for the story to be accepted", "isCorrect": true },
+      { "id": "option_3", "text": "To determine the priority of the user story", "isCorrect": false },
+      { "id": "option_4", "text": "To specify the estimated effort for development", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria set clear guidelines for completing a user story.",
+    "answerDescription": "Acceptance criteria help define when a user story is considered done and ensure alignment between stakeholders and developers."
+  },
+  {
+    "id": "3102",
+    "question": "Which statement best describes a well-written user story?",
+    "options": [
+      { "id": "option_1", "text": "A detailed technical specification of a feature", "isCorrect": false },
+      { "id": "option_2", "text": "A short and clear description of a user's need or requirement", "isCorrect": true },
+      { "id": "option_3", "text": "A list of tasks developers need to complete", "isCorrect": false },
+      { "id": "option_4", "text": "A report of completed work", "isCorrect": false }
+    ],
+    "hint": "User stories focus on the user's perspective and need.",
+    "answerDescription": "A good user story captures the who, what, and why of a requirement in a concise manner."
+  },
+  {
+    "id": "3103",
+    "question": "What role do stakeholders play in defining acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "They develop and test the code", "isCorrect": false },
+      { "id": "option_2", "text": "They provide input on what conditions must be met for the feature to be acceptable", "isCorrect": true },
+      { "id": "option_3", "text": "They determine the sprint timeline", "isCorrect": false },
+      { "id": "option_4", "text": "They assign developers to the task", "isCorrect": false }
+    ],
+    "hint": "Stakeholders ensure business needs are reflected in acceptance criteria.",
+    "answerDescription": "Stakeholders define the criteria that guide development and testing to align with business goals."
+  },
+  {
+    "id": "3104",
+    "question": "Why is it important to have clear and specific acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "To allow flexibility in feature implementation", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure alignment on what is required for completion", "isCorrect": true },
+      { "id": "option_3", "text": "To give developers full control over the final product", "isCorrect": false },
+      { "id": "option_4", "text": "To increase the complexity of testing", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria define when a story is done.",
+    "answerDescription": "Clear acceptance criteria help prevent misunderstandings and ensure smooth development and testing."
+  },
+  {
+    "id": "3105",
+    "question": "Which of the following best describes INVEST criteria for a good user story?",
+    "options": [
+      { "id": "option_1", "text": "A framework for estimating story points", "isCorrect": false },
+      { "id": "option_2", "text": "A guideline to ensure user stories are independent, negotiable, valuable, estimable, small, and testable", "isCorrect": true },
+      { "id": "option_3", "text": "A technique for writing unit tests", "isCorrect": false },
+      { "id": "option_4", "text": "A method for assigning tasks to developers", "isCorrect": false }
+    ],
+    "hint": "INVEST helps create effective user stories.",
+    "answerDescription": "Following the INVEST criteria ensures user stories are well-defined and manageable within Agile development."
+  },
+  {
+    "id": "3106",
+    "question": "What is a key benefit of writing user stories from a user's perspective?",
+    "options": [
+      { "id": "option_1", "text": "It ensures the development team focuses on internal technical requirements", "isCorrect": false },
+      { "id": "option_2", "text": "It helps maintain a customer-centric approach in product development", "isCorrect": true },
+      { "id": "option_3", "text": "It simplifies the project manager’s work", "isCorrect": false },
+      { "id": "option_4", "text": "It reduces the need for collaboration between teams", "isCorrect": false }
+    ],
+    "hint": "User stories prioritize the end-user experience.",
+    "answerDescription": "By focusing on the user's needs, development teams can build products that deliver real value."
+  },
+  {
+    "id": "3107",
+    "question": "When should acceptance criteria be defined in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "After the feature has been developed", "isCorrect": false },
+      { "id": "option_2", "text": "Before development begins to guide implementation", "isCorrect": true },
+      { "id": "option_3", "text": "During the final testing phase", "isCorrect": false },
+      { "id": "option_4", "text": "After receiving user feedback", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria guide development from the start.",
+    "answerDescription": "Defining acceptance criteria early ensures clear expectations and smoother development and testing processes."
+  },
+  {
+    "id": "3108",
+    "question": "Which of the following is NOT a common format for writing user stories?",
+    "options": [
+      { "id": "option_1", "text": "'As a [user], I want [goal] so that [reason]'", "isCorrect": false },
+      { "id": "option_2", "text": "'Given [context], when [action], then [outcome]'", "isCorrect": true },
+      { "id": "option_3", "text": "'User story: [title]'", "isCorrect": false },
+      { "id": "option_4", "text": "'Requirement: [detailed specifications]'", "isCorrect": false }
+    ],
+    "hint": "A common user story format follows the 'As a... I want... so that...' structure.",
+    "answerDescription": "The 'Given-When-Then' format is typically used for test scenarios, while user stories focus on user needs."
+  },
+  {
+    "id": "3109",
+    "question": "What happens if a user story does not meet its acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "It is marked as complete and released", "isCorrect": false },
+      { "id": "option_2", "text": "It is reviewed and reworked until it meets the criteria", "isCorrect": true },
+      { "id": "option_3", "text": "It is discarded", "isCorrect": false },
+      { "id": "option_4", "text": "It is automatically deferred to the next sprint", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria ensure a story is ready for release.",
+    "answerDescription": "Stories that do not meet the criteria must be revised to align with the expected outcome."
+  },
+  {
+    "id": "3110",
+    "question": "How can acceptance criteria improve communication between stakeholders and developers?",
+    "options": [
+      { "id": "option_1", "text": "By providing vague requirements to allow flexibility", "isCorrect": false },
+      { "id": "option_2", "text": "By setting clear expectations for when a story is considered complete", "isCorrect": true },
+      { "id": "option_3", "text": "By ensuring only developers define requirements", "isCorrect": false },
+      { "id": "option_4", "text": "By focusing on technical details rather than business needs", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria help define 'done' clearly.",
+    "answerDescription": "Clear acceptance criteria ensure that both business and technical teams are aligned on requirements and expectations."
+  },
+  {
+    "id": "3111",
+    "question": "What is a key characteristic of a well-defined user story?",
+    "options": [
+      { "id": "option_1", "text": "It should be as detailed as possible upfront", "isCorrect": false },
+      { "id": "option_2", "text": "It should be independent and valuable", "isCorrect": true },
+      { "id": "option_3", "text": "It should have a fixed and non-negotiable scope", "isCorrect": false },
+      { "id": "option_4", "text": "It should contain technical implementation details", "isCorrect": false }
+    ],
+    "hint": "A good user story should follow the INVEST principles.",
+    "answerDescription": "User stories should be Independent, Negotiable, Valuable, Estimable, Small, and Testable (INVEST)."
+  },
+  {
+    "id": "3112",
+    "question": "Which aspect is essential in writing effective acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "Describing all possible edge cases", "isCorrect": false },
+      { "id": "option_2", "text": "Defining clear pass/fail conditions", "isCorrect": true },
+      { "id": "option_3", "text": "Listing all technical dependencies", "isCorrect": false },
+      { "id": "option_4", "text": "Focusing on non-functional requirements only", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria should determine whether a story is done.",
+    "answerDescription": "Acceptance criteria define the expected outcome and conditions to determine whether a user story is completed correctly."
+  },
+  {
+    "id": "3113",
+    "question": "How do user stories help Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "They enforce strict deadlines", "isCorrect": false },
+      { "id": "option_2", "text": "They provide a shared understanding of user needs", "isCorrect": true },
+      { "id": "option_3", "text": "They eliminate the need for communication", "isCorrect": false },
+      { "id": "option_4", "text": "They replace technical specifications", "isCorrect": false }
+    ],
+    "hint": "User stories promote collaboration and understanding.",
+    "answerDescription": "User stories help Agile teams align on user needs and provide a framework for discussing requirements and solutions."
+  },
+  {
+    "id": "3114",
+    "question": "What is the primary focus of a user story?",
+    "options": [
+      { "id": "option_1", "text": "Technical implementation details", "isCorrect": false },
+      { "id": "option_2", "text": "User value and experience", "isCorrect": true },
+      { "id": "option_3", "text": "Project timeline estimation", "isCorrect": false },
+      { "id": "option_4", "text": "Defining database structures", "isCorrect": false }
+    ],
+    "hint": "User stories emphasize what users need, not how to build it.",
+    "answerDescription": "A user story focuses on delivering value to the end user by defining their needs and expected benefits."
+  },
+  {
+    "id": "3115",
+    "question": "Why should acceptance criteria be written before development starts?",
+    "options": [
+      { "id": "option_1", "text": "To define the implementation steps", "isCorrect": false },
+      { "id": "option_2", "text": "To establish clear expectations and testability", "isCorrect": true },
+      { "id": "option_3", "text": "To lock the requirements permanently", "isCorrect": false },
+      { "id": "option_4", "text": "To reduce developer autonomy", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria guide both development and testing.",
+    "answerDescription": "By defining acceptance criteria early, teams ensure alignment on expectations and testable outcomes."
+  },
+  {
+    "id": "3116",
+    "question": "What is the recommended format for writing user stories?",
+    "options": [
+      { "id": "option_1", "text": "Listing all technical requirements", "isCorrect": false },
+      { "id": "option_2", "text": "As a [user], I want [goal] so that [benefit]", "isCorrect": true },
+      { "id": "option_3", "text": "Using a detailed use case diagram", "isCorrect": false },
+      { "id": "option_4", "text": "Following a strict BRD format", "isCorrect": false }
+    ],
+    "hint": "The format should capture who, what, and why.",
+    "answerDescription": "User stories are typically written in the format 'As a [user], I want [goal] so that [benefit]' to ensure clarity and purpose."
+  },
+  {
+    "id": "3117",
+    "question": "Which factor makes acceptance criteria more effective?",
+    "options": [
+      { "id": "option_1", "text": "Being open-ended and flexible", "isCorrect": false },
+      { "id": "option_2", "text": "Being specific and measurable", "isCorrect": true },
+      { "id": "option_3", "text": "Being vague to allow creativity", "isCorrect": false },
+      { "id": "option_4", "text": "Being written only after testing", "isCorrect": false }
+    ],
+    "hint": "Clear criteria ensure consistent validation.",
+    "answerDescription": "Effective acceptance criteria provide specific, measurable conditions that define when a story is complete."
+  },
+  {
+    "id": "3118",
+    "question": "How do user stories contribute to Agile project success?",
+    "options": [
+      { "id": "option_1", "text": "By reducing the need for customer collaboration", "isCorrect": false },
+      { "id": "option_2", "text": "By facilitating iterative and incremental development", "isCorrect": true },
+      { "id": "option_3", "text": "By replacing traditional project management documents", "isCorrect": false },
+      { "id": "option_4", "text": "By ensuring fixed project scope", "isCorrect": false }
+    ],
+    "hint": "User stories align with Agile principles of flexibility and collaboration.",
+    "answerDescription": "User stories enable iterative and incremental development by providing a user-centered approach to building functionality."
+  },
+  {
+    "id": "3119",
+    "question": "What is a major benefit of well-defined user stories?",
+    "options": [
+      { "id": "option_1", "text": "They eliminate the need for refinement meetings", "isCorrect": false },
+      { "id": "option_2", "text": "They help teams prioritize and plan work effectively", "isCorrect": true },
+      { "id": "option_3", "text": "They replace all other Agile documentation", "isCorrect": false },
+      { "id": "option_4", "text": "They ensure that no changes are needed", "isCorrect": false }
+    ],
+    "hint": "Good user stories support Agile backlog management.",
+    "answerDescription": "Well-defined user stories help teams understand priorities, estimate effort, and plan work efficiently."
+  },
+  {
+    "id": "3120",
+    "question": "What should acceptance criteria focus on?",
+    "options": [
+      { "id": "option_1", "text": "Technical implementation details", "isCorrect": false },
+      { "id": "option_2", "text": "Expected outcomes and behaviors", "isCorrect": true },
+      { "id": "option_3", "text": "Development team’s workload", "isCorrect": false },
+      { "id": "option_4", "text": "Budget constraints", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria should describe the desired result.",
+    "answerDescription": "Acceptance criteria define expected behaviors and outcomes, helping ensure the user story meets requirements."
+  },
+  {
+    "id": "3121",
+    "question": "What is the primary purpose of acceptance criteria in user stories?",
+    "options": [
+      { "id": "option_1", "text": "To describe the UI design in detail", "isCorrect": false },
+      { "id": "option_2", "text": "To outline the business justification", "isCorrect": false },
+      { "id": "option_3", "text": "To define conditions for story completion", "isCorrect": true },
+      { "id": "option_4", "text": "To assign tasks to developers", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria ensure the story meets business and technical requirements.",
+    "answerDescription": "Acceptance criteria provide a clear definition of when a user story is considered complete and functioning as expected."
+  },
+  {
+    "id": "3122",
+    "question": "Which characteristic is essential for a well-written user story?",
+    "options": [
+      { "id": "option_1", "text": "It should contain a complete technical solution", "isCorrect": false },
+      { "id": "option_2", "text": "It should be vague enough for interpretation", "isCorrect": false },
+      { "id": "option_3", "text": "It should be independent and negotiable", "isCorrect": true },
+      { "id": "option_4", "text": "It should be assigned to a specific developer", "isCorrect": false }
+    ],
+    "hint": "Good user stories follow the INVEST principle.",
+    "answerDescription": "User stories should be independent, negotiable, and valuable to provide flexibility and clarity."
+  },
+  {
+    "id": "3123",
+    "question": "Why is it important for acceptance criteria to be clear and measurable?",
+    "options": [
+      { "id": "option_1", "text": "To allow for creative interpretation", "isCorrect": false },
+      { "id": "option_2", "text": "To prevent rework and misunderstandings", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure developers and testers have a shared understanding", "isCorrect": true },
+      { "id": "option_4", "text": "To prioritize stories based on difficulty", "isCorrect": false }
+    ],
+    "hint": "Clear acceptance criteria reduce ambiguity.",
+    "answerDescription": "Explicit and measurable criteria help align expectations between developers, testers, and stakeholders."
+  },
+  {
+    "id": "3124",
+    "question": "How do acceptance criteria support agile development?",
+    "options": [
+      { "id": "option_1", "text": "By providing exhaustive documentation", "isCorrect": false },
+      { "id": "option_2", "text": "By ensuring requirements remain flexible", "isCorrect": false },
+      { "id": "option_3", "text": "By defining done conditions for user stories", "isCorrect": true },
+      { "id": "option_4", "text": "By reducing the need for collaboration", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria clarify when a story is complete.",
+    "answerDescription": "They help define when a user story meets all functional and non-functional requirements."
+  },
+  {
+    "id": "3125",
+    "question": "Which of the following is NOT a common format for writing acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "Scenario-Oriented Criteria", "isCorrect": false },
+      { "id": "option_2", "text": "Checklist-Based Criteria", "isCorrect": false },
+      { "id": "option_3", "text": "Randomized Test Criteria", "isCorrect": true },
+      { "id": "option_4", "text": "Given-When-Then Criteria", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria follow structured formats.",
+    "answerDescription": "Common formats include scenario-based and Gherkin syntax, while 'randomized test criteria' is not a standard format."
+  },
+  {
+    "id": "3126",
+    "question": "What is a key benefit of well-defined acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "It makes design decisions for developers", "isCorrect": false },
+      { "id": "option_2", "text": "It reduces the need for user testing", "isCorrect": false },
+      { "id": "option_3", "text": "It ensures alignment between stakeholders and developers", "isCorrect": true },
+      { "id": "option_4", "text": "It eliminates the need for code reviews", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria act as a communication bridge.",
+    "answerDescription": "Well-defined criteria help ensure that developers and stakeholders share the same understanding of requirements."
+  },
+  {
+    "id": "3127",
+    "question": "How do user stories contribute to agile development?",
+    "options": [
+      { "id": "option_1", "text": "By providing step-by-step coding instructions", "isCorrect": false },
+      { "id": "option_2", "text": "By focusing on detailed technical specifications", "isCorrect": false },
+      { "id": "option_3", "text": "By emphasizing user needs and business value", "isCorrect": true },
+      { "id": "option_4", "text": "By reducing the number of team interactions", "isCorrect": false }
+    ],
+    "hint": "User stories focus on user-centric development.",
+    "answerDescription": "User stories help teams build features that align with user expectations and business goals."
+  },
+  {
+    "id": "3128",
+    "question": "What role does feedback play in refining user stories?",
+    "options": [
+      { "id": "option_1", "text": "It slows down the development process", "isCorrect": false },
+      { "id": "option_2", "text": "It introduces unnecessary complexity", "isCorrect": false },
+      { "id": "option_3", "text": "It helps improve clarity and alignment", "isCorrect": true },
+      { "id": "option_4", "text": "It eliminates the need for backlog grooming", "isCorrect": false }
+    ],
+    "hint": "Feedback ensures continuous improvement.",
+    "answerDescription": "Regular feedback loops help teams refine user stories for better understanding and execution."
+  },
+  {
+    "id": "3129",
+    "question": "Which principle ensures that user stories are actionable and testable?",
+    "options": [
+      { "id": "option_1", "text": "The DRY principle", "isCorrect": false },
+      { "id": "option_2", "text": "The SOLID principle", "isCorrect": false },
+      { "id": "option_3", "text": "The INVEST principle", "isCorrect": true },
+      { "id": "option_4", "text": "The KISS principle", "isCorrect": false }
+    ],
+    "hint": "This principle ensures stories are Independent, Negotiable, Valuable, Estimable, Small, and Testable.",
+    "answerDescription": "The INVEST principle helps teams create well-defined, manageable user stories."
+  },
+  {
+    "id": "3130",
+    "question": "What is an anti-pattern in writing acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "Writing them in a clear and structured format", "isCorrect": false },
+      { "id": "option_2", "text": "Ensuring they are testable and measurable", "isCorrect": false },
+      { "id": "option_3", "text": "Defining vague and subjective criteria", "isCorrect": true },
+      { "id": "option_4", "text": "Aligning them with business objectives", "isCorrect": false }
+    ],
+    "hint": "Ambiguity in acceptance criteria leads to misinterpretation.",
+    "answerDescription": "Vague criteria create confusion, making it difficult to determine if a story is truly complete."
+  },
+  {
+    "id": "3131",
+    "question": "What is the main purpose of acceptance criteria in a user story?",
+    "options": [
+      { "id": "option_1", "text": "To describe the user’s emotions while using the product", "isCorrect": false },
+      { "id": "option_2", "text": "To specify the deployment process for a feature", "isCorrect": false },
+      { "id": "option_3", "text": "To list all possible future requirements", "isCorrect": false },
+      { "id": "option_4", "text": "To define conditions that must be met for a story to be accepted", "isCorrect": true }
+    ],
+    "hint": "It ensures clarity on when a story is considered complete.",
+    "answerDescription": "Acceptance criteria provide a clear definition of done for a user story, ensuring alignment between developers and stakeholders."
+  },
+  {
+    "id": "3132",
+    "question": "Which of the following best describes INVEST criteria for a good user story?",
+    "options": [
+      { "id": "option_1", "text": "It ensures user stories are large and complex", "isCorrect": false },
+      { "id": "option_2", "text": "It focuses on technical implementation details", "isCorrect": false },
+      { "id": "option_3", "text": "It defines the UI design of a feature", "isCorrect": false },
+      { "id": "option_4", "text": "It ensures stories are independent, negotiable, valuable, estimable, small, and testable", "isCorrect": true }
+    ],
+    "hint": "INVEST is a guideline for writing effective user stories.",
+    "answerDescription": "A good user story follows the INVEST principle, ensuring it is clear, actionable, and well-scoped."
+  },
+  {
+    "id": "3133",
+    "question": "Why is it important for user stories to be small and estimable?",
+    "options": [
+      { "id": "option_1", "text": "To allow teams to deliver incremental value quickly", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure that all stories fit within a sprint", "isCorrect": false },
+      { "id": "option_3", "text": "To avoid writing acceptance criteria", "isCorrect": false },
+      { "id": "option_4", "text": "To reduce complexity and improve planning accuracy", "isCorrect": true }
+    ],
+    "hint": "Smaller stories lead to better estimation and predictability.",
+    "answerDescription": "Breaking down stories into smaller, estimable units improves team efficiency and facilitates better sprint planning."
+  },
+  {
+    "id": "3134",
+    "question": "How does acceptance criteria improve communication between stakeholders and developers?",
+    "options": [
+      { "id": "option_1", "text": "By eliminating the need for discussions", "isCorrect": false },
+      { "id": "option_2", "text": "By making developers responsible for defining requirements", "isCorrect": false },
+      { "id": "option_3", "text": "By focusing only on functional requirements", "isCorrect": false },
+      { "id": "option_4", "text": "By providing clear expectations for feature completion", "isCorrect": true }
+    ],
+    "hint": "It ensures alignment between stakeholders and the development team.",
+    "answerDescription": "Acceptance criteria act as a contract between stakeholders and developers, ensuring mutual understanding of expected outcomes."
+  },
+  {
+    "id": "3135",
+    "question": "What should acceptance criteria primarily focus on?",
+    "options": [
+      { "id": "option_1", "text": "How a feature is implemented in code", "isCorrect": false },
+      { "id": "option_2", "text": "The technical stack used for development", "isCorrect": false },
+      { "id": "option_3", "text": "The detailed project roadmap", "isCorrect": false },
+      { "id": "option_4", "text": "The expected behavior of a feature", "isCorrect": true }
+    ],
+    "hint": "It defines the success conditions for a user story.",
+    "answerDescription": "Acceptance criteria outline what must be achieved for a feature to be considered complete and functional."
+  },
+  {
+    "id": "3136",
+    "question": "Which format is commonly used for writing acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "Gherkin (Given-When-Then)", "isCorrect": false },
+      { "id": "option_2", "text": "Feature branch specifications", "isCorrect": false },
+      { "id": "option_3", "text": "Technical API documentation", "isCorrect": false },
+      { "id": "option_4", "text": "Formal test scripts", "isCorrect": true }
+    ],
+    "hint": "It is widely used in Behavior-Driven Development (BDD).",
+    "answerDescription": "Gherkin syntax helps define expected behavior in an easy-to-read format, facilitating automated testing and validation."
+  },
+  {
+    "id": "3137",
+    "question": "What happens if a user story lacks well-defined acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "The team can assume any implementation is correct", "isCorrect": false },
+      { "id": "option_2", "text": "The Product Owner takes full responsibility for testing", "isCorrect": false },
+      { "id": "option_3", "text": "Developers have no clear definition of done", "isCorrect": false },
+      { "id": "option_4", "text": "The team may deliver something that does not meet user expectations", "isCorrect": true }
+    ],
+    "hint": "Clear acceptance criteria help ensure the right feature is built.",
+    "answerDescription": "Without defined acceptance criteria, developers may build something that does not align with stakeholder needs, leading to rework and delays."
+  },
+  {
+    "id": "3138",
+    "question": "Why should acceptance criteria be written before development begins in agile?",
+    "options": [
+      { "id": "option_1", "text": "To allow testers to start early", "isCorrect": false },
+      { "id": "option_2", "text": "To prevent scope creep and ambiguity", "isCorrect": false },
+      { "id": "option_3", "text": "To avoid writing documentation later", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure alignment on expected outcomes before coding starts", "isCorrect": true }
+    ],
+    "hint": "It helps avoid misunderstandings and rework.",
+    "answerDescription": "Defining acceptance criteria upfront ensures clarity and alignment, reducing the risk of incorrect implementation."
+  },
+  {
+    "id": "3139",
+    "question": "What role do acceptance criteria play in automated testing?",
+    "options": [
+      { "id": "option_1", "text": "They define the test data structure", "isCorrect": false },
+      { "id": "option_2", "text": "They determine the programming language for tests", "isCorrect": false },
+      { "id": "option_3", "text": "They provide the expected conditions for pass/fail tests", "isCorrect": false },
+      { "id": "option_4", "text": "They serve as the basis for writing automated test cases", "isCorrect": true }
+    ],
+    "hint": "They guide the creation of automated test cases.",
+    "answerDescription": "Well-defined acceptance criteria enable test automation by specifying expected behavior and conditions for verification."
+  },
+  {
+    "id": "3140",
+    "question": "How do well-crafted acceptance criteria benefit Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "By ensuring faster deployment cycles", "isCorrect": false },
+      { "id": "option_2", "text": "By reducing team discussions", "isCorrect": false },
+      { "id": "option_3", "text": "By enforcing strict coding standards", "isCorrect": false },
+      { "id": "option_4", "text": "By improving clarity, alignment, and testability", "isCorrect": true }
+    ],
+    "hint": "They provide clarity and improve collaboration.",
+    "answerDescription": "Clear acceptance criteria ensure shared understanding, facilitate testing, and align expectations between stakeholders and development teams."
+  },
+  {
+    "id": "3141",
+    "question": "What is the primary purpose of a user story in Agile development?",
+    "options": [
+      { "id": "option_1", "text": "To describe a feature from the end-user's perspective", "isCorrect": true },
+      { "id": "option_2", "text": "To document technical specifications in detail", "isCorrect": false },
+      { "id": "option_3", "text": "To replace all documentation in Agile projects", "isCorrect": false },
+      { "id": "option_4", "text": "To enforce rigid project requirements", "isCorrect": false }
+    ],
+    "hint": "User stories focus on user needs rather than technical details.",
+    "answerDescription": "User stories help Agile teams understand what users want and why, ensuring value-driven development."
+  },
+  {
+    "id": "3142",
+    "question": "Why should user stories include acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "To define the conditions under which a story is considered complete", "isCorrect": true },
+      { "id": "option_2", "text": "To specify detailed coding guidelines", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure that testing is optional", "isCorrect": false },
+      { "id": "option_4", "text": "To restrict flexibility in development", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria act as a checklist for completion.",
+    "answerDescription": "Clear acceptance criteria help define the scope of a user story, ensuring alignment between stakeholders and developers."
+  },
+  {
+    "id": "3143",
+    "question": "Which format is commonly used to write user stories?",
+    "options": [
+      { "id": "option_1", "text": "\"As a [user], I want [feature] so that [benefit]\"", "isCorrect": true },
+      { "id": "option_2", "text": "\"If [condition] then [action] else [alternative]\"", "isCorrect": false },
+      { "id": "option_3", "text": "\"[Feature] should be implemented using [technology]\"", "isCorrect": false },
+      { "id": "option_4", "text": "\"The system must follow [specific methodology]\"", "isCorrect": false }
+    ],
+    "hint": "The format focuses on user perspective and motivation.",
+    "answerDescription": "User stories follow a simple, structured format that helps teams understand the user’s needs and the expected value of a feature."
+  },
+  {
+    "id": "3144",
+    "question": "What is an INVEST-compliant user story?",
+    "options": [
+      { "id": "option_1", "text": "A story that is Independent, Negotiable, Valuable, Estimable, Small, and Testable", "isCorrect": true },
+      { "id": "option_2", "text": "A story that is In-depth, Necessary, Verified, Extensible, Sustainable, and Technical", "isCorrect": false },
+      { "id": "option_3", "text": "A story that is Immediately actionable, Not changeable, Verified by design, and Test-dependent", "isCorrect": false },
+      { "id": "option_4", "text": "A story that is Integrated, Non-negotiable, Verified by stakeholders, and Tested in isolation", "isCorrect": false }
+    ],
+    "hint": "This acronym describes the key qualities of a good user story.",
+    "answerDescription": "An INVEST-compliant story ensures that stories are well-defined, independent, and testable, making Agile development smoother."
+  },
+  {
+    "id": "3145",
+    "question": "How does acceptance criteria benefit Agile teams?",
+    "options": [
+      { "id": "option_1", "text": "It provides a clear definition of when a user story is done", "isCorrect": true },
+      { "id": "option_2", "text": "It limits the number of possible implementations", "isCorrect": false },
+      { "id": "option_3", "text": "It replaces the need for sprint reviews", "isCorrect": false },
+      { "id": "option_4", "text": "It forces developers to work on only one task at a time", "isCorrect": false }
+    ],
+    "hint": "It helps in validating story completion.",
+    "answerDescription": "Acceptance criteria act as a guideline for developers and testers to confirm that a feature meets expectations before delivery."
+  },
+  {
+    "id": "3146",
+    "question": "Which of the following best describes a well-defined user story?",
+    "options": [
+      { "id": "option_1", "text": "A concise statement describing user needs and value", "isCorrect": true },
+      { "id": "option_2", "text": "A lengthy document detailing system architecture", "isCorrect": false },
+      { "id": "option_3", "text": "A predefined checklist for code implementation", "isCorrect": false },
+      { "id": "option_4", "text": "A fixed set of instructions with no room for negotiation", "isCorrect": false }
+    ],
+    "hint": "User stories focus on the user and value delivered.",
+    "answerDescription": "A well-defined user story should be simple, clear, and user-centered, ensuring easy understanding by all stakeholders."
+  },
+  {
+    "id": "3147",
+    "question": "What is the role of personas in user story creation?",
+    "options": [
+      { "id": "option_1", "text": "They help identify user needs and behaviors", "isCorrect": true },
+      { "id": "option_2", "text": "They replace the need for user research", "isCorrect": false },
+      { "id": "option_3", "text": "They are used only for marketing purposes", "isCorrect": false },
+      { "id": "option_4", "text": "They serve as a formal project requirement", "isCorrect": false }
+    ],
+    "hint": "Personas represent different user types.",
+    "answerDescription": "Personas allow teams to create more meaningful user stories by understanding different user perspectives and motivations."
+  },
+  {
+    "id": "3148",
+    "question": "Why is it important for user stories to be small and manageable?",
+    "options": [
+      { "id": "option_1", "text": "To ensure they can be completed within a sprint", "isCorrect": true },
+      { "id": "option_2", "text": "To avoid writing detailed documentation", "isCorrect": false },
+      { "id": "option_3", "text": "To prevent developers from working on complex tasks", "isCorrect": false },
+      { "id": "option_4", "text": "To enforce strict time limits on developers", "isCorrect": false }
+    ],
+    "hint": "Breaking down work helps with sprint planning.",
+    "answerDescription": "Smaller user stories allow for faster development and testing, ensuring smooth progress within Agile sprints."
+  },
+  {
+    "id": "3149",
+    "question": "What should a team do if a user story is too large?",
+    "options": [
+      { "id": "option_1", "text": "Split it into smaller, more manageable stories", "isCorrect": true },
+      { "id": "option_2", "text": "Remove it from the backlog entirely", "isCorrect": false },
+      { "id": "option_3", "text": "Ignore it until a later sprint", "isCorrect": false },
+      { "id": "option_4", "text": "Write a separate document instead", "isCorrect": false }
+    ],
+    "hint": "Smaller stories fit better into Agile workflows.",
+    "answerDescription": "Breaking down large stories ensures that they can be completed within a sprint and remain aligned with Agile principles."
+  },
+  {
+    "id": "3150",
+    "question": "How can teams ensure user stories remain valuable?",
+    "options": [
+      { "id": "option_1", "text": "By aligning them with business goals and user needs", "isCorrect": true },
+      { "id": "option_2", "text": "By focusing only on technical implementation", "isCorrect": false },
+      { "id": "option_3", "text": "By limiting collaboration between stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "By reusing the same user stories for every sprint", "isCorrect": false }
+    ],
+    "hint": "Stories should deliver meaningful value to users.",
+    "answerDescription": "A valuable user story ensures that the feature being developed contributes to both business objectives and user satisfaction."
+  },{
+    "id": "3151",
+    "question": "What is a key characteristic of a well-written user story?",
+    "options": [
+      { "id": "option_1", "text": "It contains detailed technical specifications", "isCorrect": false },
+      { "id": "option_2", "text": "It is independent, negotiable, valuable, estimable, small, and testable", "isCorrect": true },
+      { "id": "option_3", "text": "It must be approved by the development team only", "isCorrect": false },
+      { "id": "option_4", "text": "It focuses solely on non-functional requirements", "isCorrect": false }
+    ],
+    "hint": "A good user story follows the INVEST principle.",
+    "answerDescription": "A well-written user story should be independent, negotiable, valuable, estimable, small, and testable (INVEST)."
+  },
+  {
+    "id": "3152",
+    "question": "Which of the following best describes acceptance criteria in Agile?",
+    "options": [
+      { "id": "option_1", "text": "A checklist for tracking project progress", "isCorrect": false },
+      { "id": "option_2", "text": "Conditions that must be met for a user story to be accepted", "isCorrect": true },
+      { "id": "option_3", "text": "A document outlining all project requirements", "isCorrect": false },
+      { "id": "option_4", "text": "A tool used to prioritize backlog items", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria define the 'done' conditions for a user story.",
+    "answerDescription": "Acceptance criteria establish the conditions that must be satisfied for a user story to be considered complete and accepted."
+  },
+  {
+    "id": "3153",
+    "question": "Why is it important to define acceptance criteria for user stories?",
+    "options": [
+      { "id": "option_1", "text": "To ensure developers follow a strict implementation plan", "isCorrect": false },
+      { "id": "option_2", "text": "To provide clarity on the expected functionality and testing conditions", "isCorrect": true },
+      { "id": "option_3", "text": "To replace user stories with detailed requirement documents", "isCorrect": false },
+      { "id": "option_4", "text": "To restrict flexibility in software development", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria help define expected results and guide testing.",
+    "answerDescription": "Defining acceptance criteria ensures that all stakeholders have a clear understanding of expected functionality and test conditions."
+  },
+  {
+    "id": "3154",
+    "question": "Which role is primarily responsible for writing user stories in Agile?",
+    "options": [
+      { "id": "option_1", "text": "The Scrum Master", "isCorrect": false },
+      { "id": "option_2", "text": "The Product Owner", "isCorrect": true },
+      { "id": "option_3", "text": "The Development Team", "isCorrect": false },
+      { "id": "option_4", "text": "The Project Sponsor", "isCorrect": false }
+    ],
+    "hint": "The person responsible for managing the backlog writes user stories.",
+    "answerDescription": "The Product Owner is responsible for writing user stories, ensuring they capture customer needs and business requirements."
+  },
+  {
+    "id": "3155",
+    "question": "What does the 'INVEST' acronym stand for in Agile user stories?",
+    "options": [
+      { "id": "option_1", "text": "Independent, Necessary, Valuable, Estimable, Simple, Testable", "isCorrect": false },
+      { "id": "option_2", "text": "Independent, Negotiable, Valuable, Estimable, Small, Testable", "isCorrect": true },
+      { "id": "option_3", "text": "Identifiable, Notable, Viable, Estimable, Scalable, Trackable", "isCorrect": false },
+      { "id": "option_4", "text": "Intelligent, Noteworthy, Versatile, Evaluative, Specific, Thorough", "isCorrect": false }
+    ],
+    "hint": "The INVEST principle ensures high-quality user stories.",
+    "answerDescription": "INVEST stands for Independent, Negotiable, Valuable, Estimable, Small, and Testable—key qualities of a good user story."
+  },
+  {
+    "id": "3156",
+    "question": "Which of the following is NOT a recommended characteristic of a user story?",
+    "options": [
+      { "id": "option_1", "text": "Testable", "isCorrect": false },
+      { "id": "option_2", "text": "Overly detailed", "isCorrect": true },
+      { "id": "option_3", "text": "Small in size", "isCorrect": false },
+      { "id": "option_4", "text": "Valuable to stakeholders", "isCorrect": false }
+    ],
+    "hint": "User stories should be simple and concise.",
+    "answerDescription": "User stories should not be overly detailed; instead, they should be concise while conveying the necessary information."
+  },
+  {
+    "id": "3157",
+    "question": "What is the primary benefit of using acceptance criteria in Agile?",
+    "options": [
+      { "id": "option_1", "text": "To define rigid technical implementation details", "isCorrect": false },
+      { "id": "option_2", "text": "To provide clear validation points for testing and acceptance", "isCorrect": true },
+      { "id": "option_3", "text": "To replace communication between developers and stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "To remove the need for backlog refinement meetings", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria serve as a basis for testing and validation.",
+    "answerDescription": "Acceptance criteria ensure that functionality is properly validated through testing, reducing ambiguity and improving clarity."
+  },
+  {
+    "id": "3158",
+    "question": "Which Agile practice ensures user stories are well-defined and refined before implementation?",
+    "options": [
+      { "id": "option_1", "text": "Daily Stand-ups", "isCorrect": false },
+      { "id": "option_2", "text": "Backlog Refinement", "isCorrect": true },
+      { "id": "option_3", "text": "Sprint Review", "isCorrect": false },
+      { "id": "option_4", "text": "Pair Programming", "isCorrect": false }
+    ],
+    "hint": "This practice is used to groom the backlog before a sprint.",
+    "answerDescription": "Backlog refinement ensures user stories are clear, well-defined, and ready for implementation in upcoming sprints."
+  },
+  {
+    "id": "3159",
+    "question": "Which statement about user stories in Agile is correct?",
+    "options": [
+      { "id": "option_1", "text": "They must include detailed technical specifications", "isCorrect": false },
+      { "id": "option_2", "text": "They focus on delivering value from the user’s perspective", "isCorrect": true },
+      { "id": "option_3", "text": "They replace all forms of project documentation", "isCorrect": false },
+      { "id": "option_4", "text": "They are only written by developers", "isCorrect": false }
+    ],
+    "hint": "User stories emphasize user needs and value.",
+    "answerDescription": "User stories in Agile prioritize user needs and business value, ensuring functionality aligns with stakeholder expectations."
+  },
+  {
+    "id": "3160",
+    "question": "What is the role of a development team in relation to user stories?",
+    "options": [
+      { "id": "option_1", "text": "To approve or reject user stories", "isCorrect": false },
+      { "id": "option_2", "text": "To collaborate in refining, estimating, and implementing them", "isCorrect": true },
+      { "id": "option_3", "text": "To define business objectives for stories", "isCorrect": false },
+      { "id": "option_4", "text": "To dictate how user stories are written", "isCorrect": false }
+    ],
+    "hint": "Development teams work closely on story refinement and execution.",
+    "answerDescription": "Development teams contribute to refining, estimating, and implementing user stories to deliver high-value outcomes."
+  },
+  {
+    "id": "3161",
+    "question": "Why is it important to define clear acceptance criteria for user stories?",
+    "options": [
+      { "id": "option_1", "text": "To allow developers to skip testing", "isCorrect": false },
+      { "id": "option_2", "text": "To make user stories more complex", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure a common understanding of requirements", "isCorrect": true },
+      { "id": "option_4", "text": "To increase the workload of the QA team", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria help set expectations for completion.",
+    "answerDescription": "Clear acceptance criteria ensure all stakeholders have a shared understanding of what is needed for a user story to be considered done."
+  },
+  {
+    "id": "3162",
+    "question": "What is the primary benefit of using the INVEST criteria for user stories?",
+    "options": [
+      { "id": "option_1", "text": "To make stories dependent on each other", "isCorrect": false },
+      { "id": "option_2", "text": "To ensure user stories are long and detailed", "isCorrect": false },
+      { "id": "option_3", "text": "To improve the quality and feasibility of user stories", "isCorrect": true },
+      { "id": "option_4", "text": "To allow only developers to define user stories", "isCorrect": false }
+    ],
+    "hint": "INVEST helps define effective user stories.",
+    "answerDescription": "Using the INVEST model ensures that user stories are independent, negotiable, valuable, estimable, small, and testable."
+  },
+  {
+    "id": "3163",
+    "question": "How does defining acceptance criteria improve Agile development?",
+    "options": [
+      { "id": "option_1", "text": "By making development cycles longer", "isCorrect": false },
+      { "id": "option_2", "text": "By limiting collaboration between teams", "isCorrect": false },
+      { "id": "option_3", "text": "By providing clear guidelines for when a story is complete", "isCorrect": true },
+      { "id": "option_4", "text": "By increasing the number of defects in the product", "isCorrect": false }
+    ],
+    "hint": "Clear acceptance criteria help define completeness.",
+    "answerDescription": "Acceptance criteria set clear conditions that must be met for a story to be considered complete, reducing ambiguity and improving quality."
+  },
+  {
+    "id": "3164",
+    "question": "Which of the following is an essential characteristic of a well-written user story?",
+    "options": [
+      { "id": "option_1", "text": "It is detailed and rigid", "isCorrect": false },
+      { "id": "option_2", "text": "It lacks stakeholder involvement", "isCorrect": false },
+      { "id": "option_3", "text": "It is concise and user-focused", "isCorrect": true },
+      { "id": "option_4", "text": "It includes implementation details", "isCorrect": false }
+    ],
+    "hint": "A good user story focuses on the user’s needs.",
+    "answerDescription": "A well-written user story is short, clear, and centered around user needs rather than technical details."
+  },
+  {
+    "id": "3165",
+    "question": "What role does a Product Owner play in defining user stories?",
+    "options": [
+      { "id": "option_1", "text": "Writing code to implement the story", "isCorrect": false },
+      { "id": "option_2", "text": "Designing UI components", "isCorrect": false },
+      { "id": "option_3", "text": "Prioritizing and ensuring user stories meet business needs", "isCorrect": true },
+      { "id": "option_4", "text": "Ignoring feedback from stakeholders", "isCorrect": false }
+    ],
+    "hint": "A Product Owner ensures alignment with business goals.",
+    "answerDescription": "The Product Owner is responsible for defining and prioritizing user stories to align with business objectives."
+  },
+  {
+    "id": "3166",
+    "question": "How can a team ensure that user stories are testable?",
+    "options": [
+      { "id": "option_1", "text": "By avoiding acceptance criteria", "isCorrect": false },
+      { "id": "option_2", "text": "By making stories complex and ambiguous", "isCorrect": false },
+      { "id": "option_3", "text": "By including clear and measurable acceptance criteria", "isCorrect": true },
+      { "id": "option_4", "text": "By skipping validation processes", "isCorrect": false }
+    ],
+    "hint": "Clear acceptance criteria improve testability.",
+    "answerDescription": "User stories should include acceptance criteria that define measurable conditions for successful implementation."
+  },
+  {
+    "id": "3167",
+    "question": "What is a common pitfall when writing user stories?",
+    "options": [
+      { "id": "option_1", "text": "Making them too small to be valuable", "isCorrect": false },
+      { "id": "option_2", "text": "Including implementation details instead of focusing on user needs", "isCorrect": true },
+      { "id": "option_3", "text": "Ensuring they are independent", "isCorrect": false },
+      { "id": "option_4", "text": "Using clear language", "isCorrect": false }
+    ],
+    "hint": "User stories should focus on the user, not technical details.",
+    "answerDescription": "User stories should describe user needs and avoid implementation specifics, leaving technical decisions to the development team."
+  },
+  {
+    "id": "3168",
+    "question": "What is the purpose of a user story’s 'Definition of Ready'?",
+    "options": [
+      { "id": "option_1", "text": "To indicate when a story is ready for release", "isCorrect": false },
+      { "id": "option_2", "text": "To define the deployment strategy", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure all necessary information is available before development starts", "isCorrect": true },
+      { "id": "option_4", "text": "To mark the end of sprint planning", "isCorrect": false }
+    ],
+    "hint": "It ensures the story is clear and actionable.",
+    "answerDescription": "The 'Definition of Ready' ensures a story is well-defined and has enough details to be implemented effectively."
+  },
+  {
+    "id": "3169",
+    "question": "Why should acceptance criteria be written in a format like Given-When-Then?",
+    "options": [
+      { "id": "option_1", "text": "To make them harder to understand", "isCorrect": false },
+      { "id": "option_2", "text": "To limit flexibility in implementation", "isCorrect": false },
+      { "id": "option_3", "text": "To provide a structured way to define expected behavior", "isCorrect": true },
+      { "id": "option_4", "text": "To increase the length of documentation", "isCorrect": false }
+    ],
+    "hint": "A structured format helps define expected outcomes.",
+    "answerDescription": "Using the Given-When-Then format makes acceptance criteria more readable and ensures a common understanding of expected behavior."
+  },
+  {
+    "id": "3170",
+    "question": "What happens if a user story lacks proper acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "Developers can easily complete the story without clarification", "isCorrect": false },
+      { "id": "option_2", "text": "Testing becomes more efficient", "isCorrect": false },
+      { "id": "option_3", "text": "There is a higher chance of misinterpretation and rework", "isCorrect": true },
+      { "id": "option_4", "text": "The story is automatically rejected", "isCorrect": false }
+    ],
+    "hint": "Ambiguity leads to misunderstandings.",
+    "answerDescription": "Without clear acceptance criteria, the team may misinterpret requirements, leading to more rework and inefficiencies."
+  },
+  {
+    "id": "3171",
+    "question": "Which aspect of a user story ensures that it can be completed within a single iteration?",
+    "options": [
+      { "id": "option_1", "text": "It is dependent on multiple other stories", "isCorrect": false },
+      { "id": "option_2", "text": "It is overly detailed with multiple objectives", "isCorrect": false },
+      { "id": "option_3", "text": "It lacks clear acceptance criteria", "isCorrect": false },
+      { "id": "option_4", "text": "It is small and estimable", "isCorrect": true }
+    ],
+    "hint": "The story should be manageable within a sprint.",
+    "answerDescription": "User stories should be small enough to be completed within a single sprint and estimable by the team."
+  },
+  {
+    "id": "3172",
+    "question": "How do acceptance criteria contribute to collaboration between developers and testers?",
+    "options": [
+      { "id": "option_1", "text": "By reducing the need for discussion", "isCorrect": false },
+      { "id": "option_2", "text": "By making testing optional", "isCorrect": false },
+      { "id": "option_3", "text": "By focusing only on the developer’s perspective", "isCorrect": false },
+      { "id": "option_4", "text": "By defining clear success conditions for both teams", "isCorrect": true }
+    ],
+    "hint": "Clear conditions help ensure proper validation.",
+    "answerDescription": "Acceptance criteria provide a shared understanding of expected outcomes, facilitating smoother collaboration between developers and testers."
+  },
+  {
+    "id": "3173",
+    "question": "What is the main reason for breaking down large user stories into smaller ones?",
+    "options": [
+      { "id": "option_1", "text": "To increase development complexity", "isCorrect": false },
+      { "id": "option_2", "text": "To make tracking progress more difficult", "isCorrect": false },
+      { "id": "option_3", "text": "To ensure the story remains vague and flexible", "isCorrect": false },
+      { "id": "option_4", "text": "To make development and testing more manageable", "isCorrect": true }
+    ],
+    "hint": "Smaller stories help with progress tracking.",
+    "answerDescription": "Breaking down large stories into smaller ones makes them easier to develop, test, and complete within a sprint."
+  },
+  {
+    "id": "3174",
+    "question": "Why should user stories be written from the end user's perspective?",
+    "options": [
+      { "id": "option_1", "text": "To emphasize technical details", "isCorrect": false },
+      { "id": "option_2", "text": "To reduce flexibility in implementation", "isCorrect": false },
+      { "id": "option_3", "text": "To prioritize system functionality over user experience", "isCorrect": false },
+      { "id": "option_4", "text": "To ensure the story focuses on user needs and value", "isCorrect": true }
+    ],
+    "hint": "User stories should describe value from the user's perspective.",
+    "answerDescription": "Writing from the user’s perspective ensures that the story delivers real value to the end user and aligns with their needs."
+  },
+  {
+    "id": "3175",
+    "question": "What is the role of acceptance criteria in preventing scope creep?",
+    "options": [
+      { "id": "option_1", "text": "They make changes easier to introduce", "isCorrect": false },
+      { "id": "option_2", "text": "They allow stakeholders to modify requirements frequently", "isCorrect": false },
+      { "id": "option_3", "text": "They encourage open-ended development", "isCorrect": false },
+      { "id": "option_4", "text": "They define clear boundaries for what is included in a story", "isCorrect": true }
+    ],
+    "hint": "Acceptance criteria help define what is 'done.'",
+    "answerDescription": "By clearly stating what needs to be achieved, acceptance criteria prevent unnecessary additions that could lead to scope creep."
+  },
+  {
+    "id": "3176",
+    "question": "Which statement best describes a good acceptance criterion?",
+    "options": [
+      { "id": "option_1", "text": "It is vague and open to interpretation", "isCorrect": false },
+      { "id": "option_2", "text": "It focuses only on the implementation details", "isCorrect": false },
+      { "id": "option_3", "text": "It allows multiple interpretations by different teams", "isCorrect": false },
+      { "id": "option_4", "text": "It is clear, specific, and testable", "isCorrect": true }
+    ],
+    "hint": "Good acceptance criteria should be easy to test.",
+    "answerDescription": "A well-written acceptance criterion is specific and provides a clear testable condition for verifying the user story."
+  },
+  {
+    "id": "3177",
+    "question": "Why should teams avoid making user stories too detailed?",
+    "options": [
+      { "id": "option_1", "text": "Because details are unnecessary in Agile", "isCorrect": false },
+      { "id": "option_2", "text": "Because stakeholders do not need information", "isCorrect": false },
+      { "id": "option_3", "text": "Because detailed stories reduce team autonomy", "isCorrect": false },
+      { "id": "option_4", "text": "Because too much detail can limit flexibility and adaptability", "isCorrect": true }
+    ],
+    "hint": "User stories should leave room for collaboration.",
+    "answerDescription": "Overly detailed user stories can constrain the development team’s ability to find the best implementation approach."
+  },
+  {
+    "id": "3178",
+    "question": "What is the best approach to writing effective acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "Avoid involving stakeholders in defining them", "isCorrect": false },
+      { "id": "option_2", "text": "Ensure they are as vague as possible", "isCorrect": false },
+      { "id": "option_3", "text": "Write them after development is completed", "isCorrect": false },
+      { "id": "option_4", "text": "Define them collaboratively with clear expected outcomes", "isCorrect": true }
+    ],
+    "hint": "Collaboration ensures better-defined criteria.",
+    "answerDescription": "Acceptance criteria should be defined with input from stakeholders, testers, and developers to ensure clarity and alignment."
+  },
+  {
+    "id": "3179",
+    "question": "How does splitting user stories help maintain a sustainable development pace?",
+    "options": [
+      { "id": "option_1", "text": "By making work less predictable", "isCorrect": false },
+      { "id": "option_2", "text": "By increasing the amount of work-in-progress", "isCorrect": false },
+      { "id": "option_3", "text": "By delaying feature delivery", "isCorrect": false },
+      { "id": "option_4", "text": "By allowing incremental progress and faster feedback", "isCorrect": true }
+    ],
+    "hint": "Small increments allow better tracking and faster feedback.",
+    "answerDescription": "Splitting stories enables teams to deliver value iteratively while ensuring steady progress and reducing bottlenecks."
+  },
+  {
+    "id": "3180",
+    "question": "Why is it important to keep user stories independent?",
+    "options": [
+      { "id": "option_1", "text": "To make development unpredictable", "isCorrect": false },
+      { "id": "option_2", "text": "To increase dependencies between teams", "isCorrect": false },
+      { "id": "option_3", "text": "To create bottlenecks in the workflow", "isCorrect": false },
+      { "id": "option_4", "text": "To allow flexibility in prioritization and implementation", "isCorrect": true }
+    ],
+    "hint": "Independent stories help teams work more efficiently.",
+    "answerDescription": "Keeping stories independent allows teams to prioritize and implement them without being blocked by other work."
+  },
+  {
+    "id": "3181",
+    "question": "What is the primary benefit of defining acceptance criteria for a user story?",
+    "options": [
+      { "id": "option_1", "text": "It provides a clear definition of done", "isCorrect": true },
+      { "id": "option_2", "text": "It makes stories more complex", "isCorrect": false },
+      { "id": "option_3", "text": "It reduces the need for communication", "isCorrect": false },
+      { "id": "option_4", "text": "It allows last-minute changes to requirements", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria ensure a story is complete.",
+    "answerDescription": "Clearly defined acceptance criteria help teams understand when a user story is fully implemented and meets expectations."
+  },
+  {
+    "id": "3182",
+    "question": "Why is it important to keep user stories small and manageable?",
+    "options": [
+      { "id": "option_1", "text": "It ensures faster development and testing", "isCorrect": true },
+      { "id": "option_2", "text": "It reduces the number of acceptance criteria needed", "isCorrect": false },
+      { "id": "option_3", "text": "It increases dependencies between teams", "isCorrect": false },
+      { "id": "option_4", "text": "It allows for more detailed stories", "isCorrect": false }
+    ],
+    "hint": "Smaller stories improve agility and efficiency.",
+    "answerDescription": "Keeping stories small allows teams to complete them quickly and ensures they can be tested and delivered efficiently."
+  },
+  {
+    "id": "3183",
+    "question": "Which principle should teams follow when writing user stories?",
+    "options": [
+      { "id": "option_1", "text": "Stories should focus on user needs", "isCorrect": true },
+      { "id": "option_2", "text": "Stories should be technical and complex", "isCorrect": false },
+      { "id": "option_3", "text": "Stories should be vague to allow flexibility", "isCorrect": false },
+      { "id": "option_4", "text": "Stories should only focus on backend functionality", "isCorrect": false }
+    ],
+    "hint": "User stories should deliver value to users.",
+    "answerDescription": "A good user story focuses on what the user needs, ensuring that development is driven by real-world use cases."
+  },
+  {
+    "id": "3184",
+    "question": "How can well-defined acceptance criteria improve team alignment?",
+    "options": [
+      { "id": "option_1", "text": "It sets clear expectations for all stakeholders", "isCorrect": true },
+      { "id": "option_2", "text": "It allows each team member to interpret requirements differently", "isCorrect": false },
+      { "id": "option_3", "text": "It eliminates the need for team discussions", "isCorrect": false },
+      { "id": "option_4", "text": "It makes testing optional", "isCorrect": false }
+    ],
+    "hint": "Clear expectations help teams work efficiently.",
+    "answerDescription": "Acceptance criteria ensure that developers, testers, and stakeholders have a shared understanding of what is required."
+  },
+  {
+    "id": "3185",
+    "question": "What is a key characteristic of a well-written user story?",
+    "options": [
+      { "id": "option_1", "text": "It is independent and self-contained", "isCorrect": true },
+      { "id": "option_2", "text": "It relies on multiple other stories to be completed", "isCorrect": false },
+      { "id": "option_3", "text": "It is highly detailed with strict implementation steps", "isCorrect": false },
+      { "id": "option_4", "text": "It does not need to be testable", "isCorrect": false }
+    ],
+    "hint": "A good user story should stand alone.",
+    "answerDescription": "Independent stories ensure that they can be developed, tested, and completed without being blocked by other stories."
+  },
+  {
+    "id": "3186",
+    "question": "Why should acceptance criteria be testable?",
+    "options": [
+      { "id": "option_1", "text": "To ensure that the feature works as expected", "isCorrect": true },
+      { "id": "option_2", "text": "To increase ambiguity in requirements", "isCorrect": false },
+      { "id": "option_3", "text": "To make stories more complex", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid collaboration between teams", "isCorrect": false }
+    ],
+    "hint": "Testability ensures successful validation.",
+    "answerDescription": "Acceptance criteria should be verifiable so that teams can confirm the feature works correctly before release."
+  },
+  {
+    "id": "3187",
+    "question": "What is an effective way to write user stories?",
+    "options": [
+      { "id": "option_1", "text": "Use the 'As a [user], I want [feature] so that [benefit]' format", "isCorrect": true },
+      { "id": "option_2", "text": "Describe only technical details", "isCorrect": false },
+      { "id": "option_3", "text": "Avoid specifying user roles", "isCorrect": false },
+      { "id": "option_4", "text": "Exclude the expected outcome", "isCorrect": false }
+    ],
+    "hint": "A structured approach helps define good stories.",
+    "answerDescription": "The 'As a... I want... so that...' format ensures clarity and user focus in writing user stories."
+  },
+  {
+    "id": "3188",
+    "question": "How do well-defined user stories contribute to Agile development?",
+    "options": [
+      { "id": "option_1", "text": "They enable iterative and incremental delivery", "isCorrect": true },
+      { "id": "option_2", "text": "They make it harder to estimate effort", "isCorrect": false },
+      { "id": "option_3", "text": "They increase dependencies between teams", "isCorrect": false },
+      { "id": "option_4", "text": "They require detailed upfront documentation", "isCorrect": false }
+    ],
+    "hint": "Agile development relies on frequent, incremental progress.",
+    "answerDescription": "User stories help teams work in small increments, ensuring continuous delivery and adaptability."
+  },
+  {
+    "id": "3189",
+    "question": "Why is it beneficial to involve stakeholders in defining user stories?",
+    "options": [
+      { "id": "option_1", "text": "It ensures alignment with business goals", "isCorrect": true },
+      { "id": "option_2", "text": "It increases development complexity", "isCorrect": false },
+      { "id": "option_3", "text": "It limits the team's ability to implement solutions", "isCorrect": false },
+      { "id": "option_4", "text": "It removes flexibility from the development process", "isCorrect": false }
+    ],
+    "hint": "Stakeholder input ensures relevance and value.",
+    "answerDescription": "Involving stakeholders helps ensure that the user stories align with business needs and provide real value."
+  },
+  {
+    "id": "3190",
+    "question": "How can teams ensure that user stories remain relevant and useful?",
+    "options": [
+      { "id": "option_1", "text": "By regularly refining and reprioritizing them", "isCorrect": true },
+      { "id": "option_2", "text": "By keeping them unchanged after writing", "isCorrect": false },
+      { "id": "option_3", "text": "By avoiding input from stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "By focusing only on technical implementation", "isCorrect": false }
+    ],
+    "hint": "Continuous refinement keeps stories relevant.",
+    "answerDescription": "User stories should be refined and reprioritized regularly to ensure they continue to align with business needs."
+  },
+  {
+    "id": "3191",
+    "question": "Which of the following best describes a well-defined user story?",
+    "options": [
+      { "id": "option_1", "text": "A long and detailed technical specification", "isCorrect": false },
+      { "id": "option_2", "text": "A short, clear description of a user's need", "isCorrect": true },
+      { "id": "option_3", "text": "A document with exhaustive acceptance tests", "isCorrect": false },
+      { "id": "option_4", "text": "A feature request from management", "isCorrect": false }
+    ],
+    "hint": "User stories should be simple and focused on user needs.",
+    "answerDescription": "A well-defined user story concisely describes what the user needs and why, making it easy to understand and implement."
+  },
+  {
+    "id": "3192",
+    "question": "What does the INVEST acronym in Agile user stories stand for?",
+    "options": [
+      { "id": "option_1", "text": "Innovative, Necessary, Valuable, Exact, Secure, Testable", "isCorrect": false },
+      { "id": "option_2", "text": "Independent, Negotiable, Valuable, Estimable, Small, Testable", "isCorrect": true },
+      { "id": "option_3", "text": "Iterative, Navigable, Verified, Extensible, Scalable, Transparent", "isCorrect": false },
+      { "id": "option_4", "text": "Individual, Networked, Vast, Effective, Strong, Traceable", "isCorrect": false }
+    ],
+    "hint": "Each letter represents a key characteristic of a good user story.",
+    "answerDescription": "A good user story follows the INVEST principle, ensuring it is Independent, Negotiable, Valuable, Estimable, Small, and Testable."
+  },
+  {
+    "id": "3193",
+    "question": "Why is it essential for acceptance criteria to be defined before development starts?",
+    "options": [
+      { "id": "option_1", "text": "To finalize all technical details", "isCorrect": false },
+      { "id": "option_2", "text": "To provide clear guidelines for completion", "isCorrect": true },
+      { "id": "option_3", "text": "To increase the flexibility of implementation", "isCorrect": false },
+      { "id": "option_4", "text": "To avoid communication with stakeholders", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria help define the expected outcome.",
+    "answerDescription": "Defining acceptance criteria before development ensures that the team knows what is required to complete the story successfully."
+  },
+  {
+    "id": "3194",
+    "question": "Which of the following is NOT a characteristic of a well-written user story?",
+    "options": [
+      { "id": "option_1", "text": "It focuses on user needs", "isCorrect": false },
+      { "id": "option_2", "text": "It is overly detailed and prescriptive", "isCorrect": true },
+      { "id": "option_3", "text": "It includes acceptance criteria", "isCorrect": false },
+      { "id": "option_4", "text": "It is independent and testable", "isCorrect": false }
+    ],
+    "hint": "User stories should remain high-level and avoid excessive detail.",
+    "answerDescription": "User stories should provide a high-level view of the requirement rather than specifying every implementation detail."
+  },
+  {
+    "id": "3195",
+    "question": "How does prioritizing user stories benefit Agile development?",
+    "options": [
+      { "id": "option_1", "text": "It ensures that only high-risk stories are completed", "isCorrect": false },
+      { "id": "option_2", "text": "It helps deliver the most valuable features first", "isCorrect": true },
+      { "id": "option_3", "text": "It removes the need for backlog grooming", "isCorrect": false },
+      { "id": "option_4", "text": "It allows for random selection of stories", "isCorrect": false }
+    ],
+    "hint": "Prioritization ensures focus on delivering value.",
+    "answerDescription": "Prioritizing user stories helps teams focus on the most valuable features first, ensuring efficient use of development time."
+  },
+  {
+    "id": "3196",
+    "question": "What should a team do if a user story is too large to complete in one sprint?",
+    "options": [
+      { "id": "option_1", "text": "Delay it until more resources are available", "isCorrect": false },
+      { "id": "option_2", "text": "Break it down into smaller stories", "isCorrect": true },
+      { "id": "option_3", "text": "Ignore the acceptance criteria", "isCorrect": false },
+      { "id": "option_4", "text": "Extend the sprint duration", "isCorrect": false }
+    ],
+    "hint": "Large stories should be refined for better execution.",
+    "answerDescription": "Splitting large stories into smaller, more manageable ones ensures they can be completed and tested within a sprint."
+  },
+  {
+    "id": "3197",
+    "question": "Which factor is most important when defining acceptance criteria?",
+    "options": [
+      { "id": "option_1", "text": "Including as many technical details as possible", "isCorrect": false },
+      { "id": "option_2", "text": "Ensuring they are clear and measurable", "isCorrect": true },
+      { "id": "option_3", "text": "Avoiding discussions with stakeholders", "isCorrect": false },
+      { "id": "option_4", "text": "Leaving room for interpretation", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria should provide clarity and testability.",
+    "answerDescription": "Clear and measurable acceptance criteria ensure that the expected outcome can be tested and validated effectively."
+  },
+  {
+    "id": "3198",
+    "question": "Why should user stories avoid specifying implementation details?",
+    "options": [
+      { "id": "option_1", "text": "To ensure developers do not follow any guidelines", "isCorrect": false },
+      { "id": "option_2", "text": "To allow flexibility in technical solutions", "isCorrect": true },
+      { "id": "option_3", "text": "To make estimation easier", "isCorrect": false },
+      { "id": "option_4", "text": "To remove the need for acceptance criteria", "isCorrect": false }
+    ],
+    "hint": "User stories should describe what is needed, not how to build it.",
+    "answerDescription": "Keeping implementation details out of user stories allows developers to choose the best approach while focusing on user needs."
+  },
+  {
+    "id": "3199",
+    "question": "How can teams ensure that user stories remain relevant throughout development?",
+    "options": [
+      { "id": "option_1", "text": "By locking them once they are written", "isCorrect": false },
+      { "id": "option_2", "text": "By regularly refining and discussing them", "isCorrect": true },
+      { "id": "option_3", "text": "By prioritizing older stories over new ones", "isCorrect": false },
+      { "id": "option_4", "text": "By ignoring stakeholder feedback", "isCorrect": false }
+    ],
+    "hint": "Continuous collaboration helps keep stories up to date.",
+    "answerDescription": "Regular refinement ensures user stories stay aligned with project goals and changing business needs."
+  },
+  {
+    "id": "3200",
+    "question": "What is the primary goal of acceptance criteria in a user story?",
+    "options": [
+      { "id": "option_1", "text": "To describe the business impact of the story", "isCorrect": false },
+      { "id": "option_2", "text": "To define when a story is considered complete", "isCorrect": true },
+      { "id": "option_3", "text": "To list all possible test cases", "isCorrect": false },
+      { "id": "option_4", "text": "To provide detailed technical specifications", "isCorrect": false }
+    ],
+    "hint": "Acceptance criteria determine the conditions for completion.",
+    "answerDescription": "Clearly defined acceptance criteria help the team know when a story is finished and meets the expected requirements."
+  },
+
+
+  
+  
+  
   
 
 
-
-  
-  
-  
-  
-
-
-
-  
- 
 ]

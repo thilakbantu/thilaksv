@@ -1078,7 +1078,8 @@
         ],
         "hint": "Think about the correct syntax for using two-way data binding with 'ngModel' in Angular forms.",
         "answerDescription": "The correct syntax to use 'ngModel' in Angular is '<input [(ngModel)]='value' />'."
-      },{
+      },
+      {
         "id": "mean_101",
         "question": "Which of the following is the correct command to create a new Angular service?",
         "options": [
